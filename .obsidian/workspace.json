@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PPIT/Note Track.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Note Track"
+              "title": "README"
             }
           }
         ]
@@ -191,18 +191,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b8b68edca48e5359",
+  "active": "1805612e1acecd22",
   "lastOpenFiles": [
+    "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "PPIT/Note Track.md",
+    "AML/Note Track.md",
     "Entre/Note Track.md",
     "README.md",
-    "PPIT/Note Track.md",
     "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "Entre/Sessional 1 Prep",
     "Entre",
-    "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "PPIT/Sessional 1 Prep",
     "PPIT",
-    "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "AML/Sessional 1 Prep",
     "AML",
     "PDC/Finals Prep/Finals Code Examples.md",
@@ -230,7 +231,6 @@
     "PDC/Sessional 2 Prep/Sessional 2 Prep Notes.md",
     "PDC/Note Track.md",
     "Pasted image 20241103110923.png",
-    "PDC/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "InfoSec/Finals Prep/Images/Pasted image 20240604013816.png",
     "InfoSec/Finals Prep/Images/Pasted image 20240603230754.png",
     "InfoSec/Finals Prep/Images/Pasted image 20240603230747.png",
