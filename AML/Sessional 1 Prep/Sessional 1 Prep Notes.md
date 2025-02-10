@@ -2,10 +2,9 @@
 | ----------------- | ----------------------- | --------- |
 | 1                 | Introduction            | :warning: |
 | 2                 | Machine Learning        | :warning: |
-| 3                 | Analytic View - 1       | :warning: |
-| 4                 | Analytic View - 2       | :warning: |
+| 3 + 4             | Analytic View - 1       | :warning: |
 | 5                 | Feature Engineering - 1 | :warning: |
-| 6                 | High Dimensional Data | :warning: |
+| 6                 | High Dimensional Data   | :warning: |
 
 # Lecture 1: Introduction
 ## **Key Terms & Concepts**
@@ -222,5 +221,4 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 
 ---
 
-# Lecture 3: Analytic View - 1
-
+# Lecture 3 + 4: Analytic View
