@@ -1,10 +1,11 @@
-| Chapter<br>Number | Chapter<br>Name         | Status    |
-| ----------------- | ----------------------- | --------- |
-| 1                 | Introduction            | :warning: |
-| 2                 | Machine Learning        | :warning: |
-| 3 + 4             | Analytic View - 1       | :warning: |
-| 5                 | Feature Engineering - 1 | :warning: |
-| 6                 | High Dimensional Data   | :warning: |
+| Chapter<br>Number | Chapter<br>Name           | Status    |
+| ----------------- | ------------------------- | --------- |
+| 1                 | Introduction              | :warning: |
+| 2                 | Machine Learning          | :warning: |
+| 3 + 4             | Data Views                | :warning: |
+| 5                 | Feature Engineering       | :warning: |
+| 6                 | High Dimensional Data     | :warning: |
+| 7                 | Exploratory Data Analysis | :warning: | 
 
 # Lecture 1: Introduction
 ## **Key Terms & Concepts**
@@ -221,192 +222,114 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 
 ---
 
-# Lecture 3 + 4: Analytic View
-### **Data Matrix (A Dataset Representation)**
-
-A **data matrix** is a structured representation of data in an **n × d** format:
-
-- **Rows (n)** – Also called **instances, records, transactions, feature vectors, objects, tuples**. Represents the number of observations.
-- **Columns (d)** – Also called **attributes, features, dimensions, variables, properties**. Represents the number of data features.
-
-Types of Data Matrices:
-
-- **Univariate** – Data contains a single variable.
-- **Bivariate** – Data involves two variables.
-- **Multivariate** – Data consists of multiple variables (common in ML).
-
-#### **Forms of Datasets**
-
-Not all datasets exist in matrix form. Common types include:
-
-- **Sequential Data** – E.g., DNA sequences, protein sequences.
-- **Text Data** – E.g., emails, logs, documents.
-- **Time-Series Data** – E.g., stock prices, sensor readings, cyber attack logs.
-- **Image Data** – E.g., face recognition datasets, CAPTCHA images.
-- **Audio & Video Streams** – E.g., voice command recognition, surveillance footage.
-
-**Raw data is transformed into structured datasets using feature extraction techniques.**
-
----
-
-### **Attributes, Analytics, and Machine Learning**
-
-Attributes are **variables or features** used for **data analysis and machine learning.** They can be classified as:
-
-- **Categorical Attributes** – Discrete values (e.g., Gender, Color).
-- **Numeric Attributes** – Continuous values (e.g., Age, Temperature).
-
----
-
-### **Nominal Attributes (Categorical & Unordered)**
-
-Nominal attributes are categorical attributes **without inherent order.**
-
-- **Examples:**
-    - **Colors:** {Red, Green, Blue}
-    - **Gender:** {Male, Female, Non-binary}
-    - **Countries:** {USA, Canada, Mexico}
-
-#### **Analytics for Nominal Attributes:**
-
-- **Frequency Distribution** – Shows how often each category appears.
-- **Mode** – Identifies the most common category (useful for handling missing values).
-- **Cross-Tabulation (Contingency Tables)** – Analyzes relationships between categories.
-- **Chi-Square Test** – Determines associations between categorical variables.
-
-#### **Encoding for Machine Learning:**
-
-- **Label Encoding** – Assigns numerical values to each category.
-- **One-Hot Encoding** – Converts categories into binary (0 or 1) columns.
-- **Binary Encoding** – Combines label encoding and one-hot encoding.
-- **Target Encoding** – Replaces categories with the mean target variable.
-
-#### **Feature Engineering Techniques:**
-
-- **Combining Categories** – Merging similar groups (e.g., “Bachelor’s” & “Master’s” into “Higher Education”).
-- **Creating Interaction Features** – Deriving new features from existing nominal attributes.
-
-#### **Visualization Methods:**
-
-- **Bar Charts, Pie Charts** – Used to display category distribution.
-
-#### **Insights from Nominal Attributes:**
-
-- **Category-Specific Statistics** – Understanding major classes.
-- **Predictive Power** – Evaluating importance for ML models.
-- **Anomaly Detection** – Identifying outliers in categorical data.
-
----
-
-### **Ordinal Attributes (Categorical & Ordered)**
-
-Ordinal attributes have a **defined order** but **unequal differences** between values.
-
-- **Examples:**
-    - **Education Levels:** {High School, Bachelor’s, Master’s, PhD}
-    - **Customer Satisfaction:** {Very Unsatisfied, Neutral, Satisfied, Very Satisfied}
-    - **Movie Ratings:** {1 star, 2 stars, 3 stars, 4 stars, 5 stars}
-
-#### **Analytics for Ordinal Attributes:**
-
-- **Frequency Distribution** – Identifies dominant categories.
-- **Mode, Median, Percentiles** – Measures central tendency.
-- **Spearman Rank Correlation** – Analyzes relationships between ordinal & numeric attributes.
-
-#### **Encoding for Machine Learning:**
-
-- **Ordinal Encoding** – Assigns numeric values based on order.
-- **Target Encoding** – Uses mean of target variable for each category.
-
-#### **Feature Engineering Techniques:**
-
-- **Binning/Grouping** – Merging similar categories.
-- **Interaction Features** – Creating new variables based on ordinal data.
-
-#### **Visualization Methods:**
-
-- **Bar Charts, Histograms** – Display distribution of ordinal attributes.
-
-#### **Insights from Ordinal Attributes:**
-
-- **Trend Analysis** – Evaluates patterns over time.
-- **Correlation with Target Variable** – Helps in feature selection.
-
----
-
-### **Interval-Scaled Attributes (Continuous & No True Zero)**
-
-Interval-scaled attributes have **equal differences** between values, but **no absolute zero.**
-
-- **Examples:**
-    - **Temperature in Celsius/Fahrenheit**
-    - **Dates & Time Intervals**
-
-#### **Analytics for Interval-Scaled Attributes:**
-
-- **Mean, Median, Standard Deviation** – Measure central tendency & spread.
-- **Pearson Correlation Coefficient** – Assesses relationships between interval attributes.
-- **Covariance** – Indicates directional relationships.
-
-#### **Feature Scaling for ML:**
-
-- **Z-score Normalization** – Converts values to a mean of 0 and standard deviation of 1.
-- **Min-Max Scaling** – Rescales values between [0,1].
-- **IQR Method** – Identifies outliers using interquartile range.
-
-#### **Feature Engineering Techniques:**
-
-- **Polynomial Features** – Deriving new features using powers of existing attributes.
-- **Interaction Terms** – Capturing dependencies between attributes.
-
-#### **Dimensionality Reduction Techniques:**
-
-- **PCA (Principal Component Analysis)** – Reduces feature dimensions while preserving variance.
-
-#### **Visualization Methods:**
-
-- **Histograms, Box Plots, Scatter Plots, Line Plots** – Used for data distribution analysis.
-
-#### **Insights from Interval-Scaled Attributes:**
-
-- **Trends & Patterns** – Identify shifts in cybersecurity data.
-- **Outliers & Anomalies** – Detect security breaches.
-
----
-
-### **Ratio-Scaled Attributes (Continuous & True Zero Exists)**
-
-Ratio-scaled attributes have a **true zero point**, meaning zero represents **no existence** of the measured quantity.
-
-- **Examples:**
-    - **Height, Weight, Age, Income**
-
-#### **Analytics for Ratio-Scaled Attributes:**
-
-- **Mean, Median, Standard Deviation** – Measure central tendency & dispersion.
-- **Correlation & Covariance** – Identifies dependencies between attributes.
-
-#### **Feature Scaling for ML:**
-
-- **Z-score Normalization, Min-Max Scaling, IQR Method** – Applied similarly to interval-scaled attributes.
-
-#### **Feature Engineering Techniques:**
-
-- **Polynomial & Interaction Features** – Used for ML model improvements.
-
-#### **Predictive Modeling:**
-
-- **Regression Analysis (Linear & Logistic)** – Uses ratio attributes for prediction.
-
-#### **Anomaly Detection:**
-
-- **Identifying Outliers** – Unusual data points (e.g., fraudulent transactions).
-
-#### **Visualization Methods:**
-
-- **Histograms, Box Plots, Scatter Plots, Line Plots** – Used for detecting anomalies.
-
-#### **Insights from Ratio-Scaled Attributes:**
-
-- **Relative Measures & Ratios** – Useful for comparative analysis.
-- **Descriptive & Predictive Insights** – Provides valuable trends in cybersecurity.
+# Lecture 3 + 4: Data Views
+## **Data Matrix (A Dataset Representation)**
+- A **data matrix** is a structured representation of data in an **n × d** format:
+	- **Rows (n)** – Also called **instances, records, transactions, feature vectors, objects, tuples**. Represents the number of observations.
+	- **Columns (d)** – Also called **attributes, features, dimensions, variables, properties**. Represents the number of data features.
+- Types of Data Matrices:
+	- **Univariate** – Data contains a single variable.
+	- **Bivariate** – Data involves two variables.
+	- **Multivariate** – Data consists of multiple variables (common in ML).
+- ### **Forms of Datasets**
+	- Not all datasets exist in matrix form. Common types include:
+		- **Sequential Data** – E.g., DNA sequences, protein sequences.
+		- **Text Data** – E.g., emails, logs, documents.
+		- **Time-Series Data** – E.g., stock prices, sensor readings, cyber attack logs.
+		- **Image Data** – E.g., face recognition datasets, CAPTCHA images.
+		- **Audio & Video Streams** – E.g., voice command recognition, surveillance footage.
+	- **Raw data is transformed into structured datasets using feature extraction techniques.**
+
+## **Attributes, Analytics, and Machine Learning**
+- Attributes are **variables or features** used for **data analysis and machine learning.** They can be classified as:
+	- **Categorical Attributes** – Discrete values (e.g., Gender, Color).
+	- **Numeric Attributes** – Continuous values (e.g., Age, Temperature).
+- ### **Nominal Attributes (Categorical & Unordered)**
+	- Nominal attributes are categorical attributes **without inherent order.**
+		- **Examples:**
+		    - **Colors:** {Red, Green, Blue}
+		    - **Gender:** {Male, Female, Non-binary}
+		    - **Countries:** {USA, Canada, Mexico}
+	- #### **Analytics for Nominal Attributes:**
+		- **Frequency Distribution** – Shows how often each category appears.
+		- **Mode** – Identifies the most common category (useful for handling missing values).
+		- **Cross-Tabulation (Contingency Tables)** – Analyzes relationships between categories.
+		- **Chi-Square Test** – Determines associations between categorical variables.
+	- #### **Encoding for Machine Learning:**
+		- **Label Encoding** – Assigns numerical values to each category.
+		- **One-Hot Encoding** – Converts categories into binary (0 or 1) columns.
+		- **Binary Encoding** – Combines label encoding and one-hot encoding.
+		- **Target Encoding** – Replaces categories with the mean target variable.
+	- #### **Feature Engineering Techniques:**
+		- **Combining Categories** – Merging similar groups (e.g., “Bachelor’s” & “Master’s” into “Higher Education”).
+		- **Creating Interaction Features** – Deriving new features from existing nominal attributes.
+	- #### **Visualization Methods:**
+		- **Bar Charts, Pie Charts** – Used to display category distribution.
+	- #### **Insights from Nominal Attributes:**
+		- **Category-Specific Statistics** – Understanding major classes.
+		- **Predictive Power** – Evaluating importance for ML models.
+		- **Anomaly Detection** – Identifying outliers in categorical data.
+- ### **Ordinal Attributes (Categorical & Ordered)**
+	- Ordinal attributes have a **defined order** but **unequal differences** between values.
+	- **Examples:**
+	    - **Education Levels:** {High School, Bachelor’s, Master’s, PhD}
+	    - **Customer Satisfaction:** {Very Unsatisfied, Neutral, Satisfied, Very Satisfied}
+	    - **Movie Ratings:** {1 star, 2 stars, 3 stars, 4 stars, 5 stars}
+	- #### **Analytics for Ordinal Attributes:**
+		- **Frequency Distribution** – Identifies dominant categories.
+		- **Mode, Median, Percentiles** – Measures central tendency.
+		- **Spearman Rank Correlation** – Analyzes relationships between ordinal & numeric attributes.
+	- #### **Encoding for Machine Learning:**
+		- **Ordinal Encoding** – Assigns numeric values based on order.
+		- **Target Encoding** – Uses mean of target variable for each category.
+	- #### **Feature Engineering Techniques:**
+		- **Binning/Grouping** – Merging similar categories.
+		- **Interaction Features** – Creating new variables based on ordinal data.
+	- #### **Visualization Methods:**
+		- **Bar Charts, Histograms** – Display distribution of ordinal attributes.
+	- #### **Insights from Ordinal Attributes:**
+		- **Trend Analysis** – Evaluates patterns over time.
+		- **Correlation with Target Variable** – Helps in feature selection.
+- ### **Interval-Scaled Attributes (Continuous & No True Zero)**
+	- Interval-scaled attributes have **equal differences** between values, but **no absolute zero.**
+		- **Examples:**
+		    - **Temperature in Celsius/Fahrenheit**
+		    - **Dates & Time Intervals**
+	- #### **Analytics for Interval-Scaled Attributes:**
+		- **Mean, Median, Standard Deviation** – Measure central tendency & spread.
+		- **Pearson Correlation Coefficient** – Assesses relationships between interval attributes.
+		- **Covariance** – Indicates directional relationships.
+	- #### **Feature Scaling for ML:**
+		- **Z-score Normalization** – Converts values to a mean of 0 and standard deviation of 1.
+		- **Min-Max Scaling** – Rescales values between [0,1].
+		- **IQR Method** – Identifies outliers using interquartile range.
+	- #### **Feature Engineering Techniques:**
+		- **Polynomial Features** – Deriving new features using powers of existing attributes.
+		- **Interaction Terms** – Capturing dependencies between attributes.
+	- #### **Dimensionality Reduction Techniques:**
+		- **PCA (Principal Component Analysis)** – Reduces feature dimensions while preserving variance.
+	- #### **Visualization Methods:**
+		- **Histograms, Box Plots, Scatter Plots, Line Plots** – Used for data distribution analysis.
+	- #### **Insights from Interval-Scaled Attributes:**
+		- **Trends & Patterns** – Identify shifts in cybersecurity data.
+		- **Outliers & Anomalies** – Detect security breaches.
+- ### **Ratio-Scaled Attributes (Continuous & True Zero Exists)**
+	- Ratio-scaled attributes have a **true zero point**, meaning zero represents **no existence** of the measured quantity.
+	- **Examples:**
+	    - **Height, Weight, Age, Income**
+	- #### **Analytics for Ratio-Scaled Attributes:**
+		- **Mean, Median, Standard Deviation** – Measure central tendency & dispersion.
+		- **Correlation & Covariance** – Identifies dependencies between attributes.
+	- #### **Feature Scaling for ML:**
+		- **Z-score Normalization, Min-Max Scaling, IQR Method** – Applied similarly to interval-scaled attributes.
+	- #### **Feature Engineering Techniques:**
+		- **Polynomial & Interaction Features** – Used for ML model improvements.
+	- #### **Predictive Modeling:**
+		- **Regression Analysis (Linear & Logistic)** – Uses ratio attributes for prediction.
+	- #### **Anomaly Detection:**
+		- **Identifying Outliers** – Unusual data points (e.g., fraudulent transactions).
+	- #### **Visualization Methods:**
+		- **Histograms, Box Plots, Scatter Plots, Line Plots** – Used for detecting anomalies.
+	- #### **Insights from Ratio-Scaled Attributes:**
+		- **Relative Measures & Ratios** – Useful for comparative analysis.
+		- **Descriptive & Predictive Insights** – Provides valuable trends in cybersecurity.
