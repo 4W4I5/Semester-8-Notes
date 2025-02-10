@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "f1fca238b8f61bc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3aecebc519cd00c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1805612e1acecd22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d8fc9149ec85b098",
+    "type": "split",
+    "children": [
+      {
+        "id": "23c263491800b5ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8b68edca48e5359",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "260a02a79e0f620d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ffeedc032c06c71b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "bbf2447a7eb59639",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e24ace9cfd73d06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e04d02df1ef47af8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IA/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sessional 2 Prep Notes"
+            }
+          },
+          {
+            "id": "62138ac670c59f7a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IA/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sessional 2 Prep Notes"
+            }
+          },
+          {
+            "id": "07e39203a6036645",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "eadc60239ea1de88",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IA/Sessional 2 Prep/Sessional 2 Prep Notes.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sessional 2 Prep Notes"
+            }
+          },
+          {
+            "id": "8844992288ed34f3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a9b96d7eb5ab729c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obisidian-note-linker:Note Linker": false,
+      "obsidian-trim-whitespace:Trim whitespace": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "1805612e1acecd22",
+  "lastOpenFiles": [
+    "PDC/Finals Prep/Finals Code Examples.md",
+    "Blockchain/Finals Prep/Smart Contracts.md",
+    "README.md",
+    "Blockchain/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "PDC/Finals Prep/Finals Prep Notes.md",
+    "IA/Finals Prep/Finals Prep Notes.md",
+    "IA/Policy Task.md",
+    "IA/Note Track.md",
+    "IA/Pasted image 20240917195504.png",
+    "Untitled.md",
+    "cha.md",
+    "SSD/Finals Prep/Finals Prep Notes.md",
+    "SSD/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "SSD/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "SSD/Note Track.md",
+    "Blockchain/Finals Prep/Finals Prep Notes.md",
+    "Blockchain/Finals Prep/Smart Contracts/Wallet.sol",
+    "Blockchain/Finals Prep/Smart Contracts/SimpleFactory.sol",
+    "Blockchain/Finals Prep/Smart Contracts/SimpleStorage.sol",
+    "Blockchain/Finals Prep/Smart Contracts/Lottery.sol",
+    "Blockchain/Finals Prep/Smart Contracts/Banking_Inherited.sol",
+    "Blockchain/Finals Prep/Smart Contracts/faucet.sol",
+    "Blockchain/Finals Prep/Smart Contracts/ERC721.sol",
+    "Blockchain/Finals Prep/Smart Contracts/ERC20.sol",
+    "Blockchain/Finals Prep/Smart Contracts/Donet.sol",
+    "Blockchain/Finals Prep/Smart Contracts/donet.sol",
+    "IA/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "IA/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "Blockchain/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "PDC/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "PDC/Note Track.md",
+    "Pasted image 20241103110923.png",
+    "PDC/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "Blockchain/Class Notes/5 - Blockchain 3rd September, 2024.md",
+    "Blockchain/Note Track.md",
+    "PDC/Class Notes/5 - PDC 2nd September, 2024.md",
+    "SSD/Class Notes/5 - SSD 2nd September, 2024.md",
+    "SSD/Class Notes/4 - SSD 28th August, 2024.md",
+    "InfoSec/Finals Prep/Images/Pasted image 20240604013816.png",
+    "InfoSec/Finals Prep/Images/Pasted image 20240603230754.png",
+    "InfoSec/Finals Prep/Images/Pasted image 20240603230747.png",
+    "Pasted image 20240603230803.png",
+    "InfoSec/Finals Prep/Images/Pasted image 20240603230810.png",
+    "InfoSec/Finals Prep/Images/Pasted image 20240603230643.png",
+    "InfoSec/Info_sec/Info sec/Info sec P9.png",
+    "InfoSec/Info_sec/Info sec/Info sec P8.png"
+  ]
+}
