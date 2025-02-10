@@ -418,23 +418,188 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 
 ## **Benchmark Datasets for Cybersecurity**
 
-### **Intrusion Detection & Prevention**
-- **KDD Cup 1999** – Classic intrusion detection dataset.
-- **NSL-KDD** – Improved version of KDD Cup dataset.
-- **CICIDS 2017** – Advanced real-world intrusion dataset.
+Benchmark datasets are commonly used for training and evaluating machine learning models in cybersecurity.
 
+### **Intrusion Detection and Prevention**
 
-### **Malware Detection**
+- **KDD Cup 1999** – [https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+- **NSL-KDD** – [https://www.kaggle.com/datasets/hassan06/nslkdd](https://www.kaggle.com/datasets/hassan06/nslkdd)
+- **CICIDS 2017** – [https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)
 
-- **MalwareBazaar** – Repository of known malware samples.
+### **Malware Detection and Classification**
 
-- **Ember Dataset** – Features extracted from Windows executables.
+- **MalwareBazaar** – [https://bazaar.abuse.ch/](https://bazaar.abuse.ch/)
+- **Ember Dataset** – [https://github.com/elastic/ember](https://github.com/elastic/ember)
+- **Malware Traffic Analysis** – [https://www.malware-traffic-analysis.net](https://www.malware-traffic-analysis.net/)
 
 ### **Phishing Detection**
-- **PhishTank Dataset** – Collection of labeled phishing websites.
+
+- **PhishTank Dataset** – [https://www.phishtank.com/](https://www.phishtank.com/)
+- **Labeled Phishing URLs Dataset** – [https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset)
+- **APWG eCrime Exchange (eCX)** – [https://apwg.org/the-apwg-ecrime-exchange-ecx/](https://apwg.org/the-apwg-ecrime-exchange-ecx/)
 
 ### **Fraud Detection**
-- **Credit Card Fraud Dataset** – Transactions labeled as fraudulent or non-fraudulent.
 
-### **Spam & Botnet Detection**
-- **Enron Email Dataset** – Large-scale email dataset for spam detection.
+- **Credit Card Fraud Detection Dataset** – [https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
+- **IEEE-CIS Fraud Detection** – [https://www.kaggle.com/c/ieee-fraud-detection/data](https://www.kaggle.com/c/ieee-fraud-detection/data)
+
+### **User and Entity Behavior Analytics (UEBA)**
+
+- **CERT Insider Threat Dataset** – [https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research](https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research)
+- **LANL User Authentication Dataset** – [https://csr.lanl.gov/data/](https://csr.lanl.gov/data/)
+
+### **Spam and Botnet Detection**
+
+- **Enron Email Dataset** – [https://www.kaggle.com/datasets/wcukierski/enron-email-dataset](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset)
+- **Botnet Dataset** – [https://www.stratosphereips.org/datasets-ctu13](https://www.stratosphereips.org/datasets-ctu13)
+- **SpamAssassin Public Corpus** – [https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus](https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus)
+
+---
+
+
+# Lecture 5: Feature Engineering
+**Feature Engineering – Outliers, Missing Values, Duplicates, and Bias-Variance Tradeoff**
+
+Feature engineering is the process of transforming raw data into meaningful features that improve model performance.
+
+### **Importance of Feature Engineering**
+
+- **Improves Model Performance** – Enhances predictive accuracy.
+- **Reduces Training Time** – Well-engineered features allow faster training.
+- **Handles Data Complexity** – Helps models generalize better.
+- **Prevents Overfitting/Underfitting** – Ensures better model robustness.
+
+### **Steps in Feature Engineering**
+
+1. **Feature Selection** – Identifying the most relevant features.
+    - **Filter Methods** (e.g., correlation, mutual information)
+    - **Wrapper Methods** (e.g., recursive feature elimination)
+    - **Embedded Methods** (e.g., LASSO regression)
+2. **Feature Transformation** – Modifying existing features.
+    - Normalization, log transformation, encoding categorical variables.
+3. **Feature Extraction** – Creating new features.
+    - Dimensionality reduction, text/image feature extraction.
+4. **Feature Creation** – Generating domain-specific features.
+    - Polynomial features, date-based features.
+5. **Handling Outliers, Missing Values, and Duplicates.**
+
+---
+
+## **Outliers**
+
+Outliers are data points that significantly deviate from the overall dataset pattern.
+
+### **Causes of Outliers**
+
+- **Natural Variability** – Genuine rare occurrences in data.
+- **Measurement Error** – Human or instrument error.
+- **Data Processing Issues** – Incorrect data formatting.
+- **Experimental Design Issues** – Sampling errors.
+- **External Influences** – Fraud, extreme behaviors, or seasonal trends.
+
+### **Impact of Outliers**
+
+6. **Model Performance:**
+    - Can bias and distort machine learning models.
+    - Causes inaccurate regression coefficients.
+7. **Effect on Algorithms:**
+    - Distance-based methods (KNN, K-Means) are highly affected.
+    - SVM decision boundaries can shift significantly.
+8. **Increased Complexity:**
+    - Causes overfitting and longer training times.
+9. **Misleading Insights:**
+    - Distorts interpretability of statistical models.
+
+### **Outlier Detection Methods**
+
+10. **Z-Score Method** – Detects data points that deviate from the mean by more than 3 standard deviations.
+11. **Interquartile Range (IQR) Method** – Identifies values outside [Q1 - 1.5 × IQR, Q3 + 1.5 × IQR].
+12. **Visualization Techniques:**
+    - Boxplots, scatter plots.
+13. **Machine Learning Methods:**
+    - Isolation Forests for anomaly detection.
+
+### **Handling Outliers**
+
+- **Remove Outliers** – If they are due to errors.
+- **Transform Data** – Apply log or square root transformation.
+- **Use Robust Models** – Decision trees and random forests handle outliers better.
+- **Cap Extreme Values** – Replace outliers with thresholds.
+
+---
+
+## **Missing Values**
+
+Missing values occur when data points are unavailable or not recorded.
+
+### **Causes of Missing Data**
+
+- **Data Collection Issues**
+- **Measurement Errors**
+- **Survey Non-Responses**
+- **Data Processing Errors**
+
+### **Impact of Missing Data**
+
+- **Incompatibility with Algorithms** – Many ML models cannot handle missing values directly.
+- **Bias in Model Predictions** – Can skew results if not handled properly.
+- **Loss of Data** – Removing missing values can shrink the dataset.
+- **Distorted Correlations** – Can misrepresent variable relationships.
+
+### **Handling Missing Values**
+
+14. **Remove Missing Data** – If the percentage is small.
+15. **Imputation Methods:**
+    - Mean/Median/Mode Imputation.
+    - KNN Imputation (Nearest Neighbors).
+    - Regression-based Imputation.
+    - Forward/Backward Fill (for time-series data).
+16. **Flagging Missing Data** – Create a binary feature indicating missing values.
+
+---
+
+## **Duplicate Values**
+
+Duplicate values occur when identical entries exist in the dataset.
+
+### **Causes of Duplicates**
+
+- **Data Entry Errors**
+- **Data Merging Issues**
+- **Web Scraping Artifacts**
+- **System Errors**
+
+### **Impact of Duplicates**
+
+- **Misleading Statistics** – Affects mean, variance, and distributions.
+- **Bias in Model Training** – Over-represents certain instances.
+- **Increased Computational Costs** – Redundant processing power and storage.
+- **Incorrect Clustering & Classification** – Distorts machine learning models.
+
+### **Handling Duplicates**
+
+- **Remove Exact Duplicates** – Identify and drop exact matches.
+- **Remove Near-Duplicates** – Use fuzzy matching techniques.
+- **Aggregate Data** – Summarize duplicated information.
+
+---
+
+## **Bias vs Variance**
+
+### **Bias**
+
+- Difference between predicted and actual values.
+- High bias → underfitting (oversimplified models).
+
+### **Variance**
+
+- Model sensitivity to small fluctuations in training data.
+- High variance → overfitting (too complex models).
+
+### **Bias-Variance Tradeoff**
+
+- **High Bias, Low Variance** – Underfits data (e.g., linear regression).
+- **Low Bias, High Variance** – Overfits data (e.g., deep decision trees).
+- **Goal** – Find a balance where the model generalizes well to unseen data.
+
+---
