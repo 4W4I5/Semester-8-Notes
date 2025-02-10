@@ -1,7 +1,7 @@
 | Chapter<br>Number | Chapter<br>Name           | Status             |
 | ----------------- | ------------------------- | ------------------ |
 | 1                 | Introduction              | :white_check_mark: |
-| 2                 | Machine Learning          | :white_check_mark: | 
+| 2                 | Machine Learning          | :white_check_mark: |
 | 3 + 4             | Data Views                | :warning:          |
 | 5                 | Feature Engineering       | :warning:          |
 | 6                 | High Dimensional Data     | :warning:          |
@@ -333,3 +333,108 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 	- #### **Insights from Ratio-Scaled Attributes:**
 		- **Relative Measures & Ratios** – Useful for comparative analysis.
 		- **Descriptive & Predictive Insights** – Provides valuable trends in cybersecurity.
+
+## **Algebraic & Geometric View of Data**
+### **Key Concepts:**
+- **Vector & Matrix Representation** – Data is represented as vectors & matrices, making it easier to apply mathematical transformations and optimizations.
+- **Linear Algebra Operations:**
+    - **Matrix multiplication** – Used in neural networks, dimensionality reduction, and data transformations.
+    - **Matrix inversion** – Helps in solving systems of equations, particularly useful in regression models.
+    - **Feature transformations** – Scaling, rotation, and projection of data for better interpretability and model efficiency.
+- **Dimensionality Reduction:**
+    - **Principal Component Analysis (PCA)** – Projects high-dimensional data into lower dimensions while retaining maximum variance.
+    - **Singular Value Decomposition (SVD)** – Factorizes a matrix into three matrices to extract important features.
+    - **Latent Semantic Analysis (LSA)** – Used in NLP to analyze relationships between words and documents.
+- **Feature Scaling & Normalization:**
+    - **Min-Max Scaling** – Rescales values between a fixed range [0,1] or [-1,1] to improve model performance.
+    - **Z-score Normalization** – Converts data into a normal distribution with mean 0 and standard deviation 1.
+    - **Logarithmic Scaling** – Used for highly skewed data to reduce the impact of extreme values.
+- **Optimization & Model Training:**
+    - **Gradient Descent** – Optimizes model parameters by iteratively reducing error.
+    - **Stochastic Gradient Descent (SGD)** – A variant of gradient descent that updates parameters for each training instance, useful for large datasets.
+    - **Newton’s Method** – Used in convex optimization problems for rapid convergence.
+    - **Least Squares Optimization** – Minimizes the sum of squared residuals in regression models.
+- **Distance Measures:**
+    - **Euclidean Distance** – Measures straight-line distance between two points.
+    - **Manhattan Distance** – Measures distance along axis-aligned paths, useful for grid-like structures.
+    - **Mahalanobis Distance** – Accounts for correlations between variables and scales accordingly.
+    - **Cosine Similarity** – Measures angular similarity between vectors, commonly used in text mining and NLP.
+- **Orthogonal Projection & Linear Independence:**
+    - **Orthogonality** – Ensures data features are independent of each other, aiding interpretability and reducing redundancy.
+    - **Linear Independence** – Ensures that no feature can be represented as a linear combination of other features.
+- **Kernel Methods & Feature Transformations:**
+    - **Kernel Trick** – Projects data into higher-dimensional space for non-linear classification.
+    - **Polynomial & Radial Basis Function (RBF) Kernels** – Transformations that allow support vector machines to work effectively with non-linear data.
+## **Probabilistic View of Data**
+### **Key Concepts:**
+- **Data as a Random Variable:**
+    - Attributes modeled as random variables enable statistical inferences about populations from sampled data.
+    - Used in Bayesian networks and probabilistic graphical models.
+- **Distribution Modeling:**
+    - **Normal Distribution (Gaussian)** – Used for statistical modeling and ML algorithms like Naive Bayes.
+    - **Poisson Distribution** – Used for event-based modeling, e.g., cybersecurity attack frequency prediction.
+    - **Exponential Distribution** – Useful in failure rate analysis.
+    - **Dirichlet Distribution** – Used in topic modeling for natural language processing.
+- **Feature Selection & Regularization:**
+    - **Mutual Information** – Measures dependency between variables.
+    - **Information Gain** – Used in decision trees and entropy-based models.
+    - **L1 & L2 Regularization** – Lasso and Ridge regression techniques that prevent overfitting.
+- **Overfitting Prevention:**
+    - **Bayesian Regularization** – Introduces prior distributions to limit model complexity.
+    - **Cross-Validation** – Ensures generalization by testing model performance on unseen data.
+    - **Dropout in Neural Networks** – Prevents co-adaptation of neurons, reducing overfitting.
+- **Decision Theory & Risk Management:**
+    - **Probability-based decision-making** – Bayesian inference applied to cybersecurity threat detection.
+    - **Markov Decision Processes (MDP)** – Used in reinforcement learning for decision-making in uncertain environments.
+    - **Handling Uncertainty** – Using probabilistic confidence intervals and Monte Carlo simulations.
+- **Handling Missing Data:**
+    - **Mean/Median Imputation** – Replacing missing values using statistical averages.
+    - **Expectation-Maximization (EM) Algorithm** – Probabilistic technique to handle missing data and clustering.
+- **Bayesian Inference & Uncertainty Quantification:**
+    - **Bayesian Theorem** – Updates the probability of a hypothesis as more evidence is provided.
+    - **Monte Carlo Methods** – Used in probabilistic sampling to model uncertainty in predictions.
+
+---
+
+## **Graph View of Data**
+### **Key Concepts:**
+- **Graph Representation:**
+    - **Nodes (Vertices):** Represent entities such as users, IP addresses, or devices.
+    - **Edges (Links):** Represent relationships between nodes, e.g., network connections.
+    - **Adjacency Matrix:** Matrix representation of a graph, capturing connectivity between nodes.
+- **Graph Metrics:**
+    - **Degree Distribution** – Measures the number of connections per node.
+    - **Shortest Path & Betweenness Centrality** – Determines influential nodes in a network.
+    - **Clustering Coefficient** – Measures the tendency of nodes to form tightly-knit groups.
+    - **PageRank** – Used in search engine ranking and network analysis.
+- **Machine Learning Applications:**
+    - **Graph Neural Networks (GNNs)** – Learn embeddings for nodes in a graph.
+    - **Social Network Analysis** – Understanding connections and detecting fake accounts.
+    - **Community Detection** – Identifies clusters of related nodes (e.g., fraud rings).
+    - **Anomaly Detection in Networks** – Identifies unusual behaviors using graph structures.
+    - **Link Prediction** – Predicts future connections (e.g., friend suggestions on social media).
+    - **Recommendation Systems** – Suggests items based on user interaction graphs.
+---
+
+## **Benchmark Datasets for Cybersecurity**
+
+### **Intrusion Detection & Prevention**
+- **KDD Cup 1999** – Classic intrusion detection dataset.
+- **NSL-KDD** – Improved version of KDD Cup dataset.
+- **CICIDS 2017** – Advanced real-world intrusion dataset.
+
+
+### **Malware Detection**
+
+- **MalwareBazaar** – Repository of known malware samples.
+
+- **Ember Dataset** – Features extracted from Windows executables.
+
+### **Phishing Detection**
+- **PhishTank Dataset** – Collection of labeled phishing websites.
+
+### **Fraud Detection**
+- **Credit Card Fraud Dataset** – Transactions labeled as fraudulent or non-fraudulent.
+
+### **Spam & Botnet Detection**
+- **Enron Email Dataset** – Large-scale email dataset for spam detection.
