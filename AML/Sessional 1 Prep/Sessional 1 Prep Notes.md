@@ -1,9 +1,11 @@
-| Chapter<br>Number | Chapter<br>Name                       | Status    |
-| ----------------- | ------------------------------------- | --------- |
-| 1                 | Introduction                          | :warning: |
-| 2                 | Towards decentralized P2P Currency    | :warning: |
-| 3                 | Intro to Crypto & Cryptocurrencies    | :warning: |
-| 4                 | How bitcoin achieves decentralization | :warning: |
+| Chapter<br>Number | Chapter<br>Name         | Status    |
+| ----------------- | ----------------------- | --------- |
+| 1                 | Introduction            | :warning: |
+| 2                 | Machine Learning        | :warning: |
+| 3                 | Analytic View - 1       | :warning: |
+| 4                 | Analytic View - 2       | :warning: |
+| 5                 | Feature Engineering - 1 | :warning: |
+| 6                 | High Dimensional Data | :warning: |
 
 # Lecture 1: Introduction
 ## **Key Terms & Concepts**
