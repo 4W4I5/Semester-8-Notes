@@ -608,3 +608,116 @@ Duplicate values occur when identical entries exist in the dataset.
 
 
 ---
+
+# Lecture 6: High Dimensional Data
+## **High Dimensional Data**
+
+High-dimensional data refers to datasets with a large number of attributes (features), often exceeding the number of observations.
+
+### **Characteristics of High-Dimensional Data**
+
+- **High Feature Count** – Datasets often contain hundreds or thousands of attributes.
+- **Computational Complexity** – Increased number of features leads to greater processing requirements.
+- **Feature Redundancy** – Many features may be correlated, providing redundant information.
+
+### **Challenges in High-Dimensional Data**
+
+1. **Curse of Dimensionality** – As dimensions increase, data points become sparse, making distance-based algorithms ineffective.
+2. **Sparsity** – Many attributes may contain mostly zero or missing values, impacting model performance.
+3. **Overfitting** – High-dimensional datasets often lead to models that memorize noise rather than learning patterns.
+4. **Increased Computational & Storage Costs** – More dimensions require greater memory and processing power.
+5. **Interpretability Issues** – Harder to understand relationships between features and predictions.
+
+### **Techniques for Handling High-Dimensional Data**
+
+#### **Dimensionality Reduction**
+
+- **Principal Component Analysis (PCA)** – Converts correlated features into uncorrelated principal components.
+- **Linear Discriminant Analysis (LDA)** – Maximizes class separability for classification problems.
+- **t-SNE (t-Distributed Stochastic Neighbor Embedding)** – Reduces dimensions for visualization.
+- **Autoencoders** – Neural networks used for feature compression.
+
+#### **Feature Selection**
+
+- **Filter Methods** – Select features based on statistical measures (e.g., correlation, mutual information).
+- **Wrapper Methods** – Use machine learning models to iteratively find the best feature subsets.
+- **Embedded Methods** – Perform feature selection as part of model training (e.g., LASSO regression).
+
+#### **Other Techniques**
+
+- **Regularization** – Shrinks less important feature coefficients (e.g., Ridge, LASSO regression).
+- **Ensemble Methods** – Combine multiple models to improve generalization.
+- **Sparse Models** – Reduce feature space by considering only nonzero attributes.
+- **Visualization Techniques** – Use heatmaps, scatter plots, and dimensionality reduction for data exploration.
+
+---
+
+## **Principal Component Analysis (PCA)**
+
+PCA is a statistical technique that reduces the dimensionality of data while preserving as much variance as possible.
+
+### **Why Use PCA?**
+
+- Reduces computational complexity.
+- Helps with visualization of high-dimensional data.
+- Mitigates overfitting by eliminating redundant features.
+- Converts correlated features into uncorrelated principal components.
+
+### **How PCA Works**
+
+6. **Standardization** – Scale features so they contribute equally to analysis.
+7. **Compute Covariance Matrix** – Measures relationships between variables.
+8. **Compute Eigenvectors & Eigenvalues** – Identify principal components.
+9. **Create Feature Vector** – Select principal components based on variance.
+10. **Recast Data Along Principal Component Axes** – Transform data into new feature space.
+
+### **Detailed Steps in PCA**
+
+#### **1. Standardization**
+
+- Ensures each feature contributes equally.
+- Converts variables to have a mean of 0 and unit variance.
+
+#### **2. Compute Covariance Matrix**
+
+- Determines how features vary together.
+- Helps in identifying correlated features that can be reduced.
+
+#### **3. Compute Eigenvectors and Eigenvalues**
+
+- Eigenvectors define the directions of new feature space.
+- Eigenvalues represent variance explained by each eigenvector.
+
+#### **4. Create Feature Vector**
+
+- Selects the top principal components to keep most of the data variance.
+- Reduces the original feature set to fewer dimensions.
+
+#### **5. Recast Data Along Principal Components**
+
+- Transforms data into new coordinate system defined by principal components.
+- Results in a reduced dataset that retains most variability.
+
+---
+
+## **Applications of PCA**
+
+11. **Dimensionality Reduction** – Helps reduce features while retaining essential patterns.
+12. **Data Visualization** – Enables plotting high-dimensional data in 2D or 3D.
+13. **Noise Reduction** – Removes less significant variations in data.
+14. **Preprocessing for Machine Learning** – Reduces feature redundancy, improving model efficiency.
+
+---
+
+## **Advantages of PCA**
+
+✔ **Reduces Dimensionality** – Simplifies models and reduces processing time. ✔ **Minimizes Overfitting** – Helps prevent models from learning noise. ✔ **Captures Important Information** – Keeps features with the highest variance. ✔ **Creates Uncorrelated Features** – Improves performance of certain algorithms (e.g., linear regression).
+
+## **Disadvantages of PCA**
+
+❌ **Loss of Interpretability** – Principal components are linear combinations of original features, making them harder to interpret. ❌ **Assumes Linearity** – Does not work well with datasets containing nonlinear relationships. ❌ **Loss of Information** – Some variance is lost when reducing dimensions.
+
+---
+
+
+# Lecture 7: Explratory Data Analysis
