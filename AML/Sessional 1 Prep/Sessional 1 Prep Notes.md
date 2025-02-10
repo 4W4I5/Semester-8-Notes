@@ -460,6 +460,10 @@ Benchmark datasets are commonly used for training and evaluating machine learnin
 # Lecture 5: Feature Engineering
 **Feature Engineering – Outliers, Missing Values, Duplicates, and Bias-Variance Tradeoff**
 
+---
+
+## **Feature Engineering**
+
 Feature engineering is the process of transforming raw data into meaningful features that improve model performance.
 
 ### **Importance of Feature Engineering**
@@ -601,5 +605,6 @@ Duplicate values occur when identical entries exist in the dataset.
 - **High Bias, Low Variance** – Underfits data (e.g., linear regression).
 - **Low Bias, High Variance** – Overfits data (e.g., deep decision trees).
 - **Goal** – Find a balance where the model generalizes well to unseen data.
+
 
 ---
