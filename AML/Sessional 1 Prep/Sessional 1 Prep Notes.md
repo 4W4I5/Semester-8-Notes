@@ -1,11 +1,11 @@
-| Chapter<br>Number | Chapter<br>Name           | Status    |
-| ----------------- | ------------------------- | --------- |
-| 1                 | Introduction              | :warning: |
-| 2                 | Machine Learning          | :warning: |
-| 3 + 4             | Data Views                | :warning: |
-| 5                 | Feature Engineering       | :warning: |
-| 6                 | High Dimensional Data     | :warning: |
-| 7                 | Exploratory Data Analysis | :warning: | 
+| Chapter<br>Number | Chapter<br>Name           | Status             |
+| ----------------- | ------------------------- | ------------------ |
+| 1                 | Introduction              | :white_check_mark: |
+| 2                 | Machine Learning          | :white_check_mark: | 
+| 3 + 4             | Data Views                | :warning:          |
+| 5                 | Feature Engineering       | :warning:          |
+| 6                 | High Dimensional Data     | :warning:          |
+| 7                 | Exploratory Data Analysis | :warning:          |
 
 # Lecture 1: Introduction
 ## **Key Terms & Concepts**
