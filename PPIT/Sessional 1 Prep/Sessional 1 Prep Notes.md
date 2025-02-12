@@ -367,6 +367,7 @@
 - **Cairo Declaration (1990) presents an Islamic perspective on human rights.**
 - **Ethical theories help professionals make morally sound decisions in computing.**
 - **Technology must align with human dignity, justice, respect, and equality.**
+
 ---
 
 # Lecture 5a: Code of Conduct
@@ -410,55 +411,45 @@
 	- **"Public Interest" is central to all ethical decisions.**
 
 ### **Eight Principles of the SE Code of Ethics**
-
 6. **Public:**
-
 	- Ensure software **benefits society** and does not **harm public welfare**.
 	- Accept **full responsibility** for one’s work.
 	- Approve software only if it is **safe, meets specifications, and protects privacy**.
 	- Disclose **potential risks** associated with software.
 7. **Client & Employer:**
-
 	- Act in the **best interest of clients and employers**, while ensuring public welfare.
 	- **Do not use stolen or illegal software**.
 	- **Respect confidentiality** and **report unethical practices**.
 	- Warn employers if a project **risks failure** or **violates laws**.
 8. **Product:**
-
 	- Develop software that meets **professional and ethical standards**.
 	- Ensure software is **secure, reliable, and well-documented**.
 	- Address **ethical, legal, and cultural** concerns in software design.
 	- Test, debug, and document software **thoroughly**.
 9. **Judgment:**
-
 	- Maintain **integrity and independence** in professional decision-making.
 	- Avoid **deceptive financial practices** (e.g., bribery, double billing).
 	- **Disclose conflicts of interest** and avoid unethical business relationships.
 10. **Management:**
-
 	- Promote **ethical decision-making** within teams and organizations.
 	- Ensure software engineers **understand and follow ethical guidelines**.
 	- Offer **fair compensation** and transparent job descriptions.
 	- Provide **due process** for ethical concerns and violations.
 11. **Profession:**
-
 	- Enhance the **reputation and integrity** of the software profession.
 	- Educate the public on **responsible software engineering**.
 	- **Support ethical engineers** and discourage unethical practices.
 12. **Colleagues:**
-
 	- Treat fellow engineers with **fairness and respect**.
 	- Assist in **professional development** and **share credit** fairly.
 	- Encourage **ethical behavior** in the workplace.
 13. **Self:**
-
 	- Commit to **lifelong learning** in software engineering.
 	- Continuously improve **technical, legal, and ethical knowledge**.
 	- Avoid actions that **violate ethical standards**.
 
 
 ## **5. Ethical Challenges in the Code of Conduct**
-
 - **Missing Elements:**
 	- **Where to seek help** in ethical dilemmas?
 	- **Who to report violations to?**
@@ -466,25 +457,18 @@
 	- **Consequences of violating the code?**
 	- **Mechanisms for updating the code** with evolving technologies.
 
-
 ## **6. Real-World Ethical Scenarios**
-
 14. **Client Wants a Flawed System Released**
-
 	- If a **security flaw** is found before delivery, but management **wants to release the software anyway**, what should the engineer do?
 	- **Ethical Action:** **Disclose the risk** and advocate for public safety.
 15. **Employer Uses Pirated Software**
-
 	- An engineer finds out their company is **using illegal software**.
 	- **Ethical Action:** Report the issue while **maintaining confidentiality**.
 16. **A Colleague Takes Credit for Someone Else’s Work**
-
 	- An engineer **steals credit** for software development.
 	- **Ethical Action:** **Report the misconduct** while ensuring fair recognition.
 
-
 ## **7. Summary of Key Takeaways**
-
 - A **Code of Ethics** is essential for maintaining **integrity, professionalism, and public trust** in software engineering.
 - Ethical responsibilities extend to **clients, employers, society, and colleagues**.
 - Engineers must balance **technical quality, business demands, and ethical obligations**.
@@ -513,35 +497,35 @@
 
 ### **Key Principles:**
 
-1. **Contribute to Society and Human Well-being**
+5. **Contribute to Society and Human Well-being**
 
 	- Computing professionals must design and develop systems **for the benefit of all people**.
 	- Recognize that computing impacts **everyone in society**.
-2. **Avoid Harm to Others**
+6. **Avoid Harm to Others**
 
 	- Ensure software and systems **do not cause harm**, whether intentional or accidental.
 	- Includes **privacy violations, security risks, and system failures**.
-3. **Be Honest and Trustworthy**
+7. **Be Honest and Trustworthy**
 
 	- Provide **accurate, complete, and transparent** information.
 	- Avoid deception, **misrepresentation of data**, and conflicts of interest.
-4. **Be Fair and Avoid Discrimination**
+8. **Be Fair and Avoid Discrimination**
 
 	- Act **fairly and without bias** in all professional decisions.
 	- Take action to **combat discrimination** in computing.
-5. **Honor Property Rights (Copyrights & Patents)**
+9. **Honor Property Rights (Copyrights & Patents)**
 
 	- Respect intellectual property, including **software, data, and creative works**.
 	- Avoid **software piracy and unauthorized use** of copyrighted materials.
-6. **Give Proper Credit for Intellectual Property**
+10. **Give Proper Credit for Intellectual Property**
 
 	- **Cite sources appropriately** and recognize contributions of others.
 	- Do not **plagiarize** code, research, or ideas.
-7. **Respect Privacy**
+11. **Respect Privacy**
 
 	- Protect **user data** and ensure responsible data handling.
 	- Avoid unauthorized **access, sharing, or misuse** of personal information.
-8. **Honor Confidentiality**
+12. **Honor Confidentiality**
 
 	- Maintain **confidentiality** of sensitive information.
 	- Avoid disclosing **trade secrets, private user data, or internal company details**.
@@ -553,28 +537,28 @@
 
 ### **Key Responsibilities:**
 
-1. **Strive for High-Quality Work**
+13. **Strive for High-Quality Work**
 
 	- Ensure all computing work meets **high ethical and professional standards**.
-2. **Maintain Professional Competence**
+14. **Maintain Professional Competence**
 
 	- Continuously **learn and improve** technical and ethical knowledge.
-3. **Know and Respect Laws Related to Computing**
+15. **Know and Respect Laws Related to Computing**
 
 	- Understand and follow **legal regulations** affecting computing.
 	- Includes **intellectual property laws, cybersecurity laws, and data protection laws**.
-4. **Provide Honest and Thorough System Evaluations**
+16. **Provide Honest and Thorough System Evaluations**
 
 	- Assess **risks and consequences** of software and IT systems.
 	- Ensure systems are **safe, secure, and reliable**.
-5. **Honor Contracts and Agreements**
+17. **Honor Contracts and Agreements**
 
 	- Follow through on **commitments to clients, employers, and users**.
 	- Avoid **unethical breaches of agreements**.
-6. **Improve Public Understanding of Computing**
+18. **Improve Public Understanding of Computing**
 
 	- Educate others about computing’s **benefits, risks, and ethical concerns**.
-7. **Use Computing Resources Only When Authorized**
+19. **Use Computing Resources Only When Authorized**
 
 	- Do not **hack, manipulate, or misuse** computing systems without permission.
 
@@ -585,22 +569,22 @@
 
 ### **Key Responsibilities:**
 
-8. **Promote Social Responsibility**
+20. **Promote Social Responsibility**
 
 	- Leaders must **encourage ethical behavior** among employees.
-9. **Design Systems that Improve Quality of Life**
+21. **Design Systems that Improve Quality of Life**
 
 	- Ensure computing solutions **enhance efficiency and fairness** in workplaces and society.
-10. **Support Proper Use of Computing Resources**
+22. **Support Proper Use of Computing Resources**
 
 	- Implement **security policies** to prevent misuse of company IT systems.
-11. **Prioritize User Needs in System Design**
+23. **Prioritize User Needs in System Design**
 
 	- Design systems with **user accessibility, security, and fairness** in mind.
-12. **Protect Dignity of Users**
+24. **Protect Dignity of Users**
 
 	- Ensure systems **do not exploit, harm, or discriminate** against users.
-13. **Provide Ethical Education to Employees**
+25. **Provide Ethical Education to Employees**
 
 	- Organizations should **train employees** in ethical computing practices.
 
@@ -611,10 +595,10 @@
 
 ### **Key Compliance Rules:**
 
-14. **Promote Ethical Conduct**
+26. **Promote Ethical Conduct**
 
 	- ACM members should **advocate for ethical behavior** in their workplaces.
-15. **Report Violations**
+27. **Report Violations**
 
 	- Ethical breaches should be **reported and addressed**.
 	- Failure to comply **can result in expulsion from ACM**.
@@ -628,15 +612,15 @@
 
 ### **Ethical Issues Violated:**
 
-16. **Fairness & Non-Discrimination (1.4)**
+28. **Fairness & Non-Discrimination (1.4)**
 	- The system should **treat all applicants equally**, regardless of **race or gender**.
-17. **Avoiding Harm (1.2)**
+29. **Avoiding Harm (1.2)**
 	- Discriminatory systems **harm job seekers** and contribute to **biased hiring practices**.
-18. **Respect for Laws (2.3)**
+30. **Respect for Laws (2.3)**
 	- The request may **violate anti-discrimination laws** in many countries.
-19. **Honest Evaluations (2.5)**
+31. **Honest Evaluations (2.5)**
 	- Developers must **assess the ethical risks** of implementing such bias.
-20. **Upholding Professional Standards (4.1)**
+32. **Upholding Professional Standards (4.1)**
 	- Ethical professionals must **reject unethical system requirements**.
 
 ### **Ethical Response:**
