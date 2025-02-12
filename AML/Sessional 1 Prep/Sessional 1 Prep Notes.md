@@ -97,7 +97,9 @@
 	- **Neural Networks** – Used for complex cybersecurity tasks, such as malware detection and behavioral analysis.
 
 ## **Tools & Libraries**
+
 Python is widely used for ML in cybersecurity. Important libraries include:
+
 - **Numpy** – For numerical operations.
 - **Pandas** – Data manipulation and preprocessing.
 - **Matplotlib & Seaborn** – Data visualization.
@@ -135,7 +137,9 @@ Python is widely used for ML in cybersecurity. Important libraries include:
 	- **Detection of Hidden Channels** – Finding covert communication methods used by attackers.
 	- **Detection of Software Vulnerabilities** – Predicting and mitigating software flaws before exploitation.
 ## **Machine Learning**
+
 Machine learning (ML) is a subset of **Artificial Intelligence (AI)** that enables computers to learn from data and make decisions without explicit programming. Unlike traditional rule-based systems, ML algorithms **improve over time** as they are exposed to more data.
+
 - ### **Why Use Machine Learning in Cybersecurity?**
 	1. **Scalability** – ML can process vast amounts of security data much faster than humans.
 	2. **Feature Extraction** – Identifies key data attributes useful for security models.
@@ -160,7 +164,9 @@ Machine learning (ML) is a subset of **Artificial Intelligence (AI)** that enabl
 		- **F1-Score** – A balance between precision and recall.
 
 ## **Machine Learning Pipeline**
+
 A **machine learning pipeline** is a sequence of steps for building an ML model, from data collection to model deployment.
+
 - ### **Key Stages in the Pipeline**
 	1. **Data Collection** – Gathering relevant data from logs, network traffic, or security events.
 	2. **Data Preprocessing** – Cleaning, normalizing, and transforming raw data into a usable format.
@@ -247,9 +253,9 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 - ### **Nominal Attributes (Categorical & Unordered)**
 	- Nominal attributes are categorical attributes **without inherent order.**
 		- **Examples:**
-		    - **Colors:** {Red, Green, Blue}
-		    - **Gender:** {Male, Female, Non-binary}
-		    - **Countries:** {USA, Canada, Mexico}
+			- **Colors:** {Red, Green, Blue}
+			- **Gender:** {Male, Female, Non-binary}
+			- **Countries:** {USA, Canada, Mexico}
 	- #### **Analytics for Nominal Attributes:**
 		- **Frequency Distribution** – Shows how often each category appears.
 		- **Mode** – Identifies the most common category (useful for handling missing values).
@@ -272,9 +278,9 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 - ### **Ordinal Attributes (Categorical & Ordered)**
 	- Ordinal attributes have a **defined order** but **unequal differences** between values.
 	- **Examples:**
-	    - **Education Levels:** {High School, Bachelor’s, Master’s, PhD}
-	    - **Customer Satisfaction:** {Very Unsatisfied, Neutral, Satisfied, Very Satisfied}
-	    - **Movie Ratings:** {1 star, 2 stars, 3 stars, 4 stars, 5 stars}
+		- **Education Levels:** {High School, Bachelor’s, Master’s, PhD}
+		- **Customer Satisfaction:** {Very Unsatisfied, Neutral, Satisfied, Very Satisfied}
+		- **Movie Ratings:** {1 star, 2 stars, 3 stars, 4 stars, 5 stars}
 	- #### **Analytics for Ordinal Attributes:**
 		- **Frequency Distribution** – Identifies dominant categories.
 		- **Mode, Median, Percentiles** – Measures central tendency.
@@ -293,8 +299,8 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 - ### **Interval-Scaled Attributes (Continuous & No True Zero)**
 	- Interval-scaled attributes have **equal differences** between values, but **no absolute zero.**
 		- **Examples:**
-		    - **Temperature in Celsius/Fahrenheit**
-		    - **Dates & Time Intervals**
+			- **Temperature in Celsius/Fahrenheit**
+			- **Dates & Time Intervals**
 	- #### **Analytics for Interval-Scaled Attributes:**
 		- **Mean, Median, Standard Deviation** – Measure central tendency & spread.
 		- **Pearson Correlation Coefficient** – Assesses relationships between interval attributes.
@@ -316,7 +322,7 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 - ### **Ratio-Scaled Attributes (Continuous & True Zero Exists)**
 	- Ratio-scaled attributes have a **true zero point**, meaning zero represents **no existence** of the measured quantity.
 	- **Examples:**
-	    - **Height, Weight, Age, Income**
+		- **Height, Weight, Age, Income**
 	- #### **Analytics for Ratio-Scaled Attributes:**
 		- **Mean, Median, Standard Deviation** – Measure central tendency & dispersion.
 		- **Correlation & Covariance** – Identifies dependencies between attributes.
@@ -338,82 +344,82 @@ A **machine learning pipeline** is a sequence of steps for building an ML model,
 ### **Key Concepts:**
 - **Vector & Matrix Representation** – Data is represented as vectors & matrices, making it easier to apply mathematical transformations and optimizations.
 - **Linear Algebra Operations:**
-    - **Matrix multiplication** – Used in neural networks, dimensionality reduction, and data transformations.
-    - **Matrix inversion** – Helps in solving systems of equations, particularly useful in regression models.
-    - **Feature transformations** – Scaling, rotation, and projection of data for better interpretability and model efficiency.
+	- **Matrix multiplication** – Used in neural networks, dimensionality reduction, and data transformations.
+	- **Matrix inversion** – Helps in solving systems of equations, particularly useful in regression models.
+	- **Feature transformations** – Scaling, rotation, and projection of data for better interpretability and model efficiency.
 - **Dimensionality Reduction:**
-    - **Principal Component Analysis (PCA)** – Projects high-dimensional data into lower dimensions while retaining maximum variance.
-    - **Singular Value Decomposition (SVD)** – Factorizes a matrix into three matrices to extract important features.
-    - **Latent Semantic Analysis (LSA)** – Used in NLP to analyze relationships between words and documents.
+	- **Principal Component Analysis (PCA)** – Projects high-dimensional data into lower dimensions while retaining maximum variance.
+	- **Singular Value Decomposition (SVD)** – Factorizes a matrix into three matrices to extract important features.
+	- **Latent Semantic Analysis (LSA)** – Used in NLP to analyze relationships between words and documents.
 - **Feature Scaling & Normalization:**
-    - **Min-Max Scaling** – Rescales values between a fixed range [0,1] or [-1,1] to improve model performance.
-    - **Z-score Normalization** – Converts data into a normal distribution with mean 0 and standard deviation 1.
-    - **Logarithmic Scaling** – Used for highly skewed data to reduce the impact of extreme values.
+	- **Min-Max Scaling** – Rescales values between a fixed range [0,1] or [-1,1] to improve model performance.
+	- **Z-score Normalization** – Converts data into a normal distribution with mean 0 and standard deviation 1.
+	- **Logarithmic Scaling** – Used for highly skewed data to reduce the impact of extreme values.
 - **Optimization & Model Training:**
-    - **Gradient Descent** – Optimizes model parameters by iteratively reducing error.
-    - **Stochastic Gradient Descent (SGD)** – A variant of gradient descent that updates parameters for each training instance, useful for large datasets.
-    - **Newton’s Method** – Used in convex optimization problems for rapid convergence.
-    - **Least Squares Optimization** – Minimizes the sum of squared residuals in regression models.
+	- **Gradient Descent** – Optimizes model parameters by iteratively reducing error.
+	- **Stochastic Gradient Descent (SGD)** – A variant of gradient descent that updates parameters for each training instance, useful for large datasets.
+	- **Newton’s Method** – Used in convex optimization problems for rapid convergence.
+	- **Least Squares Optimization** – Minimizes the sum of squared residuals in regression models.
 - **Distance Measures:**
-    - **Euclidean Distance** – Measures straight-line distance between two points.
-    - **Manhattan Distance** – Measures distance along axis-aligned paths, useful for grid-like structures.
-    - **Mahalanobis Distance** – Accounts for correlations between variables and scales accordingly.
-    - **Cosine Similarity** – Measures angular similarity between vectors, commonly used in text mining and NLP.
+	- **Euclidean Distance** – Measures straight-line distance between two points.
+	- **Manhattan Distance** – Measures distance along axis-aligned paths, useful for grid-like structures.
+	- **Mahalanobis Distance** – Accounts for correlations between variables and scales accordingly.
+	- **Cosine Similarity** – Measures angular similarity between vectors, commonly used in text mining and NLP.
 - **Orthogonal Projection & Linear Independence:**
-    - **Orthogonality** – Ensures data features are independent of each other, aiding interpretability and reducing redundancy.
-    - **Linear Independence** – Ensures that no feature can be represented as a linear combination of other features.
+	- **Orthogonality** – Ensures data features are independent of each other, aiding interpretability and reducing redundancy.
+	- **Linear Independence** – Ensures that no feature can be represented as a linear combination of other features.
 - **Kernel Methods & Feature Transformations:**
-    - **Kernel Trick** – Projects data into higher-dimensional space for non-linear classification.
-    - **Polynomial & Radial Basis Function (RBF) Kernels** – Transformations that allow support vector machines to work effectively with non-linear data.
+	- **Kernel Trick** – Projects data into higher-dimensional space for non-linear classification.
+	- **Polynomial & Radial Basis Function (RBF) Kernels** – Transformations that allow support vector machines to work effectively with non-linear data.
 ## **Probabilistic View of Data**
 ### **Key Concepts:**
 - **Data as a Random Variable:**
-    - Attributes modeled as random variables enable statistical inferences about populations from sampled data.
-    - Used in Bayesian networks and probabilistic graphical models.
+	- Attributes modeled as random variables enable statistical inferences about populations from sampled data.
+	- Used in Bayesian networks and probabilistic graphical models.
 - **Distribution Modeling:**
-    - **Normal Distribution (Gaussian)** – Used for statistical modeling and ML algorithms like Naive Bayes.
-    - **Poisson Distribution** – Used for event-based modeling, e.g., cybersecurity attack frequency prediction.
-    - **Exponential Distribution** – Useful in failure rate analysis.
-    - **Dirichlet Distribution** – Used in topic modeling for natural language processing.
+	- **Normal Distribution (Gaussian)** – Used for statistical modeling and ML algorithms like Naive Bayes.
+	- **Poisson Distribution** – Used for event-based modeling, e.g., cybersecurity attack frequency prediction.
+	- **Exponential Distribution** – Useful in failure rate analysis.
+	- **Dirichlet Distribution** – Used in topic modeling for natural language processing.
 - **Feature Selection & Regularization:**
-    - **Mutual Information** – Measures dependency between variables.
-    - **Information Gain** – Used in decision trees and entropy-based models.
-    - **L1 & L2 Regularization** – Lasso and Ridge regression techniques that prevent overfitting.
+	- **Mutual Information** – Measures dependency between variables.
+	- **Information Gain** – Used in decision trees and entropy-based models.
+	- **L1 & L2 Regularization** – Lasso and Ridge regression techniques that prevent overfitting.
 - **Overfitting Prevention:**
-    - **Bayesian Regularization** – Introduces prior distributions to limit model complexity.
-    - **Cross-Validation** – Ensures generalization by testing model performance on unseen data.
-    - **Dropout in Neural Networks** – Prevents co-adaptation of neurons, reducing overfitting.
+	- **Bayesian Regularization** – Introduces prior distributions to limit model complexity.
+	- **Cross-Validation** – Ensures generalization by testing model performance on unseen data.
+	- **Dropout in Neural Networks** – Prevents co-adaptation of neurons, reducing overfitting.
 - **Decision Theory & Risk Management:**
-    - **Probability-based decision-making** – Bayesian inference applied to cybersecurity threat detection.
-    - **Markov Decision Processes (MDP)** – Used in reinforcement learning for decision-making in uncertain environments.
-    - **Handling Uncertainty** – Using probabilistic confidence intervals and Monte Carlo simulations.
+	- **Probability-based decision-making** – Bayesian inference applied to cybersecurity threat detection.
+	- **Markov Decision Processes (MDP)** – Used in reinforcement learning for decision-making in uncertain environments.
+	- **Handling Uncertainty** – Using probabilistic confidence intervals and Monte Carlo simulations.
 - **Handling Missing Data:**
-    - **Mean/Median Imputation** – Replacing missing values using statistical averages.
-    - **Expectation-Maximization (EM) Algorithm** – Probabilistic technique to handle missing data and clustering.
+	- **Mean/Median Imputation** – Replacing missing values using statistical averages.
+	- **Expectation-Maximization (EM) Algorithm** – Probabilistic technique to handle missing data and clustering.
 - **Bayesian Inference & Uncertainty Quantification:**
-    - **Bayesian Theorem** – Updates the probability of a hypothesis as more evidence is provided.
-    - **Monte Carlo Methods** – Used in probabilistic sampling to model uncertainty in predictions.
+	- **Bayesian Theorem** – Updates the probability of a hypothesis as more evidence is provided.
+	- **Monte Carlo Methods** – Used in probabilistic sampling to model uncertainty in predictions.
 
 ---
 
 ## **Graph View of Data**
 ### **Key Concepts:**
 - **Graph Representation:**
-    - **Nodes (Vertices):** Represent entities such as users, IP addresses, or devices.
-    - **Edges (Links):** Represent relationships between nodes, e.g., network connections.
-    - **Adjacency Matrix:** Matrix representation of a graph, capturing connectivity between nodes.
+	- **Nodes (Vertices):** Represent entities such as users, IP addresses, or devices.
+	- **Edges (Links):** Represent relationships between nodes, e.g., network connections.
+	- **Adjacency Matrix:** Matrix representation of a graph, capturing connectivity between nodes.
 - **Graph Metrics:**
-    - **Degree Distribution** – Measures the number of connections per node.
-    - **Shortest Path & Betweenness Centrality** – Determines influential nodes in a network.
-    - **Clustering Coefficient** – Measures the tendency of nodes to form tightly-knit groups.
-    - **PageRank** – Used in search engine ranking and network analysis.
+	- **Degree Distribution** – Measures the number of connections per node.
+	- **Shortest Path & Betweenness Centrality** – Determines influential nodes in a network.
+	- **Clustering Coefficient** – Measures the tendency of nodes to form tightly-knit groups.
+	- **PageRank** – Used in search engine ranking and network analysis.
 - **Machine Learning Applications:**
-    - **Graph Neural Networks (GNNs)** – Learn embeddings for nodes in a graph.
-    - **Social Network Analysis** – Understanding connections and detecting fake accounts.
-    - **Community Detection** – Identifies clusters of related nodes (e.g., fraud rings).
-    - **Anomaly Detection in Networks** – Identifies unusual behaviors using graph structures.
-    - **Link Prediction** – Predicts future connections (e.g., friend suggestions on social media).
-    - **Recommendation Systems** – Suggests items based on user interaction graphs.
+	- **Graph Neural Networks (GNNs)** – Learn embeddings for nodes in a graph.
+	- **Social Network Analysis** – Understanding connections and detecting fake accounts.
+	- **Community Detection** – Identifies clusters of related nodes (e.g., fraud rings).
+	- **Anomaly Detection in Networks** – Identifies unusual behaviors using graph structures.
+	- **Link Prediction** – Predicts future connections (e.g., friend suggestions on social media).
+	- **Recommendation Systems** – Suggests items based on user interaction graphs.
 ---
 
 ## **Benchmark Datasets for Cybersecurity**
@@ -458,6 +464,7 @@ Benchmark datasets are commonly used for training and evaluating machine learnin
 
 
 # Lecture 5: Feature Engineering
+
 **Feature Engineering – Outliers, Missing Values, Duplicates, and Bias-Variance Tradeoff**
 
 ---
@@ -476,15 +483,15 @@ Feature engineering is the process of transforming raw data into meaningful feat
 ### **Steps in Feature Engineering**
 
 1. **Feature Selection** – Identifying the most relevant features.
-    - **Filter Methods** (e.g., correlation, mutual information)
-    - **Wrapper Methods** (e.g., recursive feature elimination)
-    - **Embedded Methods** (e.g., LASSO regression)
+	- **Filter Methods** (e.g., correlation, mutual information)
+	- **Wrapper Methods** (e.g., recursive feature elimination)
+	- **Embedded Methods** (e.g., LASSO regression)
 2. **Feature Transformation** – Modifying existing features.
-    - Normalization, log transformation, encoding categorical variables.
+	- Normalization, log transformation, encoding categorical variables.
 3. **Feature Extraction** – Creating new features.
-    - Dimensionality reduction, text/image feature extraction.
+	- Dimensionality reduction, text/image feature extraction.
 4. **Feature Creation** – Generating domain-specific features.
-    - Polynomial features, date-based features.
+	- Polynomial features, date-based features.
 5. **Handling Outliers, Missing Values, and Duplicates.**
 
 ---
@@ -504,24 +511,24 @@ Outliers are data points that significantly deviate from the overall dataset pat
 ### **Impact of Outliers**
 
 6. **Model Performance:**
-    - Can bias and distort machine learning models.
-    - Causes inaccurate regression coefficients.
+	- Can bias and distort machine learning models.
+	- Causes inaccurate regression coefficients.
 7. **Effect on Algorithms:**
-    - Distance-based methods (KNN, K-Means) are highly affected.
-    - SVM decision boundaries can shift significantly.
+	- Distance-based methods (KNN, K-Means) are highly affected.
+	- SVM decision boundaries can shift significantly.
 8. **Increased Complexity:**
-    - Causes overfitting and longer training times.
+	- Causes overfitting and longer training times.
 9. **Misleading Insights:**
-    - Distorts interpretability of statistical models.
+	- Distorts interpretability of statistical models.
 
 ### **Outlier Detection Methods**
 
 10. **Z-Score Method** – Detects data points that deviate from the mean by more than 3 standard deviations.
 11. **Interquartile Range (IQR) Method** – Identifies values outside [Q1 - 1.5 × IQR, Q3 + 1.5 × IQR].
 12. **Visualization Techniques:**
-    - Boxplots, scatter plots.
+	- Boxplots, scatter plots.
 13. **Machine Learning Methods:**
-    - Isolation Forests for anomaly detection.
+	- Isolation Forests for anomaly detection.
 
 ### **Handling Outliers**
 
@@ -554,10 +561,10 @@ Missing values occur when data points are unavailable or not recorded.
 
 14. **Remove Missing Data** – If the percentage is small.
 15. **Imputation Methods:**
-    - Mean/Median/Mode Imputation.
-    - KNN Imputation (Nearest Neighbors).
-    - Regression-based Imputation.
-    - Forward/Backward Fill (for time-series data).
+	- Mean/Median/Mode Imputation.
+	- KNN Imputation (Nearest Neighbors).
+	- Regression-based Imputation.
+	- Forward/Backward Fill (for time-series data).
 16. **Flagging Missing Data** – Create a binary feature indicating missing values.
 
 ---
@@ -704,10 +711,10 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 
 ## **Applications of PCA**
 
-1. **Dimensionality Reduction** – Reduces feature count while retaining essential patterns.
-2. **Data Visualization** – Enables plotting high-dimensional data in 2D or 3D.
-3. **Noise Reduction** – Eliminates less significant variations, improving model robustness.
-4. **Preprocessing for Machine Learning** – Reduces feature redundancy, leading to more efficient models.
+11. **Dimensionality Reduction** – Reduces feature count while retaining essential patterns.
+12. **Data Visualization** – Enables plotting high-dimensional data in 2D or 3D.
+13. **Noise Reduction** – Eliminates less significant variations, improving model robustness.
+14. **Preprocessing for Machine Learning** – Reduces feature redundancy, leading to more efficient models.
 
 ---
 
@@ -722,4 +729,117 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 ---
 
 
-# Lecture 7: Explratory Data Analysis
+# Lecture 7: Exploratory Data Analysis
+
+## **Exploratory Data Analysis (EDA)**
+
+EDA is the process of analyzing datasets to summarize their main characteristics, often using visual methods. It helps in identifying patterns, relationships, and anomalies in data.
+
+### **Objectives of EDA**
+
+- Understand data structure and distribution.
+- Detect missing values, outliers, and inconsistencies.
+- Identify patterns, trends, and correlations.
+- Provide insights for feature engineering and model selection.
+
+### **Types of EDA**
+
+15. **Univariate Analysis** – Examines individual variables.
+
+	- Summary statistics (mean, median, mode, variance, skewness, kurtosis).
+	- Frequency distributions and histograms.
+	- Box plots for outlier detection.
+16. **Bivariate Analysis** – Examines relationships between two variables.
+
+	- Scatter plots (continuous vs continuous data).
+	- Correlation matrices and heatmaps.
+	- Chi-square tests for categorical relationships.
+17. **Multivariate Analysis** – Examines interactions between multiple variables.
+
+	- Pair plots and Principal Component Analysis (PCA).
+	- Cluster analysis for segmentation.
+	- Regression analysis for dependency modeling.
+
+### **Common EDA Techniques**
+
+18. **Descriptive Statistics** – Mean, median, standard deviation, quartiles.
+19. **Data Visualization** – Histograms, boxplots, violin plots, scatter plots, heatmaps.
+20. **Correlation Analysis** – Pearson/Spearman correlation coefficients.
+21. **Dimensionality Reduction** – PCA, t-SNE, UMAP for visualizing high-dimensional data.
+
+### **Handling Missing Data**
+
+- **Deletion Methods:**
+	- Listwise deletion (removing rows with missing values).
+	- Pairwise deletion (using available data without removing entire rows).
+- **Imputation Methods:**
+	- Mean/median/mode substitution.
+	- KNN-based imputation.
+	- Multiple imputation using regression models.
+
+### **Outlier Detection in EDA**
+
+- **Statistical Methods:**
+	- Z-score (values beyond 3 standard deviations from the mean).
+	- IQR method (values outside Q1 - 1.5_IQR and Q3 + 1.5_IQR).
+- **Visualization-Based:**
+	- Boxplots, scatter plots, density plots.
+- **Machine Learning-Based:**
+	- Isolation Forests, One-Class SVM, DBSCAN clustering.
+
+---
+
+## **Feature Engineering**
+
+Feature engineering involves creating, modifying, and selecting the best features to improve model performance.
+
+### **Feature Selection Methods**
+
+22. **Filter Methods:**
+	- Uses statistical techniques to rank features (e.g., correlation, mutual information).
+23. **Wrapper Methods:**
+	- Uses machine learning models to iteratively evaluate subsets of features (e.g., recursive feature elimination).
+24. **Embedded Methods:**
+	- Feature selection is integrated into the model training process (e.g., LASSO regression, decision trees).
+
+### **Feature Transformation Techniques**
+
+25. **Scaling & Normalization:**
+	- Min-Max Scaling (scales values between 0 and 1).
+	- Z-score Standardization (centers data around mean 0 with standard deviation 1).
+26. **Encoding Categorical Variables:**
+	- One-hot encoding (for nominal variables).
+	- Label encoding (for ordinal variables).
+	- Target encoding (replaces categories with mean target value).
+27. **Polynomial Features:**
+	- Creating interaction terms for non-linear relationships.
+28. **Log Transformation:**
+	- Reduces skewness in highly skewed data.
+
+### **Feature Extraction Methods**
+
+- **PCA** – Reduces dimensionality by transforming correlated variables into uncorrelated principal components.
+- **t-SNE & UMAP** – Nonlinear methods for visualization and feature reduction.
+- **Text Feature Extraction** – TF-IDF, word embeddings (Word2Vec, GloVe).
+- **Image Feature Extraction** – Convolutional Neural Networks (CNNs).
+
+### **Handling Feature Redundancy**
+
+- **Variance Thresholding:**
+	- Removes features with low variance.
+- **Correlation Analysis:**
+	- Drops highly correlated features to avoid multicollinearity.
+- **Recursive Feature Elimination (RFE):**
+	- Iteratively removes less important features.
+
+---
+
+## **Applications of EDA & Feature Engineering**
+
+29. **Fraud Detection** – Identifying suspicious transactions based on behavioral patterns.
+30. **Cybersecurity** – Detecting network intrusions using anomaly detection techniques.
+31. **Healthcare** – Predicting diseases based on patient data and clinical features.
+32. **Finance** – Analyzing stock market trends and risk assessment.
+33. **Natural Language Processing (NLP)** – Extracting meaningful features from text.
+
+---
