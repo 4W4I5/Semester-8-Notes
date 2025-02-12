@@ -7,6 +7,9 @@
 | 6                 | High Dimensional Data     | :warning:          |
 | 7                 | Exploratory Data Analysis | :warning:          |
 
+> ![WARNING]
+> made a mistake, the focus for this course is entirely on the math instead of the concept
+
 # Lecture 1: Introduction
 ## **Key Terms & Concepts**
 - ### **Cybersecurity**
