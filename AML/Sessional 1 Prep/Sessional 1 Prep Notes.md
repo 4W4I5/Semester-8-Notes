@@ -816,6 +816,6 @@ Same concept as LinReg. However the formulae are updated to suit the extra theta
 - ### Mean Absolute Percentage Error (MAPE)
 	- $MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100$
 	- Where:
-		- $y_i$ is the actual value (observed value) for the ii-th data point,
-		- $\hat{y}_i$ is the predicted value for the ii-th data point,
+		- $y_i$ is the actual value (observed value) for the i-th data point,
+		- $\hat{y}_i$ is the predicted value for the i-th data point,
 		- $n$ is the total number of observations (data points).
