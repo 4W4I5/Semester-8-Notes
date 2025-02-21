@@ -771,7 +771,7 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ## Multivariate LinReg
 ### Cost function
-
+- $J_{\theta} = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}_{i} - y_{i})^2$
 ### Gradient Descent (Param Update function)
 - $\theta_{j} = \theta_{j} - \alpha \times \frac{1}{m} \sum_{i=1}^{m}(h_{\theta}(x^i)-y^{i})\times{x^i}$
 
