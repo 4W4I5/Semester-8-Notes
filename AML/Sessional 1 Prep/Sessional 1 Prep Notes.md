@@ -1,13 +1,13 @@
-| Chapter<br>Number | Chapter<br>Name                                     | Status             |
-| ----------------- | --------------------------------------------------- | ------------------ |
-| 1                 | Introduction                                        | :white_check_mark: |
-| 2                 | Machine Learning                                    | :white_check_mark: |
-| 3 + 4             | Data Views                                          | :white_check_mark: |
-| 5                 | Feature Engineering                                 | :warning:          |
-| 6                 | High Dimensional Data                               | :warning:          |
-| 6A                | Exploratory Data Analysis                           | :warning:          |
-| 7                 | Univariate Linear Regression                        | :warning:          |
-| 8                 | Multivariate Linear Regression & Evaluation Metrics | :warning:          |
+| Chapter<br>Number | Chapter<br>Name               | Status             |
+| ----------------- | ----------------------------- | ------------------ |
+| 1                 | Introduction                  | :white_check_mark: |
+| 2                 | Machine Learning              | :white_check_mark: |
+| 3 + 4             | Data Views                    | :white_check_mark: |
+| 5                 | Feature Engineering           | :warning:          |
+| 6                 | High Dimensional Data         | :warning:          |
+| 6A                | Exploratory Data Analysis     | :warning:          |
+| 7                 | Univariate Linear Regression  | :warning:          |
+| 8                 | Evaluation Parameters+Metrics | :white_check_mark: |
 
 > [!WARNING]
 > made a mistake, the focus for this course is entirely on the math instead of the concept
@@ -766,19 +766,20 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ---
 
-# Lecture 7: Univariate Linear Regression (LinReg)
+# Lecture 7: Linear Regression (LinReg)
+## Univariate LinReg
+
+## Multivariate LinReg
+### Cost function
+
+### Gradient Descent (Param Update function)
+- $\theta_{j} = \theta_{j} - \alpha \times \frac{1}{m} \sum_{i=1}^{m}(h_{\theta}(x^i)-y^{i})\times{x^i}$
+
+
 
 ---
 
-# Lecture 8: Multivariate Linear Regression & Evaluation Metrics
-
-## Multivariate Linear Regression (MLinReg)
-Same concept as LinReg. However the formulae are updated to suit the extra thetas and feature inputs
-
-### Cost function
-
-### Gradient Descent
-
+# Lecture 8: Evaluation Parameters+Metrics
 ## Evaluation Parameters
 - ### In-sample
 	- Evaluates how well the model has learned the training dataset
