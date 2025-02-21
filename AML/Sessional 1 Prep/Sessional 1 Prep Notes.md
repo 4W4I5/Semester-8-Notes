@@ -6,7 +6,7 @@
 | 5                 | Feature Engineering           | :warning:          |
 | 6                 | High Dimensional Data         | :warning:          |
 | 6A                | Exploratory Data Analysis     | :warning:          |
-| 7                 | Univariate Linear Regression  | :warning:          |
+| 7                 | Linear Regression             | :white_check_mark: |
 | 8                 | Evaluation Parameters+Metrics | :white_check_mark: |
 
 > [!WARNING]
@@ -15,13 +15,13 @@
 # Lecture 1: Introduction
 ## **Cybersecurity**
 
-|**Concept**|**Description**|
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Cybersecurity**        | Protecting computer systems, networks, and data from unauthorized access, cyber threats, and attacks.                                                                                         |
-| **Network Security**     | Protecting data in transit from interception or tampering.                                                                                                                                    |
-| **Application Security** | Ensuring software is secure from vulnerabilities.                                                                                                                                             |
-| **Information Security** | Safeguarding data from breaches and leaks.                                                                                                                                                    |
-| **Operational Security** | Managing access controls and monitoring user activity.                                                                                                                                        |
+| **Concept**              | **Description**                                                                                                                                                                                           |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cybersecurity**        | Protecting computer systems, networks, and data from unauthorized access, cyber threats, and attacks.                                                                                                     |
+| **Network Security**     | Protecting data in transit from interception or tampering.                                                                                                                                                |
+| **Application Security** | Ensuring software is secure from vulnerabilities.                                                                                                                                                         |
+| **Information Security** | Safeguarding data from breaches and leaks.                                                                                                                                                                |
+| **Operational Security** | Managing access controls and monitoring user activity.                                                                                                                                                    |
 | **Cyber Threats**        | - **Malware**: Malicious software (viruses, worms, trojans) <br>- **Phishing**: Tricking users into revealing credentials <br>- **DDoS**: Overloading networks <br>- **MitM**: Intercepting communication |
 
 ## **Dataset**
@@ -767,16 +767,21 @@ Feature engineering involves creating, modifying, and selecting the best feature
 ---
 
 # Lecture 7: Linear Regression (LinReg)
-## Univariate LinReg
-
-## Multivariate LinReg
-### Cost function
-- $J_{\theta} = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}_{i} - y_{i})^2$
-### Gradient Descent (Param Update function)
-- $\theta_{j} = \theta_{j} - \alpha \times \frac{1}{m} \sum_{i=1}^{m}(h_{\theta}(x^i)-y^{i})\times{x^i}$
-
-
-
+## Univariate /Multivariate LinReg
+- ### Cost function
+	- $J_{\theta} = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}_{i} - y_{i})^2$
+- ### Gradient Descent (Param Update function)
+	- $\theta_{j} = \theta_{j} - \alpha \times \frac{1}{m} \sum_{i=1}^{m}(h_{\theta}(x^i)-y^{i})\times{x^i}$
+- ### Procedure (Fitting)
+	- Init Vectors for theta as parameters and Input Features as X
+		- Note that $x_0$ is always set to 1
+		- $m$ is known as the members of the dataset
+	- Repeat the following until the hyperparameter `iterations` stops the fitting process
+		- Compute hypothesis i.e. run the function for the given values of X. The result is called a hypothesis
+		- Run the Cost function $J(\theta)$
+			- Note that this includes all thetas
+		- Update params via Gradient Descent
+			- Use a learning rate ($\alpha$) of `0.01` to `0.1`
 ---
 
 # Lecture 8: Evaluation Parameters+Metrics
