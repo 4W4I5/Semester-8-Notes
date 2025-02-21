@@ -286,36 +286,19 @@ Attributes are **variables or features** used for **data analysis and machine le
 
 
 # **Algebraic & Geometric View of Data**
-### **Key Concepts:**
-- **Vector & Matrix Representation** – Data is represented as vectors & matrices, making it easier to apply mathematical transformations and optimizations.
-- **Linear Algebra Operations:**
-	- **Matrix multiplication** – Used in neural networks, dimensionality reduction, and data transformations.
-	- **Matrix inversion** – Helps in solving systems of equations, particularly useful in regression models.
-	- **Feature transformations** – Scaling, rotation, and projection of data for better interpretability and model efficiency.
-- **Dimensionality Reduction:**
-	- **Principal Component Analysis (PCA)** – Projects high-dimensional data into lower dimensions while retaining maximum variance.
-	- **Singular Value Decomposition (SVD)** – Factorizes a matrix into three matrices to extract important features.
-	- **Latent Semantic Analysis (LSA)** – Used in NLP to analyze relationships between words and documents.
-- **Feature Scaling & Normalization:**
-	- **Min-Max Scaling** – Rescales values between a fixed range [0,1] or [-1,1] to improve model performance.
-	- **Z-score Normalization** – Converts data into a normal distribution with mean 0 and standard deviation 1.
-	- **Logarithmic Scaling** – Used for highly skewed data to reduce the impact of extreme values.
-- **Optimization & Model Training:**
-	- **Gradient Descent** – Optimizes model parameters by iteratively reducing error.
-	- **Stochastic Gradient Descent (SGD)** – A variant of gradient descent that updates parameters for each training instance, useful for large datasets.
-	- **Newton’s Method** – Used in convex optimization problems for rapid convergence.
-	- **Least Squares Optimization** – Minimizes the sum of squared residuals in regression models.
-- **Distance Measures:**
-	- **Euclidean Distance** – Measures straight-line distance between two points.
-	- **Manhattan Distance** – Measures distance along axis-aligned paths, useful for grid-like structures.
-	- **Mahalanobis Distance** – Accounts for correlations between variables and scales accordingly.
-	- **Cosine Similarity** – Measures angular similarity between vectors, commonly used in text mining and NLP.
-- **Orthogonal Projection & Linear Independence:**
-	- **Orthogonality** – Ensures data features are independent of each other, aiding interpretability and reducing redundancy.
-	- **Linear Independence** – Ensures that no feature can be represented as a linear combination of other features.
-- **Kernel Methods & Feature Transformations:**
-	- **Kernel Trick** – Projects data into higher-dimensional space for non-linear classification.
-	- **Polynomial & Radial Basis Function (RBF) Kernels** – Transformations that allow support vector machines to work effectively with non-linear data.
+## **Key Concepts:**
+
+| **Aspect**                                      | **Details**                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Vector & Matrix Representation**              | - Data is represented as vectors and matrices, allowing easier mathematical transformations and optimizations.                                                                                                                                                                                                                                                                                                                |
+| **Linear Algebra Operations**                   | - **Matrix multiplication**: Applied in neural networks, dimensionality reduction, and data transformations. <br>- **Matrix inversion**: Solves systems of equations, particularly in regression. <br>- **Feature transformations**: Involves scaling, rotation, and projection of data for enhanced model performance.                                                                                                               |
+| **Dimensionality Reduction**                    | - **Principal Component Analysis (PCA)**: Projects high-dimensional data into lower dimensions while retaining maximum variance. <br>- **Singular Value Decomposition (SVD)**: Factorizes a matrix into three matrices to extract important features. <br>- **Latent Semantic Analysis (LSA)**: Used in NLP to analyze relationships between words and documents.                                                                     |
+| **Feature Scaling & Normalization**             | - **Min-Max Scaling**: Rescales values between a fixed range [0,1] or [-1,1] to improve model performance. <br>- **Z-score Normalization**: Converts data to a normal distribution with mean 0 and standard deviation 1. <br>- **Logarithmic Scaling**: Used for skewed data to reduce the impact of extreme values.                                                                                                                  |
+| **Optimization & Model Training**               | - **Gradient Descent**: Optimizes model parameters by iteratively reducing the error. <br>- **Stochastic Gradient Descent (SGD)**: A variant of gradient descent that updates parameters for each training instance, useful for large datasets. <br>- **Newton’s Method**: Used in convex optimization problems for rapid convergence. <br>- **Least Squares Optimization**: Minimizes the sum of squared residuals in regression models. |
+| **Distance Measures**                           | - **Euclidean Distance**: Measures straight-line distance between two points. <br>- **Manhattan Distance**: Measures distance along axis-aligned paths, useful for grid-like structures. <br>- **Mahalanobis Distance**: Accounts for correlations between variables and scales accordingly. <br>- **Cosine Similarity**: Measures angular similarity between vectors, often used in text mining and NLP.                                 |
+| **Orthogonal Projection & Linear Independence** | - **Orthogonality**: Ensures features are independent of each other, improving interpretability and reducing redundancy. <br>- **Linear Independence**: Ensures that no feature can be represented as a linear combination of other features.                                                                                                                                                                                     |
+| **Kernel Methods & Feature Transformations**    | - **Kernel Trick**: Projects data into higher-dimensional space for non-linear classification. <br>- **Polynomial & Radial Basis Function (RBF) Kernels**: Transformations that allow support vector machines to work effectively with non-linear data.                                                                                                                                                                           |
+
 ## **Probabilistic View of Data**
 ### **Key Concepts:**
 - **Data as a Random Variable:**
