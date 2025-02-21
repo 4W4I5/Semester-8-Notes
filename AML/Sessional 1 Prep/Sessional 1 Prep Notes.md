@@ -1,13 +1,13 @@
-| Chapter<br>Number | Chapter<br>Name                | Status             |
-| ----------------- | ------------------------------ | ------------------ |
-| 1                 | Introduction                   | :white_check_mark: |
-| 2                 | Machine Learning               | :white_check_mark: |
-| 3 + 4             | Data Views                     | :warning:          |
-| 5                 | Feature Engineering            | :warning:          |
-| 6                 | High Dimensional Data          | :warning:          |
-| 6A                | Exploratory Data Analysis      | :warning:          |
-| 7                 | Univariate Linear Regression   | :warning:          |
-| 8                 | Multivariate Linear Regression | :warning:                    |
+| Chapter<br>Number | Chapter<br>Name                                     | Status             |
+| ----------------- | --------------------------------------------------- | ------------------ |
+| 1                 | Introduction                                        | :white_check_mark: |
+| 2                 | Machine Learning                                    | :white_check_mark: |
+| 3 + 4             | Data Views                                          | :white_check_mark: |
+| 5                 | Feature Engineering                                 | :warning:          |
+| 6                 | High Dimensional Data                               | :warning:          |
+| 6A                | Exploratory Data Analysis                           | :warning:          |
+| 7                 | Univariate Linear Regression                        | :warning:          |
+| 8                 | Multivariate Linear Regression & Evaluation Metrics | :warning:          |
 
 > [!WARNING]
 > made a mistake, the focus for this course is entirely on the math instead of the concept
@@ -651,7 +651,7 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 ---
 
 
-# Lecture 7: Exploratory Data Analysis
+# Lecture 6A: Exploratory Data Analysis
 
 ## **Exploratory Data Analysis (EDA)**
 
@@ -765,3 +765,9 @@ Feature engineering involves creating, modifying, and selecting the best feature
 5. **Natural Language Processing (NLP)** – Extracting meaningful features from text.
 
 ---
+
+# Lecture 7: Univariate Linear Regression
+
+---
+
+# Lecture 8: Multivariate Linear Regression & Evaluation Metrics
