@@ -798,16 +798,21 @@ Same concept as LinReg. However the formulae are updated to suit the extra theta
 	- $\text{MAE} = \frac{1}{m}\sum_{i=1}^{m}|y_{i}- \hat{y_i}|$
 - ### Mean Squared Error (MSE)
 	- $\text{MAE} = \frac{1}{m}\sum_{i=1}^{m}(y_{i}- \hat{y_i})^2$
+	- Sensitive to larger errors
+	- Provides a scaled up value of the error
 - ### Root Mean Squared Error (RMSE)
 	- $\text{RMSE} = \sqrt(MSE)$
+	- Scales MSE back down to original scale of data
 - ### R-Squared (R2)
 	- $R^{2}= 1 - \frac{\sum_(y_{i}- \hat{y}_i)^2}{\sum_(y_{i}- \bar{y}_i)^2}$
+	- Proportion of variance in the dependent variable that is predictable from the independent variables
 - ### Adjusted R-Squared (R2adj)
 	- $R_{adj}^{2} = 1 - (1 - R^{2}) \times \frac{n - 1}{n - k -1}$
 	- Where:
 		- $R^2$ is the R2 value
 		- $n$ is the number of observations
 		- $k$ is the number of predictors i.e. independent variables in the model
+	- Adjusts R2 for number of predictors
 - ### Mean Absolute Percentage Error (MAPE)
 	- $MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100$
 	- Where:
