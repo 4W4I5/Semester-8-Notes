@@ -207,18 +207,18 @@
 # Analytic View
 ## **Data Matrix (A Dataset Representation)**
 - A **data matrix** is a structured representation of data in an **n × d** format:
-	- **Rows (n)** – Also called **instances, records, transactions, feature vectors, objects, tuples**. Represents the number of observations.
-	- **Columns (d)** – Also called **attributes, features, dimensions, variables, properties**. Represents the number of data features.
+	- **Rows (n)** : Also called **instances, records, transactions, feature vectors, objects, tuples**. Represents the number of observations.
+	- **Columns (d)** : Also called **attributes, features, dimensions, variables, properties**. Represents the number of data features.
 - Types of Data Matrices:
-	- **Univariate** – Data contains a single variable.
-	- **Bivariate** – Data involves two variables.
-	- **Multivariate** – Data consists of multiple variables (common in ML).
+	- **Univariate** : Data contains a single variable.
+	- **Bivariate** : Data involves two variables.
+	- **Multivariate** : Data consists of multiple variables (common in ML).
 - ### **Forms of Datasets**
 	- Not all datasets exist in matrix form. Common types include:
-		- **Sequential Data** – E.g., DNA sequences, protein sequences.
-		- **Text Data** – E.g., emails, logs, documents.
-		- **Time-Series Data** – E.g., stock prices, sensor readings, cyber attack logs.
-		- **Image Data** – E.g., face recognition datasets, CAPTCHA images.
+		- **Sequential Data** : E.g., DNA sequences, protein sequences.
+		- **Text Data** : E.g., emails, logs, documents.
+		- **Time-Series Data** : E.g., stock prices, sensor readings, cyber attack logs.
+		- **Image Data** : E.g., face recognition datasets, CAPTCHA images.
 		- **Audio & Video Streams** – E.g., voice command recognition, surveillance footage.
 	- **Raw data is transformed into structured datasets using feature extraction techniques.**
 
@@ -389,152 +389,113 @@ Benchmark datasets are commonly used for training and evaluating machine learnin
 
 **Feature Engineering – Outliers, Missing Values, Duplicates, and Bias-Variance Tradeoff**
 
----
 
 ## **Feature Engineering**
 
 Feature engineering is the process of transforming raw data into meaningful features that improve model performance.
 
-### **Importance of Feature Engineering**
-
-- **Improves Model Performance** – Enhances predictive accuracy.
-- **Reduces Training Time** – Well-engineered features allow faster training.
-- **Handles Data Complexity** – Helps models generalize better.
-- **Prevents Overfitting/Underfitting** – Ensures better model robustness.
-
-### **Steps in Feature Engineering**
-
-1. **Feature Selection** – Identifying the most relevant features.
-	- **Filter Methods** (e.g., correlation, mutual information)
-	- **Wrapper Methods** (e.g., recursive feature elimination)
-	- **Embedded Methods** (e.g., LASSO regression)
-2. **Feature Transformation** – Modifying existing features.
-	- Normalization, log transformation, encoding categorical variables.
-3. **Feature Extraction** – Creating new features.
-	- Dimensionality reduction, text/image feature extraction.
-4. **Feature Creation** – Generating domain-specific features.
-	- Polynomial features, date-based features.
-5. **Handling Outliers, Missing Values, and Duplicates.**
-
----
+- ### **Importance of Feature Engineering**
+	- **Improves Model Performance** : Enhances predictive accuracy.
+	- **Reduces Training Time** : Well-engineered features allow faster training.
+	- **Handles Data Complexity** : Helps models generalize better.
+	- **Prevents Overfitting/Underfitting** : Ensures better model robustness.
+- ### **Steps in Feature Engineering**
+	1. **Feature Selection** : Identifying the most relevant features.
+		- **Filter Methods** (e.g., correlation, mutual information)
+		- **Wrapper Methods** (e.g., recursive feature elimination)
+		- **Embedded Methods** (e.g., LASSO regression)
+	2. **Feature Transformation** : Modifying existing features.
+		- Normalization, log transformation, encoding categorical variables.
+	3. **Feature Extraction** : Creating new features.
+		- Dimensionality reduction, text/image feature extraction.
+	4. **Feature Creation** : Generating domain-specific features.
+		- Polynomial features, date-based features.
+	5. **Handling Outliers, Missing Values, and Duplicates.**
 
 ## **Outliers**
 
 Outliers are data points that significantly deviate from the overall dataset pattern.
-
-### **Causes of Outliers**
-
-- **Natural Variability** – Genuine rare occurrences in data.
-- **Measurement Error** – Human or instrument error.
-- **Data Processing Issues** – Incorrect data formatting.
-- **Experimental Design Issues** – Sampling errors.
-- **External Influences** – Fraud, extreme behaviors, or seasonal trends.
-
-### **Impact of Outliers**
-
-6. **Model Performance:**
-	- Can bias and distort machine learning models.
-	- Causes inaccurate regression coefficients.
-7. **Effect on Algorithms:**
-	- Distance-based methods (KNN, K-Means) are highly affected.
-	- SVM decision boundaries can shift significantly.
-8. **Increased Complexity:**
-	- Causes overfitting and longer training times.
-9. **Misleading Insights:**
-	- Distorts interpretability of statistical models.
-
-### **Outlier Detection Methods**
-
-10. **Z-Score Method** – Detects data points that deviate from the mean by more than 3 standard deviations.
-11. **Interquartile Range (IQR) Method** – Identifies values outside [Q1 - 1.5 × IQR, Q3 + 1.5 × IQR].
-12. **Visualization Techniques:**
-	- Boxplots, scatter plots.
-13. **Machine Learning Methods:**
-	- Isolation Forests for anomaly detection.
-
-### **Handling Outliers**
-
-- **Remove Outliers** – If they are due to errors.
-- **Transform Data** – Apply log or square root transformation.
-- **Use Robust Models** – Decision trees and random forests handle outliers better.
-- **Cap Extreme Values** – Replace outliers with thresholds.
-
----
+- ### **Causes of Outliers**
+	- **Natural Variability** : Genuine rare occurrences in data.
+	- **Measurement Error** : Human or instrument error.
+	- **Data Processing Issues** : Incorrect data formatting.
+	- **Experimental Design Issues** : Sampling errors.
+	- **External Influences** : Fraud, extreme behaviors, or seasonal trends.
+- ### **Impact of Outliers**
+	1. **Model Performance:**
+		- Can bias and distort machine learning models.
+		- Causes inaccurate regression coefficients.
+	2. **Effect on Algorithms:**
+		- Distance-based methods (KNN, K-Means) are highly affected.
+		- SVM decision boundaries can shift significantly.
+	3. **Increased Complexity:**
+		- Causes overfitting and longer training times.
+	4. **Misleading Insights:**
+		- Distorts interpretability of statistical models.
+- ### **Outlier Detection Methods**
+	1. **Z-Score Method** : Detects data points that deviate from the mean by more than 3 standard deviations.
+	2. **Interquartile Range (IQR) Method** : Identifies values outside [Q1 - 1.5 × IQR, Q3 + 1.5 × IQR].
+	3. **Visualization Techniques:**
+		- Boxplots, scatter plots.
+	4. **Machine Learning Methods:**
+		- Isolation Forests for anomaly detection.
+- ### **Handling Outliers**
+	- **Remove Outliers** : If they are due to errors.
+	- **Transform Data** : Apply log or square root transformation.
+	- **Use Robust Models** : Decision trees and random forests handle outliers better.
+	- **Cap Extreme Values** : Replace outliers with thresholds.
 
 ## **Missing Values**
 
-Missing values occur when data points are unavailable or not recorded.
 
-### **Causes of Missing Data**
-
-- **Data Collection Issues**
-- **Measurement Errors**
-- **Survey Non-Responses**
-- **Data Processing Errors**
-
-### **Impact of Missing Data**
-
-- **Incompatibility with Algorithms** – Many ML models cannot handle missing values directly.
-- **Bias in Model Predictions** – Can skew results if not handled properly.
-- **Loss of Data** – Removing missing values can shrink the dataset.
-- **Distorted Correlations** – Can misrepresent variable relationships.
-
-### **Handling Missing Values**
-
-14. **Remove Missing Data** – If the percentage is small.
-15. **Imputation Methods:**
-	- Mean/Median/Mode Imputation.
-	- KNN Imputation (Nearest Neighbors).
-	- Regression-based Imputation.
-	- Forward/Backward Fill (for time-series data).
-16. **Flagging Missing Data** – Create a binary feature indicating missing values.
-
----
+- ### **Causes of Missing Data**
+	- Missing values occur when data points are unavailable or not recorded.
+		- **Data Collection Issues**
+		- **Measurement Errors**
+		- **Survey Non-Responses**
+		- **Data Processing Errors**
+- ### **Impact of Missing Data**
+	- **Incompatibility with Algorithms** : Many ML models cannot handle missing values directly.
+	- **Bias in Model Predictions** : Can skew results if not handled properly.
+	- **Loss of Data** : Removing missing values can shrink the dataset.
+	- **Distorted Correlations** : Can misrepresent variable relationships.
+- ### **Handling Missing Values**
+	1. **Remove Missing Data** : If the percentage is small.
+	2. **Imputation Methods:**
+		- Mean/Median/Mode Imputation.
+		- KNN Imputation (Nearest Neighbors).
+		- Regression-based Imputation.
+		- Forward/Backward Fill (for time-series data).
+	3. **Flagging Missing Data** : Create a binary feature indicating missing values.
 
 ## **Duplicate Values**
-
-Duplicate values occur when identical entries exist in the dataset.
-
-### **Causes of Duplicates**
-
-- **Data Entry Errors**
-- **Data Merging Issues**
-- **Web Scraping Artifacts**
-- **System Errors**
-
-### **Impact of Duplicates**
-
-- **Misleading Statistics** – Affects mean, variance, and distributions.
-- **Bias in Model Training** – Over-represents certain instances.
-- **Increased Computational Costs** – Redundant processing power and storage.
-- **Incorrect Clustering & Classification** – Distorts machine learning models.
-
-### **Handling Duplicates**
-
-- **Remove Exact Duplicates** – Identify and drop exact matches.
-- **Remove Near-Duplicates** – Use fuzzy matching techniques.
-- **Aggregate Data** – Summarize duplicated information.
-
----
-
+- ### **Causes of Duplicates**
+	- Duplicate values occur when identical entries exist in the dataset.
+		- **Data Entry Errors**
+		- **Data Merging Issues**
+		- **Web Scraping Artifacts**
+		- **System Errors**
+- ### **Impact of Duplicates**
+	- **Misleading Statistics** : Affects mean, variance, and distributions.
+	- **Bias in Model Training** : Over-represents certain instances.
+	- **Increased Computational Costs** : Redundant processing power and storage.
+	- **Incorrect Clustering & Classification** : Distorts machine learning models.
+- ### **Handling Duplicates**
+	- **Remove Exact Duplicates** : Identify and drop exact matches.
+	- **Remove Near-Duplicates** : Use fuzzy matching techniques.
+	- **Aggregate Data** : Summarize duplicated information.
 ## **Bias vs Variance**
 
-### **Bias**
-
-- Difference between predicted and actual values.
-- High bias → underfitting (oversimplified models).
-
-### **Variance**
-
-- Model sensitivity to small fluctuations in training data.
-- High variance → overfitting (too complex models).
-
-### **Bias-Variance Tradeoff**
-
-- **High Bias, Low Variance** – Underfits data (e.g., linear regression).
-- **Low Bias, High Variance** – Overfits data (e.g., deep decision trees).
-- **Goal** – Find a balance where the model generalizes well to unseen data.
-
+- ### **Bias**
+	- Difference between predicted and actual values.
+	- High bias → underfitting (oversimplified models).
+- ### **Variance**
+	- Model sensitivity to small fluctuations in training data.
+	- High variance → overfitting (too complex models).
+- ### **Bias-Variance Tradeoff**
+	- **High Bias, Low Variance** : Underfits data (e.g., linear regression).
+	- **Low Bias, High Variance** : Overfits data (e.g., deep decision trees).
+	- **Goal** : Find a balance where the model generalizes well to unseen data.
 
 ---
 
@@ -546,40 +507,40 @@ High-dimensional data refers to datasets with a large number of attributes (feat
 
 ### **Characteristics of High-Dimensional Data**
 
-- **High Feature Count** – Datasets often contain hundreds or thousands of attributes, making them complex to analyze.
-- **Computational Complexity** – More features lead to higher processing time and memory usage.
-- **Feature Redundancy** – Many attributes may be correlated, adding unnecessary complexity.
-- **Data Sparsity** – High-dimensional data often contains mostly zero or missing values, making meaningful patterns difficult to extract.
+- **High Feature Count** : Datasets often contain hundreds or thousands of attributes, making them complex to analyze.
+- **Computational Complexity** : More features lead to higher processing time and memory usage.
+- **Feature Redundancy** : Many attributes may be correlated, adding unnecessary complexity.
+- **Data Sparsity** : High-dimensional data often contains mostly zero or missing values, making meaningful patterns difficult to extract.
 
 ### **Challenges in High-Dimensional Data**
 
-1. **Curse of Dimensionality** – As dimensions increase, data points become sparsely distributed, reducing model effectiveness.
-2. **Overfitting** – Models trained on too many features tend to memorize noise instead of learning useful patterns.
-3. **High Computational Costs** – Processing and storing high-dimensional datasets require substantial computing resources.
-4. **Difficulty in Visualization** – Human interpretability decreases as dimensions increase.
-5. **Feature Irrelevance** – Many features may be redundant or uninformative, lowering model efficiency.
+4. **Curse of Dimensionality** : As dimensions increase, data points become sparsely distributed, reducing model effectiveness.
+5. **Overfitting** : Models trained on too many features tend to memorize noise instead of learning useful patterns.
+6. **High Computational Costs** : Processing and storing high-dimensional datasets require substantial computing resources.
+7. **Difficulty in Visualization** : Human interpretability decreases as dimensions increase.
+8. **Feature Irrelevance** : Many features may be redundant or uninformative, lowering model efficiency.
 
 ### **Techniques for Handling High-Dimensional Data**
 
 #### **Dimensionality Reduction Techniques**
 
-- **Principal Component Analysis (PCA)** – Converts correlated features into uncorrelated principal components.
-- **Linear Discriminant Analysis (LDA)** – Focuses on maximizing class separability in classification problems.
-- **t-SNE (t-Distributed Stochastic Neighbor Embedding)** – Non-linear technique for high-dimensional visualization.
-- **Autoencoders** – Deep learning-based compression technique for feature extraction.
+- **Principal Component Analysis (PCA)** : Converts correlated features into uncorrelated principal components.
+- **Linear Discriminant Analysis (LDA)** : Focuses on maximizing class separability in classification problems.
+- **t-SNE (t-Distributed Stochastic Neighbor Embedding)** : Non-linear technique for high-dimensional visualization.
+- **Autoencoders** : Deep learning-based compression technique for feature extraction.
 
 #### **Feature Selection Methods**
 
-- **Filter Methods** – Select features based on statistical measures (e.g., correlation, mutual information).
-- **Wrapper Methods** – Iteratively evaluate subsets of features using machine learning models.
-- **Embedded Methods** – Feature selection occurs as part of model training (e.g., LASSO regression).
+- **Filter Methods** : Select features based on statistical measures (e.g., correlation, mutual information).
+- **Wrapper Methods** : Iteratively evaluate subsets of features using machine learning models.
+- **Embedded Methods** : Feature selection occurs as part of model training (e.g., LASSO regression).
 
 #### **Regularization & Optimization Techniques**
 
-- **L1 & L2 Regularization** – Shrinks less important feature coefficients (e.g., Ridge, LASSO regression).
-- **Ensemble Methods** – Combine multiple models to improve generalization.
-- **Sparse Models** – Focus on the most essential nonzero attributes.
-- **Visualization Techniques** – Utilize heatmaps, scatter plots, and dimensionality reduction to interpret data.
+- **L1 & L2 Regularization** : Shrinks less important feature coefficients (e.g., Ridge, LASSO regression).
+- **Ensemble Methods** : Combine multiple models to improve generalization.
+- **Sparse Models** : Focus on the most essential nonzero attributes.
+- **Visualization Techniques** : Utilize heatmaps, scatter plots, and dimensionality reduction to interpret data.
 
 ---
 
@@ -596,11 +557,11 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 
 ### **How PCA Works**
 
-6. **Standardization** – Scale features so they contribute equally to the analysis.
-7. **Compute Covariance Matrix** – Identifies relationships between variables.
-8. **Compute Eigenvectors & Eigenvalues** – Determines the principal components.
-9. **Create Feature Vector** – Selects principal components that explain the most variance.
-10. **Recast Data Along Principal Component Axes** – Transforms data into a lower-dimensional space.
+9. **Standardization** : Scale features so they contribute equally to the analysis.
+10. **Compute Covariance Matrix** : Identifies relationships between variables.
+11. **Compute Eigenvectors & Eigenvalues** : Determines the principal components.
+12. **Create Feature Vector** : Selects principal components that explain the most variance.
+13. **Recast Data Along Principal Component Axes** : Transforms data into a lower-dimensional space.
 
 ### **Detailed Steps in PCA**
 
@@ -633,20 +594,20 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 
 ## **Applications of PCA**
 
-1. **Dimensionality Reduction** – Reduces feature count while retaining essential patterns.
-2. **Data Visualization** – Enables plotting high-dimensional data in 2D or 3D.
-3. **Noise Reduction** – Eliminates less significant variations, improving model robustness.
-4. **Preprocessing for Machine Learning** – Reduces feature redundancy, leading to more efficient models.
+14. **Dimensionality Reduction** : Reduces feature count while retaining essential patterns.
+15. **Data Visualization** : Enables plotting high-dimensional data in 2D or 3D.
+16. **Noise Reduction** : Eliminates less significant variations, improving model robustness.
+17. **Preprocessing for Machine Learning** : Reduces feature redundancy, leading to more efficient models.
 
 ---
 
 ## **Advantages of PCA**
 
-✔ **Reduces Dimensionality** – Simplifies models, making them faster and more efficient. ✔ **Minimizes Overfitting** – Removes irrelevant features, reducing the risk of learning noise. ✔ **Captures Important Information** – Focuses on components that explain the most variance. ✔ **Creates Uncorrelated Features** – Helps improve the performance of algorithms relying on independent features. ✔ **Useful for High-Dimensional Data** – Essential when working with large datasets containing many features.
+✔ **Reduces Dimensionality** : Simplifies models, making them faster and more efficient. ✔ **Minimizes Overfitting** : Removes irrelevant features, reducing the risk of learning noise. ✔ **Captures Important Information** : Focuses on components that explain the most variance. ✔ **Creates Uncorrelated Features** : Helps improve the performance of algorithms relying on independent features. ✔ **Useful for High-Dimensional Data** : Essential when working with large datasets containing many features.
 
 ## **Disadvantages of PCA**
 
-❌ **Loss of Interpretability** – Principal components are linear combinations of original features, making them harder to interpret. ❌ **Assumes Linearity** – PCA works best with datasets where variables exhibit linear relationships. ❌ **Loss of Information** – Some variance is lost when reducing dimensions, potentially affecting model accuracy. ❌ **Sensitive to Scaling** – Requires proper feature standardization to work effectively.
+❌ **Loss of Interpretability** : Principal components are linear combinations of original features, making them harder to interpret. ❌ **Assumes Linearity** : PCA works best with datasets where variables exhibit linear relationships. ❌ **Loss of Information** : Some variance is lost when reducing dimensions, potentially affecting model accuracy. ❌ **Sensitive to Scaling** : Requires proper feature standardization to work effectively.
 
 ---
 
@@ -666,17 +627,17 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Types of EDA**
 
-1. **Univariate Analysis** – Examines individual variables.
+18. **Univariate Analysis** : Examines individual variables.
 
 	- Summary statistics (mean, median, mode, variance, skewness, kurtosis).
 	- Frequency distributions and histograms.
 	- Box plots for outlier detection.
-2. **Bivariate Analysis** – Examines relationships between two variables.
+19. **Bivariate Analysis** : Examines relationships between two variables.
 
 	- Scatter plots (continuous vs continuous data).
 	- Correlation matrices and heatmaps.
 	- Chi-square tests for categorical relationships.
-3. **Multivariate Analysis** – Examines interactions between multiple variables.
+20. **Multivariate Analysis** : Examines interactions between multiple variables.
 
 	- Pair plots and Principal Component Analysis (PCA).
 	- Cluster analysis for segmentation.
@@ -684,10 +645,10 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Common EDA Techniques**
 
-4. **Descriptive Statistics** – Mean, median, standard deviation, quartiles.
-5. **Data Visualization** – Histograms, boxplots, violin plots, scatter plots, heatmaps.
-6. **Correlation Analysis** – Pearson/Spearman correlation coefficients.
-7. **Dimensionality Reduction** – PCA, t-SNE, UMAP for visualizing high-dimensional data.
+21. **Descriptive Statistics** : Mean, median, standard deviation, quartiles.
+22. **Data Visualization** : Histograms, boxplots, violin plots, scatter plots, heatmaps.
+23. **Correlation Analysis** : Pearson/Spearman correlation coefficients.
+24. **Dimensionality Reduction** : PCA, t-SNE, UMAP for visualizing high-dimensional data.
 
 ### **Handling Missing Data**
 
@@ -717,33 +678,33 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ### **Feature Selection Methods**
 
-8. **Filter Methods:**
+25. **Filter Methods:**
 	- Uses statistical techniques to rank features (e.g., correlation, mutual information).
-9. **Wrapper Methods:**
+26. **Wrapper Methods:**
 	- Uses machine learning models to iteratively evaluate subsets of features (e.g., recursive feature elimination).
-10. **Embedded Methods:**
+27. **Embedded Methods:**
 	- Feature selection is integrated into the model training process (e.g., LASSO regression, decision trees).
 
 ### **Feature Transformation Techniques**
 
-1. **Scaling & Normalization:**
+28. **Scaling & Normalization:**
 	- Min-Max Scaling (scales values between 0 and 1).
 	- Z-score Standardization (centers data around mean 0 with standard deviation 1).
-2. **Encoding Categorical Variables:**
+29. **Encoding Categorical Variables:**
 	- One-hot encoding (for nominal variables).
 	- Label encoding (for ordinal variables).
 	- Target encoding (replaces categories with mean target value).
-3. **Polynomial Features:**
+30. **Polynomial Features:**
 	- Creating interaction terms for non-linear relationships.
-4. **Log Transformation:**
+31. **Log Transformation:**
 	- Reduces skewness in highly skewed data.
 
 ### **Feature Extraction Methods**
 
-- **PCA** – Reduces dimensionality by transforming correlated variables into uncorrelated principal components.
-- **t-SNE & UMAP** – Nonlinear methods for visualization and feature reduction.
-- **Text Feature Extraction** – TF-IDF, word embeddings (Word2Vec, GloVe).
-- **Image Feature Extraction** – Convolutional Neural Networks (CNNs).
+- **PCA** : Reduces dimensionality by transforming correlated variables into uncorrelated principal components.
+- **t-SNE & UMAP** : Nonlinear methods for visualization and feature reduction.
+- **Text Feature Extraction** : TF-IDF, word embeddings (Word2Vec, GloVe).
+- **Image Feature Extraction** : Convolutional Neural Networks (CNNs).
 
 ### **Handling Feature Redundancy**
 
@@ -758,11 +719,11 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ## **Applications of EDA & Feature Engineering**
 
-1. **Fraud Detection** – Identifying suspicious transactions based on behavioral patterns.
-2. **Cybersecurity** – Detecting network intrusions using anomaly detection techniques.
-3. **Healthcare** – Predicting diseases based on patient data and clinical features.
-4. **Finance** – Analyzing stock market trends and risk assessment.
-5. **Natural Language Processing (NLP)** – Extracting meaningful features from text.
+32. **Fraud Detection** : Identifying suspicious transactions based on behavioral patterns.
+33. **Cybersecurity** : Detecting network intrusions using anomaly detection techniques.
+34. **Healthcare** : Predicting diseases based on patient data and clinical features.
+35. **Finance** : Analyzing stock market trends and risk assessment.
+36. **Natural Language Processing (NLP)** : Extracting meaningful features from text.
 
 ---
 
