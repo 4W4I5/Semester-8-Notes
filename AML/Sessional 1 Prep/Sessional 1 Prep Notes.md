@@ -11,116 +11,109 @@
 > made a mistake, the focus for this course is entirely on the math instead of the concept
 
 # Lecture 1: Introduction
-## **Key Terms & Concepts**
-- ### **Cybersecurity**
-	- Cybersecurity refers to the practice of protecting computer systems, networks, and data from unauthorized access, cyber threats, and attacks. It includes multiple domains:
-		- **Network Security** – Protecting data in transit from interception or tampering.
-		- **Application Security** – Ensuring software is secure from vulnerabilities.
-		- **Information Security** – Safeguarding data from breaches and leaks.
-		- **Operational Security** – Managing access controls and monitoring user activity.
-	- Common **cyber threats** include:
-		- **Malware** – Malicious software like viruses, worms, and trojans.
-		- **Phishing** – Social engineering attacks that trick users into revealing credentials.
-		- **DDoS (Distributed Denial of Service)** – Overloading a network to disrupt services.
-		- **MitM (Man-in-the-Middle)** – Intercepting communication between two parties.
-- ### **Dataset**
-	- A dataset is a structured collection of related data points used for analysis, research, or decision-making. In cybersecurity, datasets contain logs, network traffic, or malware samples used for training ML models.
-	- Types of datasets:
-		- **Structured** – Organized in rows/columns (e.g., SQL databases).
-		- **Unstructured** – Text, images, and logs that require preprocessing.
-		- **Labeled** – Contain both input and output labels for supervised learning.
-		- **Unlabeled** – Only raw input data, used in unsupervised learning.
-- ### **Big Data**
-	- Big Data refers to extremely large and complex datasets that require specialized tools to process. It is defined by the **5 V’s**:
-		1. **Volume** – Massive amounts of data generated.
-		2. **Velocity** – The speed at which data is collected and processed.
-		3. **Variety** – Different data formats (structured, unstructured, semi-structured).
-		4. **Veracity** – Ensuring data quality and accuracy.
-		5. **Value** – Extracting meaningful insights from raw data.
-	- Big Data is crucial for cybersecurity, as it enables large-scale threat detection, anomaly detection, and fraud prevention.
-- ### **Data Analytics**
-	- Data analytics is the process of extracting useful insights from raw data. It involves multiple phases:
-		1. **Identify** – Define the problem or goal.
-		2. **Data Collection** – Gather relevant data from various sources.
-		3. **Data Preprocessing** – Clean, filter, and normalize data.
-		4. **Data Exploration** – Analyze patterns and trends in the data.
-		5. **Data Transformation** – Convert data into a usable format.
-		6. **Data Modeling** – Apply ML algorithms for predictions or classifications.
-		7. **Data Interpretation** – Understand the results and extract insights.
-		8. **Data Visualization** – Present findings in charts, graphs, or reports.
-		9. **Reporting & Decision-Making** – Use insights to make informed security decisions.
-## **AI & Machine Learning**
-- ### **Artificial Intelligence (AI)**
-	- **AI Applications in Cybersecurity:**
-		- **Automated Threat Detection** – Identifying cyber threats in real time.
-		- **Fraud Prevention** – Recognizing anomalies in transactions.
-		- **Incident Response** – Automating security responses to attacks.
-- ### **Machine Learning (ML)**
-	- **Key ML Applications in Cybersecurity:**
-		- **Predictive Analysis** – Forecasting potential security incidents.
-		- **Anomaly Detection** – Identifying unusual network behavior.
-		- **Pattern Recognition** – Detecting malware signatures or phishing attempts.
-- ### **Deep Learning (DL)**
-	- DL is a specialized branch of ML that uses neural networks with multiple layers to process complex data. It is effective for:
-		- **Image Recognition** – Identifying malicious code structures.
-		- **Natural Language Processing (NLP)** – Detecting phishing emails.
-		- **Behavioral Analysis** – Profiling attackers based on past activity.
-- ### **Data Mining**
-	- Data mining involves extracting meaningful patterns from large datasets using statistical and computational techniques.
-		- **Steps in Data Mining:**
-			1. **Data Exploration** – Understanding the dataset characteristics.
-			2. **Pattern Discovery** – Finding correlations and anomalies.
-			3. **Applying Algorithms** – Using classification, clustering, regression, etc.
-			4. **Model Evaluation** – Measuring accuracy and performance.
-			5. **Deployment & Interpretation** – Using insights for real-world applications.
-		- **Cybersecurity Applications of Data Mining:**
-			- Intrusion detection
-			- Malware classification
-			- Phishing and fraud detection
-			- Log analysis for threat intelligence
-## **ML in Cybersecurity**
-- ### **Use Cases**
-	- **Intrusion Detection & Prevention** – Identifying and blocking unauthorized access attempts.
-	- **Malware/Phishing/Spam Detection** – Using ML models to detect malicious emails, domains, or software.
-	- **Fraud Detection & Threat Intelligence** – Analyzing transaction patterns to prevent fraud.
-	- **User & Entity Behavior Analytics (UEBA)** – Detecting anomalies in user behavior to flag insider threats.
-	- **Automated Incident Response** – Using AI to respond to security incidents without human intervention.
-## **ML Algorithms**
-- ### **Supervised Learning**
-	- Algorithms trained with labeled data:
-		- **Linear Regression** – Predicts numerical values (e.g., forecasting attack likelihood).
-		- **Logistic Regression** – Classifies threats as safe or malicious.
-		- **Support Vector Machine (SVM)** – Separates data into distinct categories (e.g., spam vs. non-spam).
-		- **Decision Trees** – Creates rules for classifying security incidents.
-		- **Random Forest** – Improves accuracy by using multiple decision trees.
-- ### **Unsupervised Learning**
-	- Algorithms trained with unlabeled data:
-		- **K-Means Clustering** – Groups similar data points (e.g., detecting botnets in network traffic).
-- ### **Deep Learning**
-	- **Neural Networks** – Used for complex cybersecurity tasks, such as malware detection and behavioral analysis.
+### **Cybersecurity**
 
-## **Tools & Libraries**
+|**Concept**|**Description**|
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cybersecurity**        | Protecting computer systems, networks, and data from unauthorized access, cyber threats, and attacks.                                                                                         |
+| **Network Security**     | Protecting data in transit from interception or tampering.                                                                                                                                    |
+| **Application Security** | Ensuring software is secure from vulnerabilities.                                                                                                                                             |
+| **Information Security** | Safeguarding data from breaches and leaks.                                                                                                                                                    |
+| **Operational Security** | Managing access controls and monitoring user activity.                                                                                                                                        |
+| **Cyber Threats**        | - **Malware**: Malicious software (viruses, worms, trojans) <br>- **Phishing**: Tricking users into revealing credentials <br>- **DDoS**: Overloading networks <br>- **MitM**: Intercepting communication |
 
-Python is widely used for ML in cybersecurity. Important libraries include:
+### **Dataset**
 
-- **Numpy** – For numerical operations.
-- **Pandas** – Data manipulation and preprocessing.
-- **Matplotlib & Seaborn** – Data visualization.
-- **Scikit-learn (Sklearn)** – Standard ML algorithms.
-- **TensorFlow/PyTorch** – Deep learning frameworks.
-- **Keras** – Simplified deep learning model building.
+| **Type**         | **Description**                                                       |
+| ---------------- | --------------------------------------------------------------------- |
+| **Structured**   | Organized data in rows/columns (e.g., SQL databases).                 |
+| **Unstructured** | Data such as text, images, and logs that require preprocessing.       |
+| **Labeled**      | Data with both input and output labels (used in supervised learning). |
+| **Unlabeled**    | Raw input data (used in unsupervised learning).                       |
 
-## **Companies Using ML in Cybersecurity**
-- ### **Tech Giants Integrating ML for Security**
-	- **Microsoft** – AI-driven threat intelligence in Defender & Sentinel.
-	- **Google** – Uses ML for spam filtering and malware detection in Gmail.
-	- **Amazon (AWS)** – AI-powered security monitoring.
-	- **Apple** – Face ID and anomaly detection in security logs.
-- ### **Cybersecurity Companies Specializing in ML**
-	- **FireEye (Mandiant)** – Uses AI to detect APTs (Advanced Persistent Threats).
-	- **Palo Alto Networks** – AI-driven intrusion prevention systems (IPS).
-	- **Vectra AI** – Uses ML for real-time attack detection.
-	- **Sophos** – AI-powered endpoint security solutions.
+### **Big Data**
+
+| **5 V's**    | **Description**                                                     |
+| ------------ | ------------------------------------------------------------------- |
+| **Volume**   | Large amounts of data generated.                                    |
+| **Velocity** | Speed at which data is collected and processed.                     |
+| **Variety**  | Different data formats (structured, unstructured, semi-structured). |
+| **Veracity** | Ensuring data quality and accuracy.                                 |
+| **Value**    | Extracting meaningful insights from raw data.                       |
+
+
+### **Data Analytics**
+
+| **Phase**                       | **Description**                                         |
+| ------------------------------- | ------------------------------------------------------- |
+| **Identify**                    | Define the problem or goal.                             |
+| **Data Collection**             | Gather relevant data from various sources.              |
+| **Data Preprocessing**          | Clean, filter, and normalize data.                      |
+| **Data Exploration**            | Analyze patterns and trends in the data.                |
+| **Data Transformation**         | Convert data into a usable format.                      |
+| **Data Modeling**               | Apply ML algorithms for predictions or classifications. |
+| **Data Interpretation**         | Understand the results and extract insights.            |
+| **Data Visualization**          | Present findings in charts, graphs, or reports.         |
+| **Reporting & Decision-Making** | Use insights to make informed security decisions.       |
+
+### **AI & Machine Learning in Cybersecurity**
+
+| **Category**                     | **Description**                                                                                                                                                                                                                       |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Artificial Intelligence (AI)** | AI in cybersecurity includes: <br> - **Automated Threat Detection** <br> - **Fraud Prevention** <br> - **Incident Response**                                                                                                                         |
+| **Machine Learning (ML)**        | Key ML applications in cybersecurity: <br>- **Predictive Analysis** <br>- **Anomaly Detection** <br>- **Pattern Recognition**                                                                                                                     |
+| **Deep Learning (DL)**           | Specialized branch of ML that uses neural networks with multiple layers for tasks like: <br>- **Image Recognition** <br>- **Natural Language Processing (NLP)** <br>- **Behavioral Analysis**                                                     |
+| **Data Mining**                  | Extracting patterns from large datasets using techniques like classification and clustering for: <br>- **Intrusion Detection** <br>- **Malware Classification** <br>- **Phishing and Fraud Detection** <br>- **Log Analysis for Threat Intelligence** |
+
+
+### **ML in Cybersecurity**
+
+| **Use Case**                                | **Description**                                                               |
+| ------------------------------------------- | ----------------------------------------------------------------------------- |
+| **Intrusion Detection & Prevention**        | Identifying and blocking unauthorized access attempts.                        |
+| **Malware/Phishing/Spam Detection**         | Detecting malicious emails, domains, or software using ML models.             |
+| **Fraud Detection & Threat Intelligence**   | Analyzing transaction patterns to prevent fraud and detect potential threats. |
+| **User & Entity Behavior Analytics (UEBA)** | Detecting anomalies in user behavior to flag insider threats.                 |
+| **Automated Incident Response**             | Using AI to respond to security incidents without human intervention.         |
+
+### **ML Algorithms in Cybersecurity**
+
+| **Learning Type**         | **Algorithms**                   | **Description**                                                                          |
+| ------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Supervised Learning**   | **Linear Regression**            | Predicts numerical values (e.g., attack likelihood).                                     |
+|                           | **Logistic Regression**          | Classifies threats as safe or malicious.                                                 |
+|                           | **Support Vector Machine (SVM)** | Separates data into distinct categories (e.g., spam vs. non-spam).                       |
+|                           | **Decision Trees**               | Creates rules for classifying security incidents.                                        |
+|                           | **Random Forest**                | Uses multiple decision trees for improved accuracy.                                      |
+| **Unsupervised Learning** | **K-Means Clustering**           | Groups similar data points (e.g., detecting botnets in network traffic).                 |
+| **Deep Learning**         | **Neural Networks**              | Used for complex cybersecurity tasks, such as malware detection and behavioral analysis. |
+
+### **Tools & Libraries**
+
+| **Library**                | **Purpose**                              |
+| -------------------------- | ---------------------------------------- |
+| **Numpy**                  | Numerical operations.                    |
+| **Pandas**                 | Data manipulation and preprocessing.     |
+| **Matplotlib & Seaborn**   | Data visualization.                      |
+| **Scikit-learn (Sklearn)** | Standard ML algorithms.                  |
+| **TensorFlow/PyTorch**     | Deep learning frameworks.                |
+| **Keras**                  | Simplified deep learning model building. |
+
+### **Companies Using ML in Cybersecurity**
+
+| **Tech Giants**  | **Applications**                                           |
+| ---------------- | ---------------------------------------------------------- |
+| **Microsoft**    | AI-driven threat intelligence in Defender & Sentinel.      |
+| **Google**       | Uses ML for spam filtering and malware detection in Gmail. |
+| **Amazon (AWS)** | AI-powered security monitoring.                            |
+| **Apple**        | Face ID and anomaly detection in security logs.            |
+
+| **Cybersecurity Companies** | **Applications**                                      |
+| --------------------------- | ----------------------------------------------------- |
+| **FireEye (Mandiant)**      | Uses AI to detect APTs (Advanced Persistent Threats). |
+| **Palo Alto Networks**      | AI-driven intrusion prevention systems (IPS).         |
+| **Vectra AI**               | Uses ML for real-time attack detection.               |
+| **Sophos**                  | AI-powered endpoint security solutions.               |
 
 ---
 
@@ -714,10 +707,10 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 
 ## **Applications of PCA**
 
-11. **Dimensionality Reduction** – Reduces feature count while retaining essential patterns.
-12. **Data Visualization** – Enables plotting high-dimensional data in 2D or 3D.
-13. **Noise Reduction** – Eliminates less significant variations, improving model robustness.
-14. **Preprocessing for Machine Learning** – Reduces feature redundancy, leading to more efficient models.
+1. **Dimensionality Reduction** – Reduces feature count while retaining essential patterns.
+2. **Data Visualization** – Enables plotting high-dimensional data in 2D or 3D.
+3. **Noise Reduction** – Eliminates less significant variations, improving model robustness.
+4. **Preprocessing for Machine Learning** – Reduces feature redundancy, leading to more efficient models.
 
 ---
 
@@ -747,17 +740,17 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Types of EDA**
 
-15. **Univariate Analysis** – Examines individual variables.
+1. **Univariate Analysis** – Examines individual variables.
 
 	- Summary statistics (mean, median, mode, variance, skewness, kurtosis).
 	- Frequency distributions and histograms.
 	- Box plots for outlier detection.
-16. **Bivariate Analysis** – Examines relationships between two variables.
+2. **Bivariate Analysis** – Examines relationships between two variables.
 
 	- Scatter plots (continuous vs continuous data).
 	- Correlation matrices and heatmaps.
 	- Chi-square tests for categorical relationships.
-17. **Multivariate Analysis** – Examines interactions between multiple variables.
+3. **Multivariate Analysis** – Examines interactions between multiple variables.
 
 	- Pair plots and Principal Component Analysis (PCA).
 	- Cluster analysis for segmentation.
@@ -765,10 +758,10 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Common EDA Techniques**
 
-18. **Descriptive Statistics** – Mean, median, standard deviation, quartiles.
-19. **Data Visualization** – Histograms, boxplots, violin plots, scatter plots, heatmaps.
-20. **Correlation Analysis** – Pearson/Spearman correlation coefficients.
-21. **Dimensionality Reduction** – PCA, t-SNE, UMAP for visualizing high-dimensional data.
+4. **Descriptive Statistics** – Mean, median, standard deviation, quartiles.
+5. **Data Visualization** – Histograms, boxplots, violin plots, scatter plots, heatmaps.
+6. **Correlation Analysis** – Pearson/Spearman correlation coefficients.
+7. **Dimensionality Reduction** – PCA, t-SNE, UMAP for visualizing high-dimensional data.
 
 ### **Handling Missing Data**
 
@@ -798,25 +791,25 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ### **Feature Selection Methods**
 
-22. **Filter Methods:**
+8. **Filter Methods:**
 	- Uses statistical techniques to rank features (e.g., correlation, mutual information).
-23. **Wrapper Methods:**
+9. **Wrapper Methods:**
 	- Uses machine learning models to iteratively evaluate subsets of features (e.g., recursive feature elimination).
-24. **Embedded Methods:**
+10. **Embedded Methods:**
 	- Feature selection is integrated into the model training process (e.g., LASSO regression, decision trees).
 
 ### **Feature Transformation Techniques**
 
-25. **Scaling & Normalization:**
+11. **Scaling & Normalization:**
 	- Min-Max Scaling (scales values between 0 and 1).
 	- Z-score Standardization (centers data around mean 0 with standard deviation 1).
-26. **Encoding Categorical Variables:**
+12. **Encoding Categorical Variables:**
 	- One-hot encoding (for nominal variables).
 	- Label encoding (for ordinal variables).
 	- Target encoding (replaces categories with mean target value).
-27. **Polynomial Features:**
+13. **Polynomial Features:**
 	- Creating interaction terms for non-linear relationships.
-28. **Log Transformation:**
+14. **Log Transformation:**
 	- Reduces skewness in highly skewed data.
 
 ### **Feature Extraction Methods**
@@ -839,10 +832,10 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ## **Applications of EDA & Feature Engineering**
 
-29. **Fraud Detection** – Identifying suspicious transactions based on behavioral patterns.
-30. **Cybersecurity** – Detecting network intrusions using anomaly detection techniques.
-31. **Healthcare** – Predicting diseases based on patient data and clinical features.
-32. **Finance** – Analyzing stock market trends and risk assessment.
-33. **Natural Language Processing (NLP)** – Extracting meaningful features from text.
+15. **Fraud Detection** – Identifying suspicious transactions based on behavioral patterns.
+16. **Cybersecurity** – Detecting network intrusions using anomaly detection techniques.
+17. **Healthcare** – Predicting diseases based on patient data and clinical features.
+18. **Finance** – Analyzing stock market trends and risk assessment.
+19. **Natural Language Processing (NLP)** – Extracting meaningful features from text.
 
 ---
