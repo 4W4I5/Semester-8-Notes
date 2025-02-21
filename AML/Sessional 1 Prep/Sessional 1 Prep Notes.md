@@ -775,7 +775,9 @@ Feature engineering involves creating, modifying, and selecting the best feature
 ## Multivariate Linear Regression (MLinReg)
 Same concept as LinReg. However the formulae are updated to suit the extra thetas and feature inputs
 
+### Cost function
 
+### Gradient Descent
 
 ## Evaluation Parameters
 - ### In-sample
@@ -790,8 +792,10 @@ Same concept as LinReg. However the formulae are updated to suit the extra theta
 		- Provides a realistic measure of model performance
 	- **Disadv:** Performance is highly-dependent on test data
 		- Small datasets are not representative of real-world performance
+
 ## Evaluation Metrics
 - ### Mean Absolute Error (MAE)
+	- $\text{MAE} = \frac{1}{n}$
 - ### Mean Squared Error (MSE)
 - ### Root Mean Squared Error (RMSE)
 - ### R-Squared (R2
