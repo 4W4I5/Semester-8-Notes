@@ -6,8 +6,6 @@
 | 4                 | Human Rights                       | :warning:          |
 | 5a                | Code of Conduct                    | :warning:          |
 | 5b                | ACM Code of Conduct                | :warning:          |
-|                   |                                    |                    |
-|                   |                                    |                    |
 
 # **Lecture 1: Computing Profession**
 
