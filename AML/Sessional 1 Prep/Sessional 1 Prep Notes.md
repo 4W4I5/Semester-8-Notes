@@ -300,44 +300,45 @@ Attributes are **variables or features** used for **data analysis and machine le
 | **Kernel Methods & Feature Transformations**    | - **Kernel Trick**: Projects data into higher-dimensional space for non-linear classification. <br>- **Polynomial & Radial Basis Function (RBF) Kernels**: Transformations that allow support vector machines to work effectively with non-linear data.                                                                                                                                                                           |
 
 ## Formulae
-For two vectors **A** = [A1,A2,...,An][A_1, A_2, ..., A_n] and **B** = [B1,B2,...,Bn][B_1, B_2, ..., B_n]
+For two vectors $$A = [A1,A2,...,An][A_1, A_2, ..., A_n]$$ and $$B = [B1,B2,...,Bn][B_1, B_2, ..., B_n]$$
 
 - ### 1. **Dot Product (Scalar Product)**
-	- A⋅B=A1⋅B1+A2⋅B2+...+An⋅Bn\mathbf{A} \cdot \mathbf{B} = A_1 \cdot B_1 + A_2 \cdot B_2 + ... + A_n \cdot B_n
+	- $$A⋅B=A1⋅B1+A2⋅B2+...+An⋅Bn\mathbf{A} \cdot \mathbf{B} = A_1 \cdot B_1 + A_2 \cdot B_2 + ... + A_n \cdot B_n$$
 	- This results in a scalar value.
 - ### 2. **Length (Euclidean Norm) of a Vector**
-	- ∥A∥=A12+A22+...+An2\|\mathbf{A}\| = \sqrt{A_1^2 + A_2^2 + ... + A_n^2}
+	- $$∥A∥=A12+A22+...+An2\|\mathbf{A}\| = \sqrt{A_1^2 + A_2^2 + ... + A_n^2}$$
 	- It represents the magnitude or length of the vector **A**.
 - ### 3. **Euclidean Distance Between Two Vectors**
-	- Distance(A,B)=(A1−B1)2+(A2−B2)2+...+(An−Bn)2\text{Distance}(\mathbf{A}, \mathbf{B}) = \sqrt{(A_1 - B_1)^2 + (A_2 - B_2)^2 + ... + (A_n - B_n)^2}
+	- $$Distance(A,B)=(A1−B1)2+(A2−B2)2+...+(An−Bn)2\text{Distance}(\mathbf{A}, \mathbf{B}) = \sqrt{(A_1 - B_1)^2 + (A_2 - B_2)^2 + ... + (A_n - B_n)^2}$$
 	- This gives the straight-line distance between the two points in the space.
 - ### 4. **Angle (Similarity and Orthogonality)**
 	- #### **Cosine Similarity** (Angle between two vectors):
-		- Cosine Similarity=A⋅B∥A∥⋅∥B∥\text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \cdot \|\mathbf{B}\|}
+		- $$\text{Cosine Similarity}=A⋅B∥A∥⋅∥B∥$$
+		- $$\text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \cdot \|\mathbf{B}\|}$$
 			- If the cosine similarity is **1**, the vectors are in the same direction.
 			- If it is **0**, the vectors are orthogonal (perpendicular).
 			- If it is **-1**, the vectors are in opposite directions.
 	- #### **Angle between two vectors** (in radians):
-		- θ=cos⁡−1(A⋅B∥A∥⋅∥B∥)\theta = \cos^{-1}\left(\frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \cdot \|\mathbf{B}\|}\right)
+		- $$θ=\cos⁡−1(A⋅B∥A∥⋅∥B∥)\theta = \cos^{-1}\left(\frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \cdot \|\mathbf{B}\|}\right)$$
 - ### 5. **Mean of a Dataset**
 	- For a dataset **X** = [x1,x2,...,xn][x_1, x_2, ..., x_n], the mean is:
-		- μ=1n∑i=1nxi\mu = \frac{1}{n} \sum_{i=1}^{n} x_i
+		- $$μ=1n∑i=1nxi\mu = \frac{1}{n} \sum_{i=1}^{n} x_i$$
 	- Where μ\mu is the average value of all data points.
 - ### 6. **Total Variance**
-	- For a dataset **X** = [x1,x2,...,xn][x_1, x_2, ..., x_n], the total variance σ2\sigma^2 is:
-		- σ2=1n∑i=1n(xi−μ)2\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2
+	- For a dataset **X** = [x1,x2,...,xn][x_1, x_2, ..., x_n], the total variance $$σ2\sigma^2$$ is:
+		- $σ2=1n∑i=1n(xi−μ)2\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2$
 	- Where:
 		- μ\mu is the mean of the dataset.
 		- xix_i is each individual data point.
 		- nn is the number of data points.
 - ### 7. **Centered Data Matrix**
 	- For a dataset **X** of shape **n × d** (n samples, d features), the centered data matrix **X_centered** is obtained by subtracting the mean of each feature (column) from each data point:
-		- Xcentered=X−μX_{\text{centered}} = X - \mu
-	-Where:
+		- $$Xcentered=X−μX_{\text{centered}} = X - \mu$$
+	- Where:
 		- **X** is the original data matrix.
 			- μ\mu is the vector of means of each feature (column).
 		- For each column jj:
-			- μj=1n∑i=1nXij\mu_j = \frac{1}{n} \sum_{i=1}^{n} X_{ij}
+			- $$μj=1n∑i=1nXij\mu_j = \frac{1}{n} \sum_{i=1}^{n} X_{ij}$$
 		- Where XijX_{ij} is the value in the **i-th** row and **j-th** column of the dataset.
 
 
