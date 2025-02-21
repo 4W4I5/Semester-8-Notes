@@ -235,51 +235,29 @@
 	- **Categorical Attributes** – Discrete values (e.g., Gender, Color).
 	- **Numeric Attributes** – Continuous values (e.g., Age, Temperature).
 - ### **Nominal Attributes (Categorical & Unordered)**
-	- Nominal attributes are categorical attributes **without inherent order.**
-		- **Examples:**
-			- **Colors:** {Red, Green, Blue}
-			- **Gender:** {Male, Female, Non-binary}
-			- **Countries:** {USA, Canada, Mexico}
-	- #### **Analytics for Nominal Attributes:**
-		- **Frequency Distribution** – Shows how often each category appears.
-		- **Mode** – Identifies the most common category (useful for handling missing values).
-		- **Cross-Tabulation (Contingency Tables)** – Analyzes relationships between categories.
-		- **Chi-Square Test** – Determines associations between categorical variables.
-	- #### **Encoding for Machine Learning:**
-		- **Label Encoding** – Assigns numerical values to each category.
-		- **One-Hot Encoding** – Converts categories into binary (0 or 1) columns.
-		- **Binary Encoding** – Combines label encoding and one-hot encoding.
-		- **Target Encoding** – Replaces categories with the mean target variable.
-	- #### **Feature Engineering Techniques:**
-		- **Combining Categories** – Merging similar groups (e.g., “Bachelor’s” & “Master’s” into “Higher Education”).
-		- **Creating Interaction Features** – Deriving new features from existing nominal attributes.
-	- #### **Visualization Methods:**
-		- **Bar Charts, Pie Charts** – Used to display category distribution.
-	- #### **Insights from Nominal Attributes:**
-		- **Category-Specific Statistics** – Understanding major classes.
-		- **Predictive Power** – Evaluating importance for ML models.
-		- **Anomaly Detection** – Identifying outliers in categorical data.
+
+| **Aspect**                | **Details**                                                                                                                                                                                                                                                                                                    |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Description**           | Nominal attributes are categorical without inherent order.                                                                                                                                                                                                                                                     |
+| **Examples**              | - Colors: {Red, Green, Blue} <br>- Gender: {Male, Female, Non-binary} <br>- Countries: {USA, Canada, Mexico}                                                                                                                                                                                                           |
+| **Analytics**             | - **Frequency Distribution**: Shows frequency of each category. <br>- **Mode**: Identifies most common category (useful for missing values). <br>- **Cross-Tabulation (Contingency Tables)**: Analyzes relationships between categories. <br>- **Chi-Square Test**: Determines associations between categorical variables. |
+| **Encoding for ML**       | - **Label Encoding**: Converts categories to numerical values. <br>- **One-Hot Encoding**: Converts categories into binary columns. <br>- **Binary Encoding**: Combines label encoding and one-hot encoding. <br>- **Target Encoding**: Replaces categories with the mean of the target variable.                          |
+| **Feature Engineering**   | - **Combining Categories**: Merging similar groups (e.g., “Bachelor’s” & “Master’s” into “Higher Education”). <br>- **Creating Interaction Features**: Deriving new features from existing nominal attributes.                                                                                                     |
+| **Visualization Methods** | - **Bar Charts**: Displays category distribution. <br>- **Pie Charts**: Displays proportions of each category.                                                                                                                                                                                                     |
+| **Insights**              | - **Category-Specific Statistics**: Understanding major classes. <br>- **Predictive Power**: Evaluating importance for ML models. <br>- **Anomaly Detection**: Identifying outliers in categorical data.                                                                                                               |
+
 - ### **Ordinal Attributes (Categorical & Ordered)**
-	- Ordinal attributes have a **defined order** but **unequal differences** between values.
-	- **Examples:**
-		- **Education Levels:** {High School, Bachelor’s, Master’s, PhD}
-		- **Customer Satisfaction:** {Very Unsatisfied, Neutral, Satisfied, Very Satisfied}
-		- **Movie Ratings:** {1 star, 2 stars, 3 stars, 4 stars, 5 stars}
-	- #### **Analytics for Ordinal Attributes:**
-		- **Frequency Distribution** – Identifies dominant categories.
-		- **Mode, Median, Percentiles** – Measures central tendency.
-		- **Spearman Rank Correlation** – Analyzes relationships between ordinal & numeric attributes.
-	- #### **Encoding for Machine Learning:**
-		- **Ordinal Encoding** – Assigns numeric values based on order.
-		- **Target Encoding** – Uses mean of target variable for each category.
-	- #### **Feature Engineering Techniques:**
-		- **Binning/Grouping** – Merging similar categories.
-		- **Interaction Features** – Creating new variables based on ordinal data.
-	- #### **Visualization Methods:**
-		- **Bar Charts, Histograms** – Display distribution of ordinal attributes.
-	- #### **Insights from Ordinal Attributes:**
-		- **Trend Analysis** – Evaluates patterns over time.
-		- **Correlation with Target Variable** – Helps in feature selection.
+
+| **Aspect**                | **Details**                                                                                                                                                                                                             |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Description**           | Ordinal attributes have a defined order but unequal differences between values.                                                                                                                                         |
+| **Examples**              | - Education Levels: {High School, Bachelor’s, Master’s, PhD} - Customer Satisfaction: {Very Unsatisfied, Neutral, Satisfied, Very Satisfied} - Movie Ratings: {1 star, 2 stars, 3 stars, 4 stars, 5 stars}              |
+| **Analytics**             | - **Frequency Distribution**: Identifies dominant categories. - **Mode, Median, Percentiles**: Measures central tendency. - **Spearman Rank Correlation**: Analyzes relationships between ordinal & numeric attributes. |
+| **Encoding for ML**       | - **Ordinal Encoding**: Assigns numeric values based on order. - **Target Encoding**: Uses mean of target variable for each category.                                                                                   |
+| **Feature Engineering**   | - **Binning/Grouping**: Merging similar categories. - **Interaction Features**: Creating new variables based on ordinal data.                                                                                           |
+| **Visualization Methods** | - **Bar Charts**: Displays distribution of ordinal attributes. - **Histograms**: Shows frequency distribution of ordinal values.                                                                                        |
+| **Insights**              | - **Trend Analysis**: Evaluates patterns over time. - **Correlation with Target Variable**: Helps in feature selection.                                                                                                 |
+
 - ### **Interval-Scaled Attributes (Continuous & No True Zero)**
 	- Interval-scaled attributes have **equal differences** between values, but **no absolute zero.**
 		- **Examples:**
