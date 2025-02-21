@@ -795,7 +795,7 @@ Same concept as LinReg. However the formulae are updated to suit the extra theta
 
 ## Evaluation Metrics
 - ### Mean Absolute Error (MAE)
-	- $\text{MAE} = \frac{1}{n}\sum_{i=1}$
+	- $\text{MAE} = \frac{1}{n}\sum_{i=1}^{m}\abs{y_{i}}$
 - ### Mean Squared Error (MSE)
 - ### Root Mean Squared Error (RMSE)
 - ### R-Squared (R2
