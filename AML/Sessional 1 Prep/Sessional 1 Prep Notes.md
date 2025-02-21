@@ -773,7 +773,23 @@ Feature engineering involves creating, modifying, and selecting the best feature
 # Lecture 8: Multivariate Linear Regression & Evaluation Metrics
 
 ## Multivariate Linear Regression (MLinReg)
+Same concept as LinReg. However the formulae are updated to suit the extra thetas and feature inputs
 
+
+
+## Evaluation Parameters
+- ### In-sample
+	- Evaluates how well the model has learned the training dataset
+	- **Adv:** Helps detect underfitting
+		- Provides a measure of model fitting
+	- **Disadv:** Easy to overestimate model performance
+		- Does not indicate how well the model generalizes new unseen data
+- ### Out-sample
+	- Evaluates how well the model generalizes based on unseen data i.e. data it was not trained on
+	- **Adv:** Helps detect overfitting
+		- Provides a realistic measure of model performance
+	- **Disadv:** Performance is highly-dependent on test data
+		- Small datasets are not representative of real-world performance
 ## Evaluation Metrics
 - ### Mean Absolute Error (MAE)
 - ### Mean Squared Error (MSE)
