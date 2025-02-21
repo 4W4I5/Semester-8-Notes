@@ -476,11 +476,24 @@ Outliers are data points that significantly deviate from the overall dataset pat
 		- **Web Scraping Artifacts**
 		- **System Errors**
 - ### **Impact of Duplicates**
-	- **Misleading Statistics** : Affects mean, variance, and distributions.
-	- **Bias in Model Training** : Over-represents certain instances.
-	- **Increased Computational Costs** : Redundant processing power and storage.
-	- **Incorrect Clustering & Classification** : Distorts machine learning models.
+Distorted Summary Statistics: Duplicates can skew basic statistics like mean, median, standard deviation,
+and percentiles. • Misleading Insights: Duplicate records may lead to incorrect interpretations of the data. • Bias in Model Training: Duplicate records can bias the model by giving disproportionate weight to certain
+data points. • Misleading Accuracy Metrics: Duplicates can inflate evaluation metrics like accuracy, precision, or recall,
+giving a false sense of model performance. • Data Redundancy: Duplicates increase the size of the dataset without adding any new information. • Inconsistent Results: Duplicates can introduce inconsistency in analysis or reporting, especially when key
+metrics (e.g., sales, revenue) are aggregated multiple times due to duplication. • Data Cleaning Effort: Duplicates often indicate poor data quality, which increases the need for data
+cleaning. • Less Diverse Training Data: Duplicates reduce the diversity of training data, making the model less capable
+of learning different variations or nuances in the dataset. • Incorrect or overlapping Clusters: In clustering algorithms (e.g., K-means or DBSCAN), duplicates can distort
+the formation of clusters, leading to incorrect groupings. • Disrupted Time-Series Analysis: In time-series data, duplicates can disrupt the temporal sequence of
+events, leading to faulty forecasting or analysis. • Effects on Business and Decision-Making: Misrepresentation of KPIs and Incorrect Resource Allocation
+• Misleading and False Associations, classification and Forecasting
+• More computational and storage Cost
+- ### **Duplicate Detection**
+	- Direct inpsection
+	- Summary statistics
+	- Visualizations
 - ### **Handling Duplicates**
+	- **Keep First/Last Occurrence**:
+	- **Fuzzy Matching**
 	- **Remove Exact Duplicates** : Identify and drop exact matches.
 	- **Remove Near-Duplicates** : Use fuzzy matching techniques.
 	- **Aggregate Data** : Summarize duplicated information.
@@ -488,14 +501,18 @@ Outliers are data points that significantly deviate from the overall dataset pat
 
 - ### **Bias**
 	- Difference between predicted and actual values.
-	- High bias → underfitting (oversimplified models).
+	- High bias -> underfitting (oversimplified models).
+	- Low bias -> makes fewer assumptions, captures complex patterns in data
 - ### **Variance**
 	- Model sensitivity to small fluctuations in training data.
-	- High variance → overfitting (too complex models).
+	- High variance -> overfitting (too complex models).
+	- Low variance -> more stable, generalizes well to unseen data
 - ### **Bias-Variance Tradeoff**
 	- **High Bias, Low Variance** : Underfits data (e.g., linear regression).
 	- **Low Bias, High Variance** : Overfits data (e.g., deep decision trees).
 	- **Goal** : Find a balance where the model generalizes well to unseen data.
+		- A model must be low bias enough to capture complex data patterns but in moderation as to not overfit the training data
+			- Both variance and bias must be low. Set bias to a high enough point where variance is not too high
 
 ---
 
@@ -514,11 +531,11 @@ High-dimensional data refers to datasets with a large number of attributes (feat
 
 ### **Challenges in High-Dimensional Data**
 
-4. **Curse of Dimensionality** : As dimensions increase, data points become sparsely distributed, reducing model effectiveness.
-5. **Overfitting** : Models trained on too many features tend to memorize noise instead of learning useful patterns.
-6. **High Computational Costs** : Processing and storing high-dimensional datasets require substantial computing resources.
-7. **Difficulty in Visualization** : Human interpretability decreases as dimensions increase.
-8. **Feature Irrelevance** : Many features may be redundant or uninformative, lowering model efficiency.
+1. **Curse of Dimensionality** : As dimensions increase, data points become sparsely distributed, reducing model effectiveness.
+2. **Overfitting** : Models trained on too many features tend to memorize noise instead of learning useful patterns.
+3. **High Computational Costs** : Processing and storing high-dimensional datasets require substantial computing resources.
+4. **Difficulty in Visualization** : Human interpretability decreases as dimensions increase.
+5. **Feature Irrelevance** : Many features may be redundant or uninformative, lowering model efficiency.
 
 ### **Techniques for Handling High-Dimensional Data**
 
@@ -557,11 +574,11 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 
 ### **How PCA Works**
 
-9. **Standardization** : Scale features so they contribute equally to the analysis.
-10. **Compute Covariance Matrix** : Identifies relationships between variables.
-11. **Compute Eigenvectors & Eigenvalues** : Determines the principal components.
-12. **Create Feature Vector** : Selects principal components that explain the most variance.
-13. **Recast Data Along Principal Component Axes** : Transforms data into a lower-dimensional space.
+6. **Standardization** : Scale features so they contribute equally to the analysis.
+7. **Compute Covariance Matrix** : Identifies relationships between variables.
+8. **Compute Eigenvectors & Eigenvalues** : Determines the principal components.
+9. **Create Feature Vector** : Selects principal components that explain the most variance.
+10. **Recast Data Along Principal Component Axes** : Transforms data into a lower-dimensional space.
 
 ### **Detailed Steps in PCA**
 
@@ -594,10 +611,10 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 
 ## **Applications of PCA**
 
-14. **Dimensionality Reduction** : Reduces feature count while retaining essential patterns.
-15. **Data Visualization** : Enables plotting high-dimensional data in 2D or 3D.
-16. **Noise Reduction** : Eliminates less significant variations, improving model robustness.
-17. **Preprocessing for Machine Learning** : Reduces feature redundancy, leading to more efficient models.
+1. **Dimensionality Reduction** : Reduces feature count while retaining essential patterns.
+2. **Data Visualization** : Enables plotting high-dimensional data in 2D or 3D.
+3. **Noise Reduction** : Eliminates less significant variations, improving model robustness.
+4. **Preprocessing for Machine Learning** : Reduces feature redundancy, leading to more efficient models.
 
 ---
 
@@ -627,17 +644,17 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Types of EDA**
 
-18. **Univariate Analysis** : Examines individual variables.
+5. **Univariate Analysis** : Examines individual variables.
 
 	- Summary statistics (mean, median, mode, variance, skewness, kurtosis).
 	- Frequency distributions and histograms.
 	- Box plots for outlier detection.
-19. **Bivariate Analysis** : Examines relationships between two variables.
+6. **Bivariate Analysis** : Examines relationships between two variables.
 
 	- Scatter plots (continuous vs continuous data).
 	- Correlation matrices and heatmaps.
 	- Chi-square tests for categorical relationships.
-20. **Multivariate Analysis** : Examines interactions between multiple variables.
+7. **Multivariate Analysis** : Examines interactions between multiple variables.
 
 	- Pair plots and Principal Component Analysis (PCA).
 	- Cluster analysis for segmentation.
@@ -645,10 +662,10 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Common EDA Techniques**
 
-21. **Descriptive Statistics** : Mean, median, standard deviation, quartiles.
-22. **Data Visualization** : Histograms, boxplots, violin plots, scatter plots, heatmaps.
-23. **Correlation Analysis** : Pearson/Spearman correlation coefficients.
-24. **Dimensionality Reduction** : PCA, t-SNE, UMAP for visualizing high-dimensional data.
+8. **Descriptive Statistics** : Mean, median, standard deviation, quartiles.
+9. **Data Visualization** : Histograms, boxplots, violin plots, scatter plots, heatmaps.
+10. **Correlation Analysis** : Pearson/Spearman correlation coefficients.
+11. **Dimensionality Reduction** : PCA, t-SNE, UMAP for visualizing high-dimensional data.
 
 ### **Handling Missing Data**
 
@@ -678,25 +695,25 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ### **Feature Selection Methods**
 
-25. **Filter Methods:**
+12. **Filter Methods:**
 	- Uses statistical techniques to rank features (e.g., correlation, mutual information).
-26. **Wrapper Methods:**
+13. **Wrapper Methods:**
 	- Uses machine learning models to iteratively evaluate subsets of features (e.g., recursive feature elimination).
-27. **Embedded Methods:**
+14. **Embedded Methods:**
 	- Feature selection is integrated into the model training process (e.g., LASSO regression, decision trees).
 
 ### **Feature Transformation Techniques**
 
-28. **Scaling & Normalization:**
+15. **Scaling & Normalization:**
 	- Min-Max Scaling (scales values between 0 and 1).
 	- Z-score Standardization (centers data around mean 0 with standard deviation 1).
-29. **Encoding Categorical Variables:**
+16. **Encoding Categorical Variables:**
 	- One-hot encoding (for nominal variables).
 	- Label encoding (for ordinal variables).
 	- Target encoding (replaces categories with mean target value).
-30. **Polynomial Features:**
+17. **Polynomial Features:**
 	- Creating interaction terms for non-linear relationships.
-31. **Log Transformation:**
+18. **Log Transformation:**
 	- Reduces skewness in highly skewed data.
 
 ### **Feature Extraction Methods**
@@ -719,11 +736,11 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ## **Applications of EDA & Feature Engineering**
 
-32. **Fraud Detection** : Identifying suspicious transactions based on behavioral patterns.
-33. **Cybersecurity** : Detecting network intrusions using anomaly detection techniques.
-34. **Healthcare** : Predicting diseases based on patient data and clinical features.
-35. **Finance** : Analyzing stock market trends and risk assessment.
-36. **Natural Language Processing (NLP)** : Extracting meaningful features from text.
+19. **Fraud Detection** : Identifying suspicious transactions based on behavioral patterns.
+20. **Cybersecurity** : Detecting network intrusions using anomaly detection techniques.
+21. **Healthcare** : Predicting diseases based on patient data and clinical features.
+22. **Finance** : Analyzing stock market trends and risk assessment.
+23. **Natural Language Processing (NLP)** : Extracting meaningful features from text.
 
 ---
 
