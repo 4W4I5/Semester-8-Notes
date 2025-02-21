@@ -801,6 +801,7 @@ Same concept as LinReg. However the formulae are updated to suit the extra theta
 - ### Root Mean Squared Error (RMSE)
 	- $\text{RMSE} = \sqrt(MSE)$
 - ### R-Squared (R2)
-	- $R^{2}= 1 - \frac{\sum_}{}$
+	- $R^{2}= 1 - \frac{\sum_(y_{i}- \hat(y_i))^2}{\sum_(y_{i}- \hat(y_i))^2}$
 - ### Adjusted R-Squared (R2adj)
+	- $R_{adj}^{2} = 1 - (1 - R^{2})$
 - ### Mean Absolute Percentage Error (MAPE)
