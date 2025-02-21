@@ -212,6 +212,7 @@
 ---
 
 # Lecture 3 + 4: Data Views
+# Analytic View
 ## **Data Matrix (A Dataset Representation)**
 - A **data matrix** is a structured representation of data in an **n × d** format:
 	- **Rows (n)** – Also called **instances, records, transactions, feature vectors, objects, tuples**. Represents the number of observations.
@@ -323,7 +324,7 @@
 		- **Relative Measures & Ratios** – Useful for comparative analysis.
 		- **Descriptive & Predictive Insights** – Provides valuable trends in cybersecurity.
 
-## **Algebraic & Geometric View of Data**
+# **Algebraic & Geometric View of Data**
 ### **Key Concepts:**
 - **Vector & Matrix Representation** – Data is represented as vectors & matrices, making it easier to apply mathematical transformations and optimizations.
 - **Linear Algebra Operations:**
