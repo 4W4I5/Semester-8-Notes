@@ -1,17 +1,19 @@
-| Chapter<br>Number | Chapter<br>Name           | Status             |
-| ----------------- | ------------------------- | ------------------ |
-| 1                 | Introduction              | :white_check_mark: |
-| 2                 | Machine Learning          | :white_check_mark: |
-| 3 + 4             | Data Views                | :warning:          |
-| 5                 | Feature Engineering       | :warning:          |
-| 6                 | High Dimensional Data     | :warning:          |
-| 7                 | Exploratory Data Analysis | :warning:          |
+| Chapter<br>Number | Chapter<br>Name                | Status             |
+| ----------------- | ------------------------------ | ------------------ |
+| 1                 | Introduction                   | :white_check_mark: |
+| 2                 | Machine Learning               | :white_check_mark: |
+| 3 + 4             | Data Views                     | :warning:          |
+| 5                 | Feature Engineering            | :warning:          |
+| 6                 | High Dimensional Data          | :warning:          |
+| 6A                | Exploratory Data Analysis      | :warning:          |
+| 7                 | Univariate Linear Regression   | :warning:          |
+| 8                 | Multivariate Linear Regression | :warning:                    |
 
 > [!WARNING]
 > made a mistake, the focus for this course is entirely on the math instead of the concept
 
 # Lecture 1: Introduction
-### **Cybersecurity**
+## **Cybersecurity**
 
 |**Concept**|**Description**|
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,7 +24,7 @@
 | **Operational Security** | Managing access controls and monitoring user activity.                                                                                                                                        |
 | **Cyber Threats**        | - **Malware**: Malicious software (viruses, worms, trojans) <br>- **Phishing**: Tricking users into revealing credentials <br>- **DDoS**: Overloading networks <br>- **MitM**: Intercepting communication |
 
-### **Dataset**
+## **Dataset**
 
 | **Type**         | **Description**                                                       |
 | ---------------- | --------------------------------------------------------------------- |
@@ -31,7 +33,7 @@
 | **Labeled**      | Data with both input and output labels (used in supervised learning). |
 | **Unlabeled**    | Raw input data (used in unsupervised learning).                       |
 
-### **Big Data**
+## **Big Data**
 
 | **5 V's**    | **Description**                                                     |
 | ------------ | ------------------------------------------------------------------- |
@@ -41,8 +43,7 @@
 | **Veracity** | Ensuring data quality and accuracy.                                 |
 | **Value**    | Extracting meaningful insights from raw data.                       |
 
-
-### **Data Analytics**
+## **Data Analytics**
 
 | **Phase**                       | **Description**                                         |
 | ------------------------------- | ------------------------------------------------------- |
@@ -56,7 +57,7 @@
 | **Data Visualization**          | Present findings in charts, graphs, or reports.         |
 | **Reporting & Decision-Making** | Use insights to make informed security decisions.       |
 
-### **AI & Machine Learning in Cybersecurity**
+## **AI & Machine Learning in Cybersecurity**
 
 | **Category**                     | **Description**                                                                                                                                                                                                                       |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,8 +66,7 @@
 | **Deep Learning (DL)**           | Specialized branch of ML that uses neural networks with multiple layers for tasks like: <br>- **Image Recognition** <br>- **Natural Language Processing (NLP)** <br>- **Behavioral Analysis**                                                     |
 | **Data Mining**                  | Extracting patterns from large datasets using techniques like classification and clustering for: <br>- **Intrusion Detection** <br>- **Malware Classification** <br>- **Phishing and Fraud Detection** <br>- **Log Analysis for Threat Intelligence** |
 
-
-### **ML in Cybersecurity**
+## **ML in Cybersecurity**
 
 | **Use Case**                                | **Description**                                                               |
 | ------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -76,7 +76,7 @@
 | **User & Entity Behavior Analytics (UEBA)** | Detecting anomalies in user behavior to flag insider threats.                 |
 | **Automated Incident Response**             | Using AI to respond to security incidents without human intervention.         |
 
-### **ML Algorithms in Cybersecurity**
+## **ML Algorithms in Cybersecurity**
 
 | **Learning Type**         | **Algorithms**                   | **Description**                                                                          |
 | ------------------------- | -------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -88,7 +88,7 @@
 | **Unsupervised Learning** | **K-Means Clustering**           | Groups similar data points (e.g., detecting botnets in network traffic).                 |
 | **Deep Learning**         | **Neural Networks**              | Used for complex cybersecurity tasks, such as malware detection and behavioral analysis. |
 
-### **Tools & Libraries**
+## **Tools & Libraries**
 
 | **Library**                | **Purpose**                              |
 | -------------------------- | ---------------------------------------- |
@@ -99,7 +99,7 @@
 | **TensorFlow/PyTorch**     | Deep learning frameworks.                |
 | **Keras**                  | Simplified deep learning model building. |
 
-### **Companies Using ML in Cybersecurity**
+## **Companies Using ML in Cybersecurity**
 
 | **Tech Giants**  | **Applications**                                           |
 | ---------------- | ---------------------------------------------------------- |
@@ -119,7 +119,7 @@
 
 # Lecture 2: Machine Learning
 
-### **Rising Cybersecurity Problems**
+## **Rising Cybersecurity Problems**
 
 | **Problem**                                        | **Description**                                                        |
 | -------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -137,8 +137,7 @@
 | **Detection of Hidden Channels**                   | Finding covert communication methods used by attackers.                |
 | **Detection of Software Vulnerabilities**          | Predicting and mitigating software flaws before exploitation.          |
 
-
-### **Machine Learning (ML) in Cybersecurity**
+## **Machine Learning (ML) in Cybersecurity**
 
 | **Concept**                      | **Description**                                                                                                                                                                |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -146,8 +145,7 @@
 | **Why Use ML in Cybersecurity?** | - **Scalability**: Process vast amounts of data faster than humans <br>- **Feature Extraction**: Identifies key data attributes <br>- **Adaptability**: ML systems evolve with threats |
 |                                  | - **Pattern Recognition**: Detects anomalies to indicate threats <br>- **Complex Problem-Solving**: Handles intricate, dynamic datasets and scenarios                              |
 
-
-### **Fundamental Machine Learning Concepts**
+## **Fundamental Machine Learning Concepts**
 
 | **Concept**                      | **Description**                                                                                                                                             |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -155,8 +153,7 @@
 | **Defining the Experience (E)**  | The dataset used for training, consisting of labeled (supervised) or unlabeled (unsupervised) data.                                                         |
 | **Defining the Performance (P)** | Performance is evaluated using metrics like Accuracy, Precision & Recall, and F1-Score.                                                                     |
 
-
-### **Machine Learning Pipeline**
+## **Machine Learning Pipeline**
 
 | **Stage**                 | **Description**                                                              |
 | ------------------------- | ---------------------------------------------------------------------------- |
@@ -169,8 +166,7 @@
 | **Deployment**            | Integrating the model into a live security system for real-time detection.   |
 | **Continuous Monitoring** | Updating the model as new threats emerge.                                    |
 
-
-### **Types of Machine Learning**
+## **Types of Machine Learning**
 
 | **Type**                     | **Description**                                                                                                      |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -179,8 +175,7 @@
 | **Semi-Supervised Learning** | A mix of labeled and unlabeled data for tasks where labeling is expensive.                                           |
 | **Reinforcement Learning**   | Learns by interacting with an environment and receiving rewards or penalties (e.g., AI-driven intrusion prevention). |
 
-
-### **Learning Approaches in ML**
+## **Learning Approaches in ML**
 
 | **Approach**                | **Description**                                                                                                           |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -189,8 +184,7 @@
 | **Instance-Based Learning** | Memorizes specific instances and makes decisions based on similarity (e.g., K-Nearest Neighbors for intrusion detection). |
 | **Model-Based Learning**    | Builds a general model and makes predictions based on training data (e.g., Support Vector Machines for classification).   |
 
-
-### **Supervised vs. Unsupervised ML Pipelines**
+## **Supervised vs. Unsupervised ML Pipelines**
 
 | **Pipeline Type**            | **Description**                                                                                                                                                 |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -199,15 +193,13 @@
 | **Unsupervised ML Pipeline** | - Collect raw, unlabeled data (e.g., network traffic) <br>- Apply clustering or anomaly detection (e.g., K-Means)                                                   |
 |                              | - Identify patterns of unusual activity for proactive threat hunting.                                                                                           |
 
-
-### **Example: Cybersecurity Application of ML**
+## **Example: Cybersecurity Application of ML**
 
 | **Use Case**                   | **Description**                                                   |
 | ------------------------------ | ----------------------------------------------------------------- |
 | **Intrusion Detection System** | Analyzes network packets to classify traffic as normal or attack. |
 | **Phishing Detection**         | Analyzes email content to flag suspicious messages.               |
 | **AI-Driven Firewalls**        | Continuously learn from attack patterns to adapt to new threats.  |
-
 
 ---
 
@@ -231,6 +223,7 @@
 	- **Raw data is transformed into structured datasets using feature extraction techniques.**
 
 ## **Attributes, Analytics, and Machine Learning**
+
 Attributes are **variables or features** used for **data analysis and machine learning.** They can be classified as:
 
 ## **Nominal Attributes (Categorical & Unordered)**
@@ -284,7 +277,6 @@ Attributes are **variables or features** used for **data analysis and machine le
 | **Visualization Methods**  | - **Histograms**: Displays distribution and frequency. <br>- **Box Plots**: Visualizes data spread and detects outliers. <br>- **Scatter Plots**: Shows relationships between ratio attributes. <br>- **Line Plots**: Tracks data trends over time. |
 | **Insights**               | - **Relative Measures & Ratios**: Useful for comparative analysis. <br>- **Descriptive & Predictive Insights**: Provides valuable trends in cybersecurity.                                                                                  |
 
-
 # **Algebraic & Geometric View of Data**
 ## **Key Concepts:**
 
@@ -300,6 +292,7 @@ Attributes are **variables or features** used for **data analysis and machine le
 | **Kernel Methods & Feature Transformations**    | - **Kernel Trick**: Projects data into higher-dimensional space for non-linear classification. <br>- **Polynomial & Radial Basis Function (RBF) Kernels**: Transformations that allow support vector machines to work effectively with non-linear data.                                                                                                                                                                           |
 
 ## Formulae
+
 For two vectors $A = [A1,A2,...,An][A_1, A_2, ..., A_n]$ and $B = [B1,B2,...,Bn][B_1, B_2, ..., B_n]$
 
 - ### 1. **Dot Product (Scalar Product)**
@@ -343,93 +336,51 @@ For two vectors $A = [A1,A2,...,An][A_1, A_2, ..., A_n]$ and $B = [B1,B2,...,Bn]
 
 
 ## **Probabilistic View of Data**
-### **Key Concepts:**
-- **Data as a Random Variable:**
-	- Attributes modeled as random variables enable statistical inferences about populations from sampled data.
-	- Used in Bayesian networks and probabilistic graphical models.
-- **Distribution Modeling:**
-	- **Normal Distribution (Gaussian)** – Used for statistical modeling and ML algorithms like Naive Bayes.
-	- **Poisson Distribution** – Used for event-based modeling, e.g., cybersecurity attack frequency prediction.
-	- **Exponential Distribution** – Useful in failure rate analysis.
-	- **Dirichlet Distribution** – Used in topic modeling for natural language processing.
-- **Feature Selection & Regularization:**
-	- **Mutual Information** – Measures dependency between variables.
-	- **Information Gain** – Used in decision trees and entropy-based models.
-	- **L1 & L2 Regularization** – Lasso and Ridge regression techniques that prevent overfitting.
-- **Overfitting Prevention:**
-	- **Bayesian Regularization** – Introduces prior distributions to limit model complexity.
-	- **Cross-Validation** – Ensures generalization by testing model performance on unseen data.
-	- **Dropout in Neural Networks** – Prevents co-adaptation of neurons, reducing overfitting.
-- **Decision Theory & Risk Management:**
-	- **Probability-based decision-making** – Bayesian inference applied to cybersecurity threat detection.
-	- **Markov Decision Processes (MDP)** – Used in reinforcement learning for decision-making in uncertain environments.
-	- **Handling Uncertainty** – Using probabilistic confidence intervals and Monte Carlo simulations.
-- **Handling Missing Data:**
-	- **Mean/Median Imputation** – Replacing missing values using statistical averages.
-	- **Expectation-Maximization (EM) Algorithm** – Probabilistic technique to handle missing data and clustering.
-- **Bayesian Inference & Uncertainty Quantification:**
-	- **Bayesian Theorem** – Updates the probability of a hypothesis as more evidence is provided.
-	- **Monte Carlo Methods** – Used in probabilistic sampling to model uncertainty in predictions.
 
----
+| **Concept**                                         | **Description**                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data as a Random Variable**                       | Attributes modeled as random variables enable statistical inferences about populations from sampled data. Used in Bayesian networks and probabilistic graphical models.                                                                                                                                                                         |
+| **Distribution Modeling**                           | **Normal Distribution (Gaussian)** – Used for statistical modeling and ML algorithms like Naive Bayes. **Poisson Distribution** – Used for event-based modeling (e.g., cybersecurity attack frequency prediction). **Exponential Distribution** – Useful in failure rate analysis. **Dirichlet Distribution** – Used in topic modeling for NLP. |
+| **Feature Selection & Regularization**              | **Mutual Information** – Measures dependency between variables. **Information Gain** – Used in decision trees and entropy-based models. **L1 & L2 Regularization** – Lasso and Ridge regression techniques that prevent overfitting.                                                                                                            |
+| **Overfitting Prevention**                          | **Bayesian Regularization** – Introduces prior distributions to limit model complexity. **Cross-Validation** – Ensures generalization by testing model performance on unseen data. **Dropout in Neural Networks** – Prevents co-adaptation of neurons, reducing overfitting.                                                                    |
+| **Decision Theory & Risk Management**               | **Probability-based decision-making** – Bayesian inference applied to cybersecurity threat detection. **Markov Decision Processes (MDP)** – Used in reinforcement learning for decision-making in uncertain environments. **Handling Uncertainty** – Using probabilistic confidence intervals and Monte Carlo simulations.                      |
+| **Handling Missing Data**                           | **Mean/Median Imputation** – Replacing missing values using statistical averages. **Expectation-Maximization (EM) Algorithm** – Probabilistic technique to handle missing data and clustering.                                                                                                                                                  |
+| **Bayesian Inference & Uncertainty Quantification** | **Bayesian Theorem** – Updates the probability of a hypothesis as more evidence is provided. **Monte Carlo Methods** – Used in probabilistic sampling to model uncertainty in predictions.                                                                                                                                                      |
 
 ## **Graph View of Data**
-### **Key Concepts:**
-- **Graph Representation:**
-	- **Nodes (Vertices):** Represent entities such as users, IP addresses, or devices.
-	- **Edges (Links):** Represent relationships between nodes, e.g., network connections.
-	- **Adjacency Matrix:** Matrix representation of a graph, capturing connectivity between nodes.
-- **Graph Metrics:**
-	- **Degree Distribution** – Measures the number of connections per node.
-	- **Shortest Path & Betweenness Centrality** – Determines influential nodes in a network.
-	- **Clustering Coefficient** – Measures the tendency of nodes to form tightly-knit groups.
-	- **PageRank** – Used in search engine ranking and network analysis.
-- **Machine Learning Applications:**
-	- **Graph Neural Networks (GNNs)** – Learn embeddings for nodes in a graph.
-	- **Social Network Analysis** – Understanding connections and detecting fake accounts.
-	- **Community Detection** – Identifies clusters of related nodes (e.g., fraud rings).
-	- **Anomaly Detection in Networks** – Identifies unusual behaviors using graph structures.
-	- **Link Prediction** – Predicts future connections (e.g., friend suggestions on social media).
-	- **Recommendation Systems** – Suggests items based on user interaction graphs.
----
+
+| **Concept**                       | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Graph Representation**          | **Nodes (Vertices):** Represent entities such as users, IP addresses, or devices. **Edges (Links):** Represent relationships between nodes (e.g., network connections). **Adjacency Matrix:** Matrix representation of a graph capturing connectivity between nodes.                                                                                                                                                                                                                                                    |
+| **Graph Metrics**                 | **Degree Distribution** – Measures the number of connections per node. **Shortest Path & Betweenness Centrality** – Determines influential nodes in a network. **Clustering Coefficient** – Measures the tendency of nodes to form tightly-knit groups. **PageRank** – Used in search engine ranking and network analysis.                                                                                                                                                                                              |
+| **Machine Learning Applications** | **Graph Neural Networks (GNNs)** – Learn embeddings for nodes in a graph. **Social Network Analysis** – Understanding connections and detecting fake accounts. **Community Detection** – Identifies clusters of related nodes (e.g., fraud rings). **Anomaly Detection in Networks** – Identifies unusual behaviors using graph structures. **Link Prediction** – Predicts future connections (e.g., friend suggestions on social media). **Recommendation Systems** – Suggests items based on user interaction graphs. |
 
 ## **Benchmark Datasets for Cybersecurity**
 
 Benchmark datasets are commonly used for training and evaluating machine learning models in cybersecurity.
 
-### **Intrusion Detection and Prevention**
-
-- **KDD Cup 1999** – [https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
-- **NSL-KDD** – [https://www.kaggle.com/datasets/hassan06/nslkdd](https://www.kaggle.com/datasets/hassan06/nslkdd)
-- **CICIDS 2017** – [https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)
-
-### **Malware Detection and Classification**
-
-- **MalwareBazaar** – [https://bazaar.abuse.ch/](https://bazaar.abuse.ch/)
-- **Ember Dataset** – [https://github.com/elastic/ember](https://github.com/elastic/ember)
-- **Malware Traffic Analysis** – [https://www.malware-traffic-analysis.net](https://www.malware-traffic-analysis.net/)
-
-### **Phishing Detection**
-
-- **PhishTank Dataset** – [https://www.phishtank.com/](https://www.phishtank.com/)
-- **Labeled Phishing URLs Dataset** – [https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset)
-- **APWG eCrime Exchange (eCX)** – [https://apwg.org/the-apwg-ecrime-exchange-ecx/](https://apwg.org/the-apwg-ecrime-exchange-ecx/)
-
-### **Fraud Detection**
-
-- **Credit Card Fraud Detection Dataset** – [https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
-- **IEEE-CIS Fraud Detection** – [https://www.kaggle.com/c/ieee-fraud-detection/data](https://www.kaggle.com/c/ieee-fraud-detection/data)
-
-### **User and Entity Behavior Analytics (UEBA)**
-
-- **CERT Insider Threat Dataset** – [https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research](https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research)
-- **LANL User Authentication Dataset** – [https://csr.lanl.gov/data/](https://csr.lanl.gov/data/)
-
-### **Spam and Botnet Detection**
-
-- **Enron Email Dataset** – [https://www.kaggle.com/datasets/wcukierski/enron-email-dataset](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset)
-- **Botnet Dataset** – [https://www.stratosphereips.org/datasets-ctu13](https://www.stratosphereips.org/datasets-ctu13)
-- **SpamAssassin Public Corpus** – [https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus](https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus)
+- ### **Intrusion Detection and Prevention**
+	- **KDD Cup 1999** – [https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html](https://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+	- **NSL-KDD** – [https://www.kaggle.com/datasets/hassan06/nslkdd](https://www.kaggle.com/datasets/hassan06/nslkdd)
+	- **CICIDS 2017** – [https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset)
+- ### **Malware Detection and Classification**
+	- **MalwareBazaar** – [https://bazaar.abuse.ch/](https://bazaar.abuse.ch/)
+	- **Ember Dataset** – [https://github.com/elastic/ember](https://github.com/elastic/ember)
+	- **Malware Traffic Analysis** – [https://www.malware-traffic-analysis.net](https://www.malware-traffic-analysis.net/)
+- ### **Phishing Detection**
+	- **PhishTank Dataset** – [https://www.phishtank.com/](https://www.phishtank.com/)
+	- **Labeled Phishing URLs Dataset** – [https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset](https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset)
+	- **APWG eCrime Exchange (eCX)** – [https://apwg.org/the-apwg-ecrime-exchange-ecx/](https://apwg.org/the-apwg-ecrime-exchange-ecx/)
+- ### **Fraud Detection**
+	- **Credit Card Fraud Detection Dataset** – [https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023](https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023)
+	- **IEEE-CIS Fraud Detection** – [https://www.kaggle.com/c/ieee-fraud-detection/data](https://www.kaggle.com/c/ieee-fraud-detection/data)
+- ### **User and Entity Behavior Analytics (UEBA)**
+	- **CERT Insider Threat Dataset** – [https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research](https://www.kaggle.com/datasets/mrajaxnp/cert-insider-threat-detection-research)
+	- **LANL User Authentication Dataset** – [https://csr.lanl.gov/data/](https://csr.lanl.gov/data/)
+- ### **Spam and Botnet Detection**
+	- **Enron Email Dataset** – [https://www.kaggle.com/datasets/wcukierski/enron-email-dataset](https://www.kaggle.com/datasets/wcukierski/enron-email-dataset)
+	- **Botnet Dataset** – [https://www.stratosphereips.org/datasets-ctu13](https://www.stratosphereips.org/datasets-ctu13)
+	- **SpamAssassin Public Corpus** – [https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus](https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus)
 
 ---
 
