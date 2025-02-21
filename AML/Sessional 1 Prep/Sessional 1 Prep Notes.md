@@ -469,34 +469,36 @@ Outliers are data points that significantly deviate from the overall dataset pat
 	3. **Flagging Missing Data** : Create a binary feature indicating missing values.
 
 ## **Duplicate Values**
-- ### **Causes of Duplicates**
-	- Duplicate values occur when identical entries exist in the dataset.
-		- **Data Entry Errors**
-		- **Data Merging Issues**
-		- **Web Scraping Artifacts**
-		- **System Errors**
-- ### **Impact of Duplicates**
-Distorted Summary Statistics: Duplicates can skew basic statistics like mean, median, standard deviation,
-and percentiles. • Misleading Insights: Duplicate records may lead to incorrect interpretations of the data. • Bias in Model Training: Duplicate records can bias the model by giving disproportionate weight to certain
-data points. • Misleading Accuracy Metrics: Duplicates can inflate evaluation metrics like accuracy, precision, or recall,
-giving a false sense of model performance. • Data Redundancy: Duplicates increase the size of the dataset without adding any new information. • Inconsistent Results: Duplicates can introduce inconsistency in analysis or reporting, especially when key
-metrics (e.g., sales, revenue) are aggregated multiple times due to duplication. • Data Cleaning Effort: Duplicates often indicate poor data quality, which increases the need for data
-cleaning. • Less Diverse Training Data: Duplicates reduce the diversity of training data, making the model less capable
-of learning different variations or nuances in the dataset. • Incorrect or overlapping Clusters: In clustering algorithms (e.g., K-means or DBSCAN), duplicates can distort
-the formation of clusters, leading to incorrect groupings. • Disrupted Time-Series Analysis: In time-series data, duplicates can disrupt the temporal sequence of
-events, leading to faulty forecasting or analysis. • Effects on Business and Decision-Making: Misrepresentation of KPIs and Incorrect Resource Allocation
-• Misleading and False Associations, classification and Forecasting
-• More computational and storage Cost
-- ### **Duplicate Detection**
-	- Direct inpsection
-	- Summary statistics
-	- Visualizations
-- ### **Handling Duplicates**
-	- **Keep First/Last Occurrence**:
-	- **Fuzzy Matching**
-	- **Remove Exact Duplicates** : Identify and drop exact matches.
-	- **Remove Near-Duplicates** : Use fuzzy matching techniques.
-	- **Aggregate Data** : Summarize duplicated information.
+- **Causes of Duplicates** Duplicate values occur when identical entries exist in the dataset. The main causes are:
+	- **Data Entry Errors**: Mistakes made during manual or automated data entry.
+	- **Data Merging Issues**: Duplicates can arise when datasets are merged incorrectly, often due to overlapping or similar entries.
+	- **Web Scraping Artifacts**: When data is collected from websites, scraping errors can lead to duplicate entries.
+	- **System Errors**: Bugs or issues in data processing systems can generate duplicates.
+- **Impact of Duplicates** Duplicates can severely affect both the data analysis and the performance of machine learning models. The main impacts include:
+    - **Distorted Summary Statistics**: Duplicates can skew basic statistics like mean, median, standard deviation, and percentiles, which mislead data analysis.
+    - **Misleading Insights**: Duplicate records may lead to incorrect or overly simplistic interpretations of the data, affecting business decisions.
+    - **Bias in Model Training**: If duplicate entries are used in model training, they can disproportionately influence the model’s predictions, making it less accurate.
+    - **Misleading Accuracy Metrics**: Duplicates inflate evaluation metrics such as accuracy, precision, recall, and F1 score, giving a false sense of model performance.
+    - **Data Redundancy**: Duplicates unnecessarily increase the size of the dataset, which can result in slower processing and higher storage costs without adding any new information.
+    - **Inconsistent Results**: Inconsistent analysis or reporting can occur when key metrics (e.g., sales or revenue) are aggregated multiple times due to duplication.
+    - **Data Cleaning Effort**: The presence of duplicates often indicates poor data quality, increasing the need for extensive data cleaning and preprocessing.
+    - **Less Diverse Training Data**: Duplicates reduce the diversity of the training data, limiting the model's ability to generalize well to unseen data.
+    - **Incorrect or Overlapping Clusters**: In clustering algorithms (e.g., K-means or DBSCAN), duplicates distort cluster formation, leading to inaccurate groupings.
+    - **Disrupted Time-Series Analysis**: In time-series data, duplicates disrupt the sequence of events, leading to faulty forecasts or analysis.
+    - **Effects on Business and Decision-Making**: Duplicates can misrepresent key performance indicators (KPIs), leading to incorrect resource allocation and misguided business strategies.
+    - **Misleading and False Associations**: Duplicates can cause false associations in classification and forecasting models.
+    - **Increased Computational and Storage Cost**: Handling and processing duplicates unnecessarily increases the computational cost and storage requirements.
+- **Duplicate Detection** Methods to detect duplicate values in the dataset include:
+    - **Direct Inspection**: Visually inspecting the data for repeated or identical entries.
+    - **Summary Statistics**: Using statistical measures (such as counts and frequency distributions) to identify repeated entries.
+    - **Visualizations**: Creating visualizations such as histograms or scatter plots to highlight duplicates and data anomalies.
+- **Handling Duplicates** Several techniques can be employed to handle duplicates:
+    - **Keep First/Last Occurrence**: In some cases, retaining only the first or last occurrence of each duplicate record is appropriate.
+    - **Fuzzy Matching**: For near-duplicates, fuzzy matching algorithms (like Levenshtein distance) can be used to detect and remove slight variations in data.
+    - **Remove Exact Duplicates**: Identify and drop exact duplicate records, leaving only unique entries in the dataset.
+    - **Remove Near-Duplicates**: Use fuzzy matching techniques to find and remove near-identical records that may have small variations (e.g., spelling errors).
+    - **Aggregate Data**: Instead of removing duplicates, duplicate records can be summarized, such as by averaging values or calculating the sum to represent them as a single entry.
+
 ## **Bias vs Variance**
 
 - ### **Bias**
@@ -644,17 +646,17 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Types of EDA**
 
-5. **Univariate Analysis** : Examines individual variables.
+1. **Univariate Analysis** : Examines individual variables.
 
 	- Summary statistics (mean, median, mode, variance, skewness, kurtosis).
 	- Frequency distributions and histograms.
 	- Box plots for outlier detection.
-6. **Bivariate Analysis** : Examines relationships between two variables.
+2. **Bivariate Analysis** : Examines relationships between two variables.
 
 	- Scatter plots (continuous vs continuous data).
 	- Correlation matrices and heatmaps.
 	- Chi-square tests for categorical relationships.
-7. **Multivariate Analysis** : Examines interactions between multiple variables.
+3. **Multivariate Analysis** : Examines interactions between multiple variables.
 
 	- Pair plots and Principal Component Analysis (PCA).
 	- Cluster analysis for segmentation.
@@ -662,10 +664,10 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Common EDA Techniques**
 
-8. **Descriptive Statistics** : Mean, median, standard deviation, quartiles.
-9. **Data Visualization** : Histograms, boxplots, violin plots, scatter plots, heatmaps.
-10. **Correlation Analysis** : Pearson/Spearman correlation coefficients.
-11. **Dimensionality Reduction** : PCA, t-SNE, UMAP for visualizing high-dimensional data.
+4. **Descriptive Statistics** : Mean, median, standard deviation, quartiles.
+5. **Data Visualization** : Histograms, boxplots, violin plots, scatter plots, heatmaps.
+6. **Correlation Analysis** : Pearson/Spearman correlation coefficients.
+7. **Dimensionality Reduction** : PCA, t-SNE, UMAP for visualizing high-dimensional data.
 
 ### **Handling Missing Data**
 
@@ -695,25 +697,25 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ### **Feature Selection Methods**
 
-12. **Filter Methods:**
+8. **Filter Methods:**
 	- Uses statistical techniques to rank features (e.g., correlation, mutual information).
-13. **Wrapper Methods:**
+9. **Wrapper Methods:**
 	- Uses machine learning models to iteratively evaluate subsets of features (e.g., recursive feature elimination).
-14. **Embedded Methods:**
+10. **Embedded Methods:**
 	- Feature selection is integrated into the model training process (e.g., LASSO regression, decision trees).
 
 ### **Feature Transformation Techniques**
 
-15. **Scaling & Normalization:**
+11. **Scaling & Normalization:**
 	- Min-Max Scaling (scales values between 0 and 1).
 	- Z-score Standardization (centers data around mean 0 with standard deviation 1).
-16. **Encoding Categorical Variables:**
+12. **Encoding Categorical Variables:**
 	- One-hot encoding (for nominal variables).
 	- Label encoding (for ordinal variables).
 	- Target encoding (replaces categories with mean target value).
-17. **Polynomial Features:**
+13. **Polynomial Features:**
 	- Creating interaction terms for non-linear relationships.
-18. **Log Transformation:**
+14. **Log Transformation:**
 	- Reduces skewness in highly skewed data.
 
 ### **Feature Extraction Methods**
@@ -736,11 +738,11 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ## **Applications of EDA & Feature Engineering**
 
-19. **Fraud Detection** : Identifying suspicious transactions based on behavioral patterns.
-20. **Cybersecurity** : Detecting network intrusions using anomaly detection techniques.
-21. **Healthcare** : Predicting diseases based on patient data and clinical features.
-22. **Finance** : Analyzing stock market trends and risk assessment.
-23. **Natural Language Processing (NLP)** : Extracting meaningful features from text.
+15. **Fraud Detection** : Identifying suspicious transactions based on behavioral patterns.
+16. **Cybersecurity** : Detecting network intrusions using anomaly detection techniques.
+17. **Healthcare** : Predicting diseases based on patient data and clinical features.
+18. **Finance** : Analyzing stock market trends and risk assessment.
+19. **Natural Language Processing (NLP)** : Extracting meaningful features from text.
 
 ---
 
