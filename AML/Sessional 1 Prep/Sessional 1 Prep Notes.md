@@ -766,8 +766,18 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ---
 
-# Lecture 7: Univariate Linear Regression
+# Lecture 7: Univariate Linear Regression (LinReg)
 
 ---
 
 # Lecture 8: Multivariate Linear Regression & Evaluation Metrics
+
+## Multivariate Linear Regression (MLinReg)
+
+## Evaluation Metrics
+- ### Mean Absolute Error (MAE)
+- ### Mean Squared Error (MSE)
+- ### Root Mean Squared Error (RMSE)
+- ### R-Squared (R2
+- ### Adjusted R-Squared (R2adj)
+- ### Mean Absolute Percentage Error (MAPE)
