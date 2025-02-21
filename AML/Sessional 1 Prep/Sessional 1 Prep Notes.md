@@ -803,6 +803,14 @@ Same concept as LinReg. However the formulae are updated to suit the extra theta
 - ### R-Squared (R2)
 	- $R^{2}= 1 - \frac{\sum_(y_{i}- \hat{y}_i)^2}{\sum_(y_{i}- \bar{y}_i)^2}$
 - ### Adjusted R-Squared (R2adj)
-	- $R_{adj}^{2} = 1 - (1 - R^{2})$
+	- $R_{adj}^{2} = 1 - (1 - R^{2}) \times \frac{n - 1}{n - k -1}$
+	- Where:
+		- $R^2$ is the R2 value
+		- $n$ is the number of observations
+		- $k$ is the number of predictors i.e. independent variables in the model
 - ### Mean Absolute Percentage Error (MAPE)
-	- 
+	- $MAPE = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100$
+	- Where:
+		- $y_i$ is the actual value (observed value) for the ii-th data point,
+		- $\hat{y}_i$ is the predicted value for the ii-th data point,
+		- $n$ is the total number of observations (data points).
