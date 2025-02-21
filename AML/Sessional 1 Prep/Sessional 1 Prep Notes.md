@@ -231,10 +231,9 @@
 	- **Raw data is transformed into structured datasets using feature extraction techniques.**
 
 ## **Attributes, Analytics, and Machine Learning**
-- Attributes are **variables or features** used for **data analysis and machine learning.** They can be classified as:
-	- **Categorical Attributes** – Discrete values (e.g., Gender, Color).
-	- **Numeric Attributes** – Continuous values (e.g., Age, Temperature).
-- ### **Nominal Attributes (Categorical & Unordered)**
+Attributes are **variables or features** used for **data analysis and machine learning.** They can be classified as:
+
+## **Nominal Attributes (Categorical & Unordered)**
 
 | **Aspect**                | **Details**                                                                                                                                                                                                                                                                                                    |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -246,61 +245,45 @@
 | **Visualization Methods** | - **Bar Charts**: Displays category distribution. <br>- **Pie Charts**: Displays proportions of each category.                                                                                                                                                                                                     |
 | **Insights**              | - **Category-Specific Statistics**: Understanding major classes. <br>- **Predictive Power**: Evaluating importance for ML models. <br>- **Anomaly Detection**: Identifying outliers in categorical data.                                                                                                               |
 
-- ### **Ordinal Attributes (Categorical & Ordered)**
+## **Ordinal Attributes (Categorical & Ordered)**
 
 | **Aspect**                | **Details**                                                                                                                                                                                                             |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Description**           | Ordinal attributes have a defined order but unequal differences between values.                                                                                                                                         |
-| **Examples**              | - Education Levels: {High School, Bachelor’s, Master’s, PhD} - Customer Satisfaction: {Very Unsatisfied, Neutral, Satisfied, Very Satisfied} - Movie Ratings: {1 star, 2 stars, 3 stars, 4 stars, 5 stars}              |
-| **Analytics**             | - **Frequency Distribution**: Identifies dominant categories. - **Mode, Median, Percentiles**: Measures central tendency. - **Spearman Rank Correlation**: Analyzes relationships between ordinal & numeric attributes. |
-| **Encoding for ML**       | - **Ordinal Encoding**: Assigns numeric values based on order. - **Target Encoding**: Uses mean of target variable for each category.                                                                                   |
-| **Feature Engineering**   | - **Binning/Grouping**: Merging similar categories. - **Interaction Features**: Creating new variables based on ordinal data.                                                                                           |
-| **Visualization Methods** | - **Bar Charts**: Displays distribution of ordinal attributes. - **Histograms**: Shows frequency distribution of ordinal values.                                                                                        |
-| **Insights**              | - **Trend Analysis**: Evaluates patterns over time. - **Correlation with Target Variable**: Helps in feature selection.                                                                                                 |
+| **Examples**              | - Education Levels: {High School, Bachelor’s, Master’s, PhD} <br>- Customer Satisfaction: {Very Unsatisfied, Neutral, Satisfied, Very Satisfied} <br>- Movie Ratings: {1 star, 2 stars, 3 stars, 4 stars, 5 stars}              |
+| **Analytics**             | - **Frequency Distribution**: Identifies dominant categories. <br>- **Mode, Median, Percentiles**: Measures central tendency. <br>- **Spearman Rank Correlation**: Analyzes relationships between ordinal & numeric attributes. |
+| **Encoding for ML**       | - **Ordinal Encoding**: Assigns numeric values based on order. <br>- **Target Encoding**: Uses mean of target variable for each category.                                                                                   |
+| **Feature Engineering**   | - **Binning/Grouping**: Merging similar categories. <br>- **Interaction Features**: Creating new variables based on ordinal data.                                                                                           |
+| **Visualization Methods** | - **Bar Charts**: Displays distribution of ordinal attributes. <br>- **Histograms**: Shows frequency distribution of ordinal values.                                                                                        |
+| **Insights**              | - **Trend Analysis**: Evaluates patterns over time. <br>- **Correlation with Target Variable**: Helps in feature selection.                                                                                                 |
 
-- ### **Interval-Scaled Attributes (Continuous & No True Zero)**
-	- Interval-scaled attributes have **equal differences** between values, but **no absolute zero.**
-		- **Examples:**
-			- **Temperature in Celsius/Fahrenheit**
-			- **Dates & Time Intervals**
-	- #### **Analytics for Interval-Scaled Attributes:**
-		- **Mean, Median, Standard Deviation** – Measure central tendency & spread.
-		- **Pearson Correlation Coefficient** – Assesses relationships between interval attributes.
-		- **Covariance** – Indicates directional relationships.
-	- #### **Feature Scaling for ML:**
-		- **Z-score Normalization** – Converts values to a mean of 0 and standard deviation of 1.
-		- **Min-Max Scaling** – Rescales values between [0,1].
-		- **IQR Method** – Identifies outliers using interquartile range.
-	- #### **Feature Engineering Techniques:**
-		- **Polynomial Features** – Deriving new features using powers of existing attributes.
-		- **Interaction Terms** – Capturing dependencies between attributes.
-	- #### **Dimensionality Reduction Techniques:**
-		- **PCA (Principal Component Analysis)** – Reduces feature dimensions while preserving variance.
-	- #### **Visualization Methods:**
-		- **Histograms, Box Plots, Scatter Plots, Line Plots** – Used for data distribution analysis.
-	- #### **Insights from Interval-Scaled Attributes:**
-		- **Trends & Patterns** – Identify shifts in cybersecurity data.
-		- **Outliers & Anomalies** – Detect security breaches.
-- ### **Ratio-Scaled Attributes (Continuous & True Zero Exists)**
-	- Ratio-scaled attributes have a **true zero point**, meaning zero represents **no existence** of the measured quantity.
-	- **Examples:**
-		- **Height, Weight, Age, Income**
-	- #### **Analytics for Ratio-Scaled Attributes:**
-		- **Mean, Median, Standard Deviation** – Measure central tendency & dispersion.
-		- **Correlation & Covariance** – Identifies dependencies between attributes.
-	- #### **Feature Scaling for ML:**
-		- **Z-score Normalization, Min-Max Scaling, IQR Method** – Applied similarly to interval-scaled attributes.
-	- #### **Feature Engineering Techniques:**
-		- **Polynomial & Interaction Features** – Used for ML model improvements.
-	- #### **Predictive Modeling:**
-		- **Regression Analysis (Linear & Logistic)** – Uses ratio attributes for prediction.
-	- #### **Anomaly Detection:**
-		- **Identifying Outliers** – Unusual data points (e.g., fraudulent transactions).
-	- #### **Visualization Methods:**
-		- **Histograms, Box Plots, Scatter Plots, Line Plots** – Used for detecting anomalies.
-	- #### **Insights from Ratio-Scaled Attributes:**
-		- **Relative Measures & Ratios** – Useful for comparative analysis.
-		- **Descriptive & Predictive Insights** – Provides valuable trends in cybersecurity.
+## **Interval-Scaled Attributes (Continuous & No True Zero)**
+
+| **Aspect**                   | **Details**                                                                                                                                                                                                                                            |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Description**              | Interval-scaled attributes have equal differences between values but no absolute zero.                                                                                                                                                                 |
+| **Examples**                 | - Temperature in Celsius/Fahrenheit <br>- Dates & Time Intervals                                                                                                                                                                                           |
+| **Analytics**                | - **Mean, Median, Standard Deviation**: Measure central tendency & spread. <br>- **Pearson Correlation Coefficient**: Assesses relationships between interval attributes. <br>- **Covariance**: Indicates directional relationships.                           |
+| **Feature Scaling for ML**   | - **Z-score Normalization**: Converts values to a mean of 0 and standard deviation of 1. <br>- **Min-Max Scaling**: Rescales values between [0,1]. <br>- **IQR Method**: Identifies outliers using interquartile range.                                        |
+| **Feature Engineering**      | - **Polynomial Features**: Deriving new features using powers of existing attributes. <br>- **Interaction Terms**: Capturing dependencies between attributes.                                                                                              |
+| **Dimensionality Reduction** | - **PCA (Principal Component Analysis)**: Reduces feature dimensions while preserving variance.                                                                                                                                                        |
+| **Visualization Methods**    | - **Histograms**: Displays the frequency of data distribution. <br>- **Box Plots**: Visualizes data spread and detects outliers. <br>- **Scatter Plots**: Shows relationships between two interval attributes. <br>- **Line Plots**: Tracks data trends over time. |
+| **Insights**                 | - **Trends & Patterns**: Identifies shifts in cybersecurity data. <br>- **Outliers & Anomalies**: Detects security breaches.                                                                                                                               |
+
+## **Ratio-Scaled Attributes (Continuous & True Zero Exists)**
+
+| **Aspect**                 | **Details**                                                                                                                                                                                                                             |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Description**            | Ratio-scaled attributes have a true zero point, meaning zero represents no existence of the measured quantity.                                                                                                                          |
+| **Examples**               | - Height <br>- Weight <br>- Age <br>- Income                                                                                                                                                                                                        |
+| **Analytics**              | - **Mean, Median, Standard Deviation**: Measure central tendency & dispersion. <br>- **Correlation & Covariance**: Identifies dependencies between attributes.                                                                              |
+| **Feature Scaling for ML** | - **Z-score Normalization, Min-Max Scaling, IQR Method**: Applied similarly to interval-scaled attributes.                                                                                                                              |
+| **Feature Engineering**    | - **Polynomial & Interaction Features**: Used for improving ML models.                                                                                                                                                                  |
+| **Predictive Modeling**    | - **Regression Analysis (Linear & Logistic)**: Uses ratio attributes for prediction.                                                                                                                                                    |
+| **Anomaly Detection**      | - **Identifying Outliers**: Detects unusual data points (e.g., fraudulent transactions).                                                                                                                                                |
+| **Visualization Methods**  | - **Histograms**: Displays distribution and frequency. <br>- **Box Plots**: Visualizes data spread and detects outliers. <br>- **Scatter Plots**: Shows relationships between ratio attributes. <br>- **Line Plots**: Tracks data trends over time. |
+| **Insights**               | - **Relative Measures & Ratios**: Useful for comparative analysis. <br>- **Descriptive & Predictive Insights**: Provides valuable trends in cybersecurity.                                                                                  |
+
 
 # **Algebraic & Geometric View of Data**
 ### **Key Concepts:**
