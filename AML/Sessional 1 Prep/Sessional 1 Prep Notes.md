@@ -389,7 +389,6 @@ Benchmark datasets are commonly used for training and evaluating machine learnin
 
 **Feature Engineering – Outliers, Missing Values, Duplicates, and Bias-Variance Tradeoff**
 
-
 ## **Feature Engineering**
 
 Feature engineering is the process of transforming raw data into meaningful features that improve model performance.
@@ -415,6 +414,7 @@ Feature engineering is the process of transforming raw data into meaningful feat
 ## **Outliers**
 
 Outliers are data points that significantly deviate from the overall dataset pattern.
+
 - ### **Causes of Outliers**
 	- **Natural Variability** : Genuine rare occurrences in data.
 	- **Measurement Error** : Human or instrument error.
@@ -447,57 +447,68 @@ Outliers are data points that significantly deviate from the overall dataset pat
 
 ## **Missing Values**
 
+| **Category**                 | **Details**                                                                                                                                                                                        |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **What are Missing Values?** | Missing values are data points that are not recorded or unavailable in a dataset.                                                                                                                  |
+|                              | - Missing values occur when information that should be present for certain observations is absent.                                                                                                 |
+| **Causes of Missing Values** | Missing values can occur due to the following reasons:                                                                                                                                             |
+|                              | - **Data Collection Issues**: Issues during the process of gathering data.                                                                                                                         |
+|                              | - **Measurement Error**: Human or instrument errors causing missing data.                                                                                                                          |
+|                              | - **Data Processing Issues**: Problems that occur during the data processing phase.                                                                                                                |
+|                              | - **Irrelevant Information**: Data is intentionally omitted because it is deemed unnecessary.                                                                                                      |
+|                              | - **Survey or Interview Refusals**: Missing data from respondents refusing to answer certain questions.                                                                                            |
+| **Impact of Missing Values** | Missing values can significantly affect data analysis and model performance.                                                                                                                       |
+|                              | - **Incompatibility with Algorithms**: Many algorithms (e.g., linear regression, logistic regression, KNN) cannot handle null values directly and require imputation or removal of missing values. |
+|                              | - **Bias in Model Predictions**: Incorrect imputation methods (e.g., using the mean without considering other factors) can lead to biased predictions.                                             |
+|                              | - **Loss of Data**: Removing rows or columns with missing values can result in a significant loss of data, reducing the size of the training dataset and potentially leading to overfitting.       |
+|                              | - **Misleading Insights**: If missing values are not handled appropriately, they can distort interpretations of the data.                                                                          |
+|                              | - **Incomplete Data and Loss of Context**: Missing data can lead to incomplete datasets, impacting context and analysis.                                                                           |
+|                              | - **Distorted Correlation and Covariance**: Missing values can skew correlations or covariances between variables, misrepresenting their true relationship.                                        |
+|                              | - **Breaks in Continuity of Time-Series Data**: Missing values can disrupt the continuity of time-series data, causing issues in forecasting or trend analysis.                                    |
+| **Handling Missing Values**  | Various methods to handle missing values:                                                                                                                                                          |
+|                              | - **Removing Null Values**: Removing rows or columns that contain missing values, though this may lead to significant data loss.                                                                   |
+|                              | - **Imputation**: Filling in missing values using estimates or statistical methods:                                                                                                                |
+|                              | - **Mean/Median Imputation**: Replace missing values with the mean or median of the feature.                                                                                                       |
+|                              | - **Mode Imputation**: For categorical variables, replace missing values with the mode (most frequent value).                                                                                      |
+|                              | - **K-Nearest Neighbors (KNN) Imputation**: Impute missing values using the average (or weighted average) of the nearest neighbors.                                                                |
+|                              | - **Regression Imputation**: Predict missing values using regression models based on other features in the dataset.                                                                                |
+|                              | - **Forward/Backward Fill**: In time-series data, impute missing values using the previous or next observed value.                                                                                 |
+|                              | - **Flagging Missing Data**: Create binary features that flag whether a value is missing, allowing models to account for missing data patterns.                                                    |
 
-- ### **Causes of Missing Data**
-	- Missing values occur when data points are unavailable or not recorded.
-		- **Data Collection Issues**
-		- **Measurement Errors**
-		- **Survey Non-Responses**
-		- **Data Processing Errors**
-- ### **Impact of Missing Data**
-	- **Incompatibility with Algorithms** : Many ML models cannot handle missing values directly.
-	- **Bias in Model Predictions** : Can skew results if not handled properly.
-	- **Loss of Data** : Removing missing values can shrink the dataset.
-	- **Distorted Correlations** : Can misrepresent variable relationships.
-- ### **Handling Missing Values**
-	1. **Remove Missing Data** : If the percentage is small.
-	2. **Imputation Methods:**
-		- Mean/Median/Mode Imputation.
-		- KNN Imputation (Nearest Neighbors).
-		- Regression-based Imputation.
-		- Forward/Backward Fill (for time-series data).
-	3. **Flagging Missing Data** : Create a binary feature indicating missing values.
 
 ## **Duplicate Values**
-- **Causes of Duplicates** Duplicate values occur when identical entries exist in the dataset. The main causes are:
-	- **Data Entry Errors**: Mistakes made during manual or automated data entry.
-	- **Data Merging Issues**: Duplicates can arise when datasets are merged incorrectly, often due to overlapping or similar entries.
-	- **Web Scraping Artifacts**: When data is collected from websites, scraping errors can lead to duplicate entries.
-	- **System Errors**: Bugs or issues in data processing systems can generate duplicates.
-- **Impact of Duplicates** Duplicates can severely affect both the data analysis and the performance of machine learning models. The main impacts include:
-    - **Distorted Summary Statistics**: Duplicates can skew basic statistics like mean, median, standard deviation, and percentiles, which mislead data analysis.
-    - **Misleading Insights**: Duplicate records may lead to incorrect or overly simplistic interpretations of the data, affecting business decisions.
-    - **Bias in Model Training**: If duplicate entries are used in model training, they can disproportionately influence the model’s predictions, making it less accurate.
-    - **Misleading Accuracy Metrics**: Duplicates inflate evaluation metrics such as accuracy, precision, recall, and F1 score, giving a false sense of model performance.
-    - **Data Redundancy**: Duplicates unnecessarily increase the size of the dataset, which can result in slower processing and higher storage costs without adding any new information.
-    - **Inconsistent Results**: Inconsistent analysis or reporting can occur when key metrics (e.g., sales or revenue) are aggregated multiple times due to duplication.
-    - **Data Cleaning Effort**: The presence of duplicates often indicates poor data quality, increasing the need for extensive data cleaning and preprocessing.
-    - **Less Diverse Training Data**: Duplicates reduce the diversity of the training data, limiting the model's ability to generalize well to unseen data.
-    - **Incorrect or Overlapping Clusters**: In clustering algorithms (e.g., K-means or DBSCAN), duplicates distort cluster formation, leading to inaccurate groupings.
-    - **Disrupted Time-Series Analysis**: In time-series data, duplicates disrupt the sequence of events, leading to faulty forecasts or analysis.
-    - **Effects on Business and Decision-Making**: Duplicates can misrepresent key performance indicators (KPIs), leading to incorrect resource allocation and misguided business strategies.
-    - **Misleading and False Associations**: Duplicates can cause false associations in classification and forecasting models.
-    - **Increased Computational and Storage Cost**: Handling and processing duplicates unnecessarily increases the computational cost and storage requirements.
-- **Duplicate Detection** Methods to detect duplicate values in the dataset include:
-    - **Direct Inspection**: Visually inspecting the data for repeated or identical entries.
-    - **Summary Statistics**: Using statistical measures (such as counts and frequency distributions) to identify repeated entries.
-    - **Visualizations**: Creating visualizations such as histograms or scatter plots to highlight duplicates and data anomalies.
-- **Handling Duplicates** Several techniques can be employed to handle duplicates:
-    - **Keep First/Last Occurrence**: In some cases, retaining only the first or last occurrence of each duplicate record is appropriate.
-    - **Fuzzy Matching**: For near-duplicates, fuzzy matching algorithms (like Levenshtein distance) can be used to detect and remove slight variations in data.
-    - **Remove Exact Duplicates**: Identify and drop exact duplicate records, leaving only unique entries in the dataset.
-    - **Remove Near-Duplicates**: Use fuzzy matching techniques to find and remove near-identical records that may have small variations (e.g., spelling errors).
-    - **Aggregate Data**: Instead of removing duplicates, duplicate records can be summarized, such as by averaging values or calculating the sum to represent them as a single entry.
+
+| **Category**             | **Details**                                                                                                                                           |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Causes of Duplicates** | Duplicates occur when identical entries exist in the dataset.                                                                                         |
+|                          | - **Data Entry Errors**: Mistakes made during manual or automated data entry.                                                                         |
+|                          | - **Data Merging Issues**: Duplicates can arise when datasets are merged incorrectly, often due to overlapping or similar entries.                    |
+|                          | - **Web Scraping Artifacts**: Scraping errors when collecting data from websites lead to duplicate entries.                                           |
+|                          | - **System Errors**: Bugs or issues in data processing systems can generate duplicates.                                                               |
+| **Impact of Duplicates** | Duplicates can severely affect data analysis and machine learning model performance.                                                                  |
+|                          | - **Distorted Summary Statistics**: Skewed statistics like mean, median, standard deviation, and percentiles.                                         |
+|                          | - **Misleading Insights**: Duplicates can lead to incorrect or overly simplistic interpretations of data.                                             |
+|                          | - **Bias in Model Training**: Disproportionate influence on model predictions, leading to less accurate models.                                       |
+|                          | - **Misleading Accuracy Metrics**: Inflated evaluation metrics (accuracy, precision, recall, F1 score).                                               |
+|                          | - **Data Redundancy**: Increased dataset size without adding new information, leading to slower processing and higher storage costs.                  |
+|                          | - **Inconsistent Results**: Analysis or reporting inconsistencies, especially in metrics like sales or revenue, due to duplication.                   |
+|                          | - **Data Cleaning Effort**: Presence of duplicates suggests poor data quality, leading to a greater need for cleaning and preprocessing.              |
+|                          | - **Less Diverse Training Data**: Reduced diversity, limiting model generalization.                                                                   |
+|                          | - **Incorrect or Overlapping Clusters**: In clustering algorithms (e.g., K-means, DBSCAN), duplicates distort clusters, causing inaccurate groupings. |
+|                          | - **Disrupted Time-Series Analysis**: Duplicates can disrupt the temporal sequence, leading to faulty forecasts.                                      |
+|                          | - **Effects on Business and Decision-Making**: Misrepresentation of KPIs, leading to incorrect resource allocation and business strategies.           |
+|                          | - **Misleading and False Associations**: Duplicates can cause false associations in classification and forecasting models.                            |
+|                          | - **Increased Computational and Storage Cost**: Handling duplicates increases computational and storage requirements.                                 |
+| **Duplicate Detection**  | Methods for detecting duplicate values in a dataset include:                                                                                          |
+|                          | - **Direct Inspection**: Visually inspecting the data for repeated or identical entries.                                                              |
+|                          | - **Summary Statistics**: Using statistical measures (e.g., counts and frequency distributions) to identify duplicates.                               |
+|                          | - **Visualizations**: Creating visualizations (e.g., histograms, scatter plots) to highlight duplicates and data anomalies.                           |
+| **Handling Duplicates**  | Techniques for handling duplicates:                                                                                                                   |
+|                          | - **Keep First/Last Occurrence**: Retain only the first or last occurrence of each duplicate.                                                         |
+|                          | - **Fuzzy Matching**: Use fuzzy matching algorithms (like Levenshtein distance) to detect and remove slight variations in data.                       |
+|                          | - **Remove Exact Duplicates**: Identify and drop exact duplicate records, leaving only unique entries.                                                |
+|                          | - **Remove Near-Duplicates**: Use fuzzy matching to remove near-identical records (e.g., spelling errors or slight variations).                       |
+|                          | - **Aggregate Data**: Instead of removing duplicates, summarize the data, such as by averaging or summing values to represent them as a single entry. |
 
 ## **Bias vs Variance**
 
@@ -706,16 +717,16 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ### **Feature Transformation Techniques**
 
-11. **Scaling & Normalization:**
+1. **Scaling & Normalization:**
 	- Min-Max Scaling (scales values between 0 and 1).
 	- Z-score Standardization (centers data around mean 0 with standard deviation 1).
-12. **Encoding Categorical Variables:**
+2. **Encoding Categorical Variables:**
 	- One-hot encoding (for nominal variables).
 	- Label encoding (for ordinal variables).
 	- Target encoding (replaces categories with mean target value).
-13. **Polynomial Features:**
+3. **Polynomial Features:**
 	- Creating interaction terms for non-linear relationships.
-14. **Log Transformation:**
+4. **Log Transformation:**
 	- Reduces skewness in highly skewed data.
 
 ### **Feature Extraction Methods**
@@ -738,11 +749,11 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ## **Applications of EDA & Feature Engineering**
 
-15. **Fraud Detection** : Identifying suspicious transactions based on behavioral patterns.
-16. **Cybersecurity** : Detecting network intrusions using anomaly detection techniques.
-17. **Healthcare** : Predicting diseases based on patient data and clinical features.
-18. **Finance** : Analyzing stock market trends and risk assessment.
-19. **Natural Language Processing (NLP)** : Extracting meaningful features from text.
+1. **Fraud Detection** : Identifying suspicious transactions based on behavioral patterns.
+2. **Cybersecurity** : Detecting network intrusions using anomaly detection techniques.
+3. **Healthcare** : Predicting diseases based on patient data and clinical features.
+4. **Finance** : Analyzing stock market trends and risk assessment.
+5. **Natural Language Processing (NLP)** : Extracting meaningful features from text.
 
 ---
 
