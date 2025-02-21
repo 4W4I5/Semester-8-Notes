@@ -12,11 +12,11 @@
 
 # Applied Machine Learning - CySec (AML)
 
-| Exam                                                                    | Status    |
-| ----------------------------------------------------------------------- | --------- |
-| [Sessional 1](AML/Sessional%201%20Prep/Sessional%201%20Prep%20Notes.md) | :warning: |
-| [Sessional 2](AML/Sessional%202%20Prep/Sessional%202%20Prep%20Notes.md) | :warning: |
-| [Finals](AML/Finals%20Prep/Finals%20Prep%20Notes.md)                    | :warning: | 
+| Exam                                                                    | Status             |
+| ----------------------------------------------------------------------- | ------------------ |
+| [Sessional 1](AML/Sessional%201%20Prep/Sessional%201%20Prep%20Notes.md) | :white_check_mark: | 
+| [Sessional 2](AML/Sessional%202%20Prep/Sessional%202%20Prep%20Notes.md) | :warning:          |
+| [Finals](AML/Finals%20Prep/Finals%20Prep%20Notes.md)                    | :warning:          |
 
 # Professional Practices in IT (PPIT)
 
@@ -28,8 +28,8 @@
 
 # Entrepreneurship
 
-| Exam                                                                      | Status    |
-| ------------------------------------------------------------------------- | --------- |
-| [Sessional 1](Entre/Sessional%201%20Prep/Sessional%201%20Prep%20Notes.md) | :warning: |
-| [Sessional 2](Entre/Sessional%202%20Prep/Sessional%202%20Prep%20Notes.md) | :warning: |
-| [Finals](Entre/Finals%20Prep/Finals%20Prep%20Notes.md)                    | :warning: |
+| Exam                                                                      | Status             |
+| ------------------------------------------------------------------------- | ------------------ |
+| [Sessional 1](Entre/Sessional%201%20Prep/Sessional%201%20Prep%20Notes.md) | :white_check_mark: | 
+| [Sessional 2](Entre/Sessional%202%20Prep/Sessional%202%20Prep%20Notes.md) | :warning:          |
+| [Finals](Entre/Finals%20Prep/Finals%20Prep%20Notes.md)                    | :warning:          |

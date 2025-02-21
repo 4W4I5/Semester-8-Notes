@@ -3,7 +3,7 @@
 | 1                 | Introduction                  | :white_check_mark: |
 | 2                 | Machine Learning              | :white_check_mark: |
 | 3 + 4             | Data Views                    | :white_check_mark: |
-| 5                 | Feature Engineering           | :warning:          |
+| 5                 | Feature Engineering           | :white_check_mark: | 
 | 6                 | High Dimensional Data         | :warning:          |
 | 6A                | Exploratory Data Analysis     | :warning:          |
 | 7                 | Linear Regression             | :white_check_mark: |
@@ -413,38 +413,25 @@ Feature engineering is the process of transforming raw data into meaningful feat
 
 ## **Outliers**
 
-Outliers are data points that significantly deviate from the overall dataset pattern.
+| **Topic**                        | **Details**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Outliers – What?**             | Outliers are data points that differ significantly from the rest of the dataset. They are extreme high or low values that usually do not follow the general trend of the data.                                                                                                                                                                                                                                                                                                                                          |
+| **Causes of Outliers**           | - **Variability of Data**: Natural or rare events. <br> -**Measurement Error**: Human or instrument error. <br> -**Data Pre-processing Issues**: Errors during data cleaning. <br> -**Experimental Design**: Small sample sizes, sampling errors, or out-of-scope sampling. <br> -**Changes Over Time**: Trends, seasonal effects. <br> -**Intentional Factors**: Fraud, extreme behavior. <br> -**External Influences**: Environmental or external factors.                                                                                    |
+| **Impact on Model Performance**  | - **Bias and Variance**: Outliers can distort the relationship between features and target variables, leading to bias and increased variance. This makes the model less generalizable. <br> -**Prediction Accuracy**: Outliers can skew the model training, affecting predictions, especially in regression models, where they may disproportionately affect the slope.                                                                                                                                                     |
+| **Effect on Algorithms**         | - **Linear Models**: Outliers heavily influence model parameters. <br> -**Distance-Based Algorithms**: Algorithms like K-Nearest Neighbors and K-Means can have distorted clusters or neighbors due to outliers. <br> -**Support Vector Machines**: Outliers near the decision boundary can significantly shift the boundary.                                                                                                                                                                                                   |
+| **Training Time & Complexity**   | - **Increased Complexity**: Models may overfit to outliers, increasing the number of parameters and training time. <br> -**Longer Training Time**: Algorithms such as K-means or SVM may take longer to converge or fail to converge at all.                                                                                                                                                                                                                                                                                |
+| **Impact on Evaluation Metrics** | Outliers can disproportionately influence metrics such as Mean Squared Error (MSE) or Mean Absolute Error (MAE).                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Interpretability**             | Outliers can lead to misleading insights or incorrect feature importance rankings in interpretive models like linear regression or decision trees.                                                                                                                                                                                                                                                                                                                                                                      |
+| **Outlier Detection (Methods)**  | - **Z-Score Method**: Identifies outliers based on how many standard deviations a data point is away from the mean. <br> -**IQR Method**: Identifies outliers as data points outside the range [Q1 − 1.5 × IQR , Q3 + 1.5 × IQR]. <br> -**Visualization**: Boxplots and scatter plots can help detect outliers. <br> -**Isolation Forest**: A machine learning method that isolates anomalies by randomly selecting features and splitting data points. |
+| **Handling Outliers**            | - **Removing Outliers**: Outliers may be removed, particularly if they are due to errors. <br> -**Transforming Data**: Applying transformations like log or square root can reduce the impact of outliers. <br> -**Using Robust Algorithms**: Algorithms like decision trees or random forests are less affected by outliers. <br> -**Capping or Imputation**: Outliers can be replaced with a threshold value (capping) or imputed with more reasonable values.                                                                    |
 
-- ### **Causes of Outliers**
-	- **Natural Variability** : Genuine rare occurrences in data.
-	- **Measurement Error** : Human or instrument error.
-	- **Data Processing Issues** : Incorrect data formatting.
-	- **Experimental Design Issues** : Sampling errors.
-	- **External Influences** : Fraud, extreme behaviors, or seasonal trends.
-- ### **Impact of Outliers**
-	1. **Model Performance:**
-		- Can bias and distort machine learning models.
-		- Causes inaccurate regression coefficients.
-	2. **Effect on Algorithms:**
-		- Distance-based methods (KNN, K-Means) are highly affected.
-		- SVM decision boundaries can shift significantly.
-	3. **Increased Complexity:**
-		- Causes overfitting and longer training times.
-	4. **Misleading Insights:**
-		- Distorts interpretability of statistical models.
-- ### **Outlier Detection Methods**
-	1. **Z-Score Method** : Detects data points that deviate from the mean by more than 3 standard deviations.
-	2. **Interquartile Range (IQR) Method** : Identifies values outside [Q1 - 1.5 × IQR, Q3 + 1.5 × IQR].
-	3. **Visualization Techniques:**
-		- Boxplots, scatter plots.
-	4. **Machine Learning Methods:**
-		- Isolation Forests for anomaly detection.
-- ### **Handling Outliers**
-	- **Remove Outliers** : If they are due to errors.
-	- **Transform Data** : Apply log or square root transformation.
-	- **Use Robust Models** : Decision trees and random forests handle outliers better.
-	- **Cap Extreme Values** : Replace outliers with thresholds.
-
+### Outlier Formulae
+#### Z-Standardization
+$\mathbf{Z} = \frac{(X - \mu)}{\sigma}$
+- Requires
+	- Precalculated $\mu$ and $\sigma$
+#### IQR
+- Already know this, its based off of the medians
 ## **Missing Values**
 
 | **Category**                 | **Details**                                                                                                                                                                                        |
