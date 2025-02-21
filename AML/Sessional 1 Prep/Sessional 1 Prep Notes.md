@@ -319,7 +319,7 @@ For two vectors $A = [A_1, A_2, ..., A_n]$ and $B = [B_1, B_2, ..., B_n]$
 	- Where $\mu$ is the average value of all data points.
 - ### 6. **Total Variance**
 	- For a dataset **X** = $[x_1, x_2, ..., x_n]$, the total variance $\sigma^2$ is:
-		- $\mathbf{\mu} = \frac{1}{n}\sum_{i=1}^{n}{\|{X}_{i}-\mu\|}^2$
+		- $\mathbf{\sigma^2} = \frac{1}{n}\sum_{i=1}^{n}{\|{X}_{i}-\mu\|}^2$
 	- Where:
 		- $\mu$ is the mean of the dataset.
 		- $x_i$ is each individual data point.
