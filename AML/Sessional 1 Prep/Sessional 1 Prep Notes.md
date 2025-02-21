@@ -296,7 +296,7 @@ Attributes are **variables or features** used for **data analysis and machine le
 For two vectors $A = [A1,A2,...,An][A_1, A_2, ..., A_n]$ and $B = [B1,B2,...,Bn][B_1, B_2, ..., B_n]$
 
 - ### 1. **Dot Product (Scalar Product)**
-	- $A⋅B=A1⋅B1+A2⋅B2+...+An⋅Bn\mathbf{A} \cdot \mathbf{B} = A_1 \cdot B_1 + A_2 \cdot B_2 + ... + A_n \cdot B_n$
+	- $A \cdot B = A_{1} \cdot B_1 + A_{2}\cdot B_{2} +...+A_{n}\cdot B_{n}$
 	- This results in a scalar value.
 - ### 2. **Length (Euclidean Norm) of a Vector**
 	- $∥A∥=A12+A22+...+An2\|\mathbf{A}\| = \sqrt{A_1^2 + A_2^2 + ... + A_n^2}$
