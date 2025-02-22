@@ -572,7 +572,7 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 	- #### **2. Compute Covariance Matrix**
 		- Measures the variance and relationship between each pair of features.
 		- Helps determine whether features are correlated and can be combined.
-			- $\begin{bmatrix}Cov(X,X) & Cov(X,Y) \\ Cov(Y,X) & Cov(Y,Y)\end{bmatrix}$
+			- $\begin{bmatrix}Var(X) & Cov(X,Y) \\ Cov(Y,X) & Var(Y)\end{bmatrix}$
 		- $Cov(-,-)$ Function
 			- $\mathbf{Covariance} = \frac{\sum_{i=1}^N(X_i - \bar{X})\times(Y_i-\bar{Y})}{N}$
 	- #### **3. Compute Eigenvectors and Eigenvalues**
