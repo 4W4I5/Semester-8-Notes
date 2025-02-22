@@ -575,12 +575,17 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 	- #### **3. Compute Eigenvectors and Eigenvalues**
 		- Eigenvectors define the principal component directions.
 		- Eigenvalues represent the amount of variance captured by each principal component.
+		- Done by solving $\text{det}(A-\lambda I) = 0$
+			- Will result in a quadratic equation that provides the required eigenvalues. Choose the non-negative one
+		-
 	- #### **4. Create Feature Vector**
 		- Selects the top principal components that retain most of the dataset’s variance.
 		- Reduces dimensionality while preserving the most important information.
 	- #### **5. Recast Data Along Principal Components**
 		- Projects the original data onto the selected principal components.
 		- Results in a new dataset with fewer dimensions but minimal information loss.
+		- Done by multiplying the two
+			- Take transpose of X to ensure that it can be multiplied by the eigenvector
 
 
 ## **Applications of PCA**
