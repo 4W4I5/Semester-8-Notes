@@ -574,7 +574,7 @@ PCA is a statistical technique used to reduce the dimensionality of data while p
 		- Helps determine whether features are correlated and can be combined.
 			- $\begin{bmatrix}Cov(X,X) & Cov(X,Y) \\ Cov(Y,X) & Cov(Y,Y)\end{bmatrix}$
 		- $Cov(-,-)$ Function
-			- $\mathbf{Covariance} = \frac{\sum(X - \bar{X})\times(Y-\bar{Y})}{N}$
+			- $\mathbf{Covariance} = \frac{\sum_{i=1}^N(X_i - \bar{X})\times(Y_i-\bar{Y})}{N}$
 	- #### **3. Compute Eigenvectors and Eigenvalues**
 		- Eigenvectors define the principal component directions.
 		- Eigenvalues represent the amount of variance captured by each principal component.
