@@ -2,7 +2,7 @@
 | ----------------- | ---------------------------------- | ------------------ |
 | 1                 | Introduction: Computing Profession | :white_check_mark: |
 | 2                 | Ethics                             | :white_check_mark: |
-| 3                 | Ethical Theories                   | :warning:          |
+| 3                 | Ethical Theories                   | :white_check_mark: | 
 | 4                 | Human Rights                       | :warning:          |
 | 5a                | Code of Conduct                    | :warning:          |
 | 5b                | ACM Code of Conduct                | :warning:          |
