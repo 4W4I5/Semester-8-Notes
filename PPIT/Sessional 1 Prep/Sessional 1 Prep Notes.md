@@ -3,10 +3,10 @@
 | 1                 | Introduction: Computing Profession | :white_check_mark: |
 | 2                 | Ethics                             | :white_check_mark: |
 | 3                 | Ethical Theories                   | :white_check_mark: |
-| 4                 | Human Rights                       | :warning:          |
-| 5a                | Code of Conduct                    | :warning:          |
-| 5b                | ACM Code of Conduct                | :warning:          |
-| 6                 | Ethical Decisions                  | :warning:          |
+| 4                 | Human Rights                       | :white_check_mark: |
+| 5a                | Code of Conduct                    | :white_check_mark: |
+| 5b                | ACM Code of Conduct                | :white_check_mark: |
+| 6                 | Ethical Decisions                  | :white_check_mark: | 
 
 # **Lecture 1: Computing Profession**
 ## **Professional Issues in Computing**
