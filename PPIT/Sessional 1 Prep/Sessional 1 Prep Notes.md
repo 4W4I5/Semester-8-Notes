@@ -56,18 +56,46 @@
 	    - **Institutional Code**: Organizational policies that guide behavior.
 	    - **Community Code**: Cultural or religious values influencing professional behavior.
 - ### **5. Pillars of Professionalism**
-	1. **Commitment**:
-	    - Professionals must make commitments willingly and strive to meet them.
-	    - Clear responsibilities, public statements of commitment, and advance notice if commitments can't be met.
-	2. **Integrity**:
-	    - **Honesty**, **vision**, **leadership**, and **love** for the work.
-	    - Key traits include a strong sense of self-belief and unwavering loyalty to professional values.
-	3. **Responsibility**:
-	    - Professionals are accountable for their actions, both professionally and personally.
-	    - Includes **product**, **service**, and **consequential responsibilities**.
-	4. **Accountability**:
-	    - Professionals are obligated to report on their work and make improvements.
-	    - Key elements: **measurable goals**, **performance standards**, and **feedback for improvement**.
+	- #### **1. Commitment**
+		- Commitment in professionalism requires a voluntary, clear, and well-defined approach. When professionals make commitments:
+			- **Willingness**: They must do so without any external pressure or duress. This ensures the individual is personally invested in fulfilling the promise.
+			- **Clear Definition**: The terms of commitment should be explicitly agreed upon by all parties involved, including specifying who is responsible for each task and the time frame.
+			- **Public Declaration**: Once a commitment is made, it should be openly stated, either within a team or to the broader organization, to foster transparency.
+			- **Preparation for Challenges**: It’s important not to make commitments hastily. Professionals should only promise what they can realistically achieve.
+			- **Re-negotiation**: If a commitment cannot be met, professionals should give prior notice and work towards an alternative solution, showing adaptability.
+	- #### **2. Integrity**
+		- Integrity is the cornerstone of trust in professionalism. It involves:
+			- **Loyalty to Values**: A professional is unwavering in their adherence to values and beliefs, making decisions aligned with ethical standards, even when faced with difficult choices.
+			- **Honesty**: A professional’s word is their bond. This includes being transparent and truthful, even when it might be uncomfortable.
+			- **Self-Belief**: Professionals who demonstrate integrity believe in their abilities and approach their work with confidence.
+			- **Corruption-Free**: They remain incorruptible in the face of temptation, ensuring their work reflects the highest standards of ethics.
+		- ##### **Three Maxims of Integrity**:
+			1. **Vision**: The ability to see the long-term goals and impact, planning accordingly.
+			2. **Leadership**: Professionals show initiative and the ability to lead and influence others, while exercising autonomy and authority.
+			3. **Love for the Work**: A deep passion and joy for the tasks at hand. When professionals love what they do, they work harder and more effectively.
+	- #### **3. Responsibility**
+		- Responsibility encompasses various aspects of professional life, and a professional must be responsible for both their actions and their outcomes:
+			- **Role & Tasks**: Each professional has a set role, and fulfilling that role is paramount. It includes taking ownership of tasks and actions.
+			- **Consequences**: A professional understands the consequences—positive or negative—of their actions.
+		- ##### **Types of Responsibility**:
+			- **Professional Responsibility**: Ensures that one upholds high standards and delivers results, contributing to the broader goals of the profession.
+			- **Personal Responsibility**: Acknowledges the importance of personal integrity and self-discipline.
+			- **Communal & Parental Responsibilities**: A professional should also account for their responsibilities to their community and family, recognizing that these spheres influence their professional conduct.
+			- **Professional Responsibilities**:
+				1. **Product Responsibilities**: Ensuring the quality, safety, and effectiveness of the product or service delivered.
+				2. **Service Responsibilities**: Ensuring customer satisfaction and fulfilling service promises.
+				3. **Consequential Responsibilities**: Taking ownership of the long-term impact of one’s work on society, the environment, and other stakeholders.
+	- #### **4. Accountability**
+		- Accountability is about answering for one’s actions and taking steps to ensure continual improvement. The process of accountability includes:
+			- **Measurable Goals**: Setting clear, attainable goals that can be tracked and evaluated.
+			- **Planning**: Professionals need to create detailed plans on how to achieve their goals.
+			- **Progress Reporting**: Constantly assessing one’s progress towards those goals and reporting on it.
+			- **Evaluating and Feedback**: Regular reviews of performance allow for necessary adjustments and improvements.
+			- **Improvement Based on Feedback**: Feedback is an essential part of professional growth. Professionals must be open to it and use it to refine their approach.
+		- ##### **Three Key Elements of Accountability**:
+			1. **Outcome Measures**: Specific, reliable, and objective criteria to assess performance.
+			2. **Performance Standards**: These are clear expectations, aligned with the desired outcomes, that guide actions.
+			3. **Incentives and Penalties**: Professionals are motivated by rewards for meeting standards and consequences for failing to meet them, creating a balanced system for continuous growth.
 - ### **6. Ethical & Legal Considerations in Computing**
 	- **Ethics in Computing**:
 	    - **Privacy**: Protecting personal data and user privacy.
