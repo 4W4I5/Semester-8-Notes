@@ -29,30 +29,30 @@
 ## **Professional Organizations in Computing**
 
 1. **Code of Conduct**:
-    - Professional bodies establish codes of conduct to regulate their members’ behaviors. This ensures ethical practices within the profession and sets disciplinary procedures for those who violate the standards.
+	- Professional bodies establish codes of conduct to regulate their members’ behaviors. This ensures ethical practices within the profession and sets disciplinary procedures for those who violate the standards.
 2. **Knowledge Dissemination**:
-    - These organizations share new developments and best practices through publications, conferences, and online resources. They serve as hubs for scientific exchange, fostering innovation and growth in the field.
+	- These organizations share new developments and best practices through publications, conferences, and online resources. They serve as hubs for scientific exchange, fostering innovation and growth in the field.
 3. **Membership Criteria**:
-    - Professional bodies set standards for entering and progressing within the profession. This may involve qualifications, experience, or continuous education requirements.
+	- Professional bodies set standards for entering and progressing within the profession. This may involve qualifications, experience, or continuous education requirements.
 4. **Advising Government and Regulatory Bodies**:
-    - Professional bodies often advise government and regulatory bodies on policies and regulations relevant to the field, ensuring that the interests of the profession and the public are well-represented.
+	- Professional bodies often advise government and regulatory bodies on policies and regulations relevant to the field, ensuring that the interests of the profession and the public are well-represented.
 5. **Global Mobility & Title Reservation**:
-    - Many organizations facilitate the movement of professionals across countries by recognizing qualifications and ensuring that titles and functions are protected by the government, maintaining the integrity of the profession.
+	- Many organizations facilitate the movement of professionals across countries by recognizing qualifications and ensuring that titles and functions are protected by the government, maintaining the integrity of the profession.
 - ### **Examples of Leading Professional Organizations in Computing**:
 	1. **ACM (Association for Computing Machinery)**:
-	    - The world’s largest educational and scientific computing society, focusing on advancing computing as both a science and a profession. ACM offers a wide range of resources such as publications, conferences, and technical committees to support its members.
+		- The world’s largest educational and scientific computing society, focusing on advancing computing as both a science and a profession. ACM offers a wide range of resources such as publications, conferences, and technical committees to support its members.
 	2. **IEEE-CS (IEEE Computer Society)**:
-	    - The world’s leading membership organization dedicated to computer science and technology. It supports its members through a variety of services including technical conferences, local chapters, and the development of computing standards.
+		- The world’s leading membership organization dedicated to computer science and technology. It supports its members through a variety of services including technical conferences, local chapters, and the development of computing standards.
 	3. **AAAI (Association for the Advancement of Artificial Intelligence)**:
-	    - A nonprofit scientific society devoted to advancing the understanding of the mechanisms underlying thought and intelligent behavior, particularly in machines. AAAI helps foster advancements in AI research and application.
+		- A nonprofit scientific society devoted to advancing the understanding of the mechanisms underlying thought and intelligent behavior, particularly in machines. AAAI helps foster advancements in AI research and application.
 	4. **AWC (Association for Women in Computing)**:
-	    - One of the first professional organizations for women in computing, AWC is dedicated to promoting the advancement of women in the computing professions. It provides networking opportunities and professional support for women in the field.
+		- One of the first professional organizations for women in computing, AWC is dedicated to promoting the advancement of women in the computing professions. It provides networking opportunities and professional support for women in the field.
 	5. **Computing Research Association**:
-	    - This organization aims to enhance innovation by fostering collaboration between industry, government, and academia to strengthen research and education in computing.
+		- This organization aims to enhance innovation by fostering collaboration between industry, government, and academia to strengthen research and education in computing.
 	6. **IEEE (Institute of Electrical and Electronics Engineers)**:
-	    - The world’s largest professional association for the advancement of technology. IEEE brings together professionals across various fields, including computing, to drive technological innovation.
+		- The world’s largest professional association for the advancement of technology. IEEE brings together professionals across various fields, including computing, to drive technological innovation.
 	7. **IET (Institution of Engineering and Technology)**:
-	    - A global organization that inspires, informs, and influences the engineering community. The IET supports technology innovation to meet society's needs and provides a platform for professionals in engineering and technology.
+		- A global organization that inspires, informs, and influences the engineering community. The IET supports technology innovation to meet society's needs and provides a platform for professionals in engineering and technology.
 - ### **The Importance of Professional Bodies**:
 	- **Regulation and Oversight**: These organizations ensure that the profession is practiced ethically and competently, maintaining public trust.
 	- **Professional Development**: They provide opportunities for continuous learning, networking, and career advancement.
@@ -220,7 +220,6 @@
 - **ACM & IEEE Codes of Ethics:**
 	- Developed to guide computing professionals.
 	- Enforced through the **Software Engineering Code of Ethics and Professional Practice**.
-
 - ### **Principles of Computing Ethics**
 	1. **Public Interest** – Ensure software benefits society.
 	2. **Client & Employer** – Act in their best interest.
@@ -255,23 +254,23 @@
 	- **Definition**: Consequentialism is the ethical theory that evaluates actions based solely on their **outcomes** or **consequences**. The core principle is that an action is right or wrong depending on whether it leads to good or bad results.
 	- **Key Principle**: The ethical value of an action is determined by its ability to produce **the best possible outcome**—either through minimizing harm or maximizing happiness.
 	- **Types of Consequentialism**:
-	    1. **Egoism**:
-	        - **Definition**: Egoism focuses on the **self**. It claims that an action is morally right if it benefits the person performing the action.
-	        - **Key Idea**: The person’s **own happiness** or **well-being** is the ultimate goal.
-	        - **Example**: If a person decides to lie to avoid personal consequences (such as a punishment at work), this action is justified because it protects their personal interests. The outcome of their decision maximizes their well-being, regardless of how it affects others.
-	    2. **Utilitarianism**:
-	        - **Definition**: Utilitarianism, developed by philosophers like Jeremy Bentham and John Stuart Mill, seeks the greatest happiness for the **greatest number of people**. Actions are considered right if they produce the most positive consequences for society as a whole.
-	        - **Key Idea**: The goal is to maximize overall happiness, even if it means that some individuals may experience harm.
-	        - **Example**: A city government may build a highway that displaces a few residents, but the highway will benefit a large number of people by reducing traffic congestion. The ethical decision, according to utilitarianism, is to proceed because the benefits to the larger population outweigh the harm to the few displaced individuals.
-	    3. **Altruism**:
-	        - **Definition**: Altruism holds that an action is right if it benefits others, even if it harms the person performing the action. This theory emphasizes **self-sacrifice** for the greater good.
-	        - **Key Idea**: Altruism is focused on promoting the well-being of others, and sometimes this means individuals must endure harm or discomfort for the sake of others’ needs.
-	        - **Example**: Donating a portion of your paycheck to charity, even though it means you will not have as much personal spending money. You are prioritizing the well-being of others over your own comfort.
+		1. **Egoism**:
+			- **Definition**: Egoism focuses on the **self**. It claims that an action is morally right if it benefits the person performing the action.
+			- **Key Idea**: The person’s **own happiness** or **well-being** is the ultimate goal.
+			- **Example**: If a person decides to lie to avoid personal consequences (such as a punishment at work), this action is justified because it protects their personal interests. The outcome of their decision maximizes their well-being, regardless of how it affects others.
+		2. **Utilitarianism**:
+			- **Definition**: Utilitarianism, developed by philosophers like Jeremy Bentham and John Stuart Mill, seeks the greatest happiness for the **greatest number of people**. Actions are considered right if they produce the most positive consequences for society as a whole.
+			- **Key Idea**: The goal is to maximize overall happiness, even if it means that some individuals may experience harm.
+			- **Example**: A city government may build a highway that displaces a few residents, but the highway will benefit a large number of people by reducing traffic congestion. The ethical decision, according to utilitarianism, is to proceed because the benefits to the larger population outweigh the harm to the few displaced individuals.
+		3. **Altruism**:
+			- **Definition**: Altruism holds that an action is right if it benefits others, even if it harms the person performing the action. This theory emphasizes **self-sacrifice** for the greater good.
+			- **Key Idea**: Altruism is focused on promoting the well-being of others, and sometimes this means individuals must endure harm or discomfort for the sake of others’ needs.
+			- **Example**: Donating a portion of your paycheck to charity, even though it means you will not have as much personal spending money. You are prioritizing the well-being of others over your own comfort.
 	- #### **Altruism vs. Compassion**
 		- **Compassion**: Compassion is an emotional response that involves **feeling** the pain or suffering of others. It is the feeling that motivates individuals to act altruistically.
-		    - **Example**: Seeing someone hungry may trigger an emotional response, leading you to want to help them.
+			- **Example**: Seeing someone hungry may trigger an emotional response, leading you to want to help them.
 		- **Altruism**: Altruism is the **action** that arises from compassion, in which individuals act to help others without expecting any personal reward or recognition.
-		    - **Example**: Giving up your lunch to someone who is hungry without expecting anything in return is altruistic behavior driven by compassion.
+			- **Example**: Giving up your lunch to someone who is hungry without expecting anything in return is altruistic behavior driven by compassion.
 - ### **3. Deontological Ethics**
 	- **Definition**: Deontological ethics, developed by Immanuel Kant, holds that an action is **morally right** if it is in accordance with **moral duties and rules**, regardless of the consequences.
 	- **Key Principle**: The **intentions** behind an action are more important than the results. It is the **duty** of individuals to follow ethical rules or guidelines.
@@ -297,11 +296,11 @@
 	- **Key Idea**: Moral judgments are subjective, and there is no objective moral truth; they serve more to **persuade** or **influence** others than to convey universal facts.
 - ### **8. Ethical Decision-Making**
 	- Ethical decision-making is the process of evaluating options and choosing an action that aligns with moral principles. Key factors to consider include:
-	    - **Who is affected?** Consider the stakeholders involved and how the decision impacts them.
-	    - **What are their rights?** Ensure that decisions uphold the rights of others.
-	    - **What are the risks and benefits?** Weigh the positive and negative outcomes of each choice.
-	    - **What actions are possible?** Explore the alternatives and decide on the best course of action.
-	    - **What is the most ethical choice?** Based on your evaluation, select the option that most aligns with ethical standards, even if it requires difficult choices.
+		- **Who is affected?** Consider the stakeholders involved and how the decision impacts them.
+		- **What are their rights?** Ensure that decisions uphold the rights of others.
+		- **What are the risks and benefits?** Weigh the positive and negative outcomes of each choice.
+		- **What actions are possible?** Explore the alternatives and decide on the best course of action.
+		- **What is the most ethical choice?** Based on your evaluation, select the option that most aligns with ethical standards, even if it requires difficult choices.
 
 ---
 
@@ -520,15 +519,15 @@
 	3. **Know and Respect Laws Related to Computing**
 		- Understand and follow **legal regulations** affecting computing.
 		- Includes **intellectual property laws, cybersecurity laws, and data protection laws**.
-	1. **Provide Honest and Thorough System Evaluations**
+	4. **Provide Honest and Thorough System Evaluations**
 		- Assess **risks and consequences** of software and IT systems.
 		- Ensure systems are **safe, secure, and reliable**.
-	1. **Honor Contracts and Agreements**
+	5. **Honor Contracts and Agreements**
 		- Follow through on **commitments to clients, employers, and users**.
 		- Avoid **unethical breaches of agreements**.
-	1. **Improve Public Understanding of Computing**
+	6. **Improve Public Understanding of Computing**
 		- Educate others about computing’s **benefits, risks, and ethical concerns**.
-	2. **Use Computing Resources Only When Authorized**
+	7. **Use Computing Resources Only When Authorized**
 		- Do not **hack, manipulate, or misuse** computing systems without permission.
 
 ## **4. Organizational Leadership Imperatives**
@@ -588,3 +587,88 @@
 
 # Lecture 6: Ethical Decision Making
 
+# **Ethical Decision Making**
+## **Key Scenarios**
+1. **AI-Based Hiring Tool Bias**
+	- **Dilemma:** The tool unfairly scores candidates from certain demographics. Management is aware but wants to proceed due to contractual obligations.
+	- **Options:** Advocate for fixing the bias (delays & client issues) vs. releasing a biased system (ethical risk).
+2. **Social Media Algorithm & User Manipulation**
+	- **Dilemma:** The algorithm promotes divisive content for engagement, increasing revenue but causing social harm.
+	- **Options:** Suggest ethical changes (reduce engagement/profits) vs. continue exploiting user emotions (moral concerns).
+
+
+## **Competing Factors in Ethical Decision Making**
+- **Behavior is influenced by multiple levels:**
+	- **Biological Level:** Driven by basic needs (food, shelter, relationships).
+	- **Social Level:** Influenced by government, religion, and family norms.
+	- **Moral Level:** Decisions based on personal and societal values of right/wrong.
+- **Decisions involve shades of gray, requiring value judgments.**
+
+## **Value Judgment in Decision Making**
+- **A high-quality ethical decision** should be based on facts, ethical principles, and multiple perspectives.
+- **Poor judgment leads to:**
+	- Hurting people’s feelings
+	- Low employee morale
+	- Loss of customers
+	- Financial decline or lawsuits
+- **Decision-making process helps ensure ethical choices.**
+
+
+## **Types of Ethical Choices**
+1. **Right vs. Wrong:**
+	- Clear cases like stealing, lying, and cheating.
+2. **Right vs. Right:**
+	- When competing ethical interests make the choice difficult (e.g., privacy vs. security).
+	- ### **Making Ethical Decisions**
+		1. **Recognize the ethical dilemma.**
+		2. **Use ethical reasoning to defend your choice.**
+		3. **There’s no universal method—approaches vary.**
+
+## **Rights and Duties in Ethics**
+- **Rights:** Universal privileges like privacy, property, and access to information.
+- **Duties:** Responsibilities that correspond to rights.
+	- ### **Personal Ethical Duties**
+		- Foster trust
+		- Act with integrity
+		- Be truthful & just
+		- Avoid harm (non-maleficence)
+		- Show gratitude
+		- Focus on self-improvement
+- **Balance:** One person's right imposes a duty on another.
+
+
+## **Approaches to Ethical Decision Making**
+- ### **1. Law & Ethics**
+	- The law may not always provide a clear ethical answer.
+	- **Seek professional guidance when unsure.**
+- ### **2. Informal Ethical Guidelines**
+	- **"Shush" Test:** Does someone want to keep it secret?
+	- **Mom Test:** Would you tell your mom?
+	- **TV Test:** Would you be okay with it airing on national TV?
+	- **Market Test:** Could it be marketed as a good thing?
+	- **Smell Test:** Does it feel wrong instinctively?
+- ### **3. Formal Ethical Guidelines**
+	- **Corporate Policy Compliance:** Does it violate company rules?
+	- **Professional Code of Conduct:** Align with industry standards.
+	- **Golden Rule:** Would you want this done to you?
+
+## **Ethical Decision Making & Code of Ethics**
+- ### **Case Study: Software Release Dilemma**
+	- A small company is developing an inventory system for a major retailer.
+	- **Issue:** The QA engineer (Jane) believes the system isn’t fully tested, but her employer pressures her to approve it to avoid financial collapse.
+	- **Ethical Analysis (ACM Code of Ethics):**
+		- **1.2 Avoid Harm:** Jane must ensure the software doesn’t harm stakeholders.
+		- **1.1 Human Well-being:** She should prioritize users over company profit.
+		- **1.3 Integrity:** She shouldn’t mislead clients.
+		- **2.1 Quality Responsibility:** She has an ethical duty to ensure a reliable product.
+- ### **Ethical Recommendation:**
+	- Jane should inform the client of potential risks rather than approve a faulty system.
+
+## **Kant’s Categorical Imperatives**
+- **Principle of Consistency:**
+	- Would it be okay if everyone did this?
+	- If the answer is no, the action is unethical.
+- **Principle of Respect:**
+	- People must be treated as ends, not as means (e.g., slavery violates ethics).
+- **Stakeholders Matter:**
+	- Ethical decisions must consider all affected parties.
