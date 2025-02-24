@@ -476,156 +476,109 @@
 - Developed by the **Task Force for the Revision of the ACM Code of Ethics and Professional Conduct**.
 - Serves as a **global standard** for professional behavior in computing.
 - Provides **ethical guidelines** for all ACM members.
-
-### **Key Sections:**
-
-1. **General Moral Imperatives** – Core ethical principles for all computing professionals.
-2. **Professional Responsibilities** – Ethical expectations for individuals in professional roles.
-3. **Organizational Leadership Imperatives** – Ethical obligations for computing leaders and managers.
-4. **Compliance with the Code** – Responsibilities in enforcing and upholding the Code.
-
+- ### **Key Sections:**
+	1. **General Moral Imperatives** – Core ethical principles for all computing professionals.
+	2. **Professional Responsibilities** – Ethical expectations for individuals in professional roles.
+	3. **Organizational Leadership Imperatives** – Ethical obligations for computing leaders and managers.
+	4. **Compliance with the Code** – Responsibilities in enforcing and upholding the Code.
 
 ## **2. General Moral Imperatives**
-
 - Basic ethical duties of ACM members in **all professional and personal computing-related activities**.
-
-### **Key Principles:**
-
-1. **Contribute to Society and Human Well-being**
-
-	- Computing professionals must design and develop systems **for the benefit of all people**.
-	- Recognize that computing impacts **everyone in society**.
-2. **Avoid Harm to Others**
-
-	- Ensure software and systems **do not cause harm**, whether intentional or accidental.
-	- Includes **privacy violations, security risks, and system failures**.
-3. **Be Honest and Trustworthy**
-
-	- Provide **accurate, complete, and transparent** information.
-	- Avoid deception, **misrepresentation of data**, and conflicts of interest.
-4. **Be Fair and Avoid Discrimination**
-
-	- Act **fairly and without bias** in all professional decisions.
-	- Take action to **combat discrimination** in computing.
-5. **Honor Property Rights (Copyrights & Patents)**
-
-	- Respect intellectual property, including **software, data, and creative works**.
-	- Avoid **software piracy and unauthorized use** of copyrighted materials.
-6. **Give Proper Credit for Intellectual Property**
-
-	- **Cite sources appropriately** and recognize contributions of others.
-	- Do not **plagiarize** code, research, or ideas.
-7. **Respect Privacy**
-
-	- Protect **user data** and ensure responsible data handling.
-	- Avoid unauthorized **access, sharing, or misuse** of personal information.
-8. **Honor Confidentiality**
-
-	- Maintain **confidentiality** of sensitive information.
-	- Avoid disclosing **trade secrets, private user data, or internal company details**.
-
+- ### **Key Principles:**
+	1. **Contribute to Society and Human Well-being**
+		- Computing professionals must design and develop systems **for the benefit of all people**.
+		- Recognize that computing impacts **everyone in society**.
+	2. **Avoid Harm to Others**
+		- Ensure software and systems **do not cause harm**, whether intentional or accidental.
+		- Includes **privacy violations, security risks, and system failures**.
+	3. **Be Honest and Trustworthy**
+		- Provide **accurate, complete, and transparent** information.
+		- Avoid deception, **misrepresentation of data**, and conflicts of interest.
+	4. **Be Fair and Avoid Discrimination**
+		- Act **fairly and without bias** in all professional decisions.
+		- Take action to **combat discrimination** in computing.
+	5. **Honor Property Rights (Copyrights & Patents)**
+		- Respect intellectual property, including **software, data, and creative works**.
+		- Avoid **software piracy and unauthorized use** of copyrighted materials.
+	6. **Give Proper Credit for Intellectual Property**
+		- **Cite sources appropriately** and recognize contributions of others.
+		- Do not **plagiarize** code, research, or ideas.
+	7. **Respect Privacy**
+		- Protect **user data** and ensure responsible data handling.
+		- Avoid unauthorized **access, sharing, or misuse** of personal information.
+	8. **Honor Confidentiality**
+		- Maintain **confidentiality** of sensitive information.
+		- Avoid disclosing **trade secrets, private user data, or internal company details**.
 
 ## **3. More Specific Professional Responsibilities**
-
 - **Applies to ACM members in professional roles**, including software engineers, IT managers, and researchers.
-
-### **Key Responsibilities:**
-
-1. **Strive for High-Quality Work**
-
-	- Ensure all computing work meets **high ethical and professional standards**.
-2. **Maintain Professional Competence**
-
-	- Continuously **learn and improve** technical and ethical knowledge.
-3. **Know and Respect Laws Related to Computing**
-
-	- Understand and follow **legal regulations** affecting computing.
-	- Includes **intellectual property laws, cybersecurity laws, and data protection laws**.
-4. **Provide Honest and Thorough System Evaluations**
-
-	- Assess **risks and consequences** of software and IT systems.
-	- Ensure systems are **safe, secure, and reliable**.
-5. **Honor Contracts and Agreements**
-
-	- Follow through on **commitments to clients, employers, and users**.
-	- Avoid **unethical breaches of agreements**.
-6. **Improve Public Understanding of Computing**
-
-	- Educate others about computing’s **benefits, risks, and ethical concerns**.
-7. **Use Computing Resources Only When Authorized**
-
-	- Do not **hack, manipulate, or misuse** computing systems without permission.
-
+- ### **Key Responsibilities:**
+	1. **Strive for High-Quality Work**
+		- Ensure all computing work meets **high ethical and professional standards**.
+	2. **Maintain Professional Competence**
+		- Continuously **learn and improve** technical and ethical knowledge.
+	3. **Know and Respect Laws Related to Computing**
+		- Understand and follow **legal regulations** affecting computing.
+		- Includes **intellectual property laws, cybersecurity laws, and data protection laws**.
+	1. **Provide Honest and Thorough System Evaluations**
+		- Assess **risks and consequences** of software and IT systems.
+		- Ensure systems are **safe, secure, and reliable**.
+	1. **Honor Contracts and Agreements**
+		- Follow through on **commitments to clients, employers, and users**.
+		- Avoid **unethical breaches of agreements**.
+	1. **Improve Public Understanding of Computing**
+		- Educate others about computing’s **benefits, risks, and ethical concerns**.
+	2. **Use Computing Resources Only When Authorized**
+		- Do not **hack, manipulate, or misuse** computing systems without permission.
 
 ## **4. Organizational Leadership Imperatives**
-
 - **Applies to leaders and decision-makers** in computing, including IT executives, managers, and policymakers.
-
-### **Key Responsibilities:**
-
-1. **Promote Social Responsibility**
-
-	- Leaders must **encourage ethical behavior** among employees.
-2. **Design Systems that Improve Quality of Life**
-
-	- Ensure computing solutions **enhance efficiency and fairness** in workplaces and society.
-3. **Support Proper Use of Computing Resources**
-
-	- Implement **security policies** to prevent misuse of company IT systems.
-4. **Prioritize User Needs in System Design**
-
-	- Design systems with **user accessibility, security, and fairness** in mind.
-5. **Protect Dignity of Users**
-
-	- Ensure systems **do not exploit, harm, or discriminate** against users.
-6. **Provide Ethical Education to Employees**
-
-	- Organizations should **train employees** in ethical computing practices.
+- ### **Key Responsibilities:**
+	1. **Promote Social Responsibility**
+		- Leaders must **encourage ethical behavior** among employees.
+	2. **Design Systems that Improve Quality of Life**
+		- Ensure computing solutions **enhance efficiency and fairness** in workplaces and society.
+	3. **Support Proper Use of Computing Resources**
+		- Implement **security policies** to prevent misuse of company IT systems.
+	4. **Prioritize User Needs in System Design**
+		- Design systems with **user accessibility, security, and fairness** in mind.
+	5. **Protect Dignity of Users**
+		- Ensure systems **do not exploit, harm, or discriminate** against users.
+	6. **Provide Ethical Education to Employees**
+		- Organizations should **train employees** in ethical computing practices.
 
 ## **5. Compliance with the ACM Code**
 
 - **All ACM members must uphold the Code and enforce ethical practices**.
 - **Violations of the Code are grounds for disciplinary action**.
-
-### **Key Compliance Rules:**
-
-1. **Promote Ethical Conduct**
-
-	- ACM members should **advocate for ethical behavior** in their workplaces.
-2. **Report Violations**
-
-	- Ethical breaches should be **reported and addressed**.
-	- Failure to comply **can result in expulsion from ACM**.
+- ### **Key Compliance Rules:**
+	1. **Promote Ethical Conduct**
+		- ACM members should **advocate for ethical behavior** in their workplaces.
+	2. **Report Violations**
+		- Ethical breaches should be **reported and addressed**.
+		- Failure to comply **can result in expulsion from ACM**.
 
 
 ## **6. Case Study: Fairness & Discrimination in IT Systems**
-
-### **Scenario:**
-
-- A company developing an **employment system** is asked to **prioritize white male candidates over others** in search results.
-
-### **Ethical Issues Violated:**
-
-1. **Fairness & Non-Discrimination (1.4)**
-	- The system should **treat all applicants equally**, regardless of **race or gender**.
-2. **Avoiding Harm (1.2)**
-	- Discriminatory systems **harm job seekers** and contribute to **biased hiring practices**.
-3. **Respect for Laws (2.3)**
-	- The request may **violate anti-discrimination laws** in many countries.
-4. **Honest Evaluations (2.5)**
-	- Developers must **assess the ethical risks** of implementing such bias.
-5. **Upholding Professional Standards (4.1)**
-	- Ethical professionals must **reject unethical system requirements**.
-
-### **Ethical Response:**
-
-- **Refuse to implement discriminatory features.**
-- **Report concerns to relevant authorities.**
-- **Educate clients on ethical hiring systems.**
-
+- ### **Scenario:**
+	- A company developing an **employment system** is asked to **prioritize white male candidates over others** in search results.
+- ### **Ethical Issues Violated:**
+	1. **Fairness & Non-Discrimination (1.4)**
+		- The system should **treat all applicants equally**, regardless of **race or gender**.
+	2. **Avoiding Harm (1.2)**
+		- Discriminatory systems **harm job seekers** and contribute to **biased hiring practices**.
+	3. **Respect for Laws (2.3)**
+		- The request may **violate anti-discrimination laws** in many countries.
+	4. **Honest Evaluations (2.5)**
+		- Developers must **assess the ethical risks** of implementing such bias.
+	5. **Upholding Professional Standards (4.1)**
+		- Ethical professionals must **reject unethical system requirements**.
+- ### **Ethical Response:**
+	- **Refuse to implement discriminatory features.**
+	- **Report concerns to relevant authorities.**
+	- **Educate clients on ethical hiring systems.**
 
 ## **7. Summary of Key Takeaways**
-
 - **ACM’s Code of Ethics** provides a **comprehensive framework** for ethical behavior in computing.
 - **Computing professionals must uphold fairness, honesty, and social responsibility**.
 - **Ethical dilemmas must be handled using principles of fairness, transparency, and integrity**.
