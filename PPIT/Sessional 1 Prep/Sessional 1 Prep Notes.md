@@ -2,7 +2,7 @@
 | ----------------- | ---------------------------------- | ------------------ |
 | 1                 | Introduction: Computing Profession | :white_check_mark: |
 | 2                 | Ethics                             | :white_check_mark: |
-| 3                 | Ethical Theories                   | :white_check_mark: | 
+| 3                 | Ethical Theories                   | :white_check_mark: |
 | 4                 | Human Rights                       | :warning:          |
 | 5a                | Code of Conduct                    | :warning:          |
 | 5b                | ACM Code of Conduct                | :warning:          |
@@ -314,31 +314,25 @@
 	2. **Justice** – Fair treatment and legal protection.
 	3. **Respect** – Individual freedoms must be upheld.
 	4. **Equality** – No discrimination in rights or opportunities.
-
-### **Historical Context**
-
-- After **World War II**, the global community recognized the need for **universally agreed rights**.
-- Led by **Franklin and Eleanor Roosevelt**, efforts were made to establish an **international declaration**.
+- ### **Historical Context**
+	- After **World War II**, the global community recognized the need for **universally agreed rights**.
+	- Led by **Franklin and Eleanor Roosevelt**, efforts were made to establish an **international declaration**.
 
 ## **2. Universal Declaration of Human Rights (UDHR)**
-
 - **Drafted by John Peters Humphrey** (Canadian).
 - **Adopted by the UN in 1948** with **48 votes in favor, 0 against, 8 abstentions**.
 - **Structure of UDHR:**
 	- **Preamble** – Explains the purpose and importance of human rights.
 	- **30 Articles** – Define fundamental human rights.
 - **Not legally binding**, but serves as a **global ethical and moral standard**.
-
-### **Key Principles in UDHR**
-
-- **Right to life, liberty, and security** (Article 3).
-- **Freedom from torture, slavery, and discrimination** (Articles 4-5).
-- **Right to fair trials and justice** (Articles 6-11).
-- **Freedom of speech, belief, and association** (Articles 18-20).
-- **Right to education, work, and participation in government** (Articles 21-27).
+- ### **Key Principles in UDHR**
+	- **Right to life, liberty, and security** (Article 3).
+	- **Freedom from torture, slavery, and discrimination** (Articles 4-5).
+	- **Right to fair trials and justice** (Articles 6-11).
+	- **Freedom of speech, belief, and association** (Articles 18-20).
+	- **Right to education, work, and participation in government** (Articles 21-27).
 
 ## **3. Cairo Declaration on Human Rights in Islam (CDHRI)**
-
 - Adopted on **August 5, 1990**, by **Muslim-majority nations**.
 - Aimed to align human rights with **Islamic principles**.
 - Recognizes **basic freedoms and justice** but within the framework of **Sharia law**.
@@ -346,9 +340,7 @@
 	- Emphasizes **family structure and religious duties**.
 	- Rights are **granted within Islamic law** rather than universal secular principles.
 
-
 ## **4. Why Ethical Theories Matter in Human Rights?**
-
 - **Ethics helps define the foundation of human rights.**
 - **No universal formula** for solving ethical dilemmas—context matters.
 - Ethical theories provide **guidance** on:
@@ -358,16 +350,13 @@
 
 
 ## **5. Ethical Decision-Making in Computing & Human Rights**
-
 - **Human rights apply to technology & computing** in various ways:
 	1. **Privacy** – Right to protect personal data.
 	2. **Freedom of Expression** – Avoiding censorship and digital suppression.
 	3. **Access to Technology** – Ensuring equal digital rights.
 	4. **AI & Automation Ethics** – Preventing bias and injustice.
 
-
 ## **6. Summary of Key Takeaways**
-
 - **UDHR (1948) is the foundation of modern human rights.**
 - **Cairo Declaration (1990) presents an Islamic perspective on human rights.**
 - **Ethical theories help professionals make morally sound decisions in computing.**
