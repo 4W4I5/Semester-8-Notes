@@ -27,17 +27,37 @@
 		- **Code of Ethics**: A set of guidelines to ensure ethical practice.
 		- **Professional Societies**: Organized bodies that support the profession and maintain standards.
 ## **Professional Organizations in Computing**
-- **Functions**:
-	- **Code of Conduct**: Professional bodies regulate behavior and enforce ethical standards.
-	- **Knowledge Dissemination**: Sharing information through publications, conferences, and online platforms.
-	- **Membership Criteria**: Setting standards for entering the profession.
-	- **Advising Government Bodies**: Providing expertise and input on policies and regulations.
-- **Examples**:
-	- **ACM** (Association for Computing Machinery): Focuses on advancing computing as a science and a profession.
-	- **IEEE-CS** (IEEE Computer Society): Supports computer science and technology professionals.
-	- **AAAI** (Association for the Advancement of Artificial Intelligence): Dedicated to advancing AI research.
-	- **AWC** (Association for Women in Computing): Promotes the advancement of women in computing.
-	- **Computing Research Association**: Focuses on enhancing research and education in computing.
+
+1. **Code of Conduct**:
+    - Professional bodies establish codes of conduct to regulate their members’ behaviors. This ensures ethical practices within the profession and sets disciplinary procedures for those who violate the standards.
+2. **Knowledge Dissemination**:
+    - These organizations share new developments and best practices through publications, conferences, and online resources. They serve as hubs for scientific exchange, fostering innovation and growth in the field.
+3. **Membership Criteria**:
+    - Professional bodies set standards for entering and progressing within the profession. This may involve qualifications, experience, or continuous education requirements.
+4. **Advising Government and Regulatory Bodies**:
+    - Professional bodies often advise government and regulatory bodies on policies and regulations relevant to the field, ensuring that the interests of the profession and the public are well-represented.
+5. **Global Mobility & Title Reservation**:
+    - Many organizations facilitate the movement of professionals across countries by recognizing qualifications and ensuring that titles and functions are protected by the government, maintaining the integrity of the profession.
+- ### **Examples of Leading Professional Organizations in Computing**:
+	1. **ACM (Association for Computing Machinery)**:
+	    - The world’s largest educational and scientific computing society, focusing on advancing computing as both a science and a profession. ACM offers a wide range of resources such as publications, conferences, and technical committees to support its members.
+	2. **IEEE-CS (IEEE Computer Society)**:
+	    - The world’s leading membership organization dedicated to computer science and technology. It supports its members through a variety of services including technical conferences, local chapters, and the development of computing standards.
+	3. **AAAI (Association for the Advancement of Artificial Intelligence)**:
+	    - A nonprofit scientific society devoted to advancing the understanding of the mechanisms underlying thought and intelligent behavior, particularly in machines. AAAI helps foster advancements in AI research and application.
+	4. **AWC (Association for Women in Computing)**:
+	    - One of the first professional organizations for women in computing, AWC is dedicated to promoting the advancement of women in the computing professions. It provides networking opportunities and professional support for women in the field.
+	5. **Computing Research Association**:
+	    - This organization aims to enhance innovation by fostering collaboration between industry, government, and academia to strengthen research and education in computing.
+	6. **IEEE (Institute of Electrical and Electronics Engineers)**:
+	    - The world’s largest professional association for the advancement of technology. IEEE brings together professionals across various fields, including computing, to drive technological innovation.
+	7. **IET (Institution of Engineering and Technology)**:
+	    - A global organization that inspires, informs, and influences the engineering community. The IET supports technology innovation to meet society's needs and provides a platform for professionals in engineering and technology.
+- ### **The Importance of Professional Bodies**:
+	- **Regulation and Oversight**: These organizations ensure that the profession is practiced ethically and competently, maintaining public trust.
+	- **Professional Development**: They provide opportunities for continuous learning, networking, and career advancement.
+	- **Public Advocacy**: Professional organizations play a role in advocating for the profession’s interests in governmental and regulatory circles, ensuring that policies are conducive to innovation and responsible practice.
+
 ## **Evolution of Professions**
 - **Revolutions & New Professions**:
 	- **Agrarian Revolution**: The birth of civilization and the emergence of specialized occupations.
