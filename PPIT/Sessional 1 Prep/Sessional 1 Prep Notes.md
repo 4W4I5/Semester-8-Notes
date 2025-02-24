@@ -9,100 +9,100 @@
 | 6                 | Ethical Decisions                  | :warning:          |
 
 # **Lecture 1: Computing Profession**
-- ### **1 .Professional Issues in Computing**
-	- **Why Important?**
-	    - Ensures **effective performance** and **growth** in the field.
-	    - Encompasses **non-technical aspects** like **ethics**, **laws**, and **organizational structures**.
-	    - Examines the **impact of technology on society**.
-	- #### **Computing as a Profession**
-		- **Characteristics of a Profession**:
-		    - **Expert Knowledge**: Professions require specialized technical knowledge and skills.
-		    - **Special Technical Skills**: In-depth domain expertise necessary for practice.
-		    - **Education & Training**: Requires substantial education and continuous learning.
-		    - **Autonomy & Self-Governance**: Professionals have independence in their work and control over standards and practices.
-		    - **Service to Society**: Professions aim to serve the public good rather than individual interests.
-		- **Attributes of a Mature Profession**:
-		    - **Accreditation & Certification**: Formal approval for education and training programs.
-		    - **Licensing & Professional Development**: Legal authorization and ongoing learning.
-		    - **Code of Ethics**: A set of guidelines to ensure ethical practice.
-		    - **Professional Societies**: Organized bodies that support the profession and maintain standards.
-- ### **2. Professional Organizations in Computing**
-	- **Functions**:
-	    - **Code of Conduct**: Professional bodies regulate behavior and enforce ethical standards.
-	    - **Knowledge Dissemination**: Sharing information through publications, conferences, and online platforms.
-	    - **Membership Criteria**: Setting standards for entering the profession.
-	    - **Advising Government Bodies**: Providing expertise and input on policies and regulations.
-	- **Examples**:
-	    - **ACM** (Association for Computing Machinery): Focuses on advancing computing as a science and a profession.
-	    - **IEEE-CS** (IEEE Computer Society): Supports computer science and technology professionals.
-	    - **AAAI** (Association for the Advancement of Artificial Intelligence): Dedicated to advancing AI research.
-	    - **AWC** (Association for Women in Computing): Promotes the advancement of women in computing.
-	    - **Computing Research Association**: Focuses on enhancing research and education in computing.
-- ### **3. Evolution of Professions**
-	- **Revolutions & New Professions**:
-	    - **Agrarian Revolution**: The birth of civilization and the emergence of specialized occupations.
-	    - **Industrial Revolution**: Rise of capitalism, nation-states, and new technological roles.
-	    - **ICT Revolution**: The emergence of the knowledge economy, AI, and data as valuable assets.
-	- **Modern Tech Jobs**:
-	    - Professions like **Data Scientist**, **Cloud Architect**, **SEO Analyst**, **AI Engineer** have emerged due to technological advancements.
-- ### **4. Professional Requirements**
-	- **Key Components**:
-	    - **Skills & Knowledge**: Essential to develop deep, specialized knowledge through both education and experience.
-	        - **Shallow Knowledge**: Can be harmful; professionals must ensure they possess expertise.
-	    - **Autonomy**: Professionals have more control over the work they do, in contrast to non-professionals, who follow more structured instructions (e.g., **Lawyer vs. Client**, **Doctor vs. Patient**).
-	    - **Code of Conduct**: A set of ethical and professional guidelines that practitioners must follow.
-	- **Types of Codes**:
-	    - **Professional Code**: Guidelines specific to the profession (e.g., ACM’s Code of Ethics).
-	    - **Institutional Code**: Organizational policies that guide behavior.
-	    - **Community Code**: Cultural or religious values influencing professional behavior.
-- ### **5. Pillars of Professionalism**
-	- #### **1. Commitment**
-		- Commitment in professionalism requires a voluntary, clear, and well-defined approach. When professionals make commitments:
-			- **Willingness**: They must do so without any external pressure or duress. This ensures the individual is personally invested in fulfilling the promise.
-			- **Clear Definition**: The terms of commitment should be explicitly agreed upon by all parties involved, including specifying who is responsible for each task and the time frame.
-			- **Public Declaration**: Once a commitment is made, it should be openly stated, either within a team or to the broader organization, to foster transparency.
-			- **Preparation for Challenges**: It’s important not to make commitments hastily. Professionals should only promise what they can realistically achieve.
-			- **Re-negotiation**: If a commitment cannot be met, professionals should give prior notice and work towards an alternative solution, showing adaptability.
-	- #### **2. Integrity**
-		- Integrity is the cornerstone of trust in professionalism. It involves:
-			- **Loyalty to Values**: A professional is unwavering in their adherence to values and beliefs, making decisions aligned with ethical standards, even when faced with difficult choices.
-			- **Honesty**: A professional’s word is their bond. This includes being transparent and truthful, even when it might be uncomfortable.
-			- **Self-Belief**: Professionals who demonstrate integrity believe in their abilities and approach their work with confidence.
-			- **Corruption-Free**: They remain incorruptible in the face of temptation, ensuring their work reflects the highest standards of ethics.
-		- ##### **Three Maxims of Integrity**:
-			1. **Vision**: The ability to see the long-term goals and impact, planning accordingly.
-			2. **Leadership**: Professionals show initiative and the ability to lead and influence others, while exercising autonomy and authority.
-			3. **Love for the Work**: A deep passion and joy for the tasks at hand. When professionals love what they do, they work harder and more effectively.
-	- #### **3. Responsibility**
-		- Responsibility encompasses various aspects of professional life, and a professional must be responsible for both their actions and their outcomes:
-			- **Role & Tasks**: Each professional has a set role, and fulfilling that role is paramount. It includes taking ownership of tasks and actions.
-			- **Consequences**: A professional understands the consequences—positive or negative—of their actions.
-		- ##### **Types of Responsibility**:
-			- **Professional Responsibility**: Ensures that one upholds high standards and delivers results, contributing to the broader goals of the profession.
-			- **Personal Responsibility**: Acknowledges the importance of personal integrity and self-discipline.
-			- **Communal & Parental Responsibilities**: A professional should also account for their responsibilities to their community and family, recognizing that these spheres influence their professional conduct.
-			- **Professional Responsibilities**:
-				1. **Product Responsibilities**: Ensuring the quality, safety, and effectiveness of the product or service delivered.
-				2. **Service Responsibilities**: Ensuring customer satisfaction and fulfilling service promises.
-				3. **Consequential Responsibilities**: Taking ownership of the long-term impact of one’s work on society, the environment, and other stakeholders.
-	- #### **4. Accountability**
-		- Accountability is about answering for one’s actions and taking steps to ensure continual improvement. The process of accountability includes:
-			- **Measurable Goals**: Setting clear, attainable goals that can be tracked and evaluated.
-			- **Planning**: Professionals need to create detailed plans on how to achieve their goals.
-			- **Progress Reporting**: Constantly assessing one’s progress towards those goals and reporting on it.
-			- **Evaluating and Feedback**: Regular reviews of performance allow for necessary adjustments and improvements.
-			- **Improvement Based on Feedback**: Feedback is an essential part of professional growth. Professionals must be open to it and use it to refine their approach.
-		- ##### **Three Key Elements of Accountability**:
-			1. **Outcome Measures**: Specific, reliable, and objective criteria to assess performance.
-			2. **Performance Standards**: These are clear expectations, aligned with the desired outcomes, that guide actions.
-			3. **Incentives and Penalties**: Professionals are motivated by rewards for meeting standards and consequences for failing to meet them, creating a balanced system for continuous growth.
-- ### **6. Ethical & Legal Considerations in Computing**
-	- **Ethics in Computing**:
-	    - **Privacy**: Protecting personal data and user privacy.
-	    - **Data Protection**: Ensuring data is secure and handled appropriately.
-	    - **Intellectual Property Rights**: Respecting the ownership of ideas and creations.
-	    - **Freedom of Information**: Balancing access to information with privacy concerns.
-	    - **Contracts & Legal Obligations**: Adhering to legal standards in agreements and business practices.
+## **Professional Issues in Computing**
+- **Why Important?**
+	- Ensures **effective performance** and **growth** in the field.
+	- Encompasses **non-technical aspects** like **ethics**, **laws**, and **organizational structures**.
+	- Examines the **impact of technology on society**.
+- ### **Computing as a Profession**
+	- **Characteristics of a Profession**:
+		- **Expert Knowledge**: Professions require specialized technical knowledge and skills.
+		- **Special Technical Skills**: In-depth domain expertise necessary for practice.
+		- **Education & Training**: Requires substantial education and continuous learning.
+		- **Autonomy & Self-Governance**: Professionals have independence in their work and control over standards and practices.
+		- **Service to Society**: Professions aim to serve the public good rather than individual interests.
+	- **Attributes of a Mature Profession**:
+		- **Accreditation & Certification**: Formal approval for education and training programs.
+		- **Licensing & Professional Development**: Legal authorization and ongoing learning.
+		- **Code of Ethics**: A set of guidelines to ensure ethical practice.
+		- **Professional Societies**: Organized bodies that support the profession and maintain standards.
+## **Professional Organizations in Computing**
+- **Functions**:
+	- **Code of Conduct**: Professional bodies regulate behavior and enforce ethical standards.
+	- **Knowledge Dissemination**: Sharing information through publications, conferences, and online platforms.
+	- **Membership Criteria**: Setting standards for entering the profession.
+	- **Advising Government Bodies**: Providing expertise and input on policies and regulations.
+- **Examples**:
+	- **ACM** (Association for Computing Machinery): Focuses on advancing computing as a science and a profession.
+	- **IEEE-CS** (IEEE Computer Society): Supports computer science and technology professionals.
+	- **AAAI** (Association for the Advancement of Artificial Intelligence): Dedicated to advancing AI research.
+	- **AWC** (Association for Women in Computing): Promotes the advancement of women in computing.
+	- **Computing Research Association**: Focuses on enhancing research and education in computing.
+## **Evolution of Professions**
+- **Revolutions & New Professions**:
+	- **Agrarian Revolution**: The birth of civilization and the emergence of specialized occupations.
+	- **Industrial Revolution**: Rise of capitalism, nation-states, and new technological roles.
+	- **ICT Revolution**: The emergence of the knowledge economy, AI, and data as valuable assets.
+- **Modern Tech Jobs**:
+	- Professions like **Data Scientist**, **Cloud Architect**, **SEO Analyst**, **AI Engineer** have emerged due to technological advancements.
+## **Professional Requirements**
+- **Key Components**:
+	- **Skills & Knowledge**: Essential to develop deep, specialized knowledge through both education and experience.
+		- **Shallow Knowledge**: Can be harmful; professionals must ensure they possess expertise.
+	- **Autonomy**: Professionals have more control over the work they do, in contrast to non-professionals, who follow more structured instructions (e.g., **Lawyer vs. Client**, **Doctor vs. Patient**).
+	- **Code of Conduct**: A set of ethical and professional guidelines that practitioners must follow.
+- **Types of Codes**:
+	- **Professional Code**: Guidelines specific to the profession (e.g., ACM’s Code of Ethics).
+	- **Institutional Code**: Organizational policies that guide behavior.
+	- **Community Code**: Cultural or religious values influencing professional behavior.
+## **Pillars of Professionalism**
+- ### **1. Commitment**
+	- Commitment in professionalism requires a voluntary, clear, and well-defined approach. When professionals make commitments:
+		- **Willingness**: They must do so without any external pressure or duress. This ensures the individual is personally invested in fulfilling the promise.
+		- **Clear Definition**: The terms of commitment should be explicitly agreed upon by all parties involved, including specifying who is responsible for each task and the time frame.
+		- **Public Declaration**: Once a commitment is made, it should be openly stated, either within a team or to the broader organization, to foster transparency.
+		- **Preparation for Challenges**: It’s important not to make commitments hastily. Professionals should only promise what they can realistically achieve.
+		- **Re-negotiation**: If a commitment cannot be met, professionals should give prior notice and work towards an alternative solution, showing adaptability.
+- ### **2. Integrity**
+	- Integrity is the cornerstone of trust in professionalism. It involves:
+		- **Loyalty to Values**: A professional is unwavering in their adherence to values and beliefs, making decisions aligned with ethical standards, even when faced with difficult choices.
+		- **Honesty**: A professional’s word is their bond. This includes being transparent and truthful, even when it might be uncomfortable.
+		- **Self-Belief**: Professionals who demonstrate integrity believe in their abilities and approach their work with confidence.
+		- **Corruption-Free**: They remain incorruptible in the face of temptation, ensuring their work reflects the highest standards of ethics.
+	- #### **Three Maxims of Integrity**:
+		1. **Vision**: The ability to see the long-term goals and impact, planning accordingly.
+		2. **Leadership**: Professionals show initiative and the ability to lead and influence others, while exercising autonomy and authority.
+		3. **Love for the Work**: A deep passion and joy for the tasks at hand. When professionals love what they do, they work harder and more effectively.
+- ### **3. Responsibility**
+	- Responsibility encompasses various aspects of professional life, and a professional must be responsible for both their actions and their outcomes:
+		- **Role & Tasks**: Each professional has a set role, and fulfilling that role is paramount. It includes taking ownership of tasks and actions.
+		- **Consequences**: A professional understands the consequences—positive or negative—of their actions.
+	- #### **Types of Responsibility**:
+		- **Professional Responsibility**: Ensures that one upholds high standards and delivers results, contributing to the broader goals of the profession.
+		- **Personal Responsibility**: Acknowledges the importance of personal integrity and self-discipline.
+		- **Communal & Parental Responsibilities**: A professional should also account for their responsibilities to their community and family, recognizing that these spheres influence their professional conduct.
+		- **Professional Responsibilities**:
+			1. **Product Responsibilities**: Ensuring the quality, safety, and effectiveness of the product or service delivered.
+			2. **Service Responsibilities**: Ensuring customer satisfaction and fulfilling service promises.
+			3. **Consequential Responsibilities**: Taking ownership of the long-term impact of one’s work on society, the environment, and other stakeholders.
+- ### **4. Accountability**
+	- Accountability is about answering for one’s actions and taking steps to ensure continual improvement. The process of accountability includes:
+		- **Measurable Goals**: Setting clear, attainable goals that can be tracked and evaluated.
+		- **Planning**: Professionals need to create detailed plans on how to achieve their goals.
+		- **Progress Reporting**: Constantly assessing one’s progress towards those goals and reporting on it.
+		- **Evaluating and Feedback**: Regular reviews of performance allow for necessary adjustments and improvements.
+		- **Improvement Based on Feedback**: Feedback is an essential part of professional growth. Professionals must be open to it and use it to refine their approach.
+	- #### **Three Key Elements of Accountability**:
+		1. **Outcome Measures**: Specific, reliable, and objective criteria to assess performance.
+		2. **Performance Standards**: These are clear expectations, aligned with the desired outcomes, that guide actions.
+		3. **Incentives and Penalties**: Professionals are motivated by rewards for meeting standards and consequences for failing to meet them, creating a balanced system for continuous growth.
+## **Ethical & Legal Considerations in Computing**
+- **Ethics in Computing**:
+	- **Privacy**: Protecting personal data and user privacy.
+	- **Data Protection**: Ensuring data is secure and handled appropriately.
+	- **Intellectual Property Rights**: Respecting the ownership of ideas and creations.
+	- **Freedom of Information**: Balancing access to information with privacy concerns.
+	- **Contracts & Legal Obligations**: Adhering to legal standards in agreements and business practices.
 
 ---
 
