@@ -6,27 +6,27 @@
 | 4                 | Human Rights                       | :warning:          |
 | 5a                | Code of Conduct                    | :warning:          |
 | 5b                | ACM Code of Conduct                | :warning:          |
-| 6                 | Ethical Decisions                  | :warning:          | 
+| 6                 | Ethical Decisions                  | :warning:          |
 
 # **Lecture 1: Computing Profession**
-- ### **1. Professional Issues in Computing**
+- ### **1 .Professional Issues in Computing**
 	- **Why Important?**
 	    - Ensures **effective performance** and **growth** in the field.
 	    - Encompasses **non-technical aspects** like **ethics**, **laws**, and **organizational structures**.
 	    - Examines the **impact of technology on society**.
-- ### **2. Computing as a Profession**
-	- **Characteristics of a Profession**:
-	    - **Expert Knowledge**: Professions require specialized technical knowledge and skills.
-	    - **Special Technical Skills**: In-depth domain expertise necessary for practice.
-	    - **Education & Training**: Requires substantial education and continuous learning.
-	    - **Autonomy & Self-Governance**: Professionals have independence in their work and control over standards and practices.
-	    - **Service to Society**: Professions aim to serve the public good rather than individual interests.
-	- **Attributes of a Mature Profession**:
-	    - **Accreditation & Certification**: Formal approval for education and training programs.
-	    - **Licensing & Professional Development**: Legal authorization and ongoing learning.
-	    - **Code of Ethics**: A set of guidelines to ensure ethical practice.
-	    - **Professional Societies**: Organized bodies that support the profession and maintain standards.
-- ### **3. Professional Organizations in Computing**
+	- #### **Computing as a Profession**
+		- **Characteristics of a Profession**:
+		    - **Expert Knowledge**: Professions require specialized technical knowledge and skills.
+		    - **Special Technical Skills**: In-depth domain expertise necessary for practice.
+		    - **Education & Training**: Requires substantial education and continuous learning.
+		    - **Autonomy & Self-Governance**: Professionals have independence in their work and control over standards and practices.
+		    - **Service to Society**: Professions aim to serve the public good rather than individual interests.
+		- **Attributes of a Mature Profession**:
+		    - **Accreditation & Certification**: Formal approval for education and training programs.
+		    - **Licensing & Professional Development**: Legal authorization and ongoing learning.
+		    - **Code of Ethics**: A set of guidelines to ensure ethical practice.
+		    - **Professional Societies**: Organized bodies that support the profession and maintain standards.
+- ### **2. Professional Organizations in Computing**
 	- **Functions**:
 	    - **Code of Conduct**: Professional bodies regulate behavior and enforce ethical standards.
 	    - **Knowledge Dissemination**: Sharing information through publications, conferences, and online platforms.
@@ -38,14 +38,14 @@
 	    - **AAAI** (Association for the Advancement of Artificial Intelligence): Dedicated to advancing AI research.
 	    - **AWC** (Association for Women in Computing): Promotes the advancement of women in computing.
 	    - **Computing Research Association**: Focuses on enhancing research and education in computing.
-- ### **4. Evolution of Professions**
+- ### **3. Evolution of Professions**
 	- **Revolutions & New Professions**:
 	    - **Agrarian Revolution**: The birth of civilization and the emergence of specialized occupations.
 	    - **Industrial Revolution**: Rise of capitalism, nation-states, and new technological roles.
 	    - **ICT Revolution**: The emergence of the knowledge economy, AI, and data as valuable assets.
 	- **Modern Tech Jobs**:
 	    - Professions like **Data Scientist**, **Cloud Architect**, **SEO Analyst**, **AI Engineer** have emerged due to technological advancements.
-- ### **5. Professional Requirements**
+- ### **4. Professional Requirements**
 	- **Key Components**:
 	    - **Skills & Knowledge**: Essential to develop deep, specialized knowledge through both education and experience.
 	        - **Shallow Knowledge**: Can be harmful; professionals must ensure they possess expertise.
@@ -55,7 +55,7 @@
 	    - **Professional Code**: Guidelines specific to the profession (e.g., ACM’s Code of Ethics).
 	    - **Institutional Code**: Organizational policies that guide behavior.
 	    - **Community Code**: Cultural or religious values influencing professional behavior.
-- ### **6. Pillars of Professionalism**
+- ### **5. Pillars of Professionalism**
 	1. **Commitment**:
 	    - Professionals must make commitments willingly and strive to meet them.
 	    - Clear responsibilities, public statements of commitment, and advance notice if commitments can't be met.
@@ -68,7 +68,7 @@
 	4. **Accountability**:
 	    - Professionals are obligated to report on their work and make improvements.
 	    - Key elements: **measurable goals**, **performance standards**, and **feedback for improvement**.
-- ### **7. Ethical & Legal Considerations in Computing**
+- ### **6. Ethical & Legal Considerations in Computing**
 	- **Ethics in Computing**:
 	    - **Privacy**: Protecting personal data and user privacy.
 	    - **Data Protection**: Ensuring data is secure and handled appropriately.
