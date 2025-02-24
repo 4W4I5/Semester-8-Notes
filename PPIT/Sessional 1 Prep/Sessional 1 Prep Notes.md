@@ -247,12 +247,11 @@
 ---
 
 # Lecture 3: Ethical Theories
-
-- ### **1. Introduction to Ethical Theories**
-	- **Purpose**: Ethical theories are systems of thought designed to help individuals and groups determine what is morally right or wrong. They provide guidance in resolving moral dilemmas by offering frameworks for analyzing and making ethical decisions.
-	- **Applications**: These theories serve as the foundation for **codes of ethics** in professions (e.g., law, medicine, business), **moral education**, and personal decision-making. They are important tools in ensuring fair, just, and moral behavior within societies.
-	- **Cultural Influence**: Over centuries, these theories have evolved through the contributions of philosophers, religious traditions, and societal norms. Different cultures may emphasize certain ethical theories over others, influencing moral codes around the world.
-- ### **2. Consequentialism**
+## **1. Introduction to Ethical Theories**
+- **Purpose**: Ethical theories are systems of thought designed to help individuals and groups determine what is morally right or wrong. They provide guidance in resolving moral dilemmas by offering frameworks for analyzing and making ethical decisions.
+- **Applications**: These theories serve as the foundation for **codes of ethics** in professions (e.g., law, medicine, business), **moral education**, and personal decision-making. They are important tools in ensuring fair, just, and moral behavior within societies.
+- **Cultural Influence**: Over centuries, these theories have evolved through the contributions of philosophers, religious traditions, and societal norms. Different cultures may emphasize certain ethical theories over others, influencing moral codes around the world.
+- ### **Consequentialism**
 	- **Definition**: Consequentialism is the ethical theory that evaluates actions based solely on their **outcomes** or **consequences**. The core principle is that an action is right or wrong depending on whether it leads to good or bad results.
 	- **Key Principle**: The ethical value of an action is determined by its ability to produce **the best possible outcome**—either through minimizing harm or maximizing happiness.
 	- **Types of Consequentialism**:
