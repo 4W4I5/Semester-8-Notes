@@ -10,14 +10,12 @@
 # **Lecture 1: Computing Profession**
 
 ## **1. Professional Issues in Computing**
-
 - **Why Important?**
 	- Effective performance & growth
 	- Non-technical aspects (ethics, laws, organizational structures)
 	- Impact of technology on society
 
 ## **2. Computing as a Profession**
-
 - **Characteristics of a Profession:**
 	- Expert knowledge
 	- Special technical skills
@@ -31,7 +29,6 @@
 	- Professional societies
 
 ## **3. Professional Organizations in Computing**
-
 - **Functions:**
 	- Code of conduct
 	- Knowledge dissemination (publications, conferences)
@@ -45,7 +42,6 @@
 	- Computing Research Association
 
 ## **4. Evolution of Professions**
-
 - **Revolutions & New Professions:**
 	- **Agrarian** → Birth of civilization
 	- **Industrial** → Capitalism, nation-states
@@ -54,7 +50,6 @@
 	- Data Scientist, Cloud Architect, SEO Analyst, AI Engineer
 
 ## **5. Professional Requirements**
-
 - **Key Components:**
 	- **Skills & Knowledge** → Developed through experience
 	- **Autonomy** → Power dynamics in professions (e.g., Lawyer-Client)
@@ -65,7 +60,6 @@
 	- **Community Code** (Cultural/religious influence)
 
 ## **6. Pillars of Professionalism**
-
 1. **Commitment:**
 	- Willing agreement, clear responsibilities, accountability
 2. **Integrity:**
@@ -84,16 +78,13 @@
 ---
 
 # Lecture 2: Ethics
-
 ## **1. Ethics Overview**
-
 - **Ethics**: Study of right and wrong in human actions.
 	- **Meta-ethics**: Principles from which ethical systems are built.
 	- **Moral theory**: Criteria to judge right and wrong.
 	- **Practical ethics**: Application of ethical systems in real-world scenarios.
 
 ## **2. Professional Ethics**
-
 - **Definition**: Conduct, principles, and standards that guide professionals in their work.
 - **Key Principles**:
 	- **Beneficence** – Doing good
@@ -106,13 +97,11 @@
 	- **Tolerance/Patience**
 
 ### **Why Professional Ethics Matter?**
-
 - Helps in decision-making at the workplace.
 - Ensures fair relationships between professionals, clients, society, and employers.
 - Protects both individuals and the profession.
 
 ## **3. Why People Act Unethically?**
-
 - Ethical standards differ from society’s norms.
 - Selfish motivations.
 - No sense of remorse if caught.
@@ -125,7 +114,6 @@
 | Punishment: Expulsion from profession       | Punishment: Fines, prison | Punishment: Guilt, shame       |
 
 ## **4. Computer Ethics**
-
 - **Why Important?**
 	- Prevents abuse and unethical behavior in computing.
 	- Computers create policy gaps due to rapid technological advancements.
@@ -137,46 +125,30 @@
 	- **Accuracy** – Ensuring truthful information.
 
 ## **5. Ethical Scenarios**
-
-### **Scenario 1 – Illegal Software Use**
-
-- A person uses software without purchasing it, claiming they are "evaluating" it indefinitely.
-- **Ethical issue:** Software piracy.
-
-### **Scenario 2 – Vaporware**
-
-- A large company falsely claims to be releasing a product to kill competition.
-- **Ethical issue:** Deception, anti-competitive behavior.
-
-### **Scenario 3 – Whistleblowing**
-
-- A NASA contractor discovers a software bug but is told to stay silent or be fired.
-- **Ethical issue:** Truth vs. loyalty, public safety concerns.
-
-### **Scenario 4 – Trade Secrets**
-
-- An employee leaks confidential company secrets during job interviews.
-- **Ethical issue:** Breach of trust and confidentiality.
-
-### **Scenario 5 – Security Flaw in Financial Software**
-
-- Developer discovers a security flaw but is asked to ignore it until after release.
-- **Ethical issue:** Prioritizing profits over user security.
-
-### **Scenario 6 – Rounding Test Data for a Critical Software**
-
-- A radiation prediction model has 74.6% accuracy, but the company rounds it to 75%.
-- **Ethical issue:** Scientific integrity vs. business interests.
-
-### **Scenario 7 – Reusing Code from Previous Job**
-
-- A developer uses proprietary libraries from a previous job at a new company.
-- **Ethical issue:** Intellectual property theft.
-
-### **Scenario 8 – Data Mining by Companies**
-
-- Is it ethical for companies to collect and analyze user data without consent?
-- **Ethical issue:** Privacy vs. business intelligence.
+- ### **Scenario 1 – Illegal Software Use**
+	- A person uses software without purchasing it, claiming they are "evaluating" it indefinitely.
+	- **Ethical issue:** Software piracy.
+- ### **Scenario 2 – Vaporware**
+	- A large company falsely claims to be releasing a product to kill competition.
+	- **Ethical issue:** Deception, anti-competitive behavior.
+- ### **Scenario 3 – Whistleblowing**
+	- A NASA contractor discovers a software bug but is told to stay silent or be fired.
+	- **Ethical issue:** Truth vs. loyalty, public safety concerns.
+- ### **Scenario 4 – Trade Secrets**
+	- An employee leaks confidential company secrets during job interviews.
+	- **Ethical issue:** Breach of trust and confidentiality.
+- ### **Scenario 5 – Security Flaw in Financial Software**
+	- Developer discovers a security flaw but is asked to ignore it until after release.
+	- **Ethical issue:** Prioritizing profits over user security.
+- ### **Scenario 6 – Rounding Test Data for a Critical Software**
+	- A radiation prediction model has 74.6% accuracy, but the company rounds it to 75%.
+	- **Ethical issue:** Scientific integrity vs. business interests.
+- ### **Scenario 7 – Reusing Code from Previous Job**
+	- A developer uses proprietary libraries from a previous job at a new company.
+	- **Ethical issue:** Intellectual property theft.
+- ### **Scenario 8 – Data Mining by Companies**
+	- Is it ethical for companies to collect and analyze user data without consent?
+	- **Ethical issue:** Privacy vs. business intelligence.
 
 ## **6. Ethical Decision Making**
 
@@ -409,39 +381,39 @@
 	- **"Public Interest" is central to all ethical decisions.**
 
 ### **Eight Principles of the SE Code of Ethics**
-6. **Public:**
+1. **Public:**
 	- Ensure software **benefits society** and does not **harm public welfare**.
 	- Accept **full responsibility** for one’s work.
 	- Approve software only if it is **safe, meets specifications, and protects privacy**.
 	- Disclose **potential risks** associated with software.
-7. **Client & Employer:**
+2. **Client & Employer:**
 	- Act in the **best interest of clients and employers**, while ensuring public welfare.
 	- **Do not use stolen or illegal software**.
 	- **Respect confidentiality** and **report unethical practices**.
 	- Warn employers if a project **risks failure** or **violates laws**.
-8. **Product:**
+3. **Product:**
 	- Develop software that meets **professional and ethical standards**.
 	- Ensure software is **secure, reliable, and well-documented**.
 	- Address **ethical, legal, and cultural** concerns in software design.
 	- Test, debug, and document software **thoroughly**.
-9. **Judgment:**
+4. **Judgment:**
 	- Maintain **integrity and independence** in professional decision-making.
 	- Avoid **deceptive financial practices** (e.g., bribery, double billing).
 	- **Disclose conflicts of interest** and avoid unethical business relationships.
-10. **Management:**
+5. **Management:**
 	- Promote **ethical decision-making** within teams and organizations.
 	- Ensure software engineers **understand and follow ethical guidelines**.
 	- Offer **fair compensation** and transparent job descriptions.
 	- Provide **due process** for ethical concerns and violations.
-11. **Profession:**
+6. **Profession:**
 	- Enhance the **reputation and integrity** of the software profession.
 	- Educate the public on **responsible software engineering**.
 	- **Support ethical engineers** and discourage unethical practices.
-12. **Colleagues:**
+7. **Colleagues:**
 	- Treat fellow engineers with **fairness and respect**.
 	- Assist in **professional development** and **share credit** fairly.
 	- Encourage **ethical behavior** in the workplace.
-13. **Self:**
+8. **Self:**
 	- Commit to **lifelong learning** in software engineering.
 	- Continuously improve **technical, legal, and ethical knowledge**.
 	- Avoid actions that **violate ethical standards**.
@@ -456,13 +428,13 @@
 	- **Mechanisms for updating the code** with evolving technologies.
 
 ## **6. Real-World Ethical Scenarios**
-14. **Client Wants a Flawed System Released**
+1. **Client Wants a Flawed System Released**
 	- If a **security flaw** is found before delivery, but management **wants to release the software anyway**, what should the engineer do?
 	- **Ethical Action:** **Disclose the risk** and advocate for public safety.
-15. **Employer Uses Pirated Software**
+2. **Employer Uses Pirated Software**
 	- An engineer finds out their company is **using illegal software**.
 	- **Ethical Action:** Report the issue while **maintaining confidentiality**.
-16. **A Colleague Takes Credit for Someone Else’s Work**
+3. **A Colleague Takes Credit for Someone Else’s Work**
 	- An engineer **steals credit** for software development.
 	- **Ethical Action:** **Report the misconduct** while ensuring fair recognition.
 
@@ -495,35 +467,35 @@
 
 ### **Key Principles:**
 
-5. **Contribute to Society and Human Well-being**
+1. **Contribute to Society and Human Well-being**
 
 	- Computing professionals must design and develop systems **for the benefit of all people**.
 	- Recognize that computing impacts **everyone in society**.
-6. **Avoid Harm to Others**
+2. **Avoid Harm to Others**
 
 	- Ensure software and systems **do not cause harm**, whether intentional or accidental.
 	- Includes **privacy violations, security risks, and system failures**.
-7. **Be Honest and Trustworthy**
+3. **Be Honest and Trustworthy**
 
 	- Provide **accurate, complete, and transparent** information.
 	- Avoid deception, **misrepresentation of data**, and conflicts of interest.
-8. **Be Fair and Avoid Discrimination**
+4. **Be Fair and Avoid Discrimination**
 
 	- Act **fairly and without bias** in all professional decisions.
 	- Take action to **combat discrimination** in computing.
-9. **Honor Property Rights (Copyrights & Patents)**
+5. **Honor Property Rights (Copyrights & Patents)**
 
 	- Respect intellectual property, including **software, data, and creative works**.
 	- Avoid **software piracy and unauthorized use** of copyrighted materials.
-10. **Give Proper Credit for Intellectual Property**
+6. **Give Proper Credit for Intellectual Property**
 
 	- **Cite sources appropriately** and recognize contributions of others.
 	- Do not **plagiarize** code, research, or ideas.
-11. **Respect Privacy**
+7. **Respect Privacy**
 
 	- Protect **user data** and ensure responsible data handling.
 	- Avoid unauthorized **access, sharing, or misuse** of personal information.
-12. **Honor Confidentiality**
+8. **Honor Confidentiality**
 
 	- Maintain **confidentiality** of sensitive information.
 	- Avoid disclosing **trade secrets, private user data, or internal company details**.
@@ -535,28 +507,28 @@
 
 ### **Key Responsibilities:**
 
-13. **Strive for High-Quality Work**
+1. **Strive for High-Quality Work**
 
 	- Ensure all computing work meets **high ethical and professional standards**.
-14. **Maintain Professional Competence**
+2. **Maintain Professional Competence**
 
 	- Continuously **learn and improve** technical and ethical knowledge.
-15. **Know and Respect Laws Related to Computing**
+3. **Know and Respect Laws Related to Computing**
 
 	- Understand and follow **legal regulations** affecting computing.
 	- Includes **intellectual property laws, cybersecurity laws, and data protection laws**.
-16. **Provide Honest and Thorough System Evaluations**
+4. **Provide Honest and Thorough System Evaluations**
 
 	- Assess **risks and consequences** of software and IT systems.
 	- Ensure systems are **safe, secure, and reliable**.
-17. **Honor Contracts and Agreements**
+5. **Honor Contracts and Agreements**
 
 	- Follow through on **commitments to clients, employers, and users**.
 	- Avoid **unethical breaches of agreements**.
-18. **Improve Public Understanding of Computing**
+6. **Improve Public Understanding of Computing**
 
 	- Educate others about computing’s **benefits, risks, and ethical concerns**.
-19. **Use Computing Resources Only When Authorized**
+7. **Use Computing Resources Only When Authorized**
 
 	- Do not **hack, manipulate, or misuse** computing systems without permission.
 
@@ -567,22 +539,22 @@
 
 ### **Key Responsibilities:**
 
-20. **Promote Social Responsibility**
+1. **Promote Social Responsibility**
 
 	- Leaders must **encourage ethical behavior** among employees.
-21. **Design Systems that Improve Quality of Life**
+2. **Design Systems that Improve Quality of Life**
 
 	- Ensure computing solutions **enhance efficiency and fairness** in workplaces and society.
-22. **Support Proper Use of Computing Resources**
+3. **Support Proper Use of Computing Resources**
 
 	- Implement **security policies** to prevent misuse of company IT systems.
-23. **Prioritize User Needs in System Design**
+4. **Prioritize User Needs in System Design**
 
 	- Design systems with **user accessibility, security, and fairness** in mind.
-24. **Protect Dignity of Users**
+5. **Protect Dignity of Users**
 
 	- Ensure systems **do not exploit, harm, or discriminate** against users.
-25. **Provide Ethical Education to Employees**
+6. **Provide Ethical Education to Employees**
 
 	- Organizations should **train employees** in ethical computing practices.
 
@@ -593,10 +565,10 @@
 
 ### **Key Compliance Rules:**
 
-26. **Promote Ethical Conduct**
+1. **Promote Ethical Conduct**
 
 	- ACM members should **advocate for ethical behavior** in their workplaces.
-27. **Report Violations**
+2. **Report Violations**
 
 	- Ethical breaches should be **reported and addressed**.
 	- Failure to comply **can result in expulsion from ACM**.
@@ -610,15 +582,15 @@
 
 ### **Ethical Issues Violated:**
 
-28. **Fairness & Non-Discrimination (1.4)**
+1. **Fairness & Non-Discrimination (1.4)**
 	- The system should **treat all applicants equally**, regardless of **race or gender**.
-29. **Avoiding Harm (1.2)**
+2. **Avoiding Harm (1.2)**
 	- Discriminatory systems **harm job seekers** and contribute to **biased hiring practices**.
-30. **Respect for Laws (2.3)**
+3. **Respect for Laws (2.3)**
 	- The request may **violate anti-discrimination laws** in many countries.
-31. **Honest Evaluations (2.5)**
+4. **Honest Evaluations (2.5)**
 	- Developers must **assess the ethical risks** of implementing such bias.
-32. **Upholding Professional Standards (4.1)**
+5. **Upholding Professional Standards (4.1)**
 	- Ethical professionals must **reject unethical system requirements**.
 
 ### **Ethical Response:**

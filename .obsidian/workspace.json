@@ -8,26 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1805612e1acecd22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Sessional 1 Prep Notes"
-            }
-          },
-          {
             "id": "b2e0bbf3353f8cdc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+                "file": "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
                 "mode": "source",
                 "source": true
               },
@@ -205,7 +191,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1805612e1acecd22",
+  "active": "b2e0bbf3353f8cdc",
   "lastOpenFiles": [
     "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
