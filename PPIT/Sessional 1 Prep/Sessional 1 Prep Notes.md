@@ -1,7 +1,7 @@
 | Chapter<br>Number | Chapter<br>Name                    | Status             |
 | ----------------- | ---------------------------------- | ------------------ |
 | 1                 | Introduction: Computing Profession | :white_check_mark: |
-| 2                 | Ethics                             | :warning:          |
+| 2                 | Ethics                             | :white_check_mark: |
 | 3                 | Ethical Theories                   | :warning:          |
 | 4                 | Human Rights                       | :warning:          |
 | 5a                | Code of Conduct                    | :warning:          |
@@ -127,7 +127,7 @@
 ---
 
 # Lecture 2: Ethics
-## **1. Ethics Overview**
+## **Ethics Overview**
 - **Ethics**: Study of right and wrong in human actions.
 	- **Meta-ethics**: Principles from which ethical systems are built.
 	- **Moral theory**: Criteria to judge right and wrong.
@@ -144,18 +144,16 @@
 	- **Justice** – Fairness
 	- **Privacy** – Respect for personal information
 	- **Tolerance/Patience**
-
-### **Why Professional Ethics Matter?**
-- Helps in decision-making at the workplace.
-- Ensures fair relationships between professionals, clients, society, and employers.
-- Protects both individuals and the profession.
+	- ### **Why Professional Ethics Matter?**
+		- Helps in decision-making at the workplace.
+		- Ensures fair relationships between professionals, clients, society, and employers.
+		- Protects both individuals and the profession.
 
 ## **Why People Act Unethically?**
 - Ethical standards differ from society’s norms.
 - Selfish motivations.
 - No sense of remorse if caught.
-
-### **Comparison of Ethics, Law, and Morals**
+- ### **Comparison of Ethics, Law, and Morals**
 
 | **Ethics**                                  | **Law**                   | **Morals**                     |
 | ------------------------------------------- | ------------------------- | ------------------------------ |
@@ -200,18 +198,15 @@
 	- **Ethical issue:** Privacy vs. business intelligence.
 
 ## **Ethical Decision Making**
-
-### **Factors to Consider:**
-
-1. Who is affected?
-2. What are their rights?
-3. What are the risks and benefits?
-4. What actions are possible?
-5. What are the responsibilities of stakeholders?
-6. What is the most ethically acceptable choice?
+- ### **Factors to Consider:**
+	1. Who is affected?
+	2. What are their rights?
+	3. What are the risks and benefits?
+	4. What actions are possible?
+	5. What are the responsibilities of stakeholders?
+	6. What is the most ethically acceptable choice?
 
 ## **Professional Code of Conduct**
-
 - **Purpose:**
 	- Establishes professionalism.
 	- Defines standards for interactions with clients and employers.
@@ -221,16 +216,15 @@
 	- Developed to guide computing professionals.
 	- Enforced through the **Software Engineering Code of Ethics and Professional Practice**.
 
-### **8 Principles of Computing Ethics**
-
-1. **Public Interest** – Ensure software benefits society.
-2. **Client & Employer** – Act in their best interest.
-3. **Product** – Maintain software quality.
-4. **Profession** – Uphold professional standards.
-5. **Colleagues** – Treat peers with respect.
-6. **Self** – Maintain personal integrity.
-7. **Management** – Ethically lead software projects.
-8. **Education** – Promote ethical computing.
+- ### **Principles of Computing Ethics**
+	1. **Public Interest** – Ensure software benefits society.
+	2. **Client & Employer** – Act in their best interest.
+	3. **Product** – Maintain software quality.
+	4. **Profession** – Uphold professional standards.
+	5. **Colleagues** – Treat peers with respect.
+	6. **Self** – Maintain personal integrity.
+	7. **Management** – Ethically lead software projects.
+	8. **Education** – Promote ethical computing.
 
 ## **The Ten Commandments of Computer Ethics**
 
