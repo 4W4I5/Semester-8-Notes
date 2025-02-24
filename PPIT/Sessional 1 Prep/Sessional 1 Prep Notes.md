@@ -172,30 +172,35 @@
 	- **Accuracy** – Ensuring truthful information.
 
 ## **Ethical Scenarios**
-- ### **Scenario 1 – Illegal Software Use**
-	- A person uses software without purchasing it, claiming they are "evaluating" it indefinitely.
-	- **Ethical issue:** Software piracy.
+- ### **Scenario 1 – Illegal Use**
+	- **Situation**: A person has been using software without the author's permission for 12 months, claiming it’s just for evaluation.
+	- **Ethical Evaluation**: This conduct is **unethical**. The person is using the software for far longer than a reasonable evaluation period, which may infringe on the software author’s rights. If the person intends to evaluate before buying, 12 months exceeds any reasonable timeframe, making it effectively theft. A proper evaluation period should be shorter, and any continued use should involve proper licensing and payment for the software.
 - ### **Scenario 2 – Vaporware**
-	- A large company falsely claims to be releasing a product to kill competition.
-	- **Ethical issue:** Deception, anti-competitive behavior.
-- ### **Scenario 3 – Whistleblowing**
-	- A NASA contractor discovers a software bug but is told to stay silent or be fired.
-	- **Ethical issue:** Truth vs. loyalty, public safety concerns.
+	- **Situation**: A large company spreads rumors about a competitor’s software product, causing potential customers to wait for a product that never gets released.
+	- **Ethical Evaluation**: This conduct is **unethical**. Spreading false information to harm a competitor’s business is a form of manipulation and is a deceptive practice. The large company’s actions are aimed at damaging the smaller company’s sales and reputation by promising a product that they never intend to release. This behavior is unethical as it involves dishonesty and unfair competition.
+- ### **Scenario 3 – Whistle Blower**
+	- **Situation**: Bhola sahib discovers a serious bug while working for NASA and is told to keep it confidential by his boss, or risk being fired.
+	- **Ethical Evaluation**: Bhola sahib's decision to stay silent out of fear is **unethical**, as he failed to act in the public interest. He should have reported the issue, as the bug could have catastrophic consequences. A professional should prioritize safety and the public good over loyalty to an employer, especially when lives or significant damages are at stake.
+	- **Would you hire him?**: While Bhola sahib might have acted out of fear, his lack of ethical courage to speak up would be a red flag for me. I would want to see if he could demonstrate learning from the situation and a commitment to ethical conduct in the future.
 - ### **Scenario 4 – Trade Secrets**
-	- An employee leaks confidential company secrets during job interviews.
-	- **Ethical issue:** Breach of trust and confidentiality.
-- ### **Scenario 5 – Security Flaw in Financial Software**
-	- Developer discovers a security flaw but is asked to ignore it until after release.
-	- **Ethical issue:** Prioritizing profits over user security.
-- ### **Scenario 6 – Rounding Test Data for a Critical Software**
-	- A radiation prediction model has 74.6% accuracy, but the company rounds it to 75%.
-	- **Ethical issue:** Scientific integrity vs. business interests.
-- ### **Scenario 7 – Reusing Code from Previous Job**
-	- A developer uses proprietary libraries from a previous job at a new company.
-	- **Ethical issue:** Intellectual property theft.
-- ### **Scenario 8 – Data Mining by Companies**
-	- Is it ethical for companies to collect and analyze user data without consent?
-	- **Ethical issue:** Privacy vs. business intelligence.
+	- **Situation**: Mr. X divulges trade secrets from his former company, YSoft, to a competitor before even starting at SuperSoft.
+	- **Ethical Evaluation**: This is **unethical**. Sharing trade secrets, especially before even starting a new job, is a direct violation of trust and confidentiality. Trade secrets are confidential information that companies rely on to maintain a competitive edge, and leaking them undermines fair competition and betrays former employers.
+	- **Would you hire him?**: I would be highly cautious about hiring Mr. X. His willingness to share confidential information shows a lack of integrity and trustworthiness. It's essential to maintain ethical standards when transitioning between jobs, and his actions suggest he might repeat this behavior.
+- ### **Scenario 5 – Security Flaw**
+	- **Situation**: You find a security flaw days before delivering software to a client, but your boss tells you to wait and patch it later to avoid delays.
+	- **Ethical Evaluation**: This is **unethical**. Security flaws in financial data systems are a serious issue that should not be overlooked. Delaying fixing a known flaw can put clients' data at risk, potentially leading to financial losses, reputational damage, or even legal consequences. The flaw should be reported and fixed before delivery, even if it causes delays.
+	- **What do you do?**: I would escalate the issue to management, emphasizing the importance of addressing the flaw immediately to ensure the security and integrity of the client's data.
+- ### **Scenario 6 – Radiation Prediction Software**
+	- **Situation**: Your software predicts radiation spread with 74.6% accuracy, but your boss says rounding it up to 75% is acceptable.
+	- **Ethical Evaluation**: This is **unethical**. Accuracy in critical fields like radiation prediction is vital for public safety. Rounding up the results misrepresents the software's true performance and could have dire consequences if relied upon. Providing false information or misleading results is both dangerous and dishonest.
+	- **What do you do?**: I would refuse to round the data and present the real figures to my boss. Transparency is key, especially when the safety of people could be at risk.
+- ### **Scenario 7 – Using Old Libraries at a New Job**
+	- **Situation**: You use software libraries from your previous job at a new company.
+	- **Ethical Evaluation**: This is **unethical** if you didn’t have permission to take the libraries. These libraries may be the intellectual property of your previous employer, and using them without permission is a violation of copyright, confidentiality agreements, and professional ethics.
+	- **What do you do?**: I would seek permission from my previous employer to use the libraries or, if necessary, recreate similar libraries from scratch at my new company. It’s crucial to respect intellectual property and avoid legal or ethical conflicts.
+- ### **Should a Company Data Mine?**
+	- **Ethical Evaluation**: Whether a company should data mine depends on the methods used and the ethical considerations surrounding user consent and privacy. **Ethically**, companies must obtain clear, informed consent from users before collecting their data, protect user privacy, and ensure that data mining practices are transparent and align with privacy laws (e.g., GDPR).
+	- **Unethical practices** occur when companies mine data without proper consent or use it in ways that manipulate, exploit, or harm users.
 
 ## **Ethical Decision Making**
 - ### **Factors to Consider:**
