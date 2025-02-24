@@ -6,6 +6,7 @@
 | 4                 | Human Rights                       | :warning:          |
 | 5a                | Code of Conduct                    | :warning:          |
 | 5b                | ACM Code of Conduct                | :warning:          |
+| 6                 | Ethical Decisions                  | :warning:          | 
 
 # **Lecture 1: Computing Profession**
 - ### **1. Professional Issues in Computing**
