@@ -583,3 +583,8 @@
 - **Computing professionals must uphold fairness, honesty, and social responsibility**.
 - **Ethical dilemmas must be handled using principles of fairness, transparency, and integrity**.
 - **Non-compliance with the Code can result in professional consequences**.
+
+---
+
+# Lecture 6: Ethical Decision Making
+
