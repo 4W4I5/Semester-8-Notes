@@ -247,74 +247,62 @@
 ---
 
 # Lecture 3: Ethical Theories
-## **1. Introduction to Ethical Theories**
 
-- Ethical theories help determine whether actions are right or wrong.
-- Used to develop **codes of ethics** and guide **decision-making**.
-- Different societies have developed and debated these theories over time.
-
-## **2. Consequentialism**
-
-- Judges actions **based on their outcomes**.
-- **Harm minimization** → Less harm = more ethical decision.
-- **Types:**
-	1. **Egoism** – Maximizes individual benefit.
-		- “Good for me, least harm to me.”
-		- Self-centered approach, prioritizes personal gain.
-	2. **Utilitarianism** – Maximizes benefit for the majority.
-		- “Good for the group, least harm for the group.”
-		- Decision-making focuses on overall happiness.
-	3. **Altruism** – Prioritizes others over oneself.
-		- “Good for all, some harm to me.”
-		- Self-sacrificing actions for the benefit of others.
-
-### **Altruism vs. Compassion**
-
-- **Compassion**: Feeling motivated to help others.
-- **Altruism**: Acting on that compassion **without expecting personal gain**.
-
-## **3. Deontological Ethics**
-
-- Judges actions based on **intentions**, not outcomes.
-- **Deon (Greek)** = **Duty** → Ethics is based on moral obligations.
-- **Example:** Killing is wrong, but if done in self-defense, it is ethical because the **intent was to protect**.
-- Actions are **intrinsically right or wrong**, regardless of consequences.
-
-## **4. Human Nature Ethics (Aristotelian Ethics)**
-
-- **Human beings are capable of achieving happiness** through their natural faculties.
-- Actions are **judged based on their contribution to personal growth** and fulfillment.
-- **Evil actions stem from lacking essential capabilities** (ignorance, lack of virtue).
-
-## **5. Relativism**
-
-- **Denies universal moral norms** – morality depends on culture, society, or individuals.
-- Ethics are **not fixed in time** and evolve with society.
-- **Example:** Something considered wrong today may be accepted in the future.
-
-## **6. Hedonism**
-
-- **Pleasure and happiness are the highest good**.
-- **Maximizing pleasure, minimizing pain** is the basis of morality.
-- **Example:** A hedonist pursues enjoyable experiences while avoiding suffering.
-
-## **7. Emotivism**
-
-- **Moral statements are expressions of emotion, not objective truths**.
-- **Example:** Saying “Stealing is wrong” is an expression of disapproval, not a factual claim.
-- **Key Ideas:**
-	- Moral judgments are **subjective** and based on emotions.
-	- Used to **persuade** others rather than express facts.
-	- **No objective moral truth exists.**
-
-## **8. Ethical Decision-Making**
-
-- **Factors to consider:**
-	- Who is affected?
-	- What are their rights?
-	- What are the risks and benefits?
-	- What actions are possible?
-	- What is the most ethical choice?
+- ### **1. Introduction to Ethical Theories**
+	- **Purpose**: Ethical theories are systems of thought designed to help individuals and groups determine what is morally right or wrong. They provide guidance in resolving moral dilemmas by offering frameworks for analyzing and making ethical decisions.
+	- **Applications**: These theories serve as the foundation for **codes of ethics** in professions (e.g., law, medicine, business), **moral education**, and personal decision-making. They are important tools in ensuring fair, just, and moral behavior within societies.
+	- **Cultural Influence**: Over centuries, these theories have evolved through the contributions of philosophers, religious traditions, and societal norms. Different cultures may emphasize certain ethical theories over others, influencing moral codes around the world.
+- ### **2. Consequentialism**
+	- **Definition**: Consequentialism is the ethical theory that evaluates actions based solely on their **outcomes** or **consequences**. The core principle is that an action is right or wrong depending on whether it leads to good or bad results.
+	- **Key Principle**: The ethical value of an action is determined by its ability to produce **the best possible outcome**—either through minimizing harm or maximizing happiness.
+	- **Types of Consequentialism**:
+	    1. **Egoism**:
+	        - **Definition**: Egoism focuses on the **self**. It claims that an action is morally right if it benefits the person performing the action.
+	        - **Key Idea**: The person’s **own happiness** or **well-being** is the ultimate goal.
+	        - **Example**: If a person decides to lie to avoid personal consequences (such as a punishment at work), this action is justified because it protects their personal interests. The outcome of their decision maximizes their well-being, regardless of how it affects others.
+	    2. **Utilitarianism**:
+	        - **Definition**: Utilitarianism, developed by philosophers like Jeremy Bentham and John Stuart Mill, seeks the greatest happiness for the **greatest number of people**. Actions are considered right if they produce the most positive consequences for society as a whole.
+	        - **Key Idea**: The goal is to maximize overall happiness, even if it means that some individuals may experience harm.
+	        - **Example**: A city government may build a highway that displaces a few residents, but the highway will benefit a large number of people by reducing traffic congestion. The ethical decision, according to utilitarianism, is to proceed because the benefits to the larger population outweigh the harm to the few displaced individuals.
+	    3. **Altruism**:
+	        - **Definition**: Altruism holds that an action is right if it benefits others, even if it harms the person performing the action. This theory emphasizes **self-sacrifice** for the greater good.
+	        - **Key Idea**: Altruism is focused on promoting the well-being of others, and sometimes this means individuals must endure harm or discomfort for the sake of others’ needs.
+	        - **Example**: Donating a portion of your paycheck to charity, even though it means you will not have as much personal spending money. You are prioritizing the well-being of others over your own comfort.
+	- #### **Altruism vs. Compassion**
+		- **Compassion**: Compassion is an emotional response that involves **feeling** the pain or suffering of others. It is the feeling that motivates individuals to act altruistically.
+		    - **Example**: Seeing someone hungry may trigger an emotional response, leading you to want to help them.
+		- **Altruism**: Altruism is the **action** that arises from compassion, in which individuals act to help others without expecting any personal reward or recognition.
+		    - **Example**: Giving up your lunch to someone who is hungry without expecting anything in return is altruistic behavior driven by compassion.
+- ### **3. Deontological Ethics**
+	- **Definition**: Deontological ethics, developed by Immanuel Kant, holds that an action is **morally right** if it is in accordance with **moral duties and rules**, regardless of the consequences.
+	- **Key Principle**: The **intentions** behind an action are more important than the results. It is the **duty** of individuals to follow ethical rules or guidelines.
+	- **Moral Duty**: Individuals have a **duty** to follow ethical principles (such as telling the truth or respecting others' rights) even when the outcomes may not lead to the greatest happiness.
+	- **Example**: Killing is generally considered wrong (a universal moral rule). However, if someone is about to attack you and your family, and you kill them in self-defense, the action is justified by deontologists because your **intent** was to protect others, not to cause harm.
+- ### **4. Human Nature Ethics (Aristotelian Ethics)**
+	- **Definition**: According to Aristotle, human beings have the **natural capacity** to achieve **happiness** through the cultivation of virtues. Human nature guides individuals to live fulfilling lives, and ethical actions promote personal growth and well-being.
+	- **Key Principle**: Ethical decisions should align with human **flourishing** (the development of one’s natural capabilities). People who act virtuously are living in accordance with their true nature.
+	- **Virtue Ethics**: Aristotle emphasizes the importance of developing virtues such as courage, wisdom, and honesty. Ethical actions are those that develop and express these virtues.
+	- **Example**: Helping someone in need may be considered an ethical act because it demonstrates **compassion** (a virtue), which promotes the individual’s personal growth and moral development.
+- ### **5. Relativism**
+	- **Definition**: Relativism holds that there are **no absolute moral truths**. What is considered right or wrong depends on the **culture, society**, or **individual** making the judgment.
+	- **Key Concept**: Ethics vary from culture to culture or person to person. What is moral in one society may be immoral in another, and moral values are not universally applicable.
+	- **Example**: In some societies, arranged marriages are considered ethical, while in others, they may be viewed as oppressive. Relativism suggests that there is no absolute right or wrong; morality is shaped by context.
+- ### **6. Hedonism**
+	- **Definition**: Hedonism holds that the **ultimate goal** of life is to seek **pleasure** and avoid **pain**. In this theory, the pursuit of happiness is the highest moral objective.
+	- **Key Principle**: Ethical actions are those that maximize **pleasure** and minimize **pain** or discomfort.
+	- **Example**: A person who chooses to relax and enjoy a pleasurable experience (e.g., eating a favorite meal) instead of working might justify this as a moral action based on the principle of maximizing happiness.
+- ### **7. Emotivism**
+	- **Definition**: Emotivism posits that ethical statements do not reflect objective truths but are expressions of the **emotions** or attitudes of the speaker.
+	- **Key Concept**: When someone says something is “right” or “wrong,” they are **expressing** their personal feelings rather than stating objective facts.
+	- **Example**: Saying “Stealing is wrong” reflects a personal emotional response or disapproval of stealing, rather than asserting an objective fact about the action itself.
+	- **Key Idea**: Moral judgments are subjective, and there is no objective moral truth; they serve more to **persuade** or **influence** others than to convey universal facts.
+- ### **8. Ethical Decision-Making**
+	- Ethical decision-making is the process of evaluating options and choosing an action that aligns with moral principles. Key factors to consider include:
+	    - **Who is affected?** Consider the stakeholders involved and how the decision impacts them.
+	    - **What are their rights?** Ensure that decisions uphold the rights of others.
+	    - **What are the risks and benefits?** Weigh the positive and negative outcomes of each choice.
+	    - **What actions are possible?** Explore the alternatives and decide on the best course of action.
+	    - **What is the most ethical choice?** Based on your evaluation, select the option that most aligns with ethical standards, even if it requires difficult choices.
 
 ---
 
