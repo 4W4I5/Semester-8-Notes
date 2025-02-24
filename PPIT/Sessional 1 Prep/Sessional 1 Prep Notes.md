@@ -133,7 +133,7 @@
 	- **Moral theory**: Criteria to judge right and wrong.
 	- **Practical ethics**: Application of ethical systems in real-world scenarios.
 
-## **2. Professional Ethics**
+## **Professional Ethics**
 - **Definition**: Conduct, principles, and standards that guide professionals in their work.
 - **Key Principles**:
 	- **Beneficence** – Doing good
@@ -150,7 +150,7 @@
 - Ensures fair relationships between professionals, clients, society, and employers.
 - Protects both individuals and the profession.
 
-## **3. Why People Act Unethically?**
+## **Why People Act Unethically?**
 - Ethical standards differ from society’s norms.
 - Selfish motivations.
 - No sense of remorse if caught.
@@ -162,7 +162,7 @@
 | Group-based, enforced within the profession | Controlled by legislation | Personal, guided by conscience |
 | Punishment: Expulsion from profession       | Punishment: Fines, prison | Punishment: Guilt, shame       |
 
-## **4. Computer Ethics**
+## **Computer Ethics**
 - **Why Important?**
 	- Prevents abuse and unethical behavior in computing.
 	- Computers create policy gaps due to rapid technological advancements.
@@ -173,7 +173,7 @@
 	- **Access** – Equal access to technology and information.
 	- **Accuracy** – Ensuring truthful information.
 
-## **5. Ethical Scenarios**
+## **Ethical Scenarios**
 - ### **Scenario 1 – Illegal Software Use**
 	- A person uses software without purchasing it, claiming they are "evaluating" it indefinitely.
 	- **Ethical issue:** Software piracy.
@@ -199,7 +199,7 @@
 	- Is it ethical for companies to collect and analyze user data without consent?
 	- **Ethical issue:** Privacy vs. business intelligence.
 
-## **6. Ethical Decision Making**
+## **Ethical Decision Making**
 
 ### **Factors to Consider:**
 
@@ -210,7 +210,7 @@
 5. What are the responsibilities of stakeholders?
 6. What is the most ethically acceptable choice?
 
-## **7. Professional Code of Conduct**
+## **Professional Code of Conduct**
 
 - **Purpose:**
 	- Establishes professionalism.
@@ -232,7 +232,7 @@
 7. **Management** – Ethically lead software projects.
 8. **Education** – Promote ethical computing.
 
-## **8. The Ten Commandments of Computer Ethics**
+## **The Ten Commandments of Computer Ethics**
 
 1. Do not harm others using a computer.
 2. Do not interfere with others' work.
