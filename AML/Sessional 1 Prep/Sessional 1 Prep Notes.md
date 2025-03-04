@@ -732,7 +732,7 @@ Feature engineering involves creating, modifying, and selecting the best feature
 # Lecture 7: Linear Regression (LinReg)
 ## Univariate /Multivariate LinReg
 - ### Cost function
-	- $J_{\theta} = \frac{1}{2m}\sum_{i=1}^{m}(\hat{y}_{i} - y_{i})^2$
+	- $J_{\theta} = \frac{1}{2m}\sum_{i=1}^{m}{(\hat{y}_{i} - y_{i})}^{2}$
 - ### Gradient Descent (Param Update function)
 	- $\theta_{j} = \theta_{j} - \alpha \times \frac{1}{m} \sum_{i=1}^{m}(h_{\theta}(x^i)-y^{i})\times{x^i}$
 - ### Procedure (Fitting)
@@ -766,7 +766,7 @@ Feature engineering involves creating, modifying, and selecting the best feature
 - ### Mean Absolute Error (MAE)
 	- $\text{MAE} = \frac{1}{m}\sum_{i=1}^{m}|y_{i}- \hat{y_i}|$
 - ### Mean Squared Error (MSE)
-	- $\text{MAE} = \frac{1}{m}\sum_{i=1}^{m}(y_{i}- \hat{y_i})^2$
+	- $\text{MAE} = \frac{1}{m}\sum_{i=1}^{m}(y_{i}- \hat{y_i})^{2}$
 	- Sensitive to larger errors
 	- Provides a scaled up value of the error
 - ### Root Mean Squared Error (RMSE)
