@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+                "file": "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Sessional 1 Prep Notes"
             }
+          },
+          {
+            "id": "c4d6bf02bdfc5344",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,10 +204,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b2e0bbf3353f8cdc",
+  "active": "c4d6bf02bdfc5344",
   "lastOpenFiles": [
-    "README.md",
     "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "README.md",
     "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "PPIT/Note Track.md",

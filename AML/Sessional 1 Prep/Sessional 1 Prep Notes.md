@@ -647,10 +647,10 @@ EDA is the process of analyzing datasets to summarize their main characteristics
 
 ### **Common EDA Techniques**
 
-4. **Descriptive Statistics** : Mean, median, standard deviation, quartiles.
-5. **Data Visualization** : Histograms, boxplots, violin plots, scatter plots, heatmaps.
-6. **Correlation Analysis** : Pearson/Spearman correlation coefficients.
-7. **Dimensionality Reduction** : PCA, t-SNE, UMAP for visualizing high-dimensional data.
+1. **Descriptive Statistics** : Mean, median, standard deviation, quartiles.
+2. **Data Visualization** : Histograms, boxplots, violin plots, scatter plots, heatmaps.
+3. **Correlation Analysis** : Pearson/Spearman correlation coefficients.
+4. **Dimensionality Reduction** : PCA, t-SNE, UMAP for visualizing high-dimensional data.
 
 ### **Handling Missing Data**
 
@@ -680,11 +680,11 @@ Feature engineering involves creating, modifying, and selecting the best feature
 
 ### **Feature Selection Methods**
 
-8. **Filter Methods:**
+1. **Filter Methods:**
 	- Uses statistical techniques to rank features (e.g., correlation, mutual information).
-9. **Wrapper Methods:**
+2. **Wrapper Methods:**
 	- Uses machine learning models to iteratively evaluate subsets of features (e.g., recursive feature elimination).
-10. **Embedded Methods:**
+3. **Embedded Methods:**
 	- Feature selection is integrated into the model training process (e.g., LASSO regression, decision trees).
 
 ### **Feature Transformation Techniques**
