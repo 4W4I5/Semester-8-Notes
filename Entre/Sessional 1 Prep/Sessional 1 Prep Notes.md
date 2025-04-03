@@ -1,7 +1,7 @@
-| Chapter<br>Number | Chapter<br>Name         | Status    |
-| ----------------- | ----------------------- | --------- |
-| 1                 | Ye ishq h Dil lgi nhi   | :warning: |
-| 2                 | Design Thinking Toolkit | :white_check_mark: |
+| Chapter<br>Number | Chapter<br>Name         | Status             |
+| ----------------- | ----------------------- | ------------------ |
+| 1                 | Ye ishq h Dil lgi nhi   | :warning:          |
+| 2                 | Design Thinking Toolkit | :white_check_mark: | 
 
 # Lecture 1: Ye ishq h Dil lgi nhi
 no clue what to add here ngl
