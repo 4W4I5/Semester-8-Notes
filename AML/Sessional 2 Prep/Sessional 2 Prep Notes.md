@@ -1,6 +1,6 @@
 | Chapter<br>Number | Chapter<br>Name               | Status    |
 | ----------------- | ----------------------------- | --------- |
-| 9                 | Logistic Regresion            | :warning: |
+| 9                 | Logistic Regression            | :warning: |
 | 10                | Support Vector Machines (SVM) | :warning: |
 | 11                | Evaluation Metrics            | :warning: |
 | 12 + 13           | Neural Networks               | :warning  |
