@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
-                "mode": "source",
+                "file": "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Sessional 1 Prep Notes"
             }
-          },
-          {
-            "id": "c4d6bf02bdfc5344",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,12 +191,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4d6bf02bdfc5344",
+  "active": "b2e0bbf3353f8cdc",
   "lastOpenFiles": [
     "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "README.md",
-    "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "Entre/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "Entre/Sessional 2 Prep",
+    "PPIT/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "PPIT/Sessional 2 Prep",
+    "AML/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "AML/Sessional 2 Prep",
     "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "PPIT/Note Track.md",
     "AML/Note Track.md",
     "Entre/Note Track.md",
@@ -235,14 +228,8 @@
     "SSD/Note Track.md",
     "Blockchain/Finals Prep/Finals Prep Notes.md",
     "Blockchain/Finals Prep/Smart Contracts/Wallet.sol",
-    "Blockchain/Finals Prep/Smart Contracts/SimpleFactory.sol",
-    "Blockchain/Finals Prep/Smart Contracts/SimpleStorage.sol",
-    "Blockchain/Finals Prep/Smart Contracts/Lottery.sol",
     "IA/Sessional 2 Prep/Sessional 2 Prep Notes.md",
     "IA/Sessional 1 Prep/Sessional 1 Prep Notes.md",
-    "Blockchain/Sessional 1 Prep/Sessional 1 Prep Notes.md",
-    "PDC/Sessional 2 Prep/Sessional 2 Prep Notes.md",
-    "PDC/Note Track.md",
     "Pasted image 20241103110923.png",
     "InfoSec/Finals Prep/Images/Pasted image 20240604013816.png",
     "InfoSec/Finals Prep/Images/Pasted image 20240603230754.png",
