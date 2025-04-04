@@ -3,14 +3,14 @@
 | 9                 | Logistic Regression           | :warning: |
 | 10                | Support Vector Machines (SVM) | :warning: |
 | 11                | Evaluation Metrics            | :warning: |
-| 12 + 13           | Neural Networks               | :warning: | 
+| 12 + 13           | Neural Networks               | :warning: |
 
 
 # Lecture 9: Logistic Regression
 ### Classification
 ## Logistic Regression
 ### Trivia
-- Odds function -> $\frac{p}{1-p}$
+- Odds function -> $$\frac{p}{1-p}$$
 - Logit -> $\log({\frac{p}{1-p}})$
 - Cost function
 	- if y = 1 -> $-\log({h_\theta})$
