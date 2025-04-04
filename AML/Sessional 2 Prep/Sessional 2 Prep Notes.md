@@ -9,8 +9,13 @@
 # Lecture 9: Logistic Regression
 ### Classification
 ## Logistic Regression
-### Sigmoid Function
-### Logit, Odds & Interpretation
+### Trivia
+- Odds function -> $\frac{p}{1-p}$
+- Logit -> $\log({\frac{p}{1-p}})$
+- Cost function
+	- if y = 1 -> $-\log({h_\theta})$
+	- if y = 0 -> $-\log({1 - h_\theta})$
+
 ### Decision Boundary
 ### Regularization
 ### Example
