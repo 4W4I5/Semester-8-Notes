@@ -23,12 +23,17 @@
 	- $h_{\theta(x)} = g({\theta_{0}}+{\theta_{1}x_{1}}+{\theta_{2}x_{2}}+{\theta_{3}x_{3}}^{2}+{\theta_{4}x_{4}}^{2})$
 
 ### Cost function
-- $J(\theta) = \frac{-1}{m}\sum\limits^{m}_{i=1}{\text{formula for y}}$
+- $J(\theta) = \frac{-1}{m}\sum\limits^{m}_{i=1}[\text{y_conditions}]$
 	- if y = 1 -> $-\log({h_\theta})$
 	- if y = 0 -> $-\log({1 - h_\theta})$
 
 
-### Regularization (Regularized Logistic regression)
+## Regularized Logistic regression (Regularization)
+### Cost function, modified
+- $J(\theta) = \frac{-1}{m}\sum\limits^{m}_{i=1}[{\text{y_conditions}}] + \frac{\lambda}{2m}$
+	- Y conditions are same as before
+		- if y = 1 -> $-\log({h_\theta})$
+		- if y = 0 -> $-\log({1 - h_\theta})$
 
 
 ---
