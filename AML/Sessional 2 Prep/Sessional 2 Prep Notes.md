@@ -1,29 +1,30 @@
-| Chapter<br>Number | Chapter<br>Name               | Status    |
-| ----------------- | ----------------------------- | --------- |
-| 9                 | Logistic Regression           | :warning: |
-| 10                | Support Vector Machines (SVM) | :warning: |
-| 11                | Evaluation Metrics            | :warning: |
-| 12 + 13           | Neural Networks               | :warning: |
+| Chapter<br>Number | Chapter<br>Name               | Status             |
+| ----------------- | ----------------------------- | ------------------ |
+| 9                 | Logistic Regression           | :white_check_mark: | 
+| 10                | Support Vector Machines (SVM) | :warning:          |
+| 11                | Evaluation Metrics            | :warning:          |
+| 12 + 13           | Neural Networks               | :warning:          |
 
 
 # Lecture 9: Logistic Regression
 ## Examples to try (from slides)
-- Linear Decision Boundary Example
-- Non-Linear Decision Boundary (Circle)
-- Multi-Class Classification (Run LDB example with an extra input set)
-- Regularized LogReg
-### Classification
+- Linear Decision Boundary Example⚠️
+- Non-Linear Decision Boundary (Circle)⚠️
+- Multi-Class Classification (Run LDB example with an extra input set)⚠️
+- Regularized LogReg⚠️
+
 ## Logistic Regression
 ### Trivia
 - Odds function -> $\frac{p}{1-p}$
 - Logit -> $\log({\frac{p}{1-p}})$
-### Cost function
 - if y = 1 -> $-\log({h_\theta})$
 - if y = 0 -> $-\log({1 - h_\theta})$
 
 ### Decision Boundary
+- Can be non-linear, for e.g. a circular boundary
+	- $h_{\theta(x)} = g({\theta_{0}}+{\theta_{1}x_{1}}+{\theta_{2}x_{2}}+{\theta_{3}x_{3}}^{2}+{\theta_{4}x_{4}}^{2})$
+
 ### Regularization
-### Example
 
 ---
 
