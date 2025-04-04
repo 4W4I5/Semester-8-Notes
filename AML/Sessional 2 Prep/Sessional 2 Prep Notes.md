@@ -17,14 +17,19 @@
 ### Trivia
 - Odds function -> $\frac{p}{1-p}$
 - Logit -> $\log({\frac{p}{1-p}})$
-- if y = 1 -> $-\log({h_\theta})$
-- if y = 0 -> $-\log({1 - h_\theta})$
 
 ### Decision Boundary
 - Can be non-linear, for e.g. a circular boundary
 	- $h_{\theta(x)} = g({\theta_{0}}+{\theta_{1}x_{1}}+{\theta_{2}x_{2}}+{\theta_{3}x_{3}}^{2}+{\theta_{4}x_{4}}^{2})$
 
-### Regularization
+### Cost function
+- $J(\theta) = \frac{-1}{m}\sum\limits^{m}_{i=1}{\text{formula for y}}$
+	- if y = 1 -> $-\log({h_\theta})$
+	- if y = 0 -> $-\log({1 - h_\theta})$
+
+
+### Regularization (Regularized Logistic regression)
+
 
 ---
 
