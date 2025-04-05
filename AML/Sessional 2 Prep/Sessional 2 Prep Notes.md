@@ -8,7 +8,7 @@
 
 # Lecture 9: Logistic Regression
 ## Examples to try (from slides)
-- Linear Decision Boundary Example⚠️
+- Linear Decision Boundary Example✅
 - Non-Linear Decision Boundary (Circle)⚠️
 - Multi-Class Classification (Run LDB example with an extra input set)⚠️
 - Regularized LogReg⚠️
