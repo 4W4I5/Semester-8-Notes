@@ -7,10 +7,21 @@
 
 
 # Lecture 9: Logistic Regression
+## Classification
+- Supervised machine learning, goal is to predict a category/class label based on input features
+- Discrete output, the input feature set is mapped to one discrete class/category
+- Types
+	- Binary
+		- LogiReg, predict for 1 of 2 possible classes
+	- Multi-Class
+		- LogiReg/SVM, predict for 1 of Y possible classes
+	- Multi-Label
+		- Input set is matched to X of Y possible classes
+			- A photo that contains both cats + dogs
 ## Examples to try (from slides)
 - Linear Decision Boundary Example✅
 - Non-Linear Decision Boundary (Circle)❌
-- Multi-Class Classification (Run LDB example with an extra input set)⚠️
+- Multi-Class Classification (Run LDB example with an extra input set)✅
 - Regularized LogReg⚠️
 
 ## Logistic Regression
