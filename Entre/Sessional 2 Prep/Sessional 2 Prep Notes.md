@@ -6,6 +6,49 @@
 | Wide Lens Principle to avoid product failures | :white_check_mark: |
 
 # Lecture: Business Canvas Workbook
+## 🧩 9 Building Blocks
+- ### 1. Customer Segments
+	- Defines the different people or organizations the business serves.
+		- Mass market, niche market, segmented, diversified, multi-sided platforms
+		- Key questions: Who are our most important customers? What are their demographics, needs, and behaviors?
+- ### 2. Value Propositions
+	- Describes the bundle of products/services that create value for a segment.
+		- Types: Newness, performance, customization, getting the job done, design, brand/status, price, cost/risk reduction, accessibility, convenience
+		- Key questions: What value do we deliver? What problems are we solving?
+- ### 3. Channels
+	- Means of delivering value to customers.
+		- Phases: Awareness, Evaluation, Purchase, Delivery, After-sales
+		- Key questions: Through which channels do customers want to be reached? Which work best?
+- ### 4. Customer Relationships
+	- Describes the type of relationships with customer segments.
+		- Types: Personal assistance, self-service, automated services, communities, co-creation
+		- Key questions: What relationships are expected? How are they integrated with the rest of our model?
+- ### 5. Revenue Streams
+	- Cash generated from each customer segment.
+		- Types: Asset sales, usage fees, subscription fees, lending/renting/leasing, licensing, brokerage fees, advertising
+		- Key questions: What are customers willing to pay for? How do they prefer to pay?
+- ### 6. Key Resources
+	- Assets required to deliver the value proposition.
+		- Types: Physical, intellectual, human, financial
+		- Key questions: What resources are necessary for value delivery, channel access, and customer relationships?
+- ### 7. Key Activities
+	- Critical things a company must do.
+		- Types: Production, problem-solving, platform/network maintenance
+		- Key questions: What activities are essential for value propositions, revenue, and operations?
+- ### 8. Key Partnerships
+	- Network of suppliers and partners.
+		- Types: Strategic alliances, coopetition, joint ventures, buyer-supplier relationships
+		- Key questions: Who are key partners and suppliers? What resources and activities do they provide?
+- ### 9. Cost Structure
+	- Describes all costs involved in operating the business model.
+		- Types: Cost-driven vs. value-driven; fixed vs. variable costs; economies of scale/scope
+		- Key questions: What are the most important costs? Which resources and activities are most expensive?
+
+## 🧠 Tips for Using the Canvas
+- Start with the customer and value proposition
+- Iterate frequently; treat it as a living document
+- Use visual tools (sticky notes, digital canvases)
+- Collaborate with cross-functional teams for input
 
 ---
 
