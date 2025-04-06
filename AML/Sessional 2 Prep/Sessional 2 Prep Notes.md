@@ -5,7 +5,6 @@
 | 11                | Evaluation Metrics            | :warning:          |
 | 12 + 13           | Neural Networks               | :warning:          |
 
-
 # Lecture 9: Logistic Regression
 ## Classification
 - Supervised machine learning, goal is to predict a category/class label based on input features
@@ -34,32 +33,38 @@
 	- $h_{\theta(x)} = g({\theta_{0}}+{\theta_{1}x_{1}}+{\theta_{2}x_{2}}+{\theta_{3}x_{3}}^{2}+{\theta_{4}x_{4}}^{2})$
 
 ### Cost function
-- $J(\theta) = -\frac{1}{m}\sum\limits^{m}_{i=1}[\text{y conditions}]$
-	- if y = 1 -> $-\log({h_\theta})$
-	- if y = 0 -> $-\log({1 - h_\theta})$
-
-
-## Regularized Logistic regression (Regularization)
-### Cost function, modified
-- $J(\theta) = -\frac{1}{m}\sum\limits^{m}_{i=1}[{\text{y conditions}}] + \frac{\lambda}{2m}$
-	- Y conditions are same as before
+- $J(\theta) = -\frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(h_\theta(x^{(i)})) + (1 - y^{(i)}) \log(1 - h_\theta(x^{(i)})) \right]$
+	- The first hypothesis calc can be simplified by the following ruleset
 		- if y = 1 -> $-\log({h_\theta})$
 		- if y = 0 -> $-\log({1 - h_\theta})$
 
+### Gradient Descent
+- $\theta_j := \theta_j - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( h_\theta(x^{(i)}) - y^{(i)} \right) x_j^{(i)}$
+
+## Regularized Logistic regression (Regularization)
+### Cost function, modified
+- $J(\theta) = -\frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(h_\theta(x^{(i)})) + (1 - y^{(i)}) \log(1 - h_\theta(x^{(i)})) \right] + \frac{\lambda}{2m} \sum_{j=1}^{n} \theta_j^2$
+	- Y conditions are same as before (the first hypothesis calc can be simplified by the following ruleset)
+		- if y = 1 -> $-\log({h_\theta})$
+		- if y = 0 -> $-\log({1 - h_\theta})$
+
+### Gradient Descent, modified
+- $\theta_j := \theta_j - \alpha \left( \frac{1}{m} \sum_{i=1}^{m} \left( h_\theta(x^{(i)}) - y^{(i)} \right) x_j^{(i)} + \frac{\lambda}{m} \theta_j \right)$
+	- A term is added to the end, $\frac{\lambda}{m} \theta_j$
 
 ---
 
 # Lecture 10: Support Vector Machines (SVM)
-###  Intro to SVM
-###  Linear Separation using SVM
-###  Classifier Margin (SVM)
-###  Mathematics for SVM
-###  Hypothesis for SVM
-###  Objective Function
-###  Numerical Example: SVM
-###  Hard-Margin SVM
-###  Soft-Margin SVM
-###  Non-linear Decision Boundary and Kernel Trick
+##  Intro to SVM
+##  Linear Separation using SVM
+##  Classifier Margin (SVM)
+##  Mathematics for SVM
+##  Hypothesis for SVM
+##  Objective Function
+##  Numerical Example: SVM
+##  Hard-Margin SVM
+##  Soft-Margin SVM
+##  Non-linear Decision Boundary and Kernel Trick
 
 ---
 
@@ -69,7 +74,7 @@
 
 # Lecture 12+13: Neural Networks
 ## Lecture 12 Content
-#### Intro to Neural Networks
+### Intro to Neural Networks
 ### Building blocks of neural network
 #### Perceptron
 #### Activation Function
