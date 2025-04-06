@@ -67,6 +67,27 @@ Market sizing helps determine the **financial potential** of your startup and su
 	- During Go-To-Market planning
 	- Support funding decisions & hiring plans
 	- Define the ideal customer profile
+## Market Research vs Customer Discovery
+| **Aspect**             | **Market Research**                                                                        | **Customer Discovery**                                            | 
+| ---------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| **Purpose**            | Helps look at trends/facts.                                                                | Helps discover a need that may not yet exist.                     |
+| **Focus**              | Often focused on a product or service.                                                     | About people and how they solve problems (past and present).      |
+| **Goal**               | Assists in determining the size of your market and whether your venture is worth pursuing. | Helps understand the intensity or magnitude of the problem.       |
+| **Method**             | Often conducted via survey.                                                                | Done as close to in-person as possible.                           |
+| **Scope**              | Provides a broad understanding of the market landscape.                                    | Focuses on micro-issues and personal interviews.                  |
+| **Nature**             | A top-down approach to analyze the market.                                                 | A bottom-up, intense, personal, interview-driven approach.        |
+| **Best Suitability**   | Best for understanding market trends and potential.                                        | Best for identifying unspoken needs and opportunities.            |
+| **Outcome**            | Shows the big picture of the market and industry.                                          | Helps ensure you're addressing a problem people truly care about. |
+| **Who Should Conduct** | Can be done by analysts or researchers.                                                    | Best done by the founders of the business.                        |
+
+### Additional Notes:
+
+- **Market Research**: Useful for understanding the overall market trends, customer demographics, and product/service viability.
+
+- **Customer Discovery**: Focuses more on deeply understanding the individual pain points of potential customers to avoid creating something that no one wants.
+
+
+This table should give you a clear distinction between the two concepts! Let me know if you'd like to adjust anything further.
 ## Trivia
 - Q: List 3 components of an idea
 	- Team
