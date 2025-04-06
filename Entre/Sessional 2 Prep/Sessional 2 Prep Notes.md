@@ -1,9 +1,9 @@
-| Chapter<br>Name                               | Status    |
-| --------------------------------------------- | --------- |
-| Business Canvas Workbook                      | :warning: |
-| Business Canvas Model Explained               | :warning: |
-| Market Sizing                                 | :warning: |
-| Wide Lens Principle to avoid product failures | :warning: |
+| Chapter<br>Name                               | Status             |
+| --------------------------------------------- | ------------------ |
+| Business Canvas Workbook                      | :warning:          |
+| Business Canvas Model Explained               | :warning:          |
+| Market Sizing                                 | :white_check_mark: | 
+| Wide Lens Principle to avoid product failures | :white_check_mark: |
 
 # Lecture: Business Canvas Workbook
 
@@ -13,84 +13,87 @@
 
 ---
 # Lecture: Market Sizing
-## 🧠 **Core Concepts**
-### 🔹 What is Market Sizing?
-- A method to **estimate potential revenue or customer base** for a product/service.
-- Critical for **investors, business planning, GTM strategy, and product-market fit.**
-- Can be **measured in units (volume)** or **revenue ($)**.
 
-## 🔍 **Market Segmentation Terms**
-### 1. **TAM – Total Addressable Market**
-- **Definition**: Total market demand if the product was available **everywhere**, **without constraints**.
-- **Purpose**: Understand the **full opportunity** if you had 100% market share globally.
-- **Usually derived from**:
-	- Industry reports
-	- Analyst estimates
-	- Public data (e.g., World Bank, Statista)
-- **Example**: For a ride-hailing app, TAM might include **all global transportation spending** by consumers.
+## 🧠 **Market Sizing for Cybersecurity in Digital Payments**
 
-### 2. **SAM – Serviceable Available Market**
-- **Definition**: The **portion of TAM** you can **serve based on current limitations** (e.g., geography, regulations, product fit).
-- **Refined using**:
-	- Target customer segments
-	- Operational scope
-	- Regulatory compliance
-- **Example**: For the same ride-hailing app:
-	- SAM includes **urban areas** with **smartphone access** and **internet penetration**.
+Market sizing helps determine the **financial potential** of your startup and supports **strategic decisions, investor pitches, and operational planning**. In cybersecurity—especially for **digital payment systems**—this is critical due to the growing demand for secure online transactions.
 
-### 3. **SOM – Serviceable Obtainable Market**
-- **Definition**: The share of SAM you can **realistically capture**, considering competition and current capabilities.
-- **Takes into account**:
-	- Market share assumptions
-	- Sales force, budget, brand awareness
-	- Distribution channels
-- **Example**: The **cities you're currently operating in**, with your existing **driver network**, is your SOM.
+## 🔍 **Key Definitions**
+- ### 1. **TAM – Total Addressable Market**
+	- **Definition**: The total demand for your solution if there were **no barriers**—global scope.
+	- **Use Case**: Determines the **maximum opportunity** if your product was adopted by every potential user in the world.
+	- **For Your Startup**:
+	    - Includes **all digital payment providers**: banks, fintechs, e-commerce sites, mobile wallets.
+	    - **Global digital payments industry ≈ $10T+** in transaction volume.
+	    - Cybersecurity accounts for ~5–10% of IT budgets.
+	    - → **TAM ≈ $50B–$100B** cybersecurity spend globally in digital finance.
+- ### 2. **SAM – Serviceable Available Market**
+	- **Definition**: The portion of the TAM you can **target based on your product fit and market access**.
+	- **Use Case**: Helps define **which markets/segments** your startup can **reasonably serve**.
+	- **For Your Startup**:
+	    - You target **South Asia** (e.g., Pakistan, India, Bangladesh) where **digital wallets and online banking** are growing fast.
+	    - You serve **mid-sized banks, regional fintechs, and mobile wallets**.
+	    - Use filters like:
+	        - Smartphone and internet penetration
+	        - Payment system regulation (e.g., SBP, SECP compliance)
+	        - PCI-DSS requirements
+	    - If South Asia accounts for ~2–3% of global spending:
+	        - → **SAM ≈ $1.5B–$3B**
+- ### 3. **SOM – Serviceable Obtainable Market**
+	- **Definition**: The portion of SAM you can **actually capture**, considering your **resources, presence, and competition**.
+	- **Use Case**: Guides **short-term goals, forecasting, and GTM plans**.
+	- **For Your Startup**:
+	    - You’re currently targeting:
+	        - 50 fintechs and banks
+	        - With an average deal size of **$50K/year**
+	    - Realistic penetration rate: 10–20%
+	    - → SOM = 10 clients × $50K = **$500K/year**
+	    - Scalable as you grow ops or raise funding.
 
-## 📐 **Why Market Sizing Matters**
-- 🎯 Focus: Helps prioritize target segments.
-- 💰 Investment: Investors want realistic growth potential.
-- 🧩 Strategic: Guides product development, GTM, and operations.
-- 📊 Forecasting: Helps predict sales, staffing, and scale.
-
-## 📊 **Approaches to Market Sizing**
+## 📐 **Market Sizing Approaches**
 - ### 1. **Top-Down**
-	- Use **macro data** (e.g., industry reports) and apply **filters** to get SAM and SOM.
-	- Fast but prone to **overestimation** if filters aren't realistic.
-> **E.g.**:
-> TAM = $100B industry
-> SAM = 20% of TAM (due to geography, access) = $20B
-> SOM = 10% of SAM = $2B potential revenue
+	- Start with **macro-level data** and narrow down.
+	- E.g.:
+	    - Digital financial services in Pakistan = $250M IT spend
+	    - Cybersecurity = 10% → $25M
+	    - Mobile-first firms = 40% → **SAM = $10M**
+	    - Capture 5% → **SOM = $500K**
+- ### 2. **Bottom-Up**
+	- Start with your **offering, pricing, and target clients**.
+	- E.g.:
+	    - $5K/month MDR (Managed Detection & Response) service
+	    - 12-month contracts
+	    - Target 30 clients initially → 30 × $60K = **$1.8M SOM**
+	- More reliable for investors
+- ### 3. **Value Theory**
+	- Estimate **value saved** by your tool (e.g., fraud prevention).
+	- E.g.:
+	    - Client loses $1M/year to phishing
+	    - Your solution reduces 80% → saves $800K
+	    - Charge 10% of savings → $80K/year license
+	    - Helps justify premium pricing
 
-### 2. **Bottom-Up**
-- Use **internal data**: pricing, # of customers, purchase frequency, etc.
-- Multiply unit economics by target segment volume.
-- **More reliable** for investors as it's based on **real operations**.
 
+## 🎯 **Why Market Sizing Matters for You**
+| Benefit              | Relevance to Your Startup                                           |
+| -------------------- | ------------------------------------------------------------------- |
+| ✅ Investor Pitch    | Shows you understand the space and scalability                      |
+| ✅ Product Strategy  | Helps prioritize features (e.g., compliance vs. fraud detection)    |
+| ✅ Resource Planning | Plan hiring, outreach, sales goals                                  |
+| ✅ Competitive Edge  | Carve niche: e.g., **ZKP-based login + DID wallet + fintech focus** |
 
-> **E.g.**:
-> $10 per ride × 5 rides/day × 100K users × 365 days = $182.5M SOM
-
-### 3. **Value Theory**
-- Focuses on the **value created for users** and what they'd pay.
-- Especially useful for **disruptive or new products** where market data doesn't exist.
-> **E.g.**: If your app saves $100/month for a user and you expect to charge $10, that helps size the market by perceived value.
+## 🧪 **Example: Tailored to Your Startup**
+| Layer   | Market    | Notes                                                      |
+| ------- | --------- | ---------------------------------------------------------- |
+| **TAM** | $100B     | All cybersecurity spend in digital payments globally       |
+| **SAM** | $2B       | Spend in South Asia; fintechs, wallets, and regional banks |
+| **SOM** | $500K–$2M | Based on your GTM and current client reach                 |
 
 ## 📌 **Best Practices**
-
-- Use **multiple methods** to triangulate market size.
-- Always **cite data sources** (e.g., McKinsey, Gartner).
-- Make **assumptions transparent** (include population filters, conversion rates).
-- Recognize **market dynamics** (e.g., new entrants, tech adoption).
-- Avoid **"everyone with a smartphone is our user"** fallacy.
-
-
-## 🧪 Example: Ride-Hailing App Breakdown
-
-| Level   | Market | Description                                 |
-| ------- | ------ | ------------------------------------------- |
-| **TAM** | $2T    | Global transport market                     |
-| **SAM** | $100B  | Urban smartphone users in developed markets |
-| **SOM** | $1B    | Share of cities where you operate (5%)      |
+- 📚 Use real data (Statista, McKinsey, World Bank, regional fintech reports)
+- 💡 State assumptions clearly (penetration %, average deal size, pricing tiers)
+- ⚙️ Update regularly as your reach or product features grow
+- 📈 Always break TAM → SAM → SOM in investor materials
 
 ---
 
