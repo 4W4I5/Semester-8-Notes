@@ -85,6 +85,14 @@ Market sizing helps determine the **financial potential** of your startup and su
 	- **Customer Discovery**: Focuses more on deeply understanding the individual pain points of potential customers to avoid creating something that no one wants.
 
 ## Trivia
+- Q: Definitions
+	- Market: Set of potential customers that have common needs/wants and might reference each other during a purchase
+	- First Target Market: Early adopter subset of the market, these are guaranteed customers
+	- Comparable: Companies with similar attributes, competition
+	- Addressable Market: Market that needs your product and the kind that you can reach out to
+	- Total Available Market: Addressable + cant reach but can use your product (i.e. might use a free tier)
+	- Customer Discovery: 
+	- Market Research
 - Q: List 3 components of an idea
 	- Team
 	- Product
@@ -103,6 +111,12 @@ Market sizing helps determine the **financial potential** of your startup and su
 				- A select few companies own all channels to the customer
 				- Fragment market: expensive to reach the customer
 		- Budgets- people in companies, labs, institutions have money to spend to solve the types of problems you have documented that they have
+- Q: Market attractiveness
+	- Two pathways, both require big markets
+		- License (to an existing company)
+		- Startup (create a company & license it)
+			- Can/Cannot require investors, depends on First Target Market.
+			- Might not require big market if no investors are required
 ## 🔍 **Key Definitions**
 - ### 1. **TAM – Total Addressable Market**
 	- **Definition**: The total demand for your solution if there were **no barriers**—global scope.
