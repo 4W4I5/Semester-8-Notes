@@ -260,9 +260,15 @@ Market sizing helps determine the **financial potential** of your startup and su
 	- Both customer insights and organizational capabilities are necessary, but **not sufficient** on their own.
 	- Success depends on a broader view that also considers external dependencies and partnerships.
 - **Three Risks of Innovation:**
-	- **Execution Risk:** Challenges related to developing and delivering the product as promised, on time and on budget.
-	- **Co-Innovation Risk:** Dependency on the successful commercialization of other innovations or technologies that your product relies on (e.g., cloud tech, microprocessors).
-	- **Adoption Chain Risk:** The risk of failure if partners (e.g., restaurant owners, POS system integrators) don’t adopt the product, preventing end customers from experiencing its full value.
+	- **Execution Risk:**
+		- Challenges related to developing and delivering the product as promised, on time and on budget.
+	- **Co-Innovation Risk:**
+		- Dependency on the successful commercialization of other innovations or technologies that your product relies on (e.g., cloud tech, microprocessors).
+	- **Adoption Chain Risk:**
+		- The risk of failure if partners (e.g., restaurant owners, POS system integrators) don’t adopt the product, preventing end customers from experiencing its full value.
+	- **Informed Expectations**
+		- The market's understanding of what the innovation can deliver.
+		- If expectations are misaligned (too high or too low), adoption and success are affected.
 - **Understanding Customer Perception of Benefit and Cost:**
 	- **Costs for Innovators:** Price of the product.
 	- **Costs for Customers:** Not just the price, but also non-price costs like time, learning effort, trust, and frustration.
