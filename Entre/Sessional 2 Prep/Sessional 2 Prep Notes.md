@@ -6,11 +6,17 @@
 | Wide Lens Principle to avoid product failures | :white_check_mark: |
 
 # Lecture: Business Canvas Workbook
+> [!NOTE]
+> CustSeg, CustStruct, CustReg, ValProp, KeyResc, KeyAct, KeyPrtnr, CHNL, , RvStrm,
 ## 🧩 9 Building Blocks
 - ### 1. Customer Segments
 	- Defines the different people or organizations the business serves.
 		- Mass market, niche market, segmented, diversified, multi-sided platforms
 		- Key questions: Who are our most important customers? What are their demographics, needs, and behaviors?
+- ### 4. Customer Relationships
+	- Describes the type of relationships with customer segments.
+		- Types: Personal assistance, self-service, automated services, communities, co-creation
+		- Key questions: What relationships are expected? How are they integrated with the rest of our model?
 - ### 2. Value Propositions
 	- Describes the bundle of products/services that create value for a segment.
 		- Types: Newness, performance, customization, getting the job done, design, brand/status, price, cost/risk reduction, accessibility, convenience
@@ -19,10 +25,6 @@
 	- Means of delivering value to customers.
 		- Phases: Awareness, Evaluation, Purchase, Delivery, After-sales
 		- Key questions: Through which channels do customers want to be reached? Which work best?
-- ### 4. Customer Relationships
-	- Describes the type of relationships with customer segments.
-		- Types: Personal assistance, self-service, automated services, communities, co-creation
-		- Key questions: What relationships are expected? How are they integrated with the rest of our model?
 - ### 5. Revenue Streams
 	- Cash generated from each customer segment.
 		- Types: Asset sales, usage fees, subscription fees, lending/renting/leasing, licensing, brokerage fees, advertising
