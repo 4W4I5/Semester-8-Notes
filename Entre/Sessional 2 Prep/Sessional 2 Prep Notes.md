@@ -10,11 +10,25 @@
 > CustSeg/Rltnshp, KeyRSRC/ACTVY/PRTNR, ValProp, CHNL, RevStr, CostStruct
 ## 🧩 9 Building Blocks
 - ### 1. Customer Segments
+	- Customers are crucial to a business’s survival.
+	- Companies can group customers into segments based on common needs, behaviors, or attributes.
+	- A business must decide which segments to serve and design the model accordingly.
+	- Customer groups are distinct if:
+		1. They need different offers.
+		2. They are reached through different channels.
+		3. They require different relationships.
+		4. They have different profitabilities.
+		5. They value different aspects of the offer.
 	- Defines the different people or organizations the business serves.
 		- Mass market, niche market, segmented, diversified, multi-sided platforms
 		- Key questions: Who are our most important customers? What are their demographics, needs, and behaviors?
 - ### 2. Customer Relationships
-	- Describes the type of relationships with customer segments.
+	- Relationships can range from personal to automated.
+	- Motivations for customer relationships include:
+	    1. Customer acquisition
+	    2. Customer retention
+	    3. Boosting sales (upselling)
+	- Customer Relationships define the types of connections a company establishes with specific Customer Segments.
 		- Types: Personal assistance, self-service, automated services, communities, co-creation
 		- Key questions: What relationships are expected? How are they integrated with the rest of our model?
 - ### 3. Key Resources
@@ -30,11 +44,18 @@
 		- Types: Strategic alliances, coopetition, joint ventures, buyer-supplier relationships
 		- Key questions: Who are key partners and suppliers? What resources and activities do they provide?
 - ### 6. Value Propositions
-	- Describes the bundle of products/services that create value for a segment.
+	- Can be innovative/disruptive i.e. explains why a customer chooses one company over another
+	- Describes the bundle of products/services that create value for a customer segment.
 		- Types: Newness, performance, customization, getting the job done, design, brand/status, price, cost/risk reduction, accessibility, convenience
 		- Key questions: What value do we deliver? What problems are we solving?
 - ### 7. Channels
-	- Means of delivering value to customers.
+	- Channels perform several functions, including:
+		1. Raising awareness of the company’s products and services.
+		2. Helping customers evaluate the Value Proposition.
+		3. Enabling customers to purchase products and services.
+		4. Delivering the Value Proposition to customers.
+		5. Providing post-purchase support.
+	- Channels are a company’s interface with customers, serving as key touchpoints in the customer experience.
 		- Phases: Awareness, Evaluation, Purchase, Delivery, After-sales
 		- Key questions: Through which channels do customers want to be reached? Which work best?
 - ### 8. Revenue Streams
@@ -91,7 +112,7 @@ Market sizing helps determine the **financial potential** of your startup and su
 	- Comparable: Companies with similar attributes, competition
 	- Addressable Market: Market that needs your product and the kind that you can reach out to
 	- Total Available Market: Addressable + cant reach but can use your product (i.e. might use a free tier)
-	- Customer Discovery: 
+	- Customer Discovery:
 	- Market Research
 - Q: List 3 components of an idea
 	- Team
