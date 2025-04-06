@@ -7,40 +7,40 @@
 
 # Lecture: Business Canvas Workbook
 > [!NOTE]
-> CustSeg, CustStruct, CustReg, ValProp, KeyResc, KeyAct, KeyPrtnr, CHNL, , RvStrm,
+> CustSeg/Rltnshp, KeyRSRC/ACTVY/PRTNR, ValProp, CHNL, RevStr, CostStruct
 ## 🧩 9 Building Blocks
 - ### 1. Customer Segments
 	- Defines the different people or organizations the business serves.
 		- Mass market, niche market, segmented, diversified, multi-sided platforms
 		- Key questions: Who are our most important customers? What are their demographics, needs, and behaviors?
-- ### 4. Customer Relationships
+- ### 2. Customer Relationships
 	- Describes the type of relationships with customer segments.
 		- Types: Personal assistance, self-service, automated services, communities, co-creation
 		- Key questions: What relationships are expected? How are they integrated with the rest of our model?
-- ### 2. Value Propositions
-	- Describes the bundle of products/services that create value for a segment.
-		- Types: Newness, performance, customization, getting the job done, design, brand/status, price, cost/risk reduction, accessibility, convenience
-		- Key questions: What value do we deliver? What problems are we solving?
-- ### 3. Channels
-	- Means of delivering value to customers.
-		- Phases: Awareness, Evaluation, Purchase, Delivery, After-sales
-		- Key questions: Through which channels do customers want to be reached? Which work best?
-- ### 5. Revenue Streams
-	- Cash generated from each customer segment.
-		- Types: Asset sales, usage fees, subscription fees, lending/renting/leasing, licensing, brokerage fees, advertising
-		- Key questions: What are customers willing to pay for? How do they prefer to pay?
-- ### 6. Key Resources
+- ### 3. Key Resources
 	- Assets required to deliver the value proposition.
 		- Types: Physical, intellectual, human, financial
 		- Key questions: What resources are necessary for value delivery, channel access, and customer relationships?
-- ### 7. Key Activities
+- ### 4. Key Activities
 	- Critical things a company must do.
 		- Types: Production, problem-solving, platform/network maintenance
 		- Key questions: What activities are essential for value propositions, revenue, and operations?
-- ### 8. Key Partnerships
+- ### 5. Key Partnerships
 	- Network of suppliers and partners.
 		- Types: Strategic alliances, coopetition, joint ventures, buyer-supplier relationships
 		- Key questions: Who are key partners and suppliers? What resources and activities do they provide?
+- ### 6. Value Propositions
+	- Describes the bundle of products/services that create value for a segment.
+		- Types: Newness, performance, customization, getting the job done, design, brand/status, price, cost/risk reduction, accessibility, convenience
+		- Key questions: What value do we deliver? What problems are we solving?
+- ### 7. Channels
+	- Means of delivering value to customers.
+		- Phases: Awareness, Evaluation, Purchase, Delivery, After-sales
+		- Key questions: Through which channels do customers want to be reached? Which work best?
+- ### 8. Revenue Streams
+	- Cash generated from each customer segment.
+		- Types: Asset sales, usage fees, subscription fees, lending/renting/leasing, licensing, brokerage fees, advertising
+		- Key questions: What are customers willing to pay for? How do they prefer to pay?
 - ### 9. Cost Structure
 	- Describes all costs involved in operating the business model.
 		- Types: Cost-driven vs. value-driven; fixed vs. variable costs; economies of scale/scope
@@ -67,6 +67,25 @@ Market sizing helps determine the **financial potential** of your startup and su
 	- During Go-To-Market planning
 	- Support funding decisions & hiring plans
 	- Define the ideal customer profile
+## Trivia
+- Q: List 3 components of an idea
+	- Team
+	- Product
+	- Market
+- Q: what makes a market attractive?
+	- Many facets define an attractive market. Here are a few
+		- Size
+		- Growth: growing quickly is attractive
+		- Competition: just because there’s a lot of competition does not mean it’s unattractive
+		- Stability: supply chain, manufacturing seasonality, changing technologies
+		- Quick to adopt novel products
+			- Consumer electronics are adopted quickly
+			- Utilities do not adopt new technologies quickly
+		- Channels to the customer
+			- Unattractive channels
+				- A select few companies own all channels to the customer
+				- Fragment market: expensive to reach the customer
+		- Budgets- people in companies, labs, institutions have money to spend to solve the types of problems you have documented that they have
 ## 🔍 **Key Definitions**
 - ### 1. **TAM – Total Addressable Market**
 	- **Definition**: The total demand for your solution if there were **no barriers**—global scope.
