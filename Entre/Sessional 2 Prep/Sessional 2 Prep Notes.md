@@ -18,4 +18,4 @@
 ---
 
 # Wide Lens Principle to avoid product failures
-![](Pasted%20image%2020250406164425.jpg)
+![](https://github.com/4W4I5/Semester-8-Notes/blob/main/Pasted%20image%2020250406164425.jpg)
