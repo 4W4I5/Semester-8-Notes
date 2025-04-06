@@ -2,7 +2,7 @@
 | --------------------------------------------- | ------------------ |
 | Business Canvas Workbook                      | :warning:          |
 | Business Canvas Model Explained               | :warning:          |
-| Market Sizing                                 | :white_check_mark: | 
+| Market Sizing                                 | :white_check_mark: |
 | Wide Lens Principle to avoid product failures | :white_check_mark: |
 
 # Lecture: Business Canvas Workbook
@@ -17,7 +17,11 @@
 ## 🧠 **Market Sizing for Cybersecurity in Digital Payments**
 
 Market sizing helps determine the **financial potential** of your startup and supports **strategic decisions, investor pitches, and operational planning**. In cybersecurity—especially for **digital payment systems**—this is critical due to the growing demand for secure online transactions.
-
+- #### When to use Market sizing
+	- Investor Decks
+	- During Go-To-Market planning
+	- Support funding decisions & hiring plans
+	- Define the ideal customer profile
 ## 🔍 **Key Definitions**
 - ### 1. **TAM – Total Addressable Market**
 	- **Definition**: The total demand for your solution if there were **no barriers**—global scope.
@@ -53,6 +57,7 @@ Market sizing helps determine the **financial potential** of your startup and su
 ## 📐 **Market Sizing Approaches**
 - ### 1. **Top-Down**
 	- Start with **macro-level data** and narrow down.
+		- Can be narrowed down by region, tech stack, industry
 	- E.g.:
 	    - Digital financial services in Pakistan = $250M IT spend
 	    - Cybersecurity = 10% → $25M
@@ -60,13 +65,16 @@ Market sizing helps determine the **financial potential** of your startup and su
 	    - Capture 5% → **SOM = $500K**
 - ### 2. **Bottom-Up**
 	- Start with your **offering, pricing, and target clients**.
+		- Multiply `price per customer` x `number of target customers`
+		- More credible with early traction
+	- More reliable for investors
 	- E.g.:
 	    - $5K/month MDR (Managed Detection & Response) service
 	    - 12-month contracts
 	    - Target 30 clients initially → 30 × $60K = **$1.8M SOM**
-	- More reliable for investors
 - ### 3. **Value Theory**
 	- Estimate **value saved** by your tool (e.g., fraud prevention).
+		- Price product based on value delivered
 	- E.g.:
 	    - Client loses $1M/year to phishing
 	    - Your solution reduces 80% → saves $800K
