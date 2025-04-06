@@ -49,6 +49,8 @@
 		- if y = 0 -> $-\log({1 - h_\theta})$
 
 ### Gradient Descent, modified
+- $\theta_{0} := \theta_{0} - \alpha \left( \frac{1}{m} \sum_{i=1}^{m} \left( h_\theta(x^{(i)}) - y^{(i)} \right) x_{0}^{(i)}\right)$
+	- Theta 0 is treated differently
 - $\theta_j := \theta_j - \alpha \left( \frac{1}{m} \sum_{i=1}^{m} \left( h_\theta(x^{(i)}) - y^{(i)} \right) x_j^{(i)} + \frac{\lambda}{m} \theta_j \right)$
 	- A term is added to the end, $\frac{\lambda}{m} \theta_j$
 
