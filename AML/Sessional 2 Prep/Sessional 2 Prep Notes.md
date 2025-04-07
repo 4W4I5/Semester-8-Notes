@@ -2,7 +2,7 @@
 | ----------------- | ----------------------------- | ------------------ |
 | 9                 | Logistic Regression           | :white_check_mark: |
 | 10                | Support Vector Machines (SVM) | :warning:          |
-| 11                | Evaluation Metrics            | :warning:          |
+| 11                | Evaluation Metrics            | :white_check_mark: | 
 | 12 + 13           | Neural Networks               | :warning:          |
 
 # Lecture 9: Logistic Regression
@@ -21,7 +21,7 @@
 - Linear Decision Boundary Example✅
 - Non-Linear Decision Boundary (Circle)❌
 - Multi-Class Classification (Run LDB example with an extra input set)✅
-- Regularized LogReg⚠️
+- Regularized LogReg✅
 
 ## Logistic Regression
 ### Trivia
@@ -71,6 +71,31 @@
 ---
 
 # Lecture 11: Evaluation Metrics (Classification)
+## Confusion Matrix
+
+|                 | Positive Prediction | Negative Prediction |
+| --------------- | ------------------- | ------------------- |
+| Actual Positive | True Positive       | False Negative      |
+| Actual Negative | False Positive      | True Negative       |
+
+TP/TN -> Correctly identified positive/negative cases
+FP -> Type 1 ERR, Incorrectly predicted positives
+FN -> Type 2 ERR, Incorrectly predicted negatives
+
+### Accuracy
+$\frac{\textbf{True Predictions (TP+TN)}}{\textbf{All Predictions (TP+TN + FP+FN)}}$
+
+### Precision
+- Proportion of TP out of all predicted Positives
+$\frac{\textbf{True Positives (TP)}}{\textbf{True Positives + False Positives (TP + FP)}}$
+
+### Recall
+- Proportion of TP out of all actual Positives
+$\frac{\textbf{True Positives (TP)}}{\textbf{True Positives + False Negatives (TP + FN)}}$
+
+### F1-Score
+- Harmonic Mean, useful to correct imbalances b/w precision & recall
+$2 \cdot \frac{\textbf{Precision . Recall}}{\textbf{Precision + Recall}}$
 
 ---
 
