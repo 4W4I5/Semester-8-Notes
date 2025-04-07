@@ -268,10 +268,12 @@ Market sizing helps determine the **financial potential** of your startup and su
 		- The market's understanding of what the innovation can deliver.
 		- If expectations are misaligned (too high or too low), adoption and success are affected.
 - **Understanding Customer Perception of Benefit and Cost:**
-	- **Costs for Innovators:** Price of the product.
-	- **Costs for Customers:** Not just the price, but also non-price costs like time, learning effort, trust, and frustration.
-	- **Benefits for Innovators:** Total benefits delivered to customers.
-	- **Benefits for Customers:** Relative benefits compared to alternatives (e.g., e-wallet vs. cash payments).
+	- **Innovators**
+		- **Benefit:** Total benefits delivered to customers.
+		- **Cost:** Price of the product.
+	- **Customers**
+		- **Benefit:** Relative benefits compared to alternatives (e.g., e-wallet vs. cash payments).
+		- **Cost:** Not just the price, but also non-price costs like time, learning effort, trust, and frustration.
 - **Key Takeaway:**
 	- Innovators must **map the full ecosystem**.
 	- Must identify **bottlenecks** and **weak links** early.
