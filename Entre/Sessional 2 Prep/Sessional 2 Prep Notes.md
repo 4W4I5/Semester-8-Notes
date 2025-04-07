@@ -74,7 +74,12 @@
 		4. Delivering the Value Proposition to customers.
 		5. Providing post-purchase support.
 	- Channels are a company’s interface with customers, serving as key touchpoints in the customer experience.
-		- Phases: Awareness, Evaluation, Purchase, Delivery, After-sales
+		- **Phases**:
+			1. Awareness
+			2. Evaluation
+			3. Purchase
+			4. Delivery
+			5. After-sales
 		- Key questions: Through which channels do customers want to be reached? Which work best?
 - ### 8. Revenue Streams
 	- **Purpose:** Represents the cash generated from each Customer Segment, with costs subtracted to create earnings.
