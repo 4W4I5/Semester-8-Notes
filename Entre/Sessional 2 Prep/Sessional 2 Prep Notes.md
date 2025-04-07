@@ -16,7 +16,7 @@
 		1. They need different offers.
 		2. They are reached through different channels.
 		3. They require different relationships.
-		4. They have different profitabilities.
+		4. They have different profitability's.
 		5. They value different aspects of the offer.
 	- Defines the different people or organizations the business serves.
 		- Mass market, niche market, segmented, diversified, multi-sided platforms
