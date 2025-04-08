@@ -3,10 +3,15 @@
 | 6b                | Ethical Decision Making – 4-Step Framework | :white_check_mark: |
 | 7a                | Legal Aspects                              | :white_check_mark: |
 | 7b                | Court system of Pakistan                   | :warning:          |
-| 8                 | Intellectual Property Rights               | :white_check_mark: | 
+| 8                 | Intellectual Property Rights               | :white_check_mark: |
 
 # Lecture 6b: Ethical Decision Making – 4-Step Framework
-## Step I: Understanding the Situation
+> [!NOTE]
+> **U-I-A-M** → **FES**, **SDQ**, **CRK**, **DISP**
+> Each letter of UIAM, is a major step and used as an index for the righthand side
+> For e.g. A is step 3 - `Analyze` alternatives via the `C.R.K (Consequences, Rights, Kant)`
+
+## Step I: `Understanding` the Situation
 - ### Step IA – List the Facts
 	- Clearly list and number all **relevant, objective facts**.
 	- Avoid interpretations or judgments at this stage.
@@ -27,14 +32,14 @@
 		- Users and suspects
 		- Company leadership, shareholders, society
 	- Think broadly: customers, public, legal authorities
-## Step II: Isolate the Ethical Dilemma
+## Step II: `Isolate` the Ethical Dilemma
 - ### Form of Ethical Dilemma
 	- Frame the dilemma as:
 		“Should [someone] do [an action] or not?”
 	- Focus the ethical question, do not explain or justify yet.
 		- **Example:**
 			- Should Art provide Alberta with LANSCAPE software to monitor suspected employees?
-## Step III: Analyze Alternatives (Ethical Reasoning)
+## Step III: `Analyze` Alternatives (Ethical Reasoning)
 - ### A. **Consequentialism (Utilitarianism)**
 	- Identify harms and benefits of both **doing** and **not doing** the action.
 	- Compare:
@@ -58,7 +63,7 @@
 		- Respect equality and fairness?
 		- Violate others’ autonomy or privacy?
 	- Prefer the option that upholds human dignity and fairness.
-## Step IV: Make and Justify the Decision
+## Step IV: `Make` and Justify the Decision
 - ### IV-A – Make a Defensible Ethical Decision
 	- Choose the ethically superior option based on analysis.
 	- Justify using:
@@ -103,7 +108,7 @@
 		- Stakeholder communication
 	- Surveillance should not bypass legal process or employee rights.
 
-## Tab
+## Tabulated case study walkthrough
 
 | **Step**                                 | **Details**                                                                                                                                                                                                                                                                      |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
