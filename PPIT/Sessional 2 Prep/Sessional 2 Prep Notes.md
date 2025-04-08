@@ -1,11 +1,107 @@
-| Chapter<br>Number | Chapter<br>Name              | Status             |
-| ----------------- | ---------------------------- | ------------------ |
-| 6b                | Ethical Decision Making      | :warning:          |
-| 7a                | Legal Aspects                | :white_check_mark: | 
-| 7b                | Court system of Pakistan     | :warning:          |
-| 8                 | Intellectual Property Rights | :warning:          |
+| Chapter<br>Number | Chapter<br>Name                            | Status             |
+| ----------------- | ------------------------------------------ | ------------------ |
+| 6b                | Ethical Decision Making – 4-Step Framework | :warning:          |
+| 7a                | Legal Aspects                              | :white_check_mark: |
+| 7b                | Court system of Pakistan                   | :warning:          |
+| 8                 | Intellectual Property Rights               | :warning:          |
 
-# Lecture 6b: Ethical Decision Making
+# Lecture 6b: Ethical Decision Making – 4-Step Framework
+## Step I: Understanding the Situation
+- ### Step IA – List the Facts
+	- Clearly list and number all **relevant, objective facts**.
+	- Avoid interpretations or judgments at this stage.
+	- Identify which facts raise ethical concerns and **potential or actual harm**.
+	- Ask: What action(s) are ethically questionable?
+	- Identify **stakeholders**: those directly or indirectly affected.
+- ### Step IB – Identify Ethical Issues
+	- Which facts involve ethical conflict?
+	- What rights or duties might be in question?
+	- Consider:
+		- Privacy breaches
+		- Unfair treatment
+		- Public vs. private interest
+- ### Step IC – Identify Stakeholders
+	- Who is involved?
+		- Direct actors (e.g. Clare, Art, Alberta)
+		- Support staff
+		- Users and suspects
+		- Company leadership, shareholders, society
+	- Think broadly: customers, public, legal authorities
+## Step II: Isolate the Ethical Dilemma
+- ### Form of Ethical Dilemma
+	- Frame the dilemma as:
+		“Should [someone] do [an action] or not?”
+	- Focus the ethical question, do not explain or justify yet.
+		- **Example:**
+			- Should Art provide Alberta with LANSCAPE software to monitor suspected employees?
+## Step III: Analyze Alternatives (Ethical Reasoning)
+- ### A. **Consequentialism (Utilitarianism)**
+	- Identify harms and benefits of both **doing** and **not doing** the action.
+	- Compare:
+		- Who is harmed/benefited?
+		- Magnitude and scope of impact
+		- Short-term vs. long-term consequences
+	- Choose the option that results in **greatest net benefit** or **least overall harm**.
+- ### B. **Rights and Duties**
+	- Determine if:
+		- Any stakeholder's **rights** are violated
+		- Any **duties** are neglected
+	- Match rights with corresponding duties.
+	- Ask:
+		- Do employees have a right to be informed about surveillance?
+		- Does management have a duty to ensure safety and productivity?
+		- Is transparency owed by system administrators?
+- ### C. **Kant’s Categorical Imperative**
+	- Universalize the action: What if **everyone** did this?
+	- Does the action:
+		- Treat people as ends (with dignity), or means to an end?
+		- Respect equality and fairness?
+		- Violate others’ autonomy or privacy?
+	- Prefer the option that upholds human dignity and fairness.
+## Step IV: Make and Justify the Decision
+- ### IV-A – Make a Defensible Ethical Decision
+	- Choose the ethically superior option based on analysis.
+	- Justify using:
+		- Specific principles from Step III
+		- Balance between conflicting rights/duties
+	- Do not take action yet, leave that for part C & D
+- ### IV-B – Implementation Plan
+	- Outline how the decision will be put into practice.
+	- Ensure stakeholders are informed and supported.
+	- Include transparency and policy communication.
+	- Consider involving legal or HR to maintain compliance.
+- ### IV-C – Stakeholder Impact
+	- Show how your decision positively or negatively affects:
+		- Internal staff (support, users, suspected employees)
+		- Organizational culture
+		- Broader society (privacy expectations, legal precedent)
+- ### IV-D – Long-term Improvements
+	- Establish or refine:
+		- **Ethical codes** and training
+		- **Policy frameworks** for tools like LANSCAPE
+		- Anonymous **ethics hotlines**
+		- **Legal compliance** mechanisms (e.g., worker monitoring laws)
+- ### IV-E – Prevention (What Should’ve Been Done Earlier?)
+	- Conduct ethical impact assessments **before** deploying surveillance tools.
+	- Make proactive policy decisions about user privacy and transparency.
+
+## Case Study Summary – "Too Much of a Good Thing"
+- **Context:**
+	- Clare uses **LANSCAPE** to help users remotely by viewing and controlling their screens.
+	- She proactively monitors users without their consent.
+	- Alberta wants to use LANSCAPE for **secret surveillance** to catch suspected drug dealers.
+	- Art is caught in the ethical dilemma of whether to support this request.
+- **Core Ethical Conflict:**
+	- Using a helpful IT tool for potentially **invasive surveillance**.
+	- **Privacy vs. Public Safety**
+	- **Informed consent vs. internal crime investigation**
+- **Key Takeaways:**
+	- Unauthorized surveillance—even for “good” causes—risks eroding **trust** and **morale**.
+	- Ethical use of technology requires:
+		- Transparency
+		- Clear policy
+		- Stakeholder communication
+	- Surveillance should not bypass legal process or employee rights.
 
 
 ---
@@ -34,41 +130,41 @@
 	- Involves rights, duties, and liabilities.
 	- Initiated by one party (litigation).
 	- Subtypes:
-	    - Law of Torts: Civil wrongs (negligence, defamation, trespass).
-	    - Law of Contract: Enforceable agreements and their consequences.
-	    - Law of Property: Ownership rights over land and goods.
-	    - Law of Succession: Property transfer after death.
-	    - Family Law: Rights and duties within families.
+		- Law of Torts: Civil wrongs (negligence, defamation, trespass).
+		- Law of Contract: Enforceable agreements and their consequences.
+		- Law of Property: Ownership rights over land and goods.
+		- Law of Succession: Property transfer after death.
+		- Family Law: Rights and duties within families.
 - ### Public Law
 	- Concerned with state and citizen relationships.
 	- Subtypes:
-	    - Constitutional Law: Structures and powers of government organs.
-	    - Administrative Law: Citizen rights against government agencies.
+		- Constitutional Law: Structures and powers of government organs.
+		- Administrative Law: Citizen rights against government agencies.
 - ### Substantive vs Procedural Law
 	- Substantive:
-	    - Defines rights, duties, and liabilities (e.g., right to free speech)
+		- Defines rights, duties, and liabilities (e.g., right to free speech)
 	- Procedural:
-	    - Mechanism of enforcing those rights (e.g., court procedures)
+		- Mechanism of enforcing those rights (e.g., court procedures)
 - ### Public International Law
 	- Governs relationships between states.
 	- Includes:
-	    - Rules of war
-	    - Boundary disputes
-	    - Diplomatic immunity
+		- Rules of war
+		- Boundary disputes
+		- Diplomatic immunity
 	- States are subject to international law; individuals are typically not.
 
 ## Legal Structure of the State
 - ### Branches of Government
 	- Legislature:
-	    - Law-making body (e.g., National Assembly, Senate)
-	    - Enacts statute law
+		- Law-making body (e.g., National Assembly, Senate)
+		- Enacts statute law
 	- Executive:
-	    - Enforces and administers laws
-	    - Includes President, PM, ministers, bureaucrats
+		- Enforces and administers laws
+		- Includes President, PM, ministers, bureaucrats
 	- Judiciary:
-	    - Interprets and enforces laws
-	    - Independent from political control
-	    - Makes case law through precedent
+		- Interprets and enforces laws
+		- Independent from political control
+		- Makes case law through precedent
 
 ## Jurisdiction
 - ### Types of Jurisdiction
@@ -79,12 +175,12 @@
 
 ## General Law vs. Special Law
 - General Law:
-    - Applies broadly to everyone.
-    - E.g., Penal Code, Civil Procedure Code
+	- Applies broadly to everyone.
+	- E.g., Penal Code, Civil Procedure Code
 - Special Law:
-    - Applies to specific matters.
-    - Overrides general law in case of conflict.
-    - E.g., Cyber Laws, Consumer Protection Laws
+	- Applies to specific matters.
+	- Overrides general law in case of conflict.
+	- E.g., Cyber Laws, Consumer Protection Laws
 
 ## Sources of Law
 - ### Common Law
@@ -94,9 +190,9 @@
 - ### Statute Law
 	- Written law passed by Parliament.
 	- Formed through legislative processes:
-	    - National Assembly
-	    - Senate
-	    - Provincial Assemblies
+		- National Assembly
+		- Senate
+		- Provincial Assemblies
 
 ## Law in History
 - Initially, the king made and enforced laws.
@@ -122,15 +218,15 @@
 - Computer Contracts: Validity of digital signatures and terms.
 - Electronic Contracts: Online agreements, terms of service.
 - Criminal Law:
-    - Hacking
-    - Virus/worm spreading
-    - Unauthorized access
-    - Identity theft
+	- Hacking
+	- Virus/worm spreading
+	- Unauthorized access
+	- Identity theft
 - Data Protection:
-    - Legal frameworks for handling personal data
-    - Consent, processing, storage, retention
+	- Legal frameworks for handling personal data
+	- Consent, processing, storage, retention
 - Privacy:
-    - Legal rights to control personal info online
+	- Legal rights to control personal info online
 
 ## Case Study: eBay v. Bidder’s Edge
 - ### Summary
