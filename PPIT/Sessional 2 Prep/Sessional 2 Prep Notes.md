@@ -7,11 +7,15 @@
 
 # Lecture 6b: Ethical Decision Making – 4-Step Framework
 > [!NOTE]
-> **U-I-A-M** → **FES**, **SDQ**, **CRK**, **DISP**
+> **U-I-A-M** → **FES**, **SDQ**, **CRK**, **DISLP**
 > Each letter of UIAM, is a major step and used as an index for the righthand side
 > For e.g. A is step 3 - `Analyze` alternatives via the `C.R.K (Consequences, Rights, Kant)`
 
 ## Step I: `Understanding` the Situation
+- **Mnemonic: F-E-S**
+	- **F**acts → List and number neutrally
+	- **E**thical Issues → Which facts raise concerns and why?
+	- **S**takeholders → Identify all affected individuals/groups
 - ### Step IA – List the Facts
 	- Clearly list and number all **relevant, objective facts**.
 	- Avoid interpretations or judgments at this stage.
@@ -33,13 +37,16 @@
 		- Company leadership, shareholders, society
 	- Think broadly: customers, public, legal authorities
 ## Step II: `Isolate` the Ethical Dilemma
+- **Mnemonic: S-D-Q**
 - ### Form of Ethical Dilemma
-	- Frame the dilemma as:
-		“Should [someone] do [an action] or not?”
-	- Focus the ethical question, do not explain or justify yet.
-		- **Example:**
-			- Should Art provide Alberta with LANSCAPE software to monitor suspected employees?
+	- Frame as: **Should someone do (or not do) something?**
+	- Keep it simple and specific
+	- Don’t include justification — that’s Step 3
 ## Step III: `Analyze` Alternatives (Ethical Reasoning)
+- **Mnemonic: C-R-K**
+	- **C**onsequentialism → Who is harmed or benefited?
+	- **R**ights & Duties → Whose rights/duties are at stake?
+	- **K**antian Ethics → Universalize the action, check for respect/equality
 - ### A. **Consequentialism (Utilitarianism)**
 	- Identify harms and benefits of both **doing** and **not doing** the action.
 	- Compare:
@@ -64,6 +71,12 @@
 		- Violate others’ autonomy or privacy?
 	- Prefer the option that upholds human dignity and fairness.
 ## Step IV: `Make` and Justify the Decision
+- **Mnemonic: D-I-S-L-P**
+	- **D**ecide → Make a defensible choice
+	- **I**mplement → Plan specific steps to act on the decision
+	- **S**takeholder Impact → Explain how each party is affected
+	- **L**ong-term Fix → Suggest organizational/societal improvements
+	- **P**revention → What should’ve been done initially to avoid the issue?
 - ### IV-A – Make a Defensible Ethical Decision
 	- Choose the ethically superior option based on analysis.
 	- Justify using:
