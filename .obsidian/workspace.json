@@ -140,7 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IA/Sessional 2 Prep/Sessional 2 Prep Notes.md"
+                "file": "PPIT/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of Sessional 2 Prep Notes"
@@ -152,8 +155,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -171,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
