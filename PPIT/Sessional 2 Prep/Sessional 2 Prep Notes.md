@@ -103,24 +103,6 @@
 	- Conduct ethical impact assessments **before** deploying surveillance tools.
 	- Make proactive policy decisions about user privacy and transparency.
 
-## Case Study Summary – "Too Much of a Good Thing"
-- ### **Context:**
-	- Clare uses **LANSCAPE** to help users remotely by viewing and controlling their screens.
-	- She proactively monitors users without their consent.
-	- Alberta wants to use LANSCAPE for **secret surveillance** to catch suspected drug dealers.
-	- Art is caught in the ethical dilemma of whether to support this request
-- ### **Core Ethical Conflict:**
-	- Using a helpful IT tool for potentially **invasive surveillance**.
-	- **Privacy vs. Public Safety**
-	- **Informed consent vs. internal crime investigation**
-- ### **Key Takeaways:**
-	- Unauthorized surveillance—even for “good” causes—risks eroding **trust** and **morale**.
-	- Ethical use of technology requires:
-		- Transparency
-		- Clear policy
-		- Stakeholder communication
-	- Surveillance should not bypass legal process or employee rights.
-
 ## Tabulated case study walkthrough
 
 | **Step**                                 | **Details**                                                                                                                                                                                                                                                                      |
