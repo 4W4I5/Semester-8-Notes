@@ -264,6 +264,136 @@
 ---
 
 # Lecture 7b: Court system of Pakistan
+## **Historical Development of Pakistan’s Judiciary**
+- Originates from **British India’s legal system**.
+- After **independence in 1947**, Pakistan adopted the **Government of India Act 1935** as a provisional constitution.
+- The existing legal system was **retained** with **modifications** to suit Pakistan's needs.
+- Some areas are **excluded** from regular court jurisdiction:
+	- **Tribal Areas**: Supreme Court and High Courts have **no jurisdiction**, unless explicitly provided.
+	- **Azad Jammu & Kashmir** and **Gilgit-Baltistan**: Have **separate, autonomous court systems**.
+
+## **1. Supreme Court of Pakistan**
+- ### Structure & Location
+	- **Established:** 1956
+	- **Permanent seat:** Islamabad
+	- **Branch Registries:** Lahore, Karachi, Peshawar, Quetta
+	- **Judges:** 17 permanent judges
+- ### Jurisdiction & Powers
+	- Final appellate authority for **civil, criminal, and constitutional cases**.
+	- Can hear **constitutional petitions**, resolve inter-governmental disputes.
+	- **Suo motu powers** under Article 184(3): Can initiate cases on matters of **public interest** and **human rights violations**.
+- ### Role & Supervision
+	- Serves as a **de facto check on military power** during constitutional crises.
+	- **Supervised by:** Supreme Judicial Council – hears complaints against judges.
+- ### Challenges
+	- Justice system criticized for **lengthy, complex procedures**.
+	- Citizens often face **delays and inefficiencies**.
+
+## **2. Federal Shariat Court (FSC)**
+- ### Purpose
+	- Ensures laws in Pakistan **conform to Islamic injunctions** (Holy Qur'an & Sunnah).
+	- Can **declare any law** “repugnant to Islam” and require amendment.
+- ### Structure
+	- **8 Muslim judges** including the Chief Justice.
+	- **3 of them must be Islamic scholars (Ulema)**.
+	- **Appointed by the President** after recommendation by a **Judicial Committee**:
+		- Chief Justice of Pakistan
+		- Chief Justice of the Federal Shariat Court
+	- **Term:** 3 years (extendable)
+- ### Jurisdiction
+	- Can review:
+		- Federal and provincial laws
+		- Criminal court decisions applying **Hudood ordinances**
+	- **Revisional jurisdiction** over Hudood cases.
+	- Can act:
+		- On its own
+		- On petitions by citizens
+		- On requests by federal/provincial governments
+- ### Appeals & Oversight
+	- Appeals go to **Shariat Appellate Bench of the Supreme Court**:
+		- 3 Muslim Supreme Court judges + 2 Ulema (appointed by the President)
+	- **Binding on High Courts and subordinate judiciary**
+	- Operates under **Article 203A** of the Constitution
+
+## **3. High Courts of Pakistan**
+- ### Courts & Jurisdictions
+	1. **Lahore High Court** – Punjab
+	2. **Sindh High Court** – Sindh
+	3. **Peshawar High Court** – Khyber Pakhtunkhwa
+	4. **Balochistan High Court** – Balochistan
+	5. **Islamabad High Court** – Islamabad Capital Territory
+- ### Function
+	- **Appellate courts** for civil and criminal matters.
+	- Hear **constitutional petitions**, especially for enforcement of **Fundamental Rights**.
+	- Governed by **Article 199** of the Constitution.
+- ### Powers under Article 199
+	- **Writ jurisdiction**:
+		- Prohibit unlawful actions by government officers
+		- Habeas corpus: ensure lawful custody
+		- Public office legitimacy checks
+		- Enforcement of **Fundamental Rights**
+	- **Restrictions**:
+		- Cannot entertain petitions from **armed forces personnel** on service-related matters
+	- **Interim orders**:
+		- Not allowed if they interfere with public interest unless law officers are heard
+		- E.g., public works, state property, tax collection
+
+## **4. Civil Justice System**
+- ### Governing Law
+	- **Code of Civil Procedure, 1908**
+	- **Civil Courts Ordinance, 1962**
+- ### Court Hierarchy
+	1. **Court of District Judge** – Original civil jurisdiction in the district
+	2. **Court of Additional District Judge** – Assists District Judge
+	3. **Court of Civil Judge** – Handles lower-value civil cases
+- ### Structure & Appointments
+	- Civil courts are under the **supervision of the High Court**
+	- **District Judges**: Appointed by **Provincial Government** in consultation with the High Court
+	- **Additional District Judges**: Appointed by the Provincial Government
+	- **Civil Judges**:
+		- Number and qualifications fixed by **Provincial Government**
+		- Posting and jurisdiction defined by **High Court**
+		- Categorized as:
+			- **Civil Judge 1st Class**
+			- **Civil Judge 2nd Class**
+			- **Civil Judge 3rd Class**
+
+## **5. Criminal Justice System**
+- ### Governing Law
+	- **Substantive Law**: Pakistan Penal Code (PPC), 1860
+	- **Procedural Law**: Code of Criminal Procedure (CrPC), 1898
+	- **Evidence Law**: Qanun-e-Shahadat (Law of Evidence)
+- ### Function
+	- **Police** investigate crimes and bring offenders to trial.
+	- **Courts** handle trials, determine truth, and impose punishments as per law.
+- ### Court Hierarchy
+	1. **High Courts** – Also function as criminal appellate courts
+	2. **Sessions Courts** – Established in each district division
+		- Sessions Judge
+		- Additional Sessions Judge
+	3. **Magistrate Courts**:
+		- Magistrate 1st Class
+		- Magistrate 2nd Class
+		- Magistrate 3rd Class
+		- All magistrates are under **Sessions Judge**
+
+## **6. Special Courts, Tribunals, and Boards**
+- ### Purpose
+	- Handle specific areas of law under **special statutes**
+	- Exist outside the standard judiciary structure
+- ### Examples
+	1. **Family Courts** – Matrimonial and child custody disputes
+	2. **Juvenile Courts** – Underage offenders
+	3. **Anti-Narcotics Courts** – Drug-related cases
+	4. **Banking Courts** – Financial disputes and loan defaults
+	5. **Income Tax Tribunals** – Tax disputes and assessments
+	6. **Consumer Courts** – Consumer protection cases
+	7. **Services Tribunals** – Civil servant employment matters
+	8. **Anti-Corruption Courts** – Misconduct by public officials
+	9. **Anti-Terrorism Courts** – Terrorism-related offences
+	10. **Boards of Revenue** – Land revenue and property disputes
+	11. **Labour Relations Courts** – Industrial disputes and trade unions
+
 
 ---
 
