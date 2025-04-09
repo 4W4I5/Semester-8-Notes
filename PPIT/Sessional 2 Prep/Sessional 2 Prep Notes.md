@@ -53,7 +53,8 @@
 		- Who is harmed/benefited?
 		- Magnitude and scope of impact
 		- Short-term vs. long-term consequences
-	- Choose the option that results in **greatest net benefit** or **least overall harm**.
+	- Choose the option that results in **greatest net benefit** or **least overall harm
+	- 6 Questions in total, 4 based on doing/not doing before and after taking action + 2 on results
 - ### B. **Rights and Duties**
 	- Determine if:
 		- Any stakeholder's **rights** are violated
