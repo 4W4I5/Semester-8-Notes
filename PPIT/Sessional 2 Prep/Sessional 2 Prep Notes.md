@@ -71,6 +71,13 @@
 		- Respect equality and fairness?
 		- Violate others’ autonomy or privacy?
 	- Prefer the option that upholds human dignity and fairness.
+	- Similar questioning scenario as 3A (Same as the Lines above)
+		- Determine who will be treated with respect/disrespect after 2
+		- Which will be preferred out of respect/disrespect
+		- Determine who will be treated fairly/unfairly after 2
+		- Which will be preferred out of fairly/unfairly
+		- Observe benefits if everyone did/did not do 2
+		- Which will be preferred out of everyone doing it/everyone not doing it
 ## Step IV: `Make` and Justify the Decision
 - **Mnemonic: D-I-S-L-P**
 	- **D**ecide → Make a defensible choice
