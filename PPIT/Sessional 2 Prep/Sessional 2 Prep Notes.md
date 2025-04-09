@@ -2,7 +2,7 @@
 | ----------------- | ------------------------------------------ | ------------------ |
 | 6b                | Ethical Decision Making – 4-Step Framework | :white_check_mark: |
 | 7a                | Legal Aspects                              | :white_check_mark: |
-| 7b                | Court system of Pakistan                   | :warning:          |
+| 7b                | Court system of Pakistan                   | :white_check_mark: | 
 | 8                 | Intellectual Property Rights               | :white_check_mark: |
 
 # Lecture 6b: Ethical Decision Making – 4-Step Framework
@@ -264,136 +264,155 @@
 ---
 
 # Lecture 7b: Court system of Pakistan
-## **Historical Development of Pakistan’s Judiciary**
-- Originates from **British India’s legal system**.
-- After **independence in 1947**, Pakistan adopted the **Government of India Act 1935** as a provisional constitution.
-- The existing legal system was **retained** with **modifications** to suit Pakistan's needs.
-- Some areas are **excluded** from regular court jurisdiction:
-	- **Tribal Areas**: Supreme Court and High Courts have **no jurisdiction**, unless explicitly provided.
-	- **Azad Jammu & Kashmir** and **Gilgit-Baltistan**: Have **separate, autonomous court systems**.
+
+## **Historical Background of Pakistan’s Judiciary**
+- At independence in **1947**, Pakistan **retained the legal and judicial structure** of British India.
+- The **Government of India Act 1935** was adopted as a **provisional Constitution**, ensuring continuity of legal processes.
+- This colonial legal system was **modified** and **Islamized** over time to reflect the values and needs of the new republic.
+- ### Special Jurisdiction Notes:
+	- **Tribal Areas**: Not within the jurisdiction of the **Supreme Court** or **High Courts**, unless otherwise stated.
+	- **Azad Jammu & Kashmir** and **Gilgit-Baltistan**: Operate with **independent legal systems**, separate from Pakistan’s federal judiciary.
+
 
 ## **1. Supreme Court of Pakistan**
-- ### Structure & Location
+- ### Overview:
 	- **Established:** 1956
-	- **Permanent seat:** Islamabad
+	- **Status:** Highest court; apex judicial body under the Constitution.
+	- **Permanent Seat:** Islamabad
 	- **Branch Registries:** Lahore, Karachi, Peshawar, Quetta
-	- **Judges:** 17 permanent judges
-- ### Jurisdiction & Powers
-	- Final appellate authority for **civil, criminal, and constitutional cases**.
-	- Can hear **constitutional petitions**, resolve inter-governmental disputes.
-	- **Suo motu powers** under Article 184(3): Can initiate cases on matters of **public interest** and **human rights violations**.
-- ### Role & Supervision
-	- Serves as a **de facto check on military power** during constitutional crises.
-	- **Supervised by:** Supreme Judicial Council – hears complaints against judges.
-- ### Challenges
-	- Justice system criticized for **lengthy, complex procedures**.
-	- Citizens often face **delays and inefficiencies**.
+	- **Judges:** 17 (including the Chief Justice)
+- ### Powers & Functions:
+	- Final authority in:
+		- Constitutional interpretation
+		- Civil and criminal appeals
+		- Enforcement of **Fundamental Rights**
+	- **Suo motu powers**: May initiate legal proceedings on public interest or human rights cases under Article 184(3).
+	- Has authority over:
+		- Presidential references (Article 186)
+		- Election disputes
+		- Judicial reviews of executive or legislative actions
+- ### Role in Political History:
+	- Acted as a **de facto check on military regimes**, especially during:
+		- Periods of **martial law**
+		- Suspension of constitutional rights
+		- Validation of **Provisional Constitutional Orders (PCOs)**
+- ### Oversight of Judges:
+	- **Supreme Judicial Council (SJC)** oversees misconduct or incapacity issues for Supreme Court and High Court judges.
+	- Judges can be **removed** under Article 209 via this council.
 
 ## **2. Federal Shariat Court (FSC)**
-- ### Purpose
-	- Ensures laws in Pakistan **conform to Islamic injunctions** (Holy Qur'an & Sunnah).
-	- Can **declare any law** “repugnant to Islam” and require amendment.
-- ### Structure
-	- **8 Muslim judges** including the Chief Justice.
-	- **3 of them must be Islamic scholars (Ulema)**.
-	- **Appointed by the President** after recommendation by a **Judicial Committee**:
-		- Chief Justice of Pakistan
-		- Chief Justice of the Federal Shariat Court
-	- **Term:** 3 years (extendable)
-- ### Jurisdiction
-	- Can review:
-		- Federal and provincial laws
-		- Criminal court decisions applying **Hudood ordinances**
-	- **Revisional jurisdiction** over Hudood cases.
+- ### Establishment & Mandate:
+	- **Established in 1980** by President Zia-ul-Haq.
+	- Reviews all laws for **consistency with Islamic injunctions** as per the **Holy Qur’an and Sunnah**.
+	- Can declare laws **“repugnant to Islam”**, compelling the government to amend them.
+- ### Jurisdiction:
 	- Can act:
-		- On its own
-		- On petitions by citizens
-		- On requests by federal/provincial governments
-- ### Appeals & Oversight
-	- Appeals go to **Shariat Appellate Bench of the Supreme Court**:
-		- 3 Muslim Supreme Court judges + 2 Ulema (appointed by the President)
-	- **Binding on High Courts and subordinate judiciary**
-	- Operates under **Article 203A** of the Constitution
+		- **Suo motu**
+		- On petition by a **citizen**
+		- On request by **federal/provincial government**
+	- Also reviews decisions from **criminal courts** applying **Hudood ordinances** (e.g., theft, zina, false accusation).
+- ### Appeals & Oversight:
+	- Appeals lie to the **Shariat Appellate Bench** of the Supreme Court:
+		- **3 Muslim Supreme Court Judges**
+		- **2 Islamic Scholars (Ulema)** appointed by the President
+- ### Composition:
+	- **8 Judges**, including:
+		- **3 Islamic scholars/Ulema**
+		- Appointed by the **President** on recommendations from the Judicial Committee
+	- **Tenure:** 3 years (renewable)
+- ### Administrative Powers:
+	- Frames its **own procedural rules**
+	- Exercises **revisional jurisdiction** over Hudood cases
+	- Binding on **High Courts and subordinate judiciary**
+- ### Constitutional Basis:
+	- **Articles 203A to 203J** of the Constitution of Pakistan (Part VII, Chapter 3A)
 
-## **3. High Courts of Pakistan**
-- ### Courts & Jurisdictions
+## **3. High Courts**
+- ### Provincial High Courts:
 	1. **Lahore High Court** – Punjab
 	2. **Sindh High Court** – Sindh
 	3. **Peshawar High Court** – Khyber Pakhtunkhwa
 	4. **Balochistan High Court** – Balochistan
-	5. **Islamabad High Court** – Islamabad Capital Territory
-- ### Function
-	- **Appellate courts** for civil and criminal matters.
-	- Hear **constitutional petitions**, especially for enforcement of **Fundamental Rights**.
-	- Governed by **Article 199** of the Constitution.
-- ### Powers under Article 199
-	- **Writ jurisdiction**:
-		- Prohibit unlawful actions by government officers
-		- Habeas corpus: ensure lawful custody
-		- Public office legitimacy checks
-		- Enforcement of **Fundamental Rights**
-	- **Restrictions**:
-		- Cannot entertain petitions from **armed forces personnel** on service-related matters
+	5. **Islamabad High Court** – Islamabad Capital Territory (established in 2010)
+- ### Jurisdiction:
+	- **Original, appellate, and constitutional jurisdiction**
+	- Function as the **first level appellate courts** in civil and criminal cases
+	- Can enforce **Fundamental Rights** under **Article 199** via writs
+- ### Powers Under Article 199:
+	- **Writs include**:
+		- **Mandamus**: Order public officials to perform legal duties
+		- **Prohibition**: Stop illegal acts
+		- **Certiorari**: Review lower court decisions
+		- **Habeas Corpus**: Ensure lawful detention
+		- **Quo Warranto**: Challenge the legality of someone holding public office
+- ### Constitutional Limitations:
+	- No jurisdiction over **armed forces personnel** on matters of service conditions or internal disciplinary actions
 	- **Interim orders**:
-		- Not allowed if they interfere with public interest unless law officers are heard
-		- E.g., public works, state property, tax collection
+		- Restricted if they could obstruct public projects, revenue collection, or public interest
+		- Require notice to **law officers** before issuance
+## **4. Civil Justice System and Civil Courts**
+- ### Governing Laws:
+	- **Code of Civil Procedure (CPC), 1908**
+	- **Civil Courts Ordinance, 1962** (Provincial law)
+- ### Court Hierarchy:
+	1. **District Judge**:
+		- Highest original civil court in the district
+		- Appointed by the **Provincial Government** in consultation with High Court
+	2. **Additional District Judge**:
+		- Assists District Judge; delegated functions
+	3. **Civil Judges**:
+		- Appointed by the **Provincial Government**
+		- **Posted, classified, and supervised** by the High Court
+- ### Classes of Civil Judges:
+	- **1st Class** – Higher pecuniary jurisdiction
+	- **2nd Class**
+	- **3rd Class** – Handles minor claims
+- ### Supervision:
+	- **High Court supervises** all civil courts.
+	- District Judges oversee civil judges within their districts.
 
-## **4. Civil Justice System**
-- ### Governing Law
-	- **Code of Civil Procedure, 1908**
-	- **Civil Courts Ordinance, 1962**
-- ### Court Hierarchy
-	1. **Court of District Judge** – Original civil jurisdiction in the district
-	2. **Court of Additional District Judge** – Assists District Judge
-	3. **Court of Civil Judge** – Handles lower-value civil cases
-- ### Structure & Appointments
-	- Civil courts are under the **supervision of the High Court**
-	- **District Judges**: Appointed by **Provincial Government** in consultation with the High Court
-	- **Additional District Judges**: Appointed by the Provincial Government
-	- **Civil Judges**:
-		- Number and qualifications fixed by **Provincial Government**
-		- Posting and jurisdiction defined by **High Court**
-		- Categorized as:
-			- **Civil Judge 1st Class**
-			- **Civil Judge 2nd Class**
-			- **Civil Judge 3rd Class**
-
-## **5. Criminal Justice System**
-- ### Governing Law
-	- **Substantive Law**: Pakistan Penal Code (PPC), 1860
-	- **Procedural Law**: Code of Criminal Procedure (CrPC), 1898
-	- **Evidence Law**: Qanun-e-Shahadat (Law of Evidence)
-- ### Function
-	- **Police** investigate crimes and bring offenders to trial.
-	- **Courts** handle trials, determine truth, and impose punishments as per law.
-- ### Court Hierarchy
-	1. **High Courts** – Also function as criminal appellate courts
-	2. **Sessions Courts** – Established in each district division
-		- Sessions Judge
-		- Additional Sessions Judge
-	3. **Magistrate Courts**:
-		- Magistrate 1st Class
-		- Magistrate 2nd Class
-		- Magistrate 3rd Class
-		- All magistrates are under **Sessions Judge**
+## **5. Criminal Justice System and Criminal Courts**
+- ### Governing Laws:
+	- **Pakistan Penal Code (PPC), 1860** – Defines offences and punishments.
+	- **Code of Criminal Procedure (CrPC), 1898** – Prescribes criminal trial procedures.
+	- **Qanun-e-Shahadat Order (Law of Evidence)** – Governs admissibility and proof.
+- ### Court Hierarchy:
+	1. **High Courts** – Final appellate authority for criminal cases in provinces.
+	2. **Courts of Session**:
+		- One in each district/division
+		- Composed of a **Sessions Judge** and **Additional Sessions Judges**
+		- Try serious offences like murder, rape, robbery
+	3. **Courts of Magistrate**:
+		- **Magistrate 1st Class**
+		- **Magistrate 2nd Class**
+		- **Magistrate 3rd Class**
+		- Deal with preliminary inquiries, summary trials, and less severe offences
+		- Subordinate to **Sessions Judges**
+- ### Investigative Arm:
+	- **Police** handle:
+		- Investigation
+		- Arrests and remands
+		- Submission of challans (charge sheets)
 
 ## **6. Special Courts, Tribunals, and Boards**
-- ### Purpose
-	- Handle specific areas of law under **special statutes**
-	- Exist outside the standard judiciary structure
-- ### Examples
-	1. **Family Courts** – Matrimonial and child custody disputes
-	2. **Juvenile Courts** – Underage offenders
-	3. **Anti-Narcotics Courts** – Drug-related cases
-	4. **Banking Courts** – Financial disputes and loan defaults
-	5. **Income Tax Tribunals** – Tax disputes and assessments
-	6. **Consumer Courts** – Consumer protection cases
-	7. **Services Tribunals** – Civil servant employment matters
-	8. **Anti-Corruption Courts** – Misconduct by public officials
-	9. **Anti-Terrorism Courts** – Terrorism-related offences
-	10. **Boards of Revenue** – Land revenue and property disputes
-	11. **Labour Relations Courts** – Industrial disputes and trade unions
+- ### Established under Special Statutes
+	- Handle **specific subject matters**
+	- Provide **specialized adjudication** and faster remedies
+- ### Examples:
 
+| Court/Tribunal               | Jurisdiction                                    |
+| ---------------------------- | ----------------------------------------------- |
+| Family Courts                | Matrimonial, guardianship, divorce, maintenance |
+| Juvenile Courts              | Trials of offenders under age 18                |
+| Anti-Narcotics Courts        | Drug trafficking and possession cases           |
+| Banking Courts               | Bank recovery suits, loan defaults              |
+| Income Tax Tribunals         | Tax assessments, disputes                       |
+| Consumer Courts              | Consumer protection violations                  |
+| Services Tribunals           | Civil servant employment disputes               |
+| Anti-Corruption Courts       | Public sector corruption trials                 |
+| Anti-Terrorism Courts (ATCs) | Terrorism-related offences                      |
+| Board of Revenue             | Land revenue, property transfers, land disputes |
+| Labour Relations Courts      | Industrial disputes, trade union matters        |
 
 ---
 
