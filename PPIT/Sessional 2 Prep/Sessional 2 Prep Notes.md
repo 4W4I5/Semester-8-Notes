@@ -2,12 +2,12 @@
 | ----------------- | ------------------------------------------ | ------------------ |
 | 6b                | Ethical Decision Making – 4-Step Framework | :white_check_mark: |
 | 7a                | Legal Aspects                              | :white_check_mark: |
-| 7b                | Court system of Pakistan                   | :white_check_mark: | 
+| 7b                | Court system of Pakistan                   | :white_check_mark: |
 | 8                 | Intellectual Property Rights               | :white_check_mark: |
 
 # Lecture 6b: Ethical Decision Making – 4-Step Framework
 > [!NOTE]
-> **U-I-A-M** → **FES**, **SDQ**, **CRK**, **DISLP**
+> **U-I-A-M** → **FES**, **FSJ**, **CRK**, **DISLP**
 > Each letter of UIAM, is a major step and used as an index for the righthand side
 > For e.g. A is step 3 - `Analyze` alternatives via the `C.R.K (Consequences, Rights, Kant)`
 
@@ -37,11 +37,11 @@
 		- Company leadership, shareholders, society
 	- Think broadly: customers, public, legal authorities
 ## Step II: `Isolate` the Ethical Dilemma
-- **Mnemonic: S-D-Q**
+- **Mnemonic: F-S-J**
 - ### Form of Ethical Dilemma
-	- Frame as: **Should someone do (or not do) something?**
-	- Keep it simple and specific
-	- Don’t include justification — that’s Step 3
+	- `Frame` as: **Should someone do (or not do) something?**
+	- Keep it `simple` and specific
+	- Don’t include `justification` — that’s Step 3
 ## Step III: `Analyze` Alternatives (Ethical Reasoning)
 - **Mnemonic: C-R-K**
 	- **C**onsequentialism → Who is harmed or benefited?
