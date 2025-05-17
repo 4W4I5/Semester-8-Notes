@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PPIT/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+                "file": "AML/Finals Prep/Finals Prep Notes.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Finals Prep Notes"
+            }
+          },
+          {
+            "id": "d64926cabc13d316",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AML/Sessional 2 Prep/Sessional 2 Prep Notes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Sessional 2 Prep Notes"
+            }
+          },
+          {
+            "id": "1817442bea91409b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Sessional 1 Prep Notes"
             }
           }
         ]
@@ -155,8 +183,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -196,17 +224,19 @@
   },
   "active": "97e9f1ea22831f27",
   "lastOpenFiles": [
-    "Entre/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
+    "AML/Finals Prep/Finals Prep Notes.md",
     "README.md",
+    "AML/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "AML/Finals Prep",
+    "Pasted image 20250406164425.jpg",
     "PPIT/Sessional 2 Prep/Sessional 2 Prep Notes.md",
+    "Entre/Sessional 2 Prep/Sessional 2 Prep Notes.md",
     "PPIT/Note Track.md",
     "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
-    "AML/Sessional 2 Prep/Sessional 2 Prep Notes.md",
     "Untitled.md",
-    "Pasted image 20250406164425.jpg",
     "Entre/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "AML/Note Track.md",
-    "AML/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "Entre/Sessional 2 Prep",
     "PPIT/Sessional 2 Prep",
     "AML/Sessional 2 Prep",
@@ -231,7 +261,6 @@
     "SSD/Sessional 1 Prep/Sessional 1 Prep Notes.md",
     "SSD/Note Track.md",
     "Blockchain/Finals Prep/Finals Prep Notes.md",
-    "Blockchain/Finals Prep/Smart Contracts/Wallet.sol",
     "IA/Sessional 2 Prep/Sessional 2 Prep Notes.md",
     "Pasted image 20241103110923.png",
     "InfoSec/Finals Prep/Images/Pasted image 20240604013816.png",
