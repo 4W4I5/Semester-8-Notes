@@ -909,3 +909,18 @@ $2 \cdot \frac{\textbf{Precision . Recall}}{\textbf{Precision + Recall}}$
 
 ---
 # Lecture 16: Deep Learning
+| **Model / Topic**          | **Definition**                                                   | **Key Components**                         | **General Applications**               | **Cybersecurity Applications**                      |
+| -------------------------- | ---------------------------------------------------------------- | ------------------------------------------ | -------------------------------------- | --------------------------------------------------- |
+| **Deep Learning**          | ML subset using multi-layer ANNs to learn features automatically | Neural networks, backprop, layers          | Vision, NLP, speech, robotics          | Intrusion, malware, phishing detection              |
+| **Supervised Learning**    | Learn from labeled data                                          | Input-output pairs, loss functions         | Image labeling, language translation   | Threat classification, anomaly labels               |
+| **Unsupervised Learning**  | Learn from unlabeled data                                        | Clustering, reconstruction, encoding       | Anomaly detection, pattern discovery   | Log analysis, phishing clustering                   |
+| **Reinforcement Learning** | Learn by reward/penalty                                          | Agent, environment, Q-learning             | Robotics, game AI                      | Adaptive defense, threat hunting                    |
+| **FNN / MLP**              | Basic NN, forward-only data flow                                 | Input, hidden, output layers               | Tabular regression/classification      | IDS, spam/phishing detection                        |
+| **CNN**                    | Spatial data analysis (images)                                   | Conv layers, pooling, FC layers            | Image classification, object detection | Binary-as-image malware detection, traffic analysis |
+| **RNN**                    | Sequential data with memory                                      | Loops, hidden state, timestep input        | Time-series, speech, text              | IDS logs, keystroke behavior, botnets               |
+| **LSTM / GRU**             | Memory-enhanced RNNs                                             | LSTM: 3 gates, GRU: 2 gates                | Long-term seq modeling, translation    | Insider threat, long-log pattern modeling           |
+| **Transformer**            | Parallel seq model using attention                               | Self-attention, positional encodings       | GPT, BERT, translation, ViT            | Log/NLP threat intel, phishing, code analysis       |
+| **Autoencoder**            | Compress + reconstruct data                                      | Encoder, latent code, decoder              | Dim. reduction, anomaly detection      | IDS (recon error), log denoising, compression       |
+| **GAN**                    | Generator vs. Discriminator game                                 | Generator, Discriminator, adversarial loss | Deepfakes, art, data generation        | Phishing/malware synthesis, adversarial defense     |
+| **GNN**                    | Neural networks for graphs                                       | Nodes, edges, graph conv, message passing  | Social graphs, fraud, molecules        | Netflow IDS, attack path analysis                   |
+| **DQN**                    | Q-learning + deep net for RL                                     | Q-network, replay buffer, target net       | Atari, robotics, control               | Response learning, user behavior policy             | 
