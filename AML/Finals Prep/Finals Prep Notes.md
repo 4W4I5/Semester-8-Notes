@@ -909,7 +909,102 @@ $2 \cdot \frac{\textbf{Precision . Recall}}{\textbf{Precision + Recall}}$
 ---
 # Lecture 14+15: Clustering
 
+# Clustering (Unsupervised Learning)
+
+## Unsupervised Learning
+- **Definition:** Learning patterns from _unlabeled_ data (no explicit “right answer” given).
+- **Goal:** Discover hidden structure or groupings in data.
+- **Types:** Clustering (group similar points), dimensionality reduction (compress data), etc.
+- **Key Idea:** Algorithms infer natural clusters/groups without guidance.
+
+
+## Applications of Clustering
+- **Trend discovery:** Group similar data to find hidden patterns (e.g. consumer segments).
+- **Domains:** Widely used in marketing, biology, social sciences, etc. to organize data.
+- **Examples:**
+    - **Customer segmentation:** Identify groups with similar buying behavior for targeted marketing.
+    - **Social networks:** Detect communities or friend circles.
+    - **Document analysis:** Group documents/news by topic for retrieval.
+    - **Image processing:** Segment images by color/intensity.
+
+
+## K-Means Algorithm (Steps)
+| Step | Description                                                                  |
+| ---- | ---------------------------------------------------------------------------- |
+| 1    | **Initialize:** Randomly pick K initial centroids (cluster centers).         |
+| 2    | **Assignment:** Assign each data point to the nearest centroid.              |
+| 3    | **Update:** Recompute each centroid as the mean of points assigned to it.    |
+| 4    | **Repeat:** Go back to step 2 until assignments do not change (convergence). |
+
+## 📌 Notation
+
+- * $x^{(i)}$: $i^{th}$ data point
+- * $\mu_k$: centroid of cluster $k$
+- * $c^{(i)} \in \{1, ..., K\}$: index of the cluster assigned to $x^{(i)}$
+- * $K$: number of clusters
+- * $m$: number of examples
+
+## 🎯 Objective Function
+- Minimize:
+$$
+J = \sum_{i=1}^{m} \left\| x^{(i)} - \mu_{c^{(i)}} \right\|^2
+$$
+- This is the **sum of squared distances** from each point to its assigned cluster's centroid.
+
+## ⚙️ Algorithm (Math Steps)
+1. **Random Initialization**:
+	- Pick $K$ data points as initial centroids $\mu_1, ..., \mu_K$.
+2. **Cluster Assignment Step** (E-Step):
+	- For each point $x^{(i)}$, assign it to closest centroid:
+   $$
+   c^{(i)} := \arg\min_k \left\| x^{(i)} - \mu_k \right\|^2
+   $$
+3. **Centroid Update Step** (M-Step):
+	- Recalculate centroids as mean of assigned points:
+   $$
+   \mu_k := \frac{1}{|\{i: c^{(i)} = k\}|} \sum_{i: c^{(i)} = k} x^{(i)}
+   $$
+- Repeat steps 2–3 until convergence.
+
+## Optimization Objective
+- **Goal:** Minimize the _within-cluster sum of squares_ (WCSS), also called inertia.
+- **Interpretation:** Clusters are arranged to minimize variance (sum of squared distances of points to their cluster centroid).
+- **Outcome:** Lower WCSS → tighter, more compact clusters.
+
+
+## Random Initialization
+- **Role:** Initial centroids are usually chosen at random.
+- **Effect:** Different random seeds can lead to different clustering outcomes.
+- **Strategy:** Often run K-means multiple times and pick the best solution (lowest WCSS) to mitigate bad starts.
+
+
+## Local Optima
+- **Non-convexity:** K-means objective has many local minima.
+- **Convergence:** The algorithm is guaranteed to converge, but **not** necessarily to the global best clustering.
+- **Implications:** Results depend on initialization; bad starts can get “trapped” in suboptimal clusters.
+- **Solutions:** Re-run K-means with different random centroids or use smarter init methods (e.g. k-means++).
+
+
+## Choosing K (Elbow Method)
+- **Problem:** K (number of clusters) must be specified in advance.
+- **Elbow Method:**
+    - Run K-means for a range of K (e.g. 1 to 10).
+    - For each K, compute WCSS (within-cluster sum of squares).
+    - Plot WCSS vs. K and look for the “elbow” point where the improvement (drop in WCSS) slows down.
+    - **Choice:** The K at the elbow balances cluster compactness and simplicity.
+
+
+## Use Cases
+- **Data Exploration:** Reveal natural groupings when labels are unknown (e.g. market segmentation).
+- **Customer Profiling:** Group users by behavior/preferences for recommendation or marketing.
+- **Anomaly Detection:** Identify outliers as small or sparse clusters.
+- **Preprocessing:** Cluster data to generate features or for dimensionality reduction.
+- **Examples:** Segmenting customers for targeted ads; grouping patients by symptoms in healthcare; summarizing large datasets.
+**Sources:** Core concepts drawn from clustering literature and lecture notes.
+
+
 ---
+
 # Lecture 16: Deep Learning
 
 | **Model / Topic**          | **Definition**                                                   | **Key Components**                         | **General Applications**               | **Cybersecurity Applications**                      |
