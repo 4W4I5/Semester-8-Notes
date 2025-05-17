@@ -15,8 +15,6 @@
 | 14 + 15           | Clustering                    | :warning:          |
 | 16                | Deep Learning                 | :warning:          |
 
-
-
 # Lecture 1: Introduction
 ## **Cybersecurity**
 
@@ -432,7 +430,9 @@ Feature engineering is the process of transforming raw data into meaningful feat
 
 ### Outlier Formulae
 #### Z-Standardization
+
 $\mathbf{Z} = \frac{(X - \mu)}{\sigma}$
+
 - Requires
 	- Precalculated $\mu$ and $\sigma$
 #### IQR
@@ -466,7 +466,6 @@ $\mathbf{Z} = \frac{(X - \mu)}{\sigma}$
 |                              | - **Regression Imputation**: Predict missing values using regression models based on other features in the dataset.                                                                                |
 |                              | - **Forward/Backward Fill**: In time-series data, impute missing values using the previous or next observed value.                                                                                 |
 |                              | - **Flagging Missing Data**: Create binary features that flag whether a value is missing, allowing models to account for missing data patterns.                                                    |
-
 
 ## **Duplicate Values**
 
@@ -868,10 +867,13 @@ Feature engineering involves creating, modifying, and selecting the best feature
 | Actual Negative | False Positive      | True Negative       |
 
 TP/TN -> Correctly identified positive/negative cases
+
 FP -> Type 1 ERR, Incorrectly predicted positives
+
 FN -> Type 2 ERR, Incorrectly predicted negatives
 
 ### Accuracy
+
 $\frac{\textbf{True Predictions (TP+TN)}}{\textbf{All Predictions (TP+TN + FP+FN)}}$
 
 ### Precision
@@ -909,6 +911,7 @@ $2 \cdot \frac{\textbf{Precision . Recall}}{\textbf{Precision + Recall}}$
 
 ---
 # Lecture 16: Deep Learning
+
 | **Model / Topic**          | **Definition**                                                   | **Key Components**                         | **General Applications**               | **Cybersecurity Applications**                      |
 | -------------------------- | ---------------------------------------------------------------- | ------------------------------------------ | -------------------------------------- | --------------------------------------------------- |
 | **Deep Learning**          | ML subset using multi-layer ANNs to learn features automatically | Neural networks, backprop, layers          | Vision, NLP, speech, robotics          | Intrusion, malware, phishing detection              |
@@ -923,4 +926,19 @@ $2 \cdot \frac{\textbf{Precision . Recall}}{\textbf{Precision + Recall}}$
 | **Autoencoder**            | Compress + reconstruct data                                      | Encoder, latent code, decoder              | Dim. reduction, anomaly detection      | IDS (recon error), log denoising, compression       |
 | **GAN**                    | Generator vs. Discriminator game                                 | Generator, Discriminator, adversarial loss | Deepfakes, art, data generation        | Phishing/malware synthesis, adversarial defense     |
 | **GNN**                    | Neural networks for graphs                                       | Nodes, edges, graph conv, message passing  | Social graphs, fraud, molecules        | Netflow IDS, attack path analysis                   |
-| **DQN**                    | Q-learning + deep net for RL                                     | Q-network, replay buffer, target net       | Atari, robotics, control               | Response learning, user behavior policy             | 
+| **DQN**                    | Q-learning + deep net for RL                                     | Q-network, replay buffer, target net       | Atari, robotics, control               | Response learning, user behavior policy             |
+
+## Architecture Overviews
+
+| **Model**       | **Architecture Overview**                                                                                                                                                                                                                                                                                                                             |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **FNN / MLP**   | ➤ **Input Layer** → accepts features<br> ➤ **Hidden Layers** → fully connected neurons with activations (ReLU, Sigmoid)<br> ➤ **Output Layer** → generates prediction (Softmax, etc.)<br> ➡️ Data flows strictly **forward**; no memory or cycles                                                                                                     |
+| **CNN**         | ➤ **Input** → image matrix or spatial data<br> ➤ **Convolutional Layers** → extract local patterns using filters<br> ➤ **Activation (ReLU)** → non-linearity<br> ➤ **Pooling Layers** → downsample (Max/Avg Pool)<br> ➤ **Fully Connected Layers** → flatten and classify<br> ➡️ Preserves spatial locality and reduces dimensionality                |
+| **RNN**         | ➤ **Input Layer** → sequential data<br> ➤ **Recurrent Hidden Layer** → loops allow memory from previous timesteps<br> ➤ **Output Layer** → emits sequence output<br> ➡️ **Hidden state** at time _t_ depends on current input + previous state                                                                                                        |
+| **LSTM**        | ➤ Same as RNN but inside each unit: <br> • **Forget Gate**: What to discard <br> • **Input Gate**: What new info to add <br> • **Output Gate**: What to send forward<br> ➤ **Cell State** → long-term memory stream<br> ➡️ Solves vanishing gradient, retains long dependencies                                                                       |
+| **GRU**         | ➤ Similar to LSTM but simpler: <br> • **Update Gate**: Controls new vs old memory <br> • **Reset Gate**: Controls past state influence<br> ➡️ Faster, fewer parameters, suitable for smaller data                                                                                                                                                     |
+| **Transformer** | ➤ **Input Embedding** → tokens + position<br> ➤ **Multi-head Self-Attention** → capture context from all tokens<br> ➤ **Feed-Forward Layer** → project outputs<br> ➤ **Add & Norm Layers** → residual + layer normalization<br> ➡️ Entire sequence processed in parallel; no recurrence                                                               |
+| **Autoencoder** | ➤ **Encoder**: Input → dense layers → compressed latent code<br> ➤ **Latent Layer**: Bottleneck (learns essential features)<br> ➤ **Decoder**: Latent → dense layers → reconstruct input<br> ➡️ Trained to minimize reconstruction loss                                                                                                               |
+| **GAN**         | ➤ **Generator**: Noise vector → NN → fake data<br> ➤ **Discriminator**: Real or fake? (binary classifier)<br> ➤ **Adversarial Training**: <br> • Generator tries to fool Discriminator <br> • Discriminator tries to detect fakes<br> ➡️ Competitive loop refines both networks                                                                       |
+| **GNN**         | ➤ **Input**: Graph (nodes + edges)<br> ➤ **Message Passing**: Nodes update state by aggregating neighbors<br> ➤ **Graph Convolution**: Weighted sum over connected nodes<br> ➤ **Readout Layer**: Graph-level prediction<br> ➡️ Preserves structure, captures relationships                                                                           |
+| **DQN**         | ➤ **Input Layer**: Encodes environment state<br> ➤ **Hidden Layers**: Deep NN approximates Q-values<br> ➤ **Output Layer**: Q-values for each possible action<br> ➤ **Replay Buffer**: Stores past transitions for stability<br> ➤ **Target Network**: Separate copy of Q-network for updates<br> ➡️ RL with deep nets for high-dimensional decisions |
