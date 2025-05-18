@@ -11,9 +11,9 @@
 | 9                 | Logistic Regression           | :white_check_mark: |
 | 10                | Support Vector Machines (SVM) | :warning:          |
 | 11                | Evaluation Metrics            | :white_check_mark: |
-| 12 + 13           | Neural Networks               | :warning:          |
-| 14 + 15           | Clustering                    | :warning:          |
-| 16                | Deep Learning                 | :warning:          |
+| 12 + 13           | Neural Networks               | :white_check_mark: | 
+| 14 + 15           | Clustering                    | :white_check_mark: |
+| 16                | Deep Learning                 | :white_check_mark: |
 
 # Lecture 1: Introduction
 ## **Cybersecurity**
