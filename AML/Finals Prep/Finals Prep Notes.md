@@ -11,7 +11,7 @@
 | 9                 | Logistic Regression           | :white_check_mark: |
 | 10                | Support Vector Machines (SVM) | :warning:          |
 | 11                | Evaluation Metrics            | :white_check_mark: |
-| 12 + 13           | Neural Networks               | :white_check_mark: | 
+| 12 + 13           | Neural Networks               | :white_check_mark: |
 | 14 + 15           | Clustering                    | :white_check_mark: |
 | 16                | Deep Learning                 | :white_check_mark: |
 
@@ -911,13 +911,6 @@ $2 \cdot \frac{\textbf{Precision . Recall}}{\textbf{Precision + Recall}}$
 
 # Clustering (Unsupervised Learning)
 
-## Unsupervised Learning
-- **Definition:** Learning patterns from _unlabeled_ data (no explicit “right answer” given).
-- **Goal:** Discover hidden structure or groupings in data.
-- **Types:** Clustering (group similar points), dimensionality reduction (compress data), etc.
-- **Key Idea:** Algorithms infer natural clusters/groups without guidance.
-
-
 ## Applications of Clustering
 - **Trend discovery:** Group similar data to find hidden patterns (e.g. consumer segments).
 - **Domains:** Widely used in marketing, biology, social sciences, etc. to organize data.
@@ -1037,3 +1030,163 @@ $$
 | **GAN**         | ➤ **Generator**: Noise vector → NN → fake data<br> ➤ **Discriminator**: Real or fake? (binary classifier)<br> ➤ **Adversarial Training**: <br> • Generator tries to fool Discriminator <br> • Discriminator tries to detect fakes<br> ➡️ Competitive loop refines both networks                                                                       |
 | **GNN**         | ➤ **Input**: Graph (nodes + edges)<br> ➤ **Message Passing**: Nodes update state by aggregating neighbors<br> ➤ **Graph Convolution**: Weighted sum over connected nodes<br> ➤ **Readout Layer**: Graph-level prediction<br> ➡️ Preserves structure, captures relationships                                                                           |
 | **DQN**         | ➤ **Input Layer**: Encodes environment state<br> ➤ **Hidden Layers**: Deep NN approximates Q-values<br> ➤ **Output Layer**: Q-values for each possible action<br> ➤ **Replay Buffer**: Stores past transitions for stability<br> ➤ **Target Network**: Separate copy of Q-network for updates<br> ➡️ RL with deep nets for high-dimensional decisions |
+
+
+## 🔁 **1. LSTM Cell (Long Short-Term Memory)**
+
+```
+         ┌────────────────────────────────────────┐
+    xt ─▶│          Forget Gate: ft = σ(Wf · [ht-1, xt] + bf)         │
+         └────────────────────────────────────────┘
+                    │
+                    ▼
+         ┌────────────────────────────────────────┐
+    xt ─▶│          Input Gate: it = σ(Wi · [ht-1, xt] + bi)          │
+         └────────────────────────────────────────┘
+                    │
+         ┌────────────────────────────────────────┐
+    xt ─▶│     Candidate Memory: ĉt = tanh(Wc · [ht-1, xt] + bc)      │
+         └────────────────────────────────────────┘
+                    │
+                    ▼
+         ct = ft * ct-1 + it * ĉt         ← (New cell state)
+                    │
+         ┌────────────────────────────────────────┐
+         │       Output Gate: ot = σ(Wo · [ht-1, xt] + bo)           │
+         └────────────────────────────────────────┘
+                    │
+                    ▼
+           ht = ot * tanh(ct)          ← (New hidden state)
+```
+
+
+### 🔁 **2. GRU Cell (Gated Recurrent Unit)**
+
+```
+         ┌────────────────────────────────────────┐
+    xt ─▶│     Update Gate: zt = σ(Wz · [ht-1, xt] + bz)             │
+         └────────────────────────────────────────┘
+                    │
+         ┌────────────────────────────────────────┐
+    xt ─▶│     Reset Gate: rt = σ(Wr · [ht-1, xt] + br)              │
+         └────────────────────────────────────────┘
+                    │
+         ┌────────────────────────────────────────────────────┐
+         │ Candidate h~t = tanh(W · [rt * ht-1, xt] + b)       │
+         └────────────────────────────────────────────────────┘
+                    │
+         ht = (1 - zt) * ht-1 + zt * h~t   ← (New hidden state)
+```
+
+
+### 🤖 **3. Transformer Block (Encoder/Decoder Layer)**
+
+```
+      Input Embeddings
+            │
+     ┌──────────────┐
+     │ Multi-Head   │
+     │ Self-Attention │  ◄── [Q, K, V from input]
+     └──────────────┘
+            │
+      + Residual + LayerNorm
+            │
+     ┌──────────────┐
+     │ Feed Forward │  (Usually 2-layer MLP with ReLU or GELU)
+     └──────────────┘
+            │
+      + Residual + LayerNorm
+            ▼
+         Output
+```
+
+> In Decoder blocks, there's an **additional cross-attention layer** between self-attention and feedforward that attends to encoder outputs.
+
+### 🌀 **4. Autoencoder (Detailed)**
+
+```
+          Input x
+             │
+     ┌──────────────┐
+     │   Encoder    │ ← Compresses input
+     │  (Dense/CNN) │
+     └──────────────┘
+             ▼
+       Latent Code (z)
+             │
+     ┌──────────────┐
+     │   Decoder    │ ← Reconstructs input
+     │  (Dense/CNN) │
+     └──────────────┘
+             ▼
+       Reconstructed x'
+```
+
+### 🎭 **5. GAN (Generator + Discriminator)**
+
+**Generator G:**
+
+```
+    Noise z
+       │
+  ┌─────────────┐
+  │ Dense Layer │
+  ├─────────────┤
+  │ ReLU / BN   │
+  ├─────────────┤
+  │ ConvTranspose│
+  └─────────────┘
+       ▼
+  Fake Image x̂
+```
+
+**Discriminator D:**
+
+```
+     Real or Fake Image
+              │
+       ┌─────────────┐
+       │ Convolution │
+       ├─────────────┤
+       │ Leaky ReLU  │
+       └─────────────┘
+              ▼
+         Output: Real or Fake (sigmoid)
+```
+
+### 🌐 **6. GNN Cell (Message Passing Layer)**
+
+```
+     Node i Embedding hi
+              │
+  Receives messages from neighbors j ∈ N(i)
+              ▼
+  ┌──────────────────────────┐
+  │ Aggregate(hj for j in N) │  ← Mean, Sum, or Attention
+  └──────────────────────────┘
+              ▼
+  ┌─────────────────────────────┐
+  │ Combine: hi' = f(hi, Agg)   │ ← MLP, Gated unit, etc.
+  └─────────────────────────────┘
+              ▼
+        Updated hi'
+```
+
+### 🎮 **7. DQN (Deep Q-Network)**
+
+```
+       State s
+         │
+ ┌────────────────┐
+ │   Conv / Dense │
+ ├────────────────┤
+ │   ReLU / Layer │
+ └────────────────┘
+         ▼
+   Q-values for each action
+   [Q(s,a1), Q(s,a2), ..., Q(s,an)]
+```
+
+- Chooses action with `argmax(Q(s, a))`
+- Trained using:
+	- Q(s,a)←r+γ⋅max⁡a′Q(s′,a′)Q(s, a) \leftarrow r + \gamma \cdot \max_{a'} Q(s', a')
