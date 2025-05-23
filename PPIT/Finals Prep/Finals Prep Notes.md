@@ -1,3 +1,7 @@
+> [!WARNING]
+> Refer to the Sessional 1 and Sessional 2 notes as well, way too much content to cover in one file
+> This file only contains content studied/taught after sessional 2
+
 | Chapter<br>Number | Chapter<br>Name                                               | Status    |
 | ----------------- | ------------------------------------------------------------- | --------- |
 | 10                | Data Protection, Privacy & Freedom of Information             | :warning: |
