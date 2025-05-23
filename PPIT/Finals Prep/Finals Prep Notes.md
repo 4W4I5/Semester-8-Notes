@@ -21,17 +21,56 @@
 | 20                | Software Business Models                                      | :warning: |
 
 # Lecture 10:
+
+---
+
 # Lecture 11a:
+
+---
+
 # Lecture 11b:
+
+---
+
 # Lecture 12a:
+
+---
+
 # Lecture 12b:
+
+---
+
 # Lecture 12c:
+
+---
+
 # Lecture 13:
+
+---
+
 # Lecture 14a:
+
+---
+
 # Lecture 14b:
+
+---
+
 # Lecture 15:
+
+---
+
 # Lecture 16:
 # Lecture 17:
+
+---
+
 # Lecture 18:
+
+---
+
 # Lecture 19:
-# Lecture 20:
+
+---
+
+# Lecture 20: Software Business Models
