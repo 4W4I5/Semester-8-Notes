@@ -9,10 +9,10 @@
 | 11b               | Prevention of Electronic Crimes Act (PECA)                    | :warning:          |
 | 12a               | Computer Contracts                                            | :warning:          |
 | 12b               | Types of Software Contracts                                   | :warning:          |
-| 12c               | Employment Contracts                                          | :warning:          |
-| 13                | Organizational Aspects - Business Structure                   | :warning:          |
+| 12c               | Employment Contracts                                          | :white_check_mark: | 
+| 13                | Organizational Aspects - Business Structure                   | :white_check_mark: |
 | 14a               | Organizational Aspects - Organization Structure               | :warning:          |
-| 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: | 
+| 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: |
 | 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: |
 | 16                | Organizational Aspects - Group Communication                  | :white_check_mark: |
 | 17                | Interview Skills - Body Language                              | :white_check_mark: |
@@ -45,6 +45,91 @@
 ---
 
 # Lecture 13: Organizational Aspects - Business Structure
+- ### **What is an Organization?**
+	- A consciously coordinated social unit of two or more people.
+	- Works continuously to achieve common goals.
+	- Examples: Schools, Hospitals, ISPs, Banks, Telecoms.
+	- Functions: Task grouping, job assignments, role clarity.
+- ### **Types of Organizations**
+	- **Public**: Government entities.
+	- **Commercial**: Profit-seeking private enterprises.
+	- **Non-Profit Organizations (NPOs)**: Serve a mission rather than profits.
+
+## **Business Structures in Pakistan**
+- ### **1. Non-Corporate Structures**
+	- #### **Sole Proprietorship**
+		- Individual-owned, simplest form of business.
+		- No legal formalities.
+		- Owner bears all liabilities and risks.
+		- Taxed as personal income.
+		- Registered with FBR if income exceeds threshold.
+	- #### **General Partnership / Association of Persons (AOP)**
+		- Two or more individuals carry on a business for profit.
+		- Simple agreement defines share, authority, management.
+		- Not a separate legal entity.
+		- Liability shared among partners.
+		- Registered with Registrar of Firms.
+		- Legal coverage through partnership deed.
+		- ##### **Key Provisions in a Partnership Agreement**
+			1. Name
+			2. Contributions
+			3. Profit/loss allocation
+			4. Authority
+			5. Management
+			6. Withdrawal/death clause
+			7. New partners
+			8. Dispute resolution
+- ### **2. Corporate Structures**
+	- Registered with the **Securities and Exchange Commission of Pakistan (SECP)**
+		- **Limited Liability Partnership (LLP)**
+		- **Single Member Company (SMC)**
+		- **Private Limited Company (Pvt. Ltd.)**
+		- **Public Limited Company (Ltd.)**
+	- #### **Advantages of a Limited Company**
+		- Separate legal identity
+		- Divided ownership
+		- Limited liability
+		- Tax planning efficiency
+		- Enhanced credibility
+		- Protected company name
+	- ##### **Company Constitution Includes:**
+		- Name, registered location, objectives
+		- Liability clause, share capital
+		- Director selection/removal
+
+## **Private vs. Public Limited Companies**
+
+| Feature             | Private Ltd.     | Public Ltd.                       |
+| ------------------- | ---------------- | --------------------------------- |
+| Listing             | Not listed       | Listed on stock exchange          |
+| Members             | 2–100            | Minimum 7, no max                 |
+| Directors           | Min. 2           | Min. 3                            |
+| AGM Quorum          | 2 members        | 5 members                         |
+| Statutory Meeting   | Not required     | Mandatory                         |
+| Prospectus          | Not required     | Mandatory                         |
+| Commencement        | On incorporation | After certificate of commencement |
+| Share Transfer      | Restricted       | Freely transferable               |
+| Public Subscription | Not allowed      | Allowed                           |
+
+## **Single Member Company (SMC)**
+
+- Private company with only one member/director.
+- Gets corporate status with limited liability.
+- Must nominate:
+	- 1 **Nominee Director** (in case of death)
+	- 1 **Alternate Nominee Director**
+- Must appoint a **Company Secretary**.
+- ### **FAQs on SMCs**
+	- **Conversion to Pvt. Ltd.?** Yes, if members increase.
+	- **Issue shares to public?** No.
+	- **Can sole director be secretary?** No.
+	- **Winding up?** Follows Companies Ordinance, 1984.
+	- **Name format?** “XYZ (SMC-Private) Limited”
+	- **Can increase share capital?** Yes.
+	- **Accounting records?** Mandatory. Audits needed if paid-up capital ≥ 7.5 million.
+	- **Can a foreigner register?** Yes, if resident of Pakistan.
+	- **Non-profit companies?** Require at least 3 directors.
+
 
 ---
 
