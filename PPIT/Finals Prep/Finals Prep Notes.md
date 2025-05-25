@@ -9,7 +9,7 @@
 | 11b               | Prevention of Electronic Crimes Act (PECA)                    | :warning:          |
 | 12a               | Computer Contracts                                            | :warning:          |
 | 12b               | Types of Software Contracts                                   | :warning:          |
-| 12c               | Employment Contracts                                          | :white_check_mark: | 
+| 12c               | Employment Contracts                                          | :white_check_mark: |
 | 13                | Organizational Aspects - Business Structure                   | :white_check_mark: |
 | 14a               | Organizational Aspects - Organization Structure               | :warning:          |
 | 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: |
@@ -41,6 +41,137 @@
 ---
 
 # Lecture 12c: Employment Contracts
+## **Employment Contracts and Agreements**
+
+- ### **What is an Employment Contract?**
+	- An Employment Contract outlines the rights, responsibilities, and obligations of both employer and employee during the work period.
+	- It typically includes:
+		- Compensation details (pay/wage)
+		- Job description and duties
+		- Vacation policies
+		- Confidentiality clauses
+		- Termination procedures
+		- Employee and employer information
+
+## **Types of Employment**
+- ### **Permanent Full-Time**
+	- Full working hours
+	- No end date to employment
+- ### **Permanent Part-Time**
+	- Fewer hours than full-time
+	- No end date to employment
+- ### **Fixed-Term/Period**
+	- Employment ends on a predetermined date
+	- No notice needed at end of term
+
+
+## **Probationary Period**
+- Common initial evaluation period (often 3+ months)
+- Used to assess skills, cultural fit, and long-term suitability
+- Employers may terminate without notice or severance during this time
+- After probation, employees receive full benefits and greater termination protection
+
+## **Key Clauses in Employment Contracts**
+- ### **Non-Compete**
+	- Restricts employee from working with competitors during and after employment
+	- Must be reasonable in scope and duration
+- ### **Non-Solicitation**
+	- Prevents employee from luring clients or coworkers to a different business
+	- Typically limited to 2–3 years
+- ### **Confidentiality**
+	- Prevents sharing of company secrets or sensitive data
+	- May last indefinitely or have a set expiration period
+
+> All clauses must be fair, reasonable, and legally enforceable.
+
+## **Confidentiality Agreements**
+- ### **What is a Confidentiality Agreement?**
+	- A legal document to prevent the disclosure of sensitive information during business deals, projects, or employment.
+- ### **Purpose**
+	- To protect:
+		- Customer info (client lists, contracts)
+		- Intellectual property (patents, software, processes)
+		- Marketing plans
+		- Business operations (internal data)
+		- Product/service methods
+		- Financial/accounting data
+## **When to Use a Confidentiality Agreement**
+- Hiring discussions with prospective employees
+- Engaging freelancers or consultants
+- Mergers, acquisitions, and joint ventures
+- Business partnerships requiring confidentiality
+
+## **Non-Solicit vs. Non-Compete Clauses**
+- ### **Non-Solicitation**
+	- Prohibits poaching employees or clients
+- ### **Non-Competition**
+	- Prevents working for or starting a competing business
+
+> Confidentiality Agreements can include time limits for both. Enforceability requires fairness and reasonable restrictions.
+
+## **Are Confidentiality Agreements Enforceable?**
+- Yes, if:
+	- Terms are not overly broad
+	- Restrictions are fair
+	- Information is not already public or against public interest
+
+## **Independent Contractor Agreement**
+- ### **Who is an Independent Contractor?**
+	- A self-employed individual or business providing services in exchange for payment. Also called freelancers or consultants.
+- ### **Contract Includes**
+	- Description of services
+	- Duration
+	- Payment details (e.g., deposits, billing)
+	- Confidentiality and dispute resolution terms
+
+
+## **Who Can Use This Agreement?**
+- Contractors seeking clear terms with clients
+- Clients wishing to formalize service terms with contractors
+
+## **Independent Contractor vs. Employee**
+
+| Aspect             | Independent Contractor | Employee                 |
+| ------------------ | ---------------------- | ------------------------ |
+| Supervision        | Independent            | Controlled by employer   |
+| Tools              | Uses own equipment     | Uses company equipment   |
+| Payment            | Sends invoices         | Receives wages           |
+| Benefits           | None                   | Eligible for benefits    |
+| Taxes              | Files personal taxes   | Employer withholds taxes |
+| Reviews & Training | Rare                   | Common                   |
+| Agreement          | Contractor Agreement   | Employment Contract      |
+
+## **Why Classify Workers Correctly?**
+
+Proper classification ensures:
+
+- Legal compliance
+- Correct tax filing
+- ### **Misclassification Consequences**
+	- Fines for missing W-2s
+	- Tax penalties (e.g., 1.5% wage fines, FICA liabilities)
+	- Interest and fraud penalties from IRS
+
+## **Protecting Confidential Info with Contractors**
+
+Include clauses in the contract:
+
+- Confidentiality
+- Non-solicitation
+- Non-compete
+
+Violation = breach of contract
+
+## **Who Owns the Work Created?**
+
+- ### **Under U.S. Copyright Law**
+	- Employer owns work-for-hire IP by default (e.g., translation, software)
+	- Agreement can assign IP to client or let contractor retain ownership with licensing rights
+
+## **Related Documents**
+- **Consulting Agreement**: For consultant-client relationships
+- **Service Agreement**: Covers service terms with providers
+- **Employment Contract**: For employee-employer terms
 
 ---
 
