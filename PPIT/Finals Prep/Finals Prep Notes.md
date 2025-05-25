@@ -12,8 +12,8 @@
 | 12c               | Employment Contracts                                          | :warning:          |
 | 13                | Organizational Aspects - Business Structure                   | :warning:          |
 | 14a               | Organizational Aspects - Organization Structure               | :warning:          |
-| 14b               | Organizational Aspects - Group Dynamics                       | :warning:          |
-| 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: | 
+| 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: | 
+| 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: |
 | 16                | Organizational Aspects - Group Communication                  | :white_check_mark: |
 | 17                | Interview Skills - Body Language                              | :white_check_mark: |
 | 18                | Agile Software Development                                    | :white_check_mark: |
@@ -54,6 +54,97 @@
 
 # Lecture 14b: Organizational Aspects - Group Dynamics
 
+- ### **1. Group Dynamics & Classifications**
+	- **Group**: Two or more individuals interacting interdependently to achieve specific objectives.
+	- **Types of Groups**:
+		- **Formal**: Structured by the organization.
+		- **Informal**: Emerge from social needs.
+		- **Command Group**: Report directly to a manager.
+		- **Task Group**: Collaborate on a specific job.
+		- **Interest Group**: Share a mutual concern or goal.
+		- **Friendship Group**: Formed through shared traits or interests.
+	- **Reasons People Join Groups**: Security, Status, Self-esteem, Affiliation, Power, Goal achievement.
+- ### **2. Teams vs. Groups**
+	- **Work Group**: Shares information to aid individual performance.
+	- **Work Team**: Collaborates to achieve results greater than individual contributions.
+- ### **3. Communication in Groups**
+	- **Functions**:
+		- Control behavior
+		- Motivate
+		- Emotional expression
+		- Provide information
+	- **Types**:
+		- **Oral**: Fast, with feedback; prone to distortion.
+		- **Written**: Verifiable; slower, lacks feedback.
+		- **Nonverbal**: Adds emotional context; subject to misinterpretation.
+	- **Importance of Intonation**: How something is said can change its meaning entirely.
+- ### **4. Knowledge Management (KM)**
+	- **Importance**:
+		- Intellectual capital = critical organizational asset.
+		- Prevents knowledge loss.
+		- Reduces redundancy, boosts efficiency.
+	- **Definition**: Organizing and distributing collective organizational knowledge to the right person at the right time.
+- ### **5. Leadership**
+	- **Definition**: Influencing a group toward goal achievement.
+	- **Leadership vs. Management**:
+		- Leadership: Influence without formal authority.
+		- Management: Formal authority to get compliance.
+	- **Trait Theories**:
+		- Key traits: Energy, ambition, honesty, confidence, intelligence, job knowledge.
+		- Assumption: Leaders are born.
+	- **Behavioral Theories**:
+		- Leadership can be taught.
+		- Focus on specific behaviors rather than innate traits.
+	- **Charismatic Leadership Traits**:
+		- Vision & articulation
+		- Personal risk-taking
+		- Environmental awareness
+		- Sensitivity to followers’ needs
+		- Unconventional behavior
+- ### **6. Conflict in Groups**
+	- **Definition**: Conflict arises when one party perceives another as harming or potentially harming something they care about.
+	- **Causes**: Poor communication, lack of transparency, unresponsiveness.
+	- **Theoretical Perspectives**:
+		- **Traditional View**: All conflict is harmful.
+		- **Human Relations View**: Conflict is natural and inevitable.
+		- **Interactionist View**: Conflict can be beneficial and necessary.
+	- **Types of Conflict**:
+		- **Task**: Over goals or content.
+		- **Relationship**: Based on personal incompatibility.
+		- **Process**: Disputes over how tasks are carried out.
+	- **Functional Conflict**: Improves group performance.
+	- **Dysfunctional Conflict**: Detracts from performance.
+- ### **7. Conflict Management Techniques**
+	- **Resolution Techniques**:
+		- Problem solving
+		- Resource expansion
+		- Avoidance
+		- Smoothing
+		- Compromise
+		- Authoritative command
+		- Adjusting human/structural variables
+		- Improved communication
+		- Bringing in third parties
+		- Organizational restructuring
+- ### **8. Negotiation**
+	- **Definition**: Process of exchanging goods/services to reach mutual agreement.
+	- **BATNA**: Best Alternative to a Negotiated Agreement – the minimum acceptable offer.
+	- **Bargaining Strategies**:
+		- **Distributive**: Win-lose; fixed resources.
+		- **Integrative**: Win-win; creative solutions.
+	- **Negotiation Techniques**:
+		- Prepare thoroughly and understand both sides.
+		- Choose optimal timing.
+		- Remove ego, stay flexible.
+		- Listen actively and let the other side speak first.
+		- Always aim high but avoid ultimatums.
+		- Plan for and expect compromises.
+		- Demand commitment and clarify agreements.
+		- Don’t inherit the other party’s problems.
+		- Stick to principles and values.
+		- Follow up and confirm agreements.
+	- **Bottom Line**: Strong negotiation skills are essential for entrepreneurial success.
+
 ---
 
 # Lecture 15: Organizational Aspects - Management vs Leadership
@@ -83,7 +174,8 @@
 | Recognition         | Gives credit         | Takes credit         |
 | Communication Style | Asks                 | Commands             |
 | Initiative          | Says “Let’s go”      | Says “Go”            |
-#### Does power help leaders perform better?
+
+### Does power help leaders perform better?
 
 | **Aspect**           | **Positive Effects of Power**                         | **Negative Effects of Power**                     |
 | -------------------- | ----------------------------------------------------- | ------------------------------------------------- |
@@ -129,6 +221,7 @@
 ## **5. Communication Process**
 - Communication in organizations can be both **formal** and **informal**, and occurs in **three primary directions**: **vertical** (downward and upward) and **lateral**.
 - ### **A. Direction of Communication**
+
 | **Direction** | **Definition**                                                              | **Key Functions**                                                                                                                                                                               |
 | ------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Downward**  | Communication that flows from top-level management to lower-level employees | Assigns goals, provides job instructions, explains procedures and policies, highlights problems, gives feedback. Repeating messages through various channels reinforces clarity and commitment. |
