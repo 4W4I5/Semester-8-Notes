@@ -75,10 +75,9 @@
 
 # Lecture 20: Software Business Models
 ## **1. Business Model**
-
 A **business model** is the blueprint for how a business creates, delivers, and captures value. It outlines the logic of how an organization operates and makes money.
 
-## Key Components:
+- ### Key Components:
 
 | Component                  | Description                                                                                                               |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -96,7 +95,7 @@ A **business model** is the blueprint for how a business creates, delivers, and 
 
 A **software business model** defines how software companies develop, distribute, and monetize their products or services. Unlike traditional goods, software can be distributed at near-zero marginal cost and allows flexible pricing and usage models.
 
-## Common Types of Software Business Models:
+- ### Common Types of Software Business Models:
 
 | Model                   | Description                                                                                   | Characteristics                                                              | Example                             |
 | ----------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------- |
@@ -117,42 +116,37 @@ A **software business model** defines how software companies develop, distribute
 
 
 ## **4. Business Model Design**
-Designing a business model involves systematically describing and optimizing the structural components of the business to enhance value delivery.
-### Detailed Elements:
-- **Value Proposition**: The product or service that solves a problem or fulfills a need for a specific customer segment.
-    - Must be unique, relevant, and differentiated.
-    - Often based on performance, customization, brand, cost reduction, convenience, or risk reduction.
-- **Target Customer Segments**: Clearly defined groups with specific needs.
-    - Example: enterprise clients, individual consumers, startups, public institutions.
-- **Distribution Channels**:
-    - **Direct**: Own website, direct sales force.
-    - **Indirect**: App stores, resellers, value-added resellers.
-    - Must balance efficiency, reach, and customer experience.
-- **Customer Relationships**:
-    - Self-service (e.g., knowledge bases)
-    - Automated services (e.g., chatbots)
-    - Personal assistance (e.g., dedicated account managers)
-    - Communities (e.g., user forums)
-- **Core Capabilities**: Internal competencies that support the value proposition (e.g., engineering expertise, scalable infrastructure).
-- **Partner Network**: Includes alliances, suppliers, and channel partners that support delivery and reduce risk.
-- **Cost Structure**: Major cost drivers such as infrastructure (cloud hosting), R&D, customer acquisition, and licensing.
-
-
+- Designing a business model involves systematically describing and optimizing the structural components of the business to enhance value delivery.
+- ### Detailed Elements:
+	- **Value Proposition**: The product or service that solves a problem or fulfills a need for a specific customer segment.
+	    - Must be unique, relevant, and differentiated.
+	    - Often based on performance, customization, brand, cost reduction, convenience, or risk reduction.
+	- **Target Customer Segments**: Clearly defined groups with specific needs.
+	    - Example: enterprise clients, individual consumers, startups, public institutions.
+	- **Distribution Channels**:
+	    - **Direct**: Own website, direct sales force.
+	    - **Indirect**: App stores, resellers, value-added resellers.
+	    - Must balance efficiency, reach, and customer experience.
+	- **Customer Relationships**:
+	    - Self-service (e.g., knowledge bases)
+	    - Automated services (e.g., chatbots)
+	    - Personal assistance (e.g., dedicated account managers)
+	    - Communities (e.g., user forums)
+	- **Core Capabilities**: Internal competencies that support the value proposition (e.g., engineering expertise, scalable infrastructure).
+	- **Partner Network**: Includes alliances, suppliers, and channel partners that support delivery and reduce risk.
+	- **Cost Structure**: Major cost drivers such as infrastructure (cloud hosting), R&D, customer acquisition, and licensing.
 ## **5. CRM (Customer Relationship Management)**
-CRM refers to the strategies and tools used by a company to manage interactions with current and potential customers.
-
-### Features and Functions:
-- Collects and analyzes customer data across channels (email, phone, social media, etc.).
-- Helps segment customers, personalize marketing, and predict customer behavior.
-- Enhances customer retention and lifetime value.
-- Modern CRM platforms include Salesforce, HubSpot, and Zoho.
-
+- CRM refers to the strategies and tools used by a company to manage interactions with current and potential customers.
+- ### Features and Functions:
+	- Collects and analyzes customer data across channels (email, phone, social media, etc.).
+	- Helps segment customers, personalize marketing, and predict customer behavior.
+	- Enhances customer retention and lifetime value.
+	- Modern CRM platforms include Salesforce, HubSpot, and Zoho.
 
 ## **6. Revenue Model**
-
 A **revenue model** is the framework through which a business generates income. It outlines who pays, what they pay for, and how they pay.
 
-## Revenue Model Types:
+- ### Revenue Model Types:
 
 | Model                   | Description                                              | Example                                       |
 | ----------------------- | -------------------------------------------------------- | --------------------------------------------- |
