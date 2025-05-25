@@ -71,9 +71,9 @@
 
 # Lecture 19: Focusing knowledge & technical skillset to business verticals
 
-- MMNEOMIC
-- Fi-He Tr-eC, Me-Ma Av-Fo, Re-Ed Bu-Co
-
+> [!NOTE]
+> Memonic
+> Fi, He, Tr, Co, Me, Mar, Av, Ho, MaIn, Ed, Fo, Co
 ## **1. Finance**
 - **Goal**: Organize financial operations, reduce enterprise costs, or build new end-user platforms.
 - **Applications**:
