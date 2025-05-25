@@ -15,12 +15,12 @@
 | 14b               | Organizational Aspects - Group Dynamics                       | :warning:          |
 | 15                | Organizational Aspects - Management vs Leadership             | :warning:          |
 | 16                | Organizational Aspects - Group Communication                  | :warning:          |
-| 17                | Interview Skills - Body Language                              | :warning:          |
+| 17                | Interview Skills - Body Language                              | :white_check_mark: | 
 | 18                | Agile Software Development                                    | :white_check_mark: |
 | 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: |
 | 20                | Software Business Models                                      | :white_check_mark: |
 
-# Lecture 10: Data Protection, Privacy & Freedom of Information 
+# Lecture 10: Data Protection, Privacy & Freedom of Information
 
 ---
 
@@ -65,6 +65,69 @@
 ---
 
 # Lecture 17: Interview Skills - Body Language
+## **1. Body Language**
+- **Definition**: Non-verbal communication that conveys thoughts, attitudes, and emotions through physical behavior.
+
+- ### **Key Elements of Body Language**
+| Element                 | Description                                                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Body Position**       | Sitting or standing posture, arm and leg placement signal confidence or discomfort.                     |
+| **Eye Contact**         | Shows attention, confidence, honesty; avoids appearing distracted or dishonest.                         |
+| **Facial Expression**   | Emotions like happiness, anxiety, or confusion are clearly reflected on the face.                       |
+| **Physical Appearance** | Dress and grooming create immediate impressions about character and personality.                        |
+| **Touch (Handshake)**   | A firm handshake indicates confidence and sincerity; weak ones may signal nervousness.                  |
+| **Personal Space**      | Maintaining appropriate distance shows respect and social awareness. Invading space can feel intrusive. |
+
+> **Tip**: Non-verbal cues often speak louder than words. Awareness and control over body language can build trust and credibility.
+
+## **2. Interview Skills**
+- ### **A. Before the Interview**
+	- **Research the Company**: Know its values, mission, recent news, and role you're applying for.
+	- **Practice Answers**: Prepare responses for common interview questions (e.g., strengths, weaknesses, achievements).
+	- **Dress Professionally**: Select attire that fits the industry standard.
+	- **Prepare Documents**: Resume, certifications, ID, etc.
+	- **Plan Your Route**: Arrive 10–15 minutes early.
+- ### **B. Creating a Strong First Impression**
+| Action                   | Why It Matters                                 |
+| ------------------------ | ---------------------------------------------- |
+| Arrive on time           | Punctuality shows reliability.                 |
+| Silence phone            | Avoids distractions and shows professionalism. |
+| Smile and greet politely | Sets a positive tone.                          |
+| Confident posture        | Indicates readiness and self-assurance.        |
+| Minimal accessories      | Avoid flashy items; keep the look neat.        |
+
+- ### **C. During the Interview**
+| Do’s                                      | Don’ts                              |
+| ----------------------------------------- | ----------------------------------- |
+| Wait to be offered a seat                 | Don't sit without permission        |
+| Shake hands only if offered               | Don’t initiate physical contact     |
+| Keep posture straight, eye contact steady | Don’t slouch or look distracted     |
+| Answer concisely, clearly                 | Don’t ramble or go off-topic        |
+| Provide real-life examples                | Don’t exaggerate or lie             |
+| Stay honest but composed                  | Don’t overshare or be overly casual |
+
+> **Pro Tip**: Maintain balance—be friendly yet professional. Listen actively, and clarify if needed before answering.
+
+## **3. Business Etiquettes**
+- ### **Definition**
+	- A set of social rules that govern polite and respectful behavior in business environments.
+- ### **Essential Business Etiquette Tips**
+
+| Do’s                                          | Don’ts                                         |
+| --------------------------------------------- | ---------------------------------------------- |
+| Smile and stay approachable                   | Don’t appear cold or disinterested             |
+| Speak clearly and confidently                 | Don’t mumble or speak too fast                 |
+| Use professional titles unless told otherwise | Don’t address people informally unless invited |
+| Be polite and attentive during talks          | Don’t interrupt or talk over others            |
+| Take pauses to gather your thoughts           | Don’t rush into answering                      |
+| Keep responses short and relevant             | Don’t give long, off-topic answers             |
+
+- ### **Communication Etiquette**
+	- Maintain a polite tone (especially over email or phone).
+	- Use formal greetings and closings in written communication.
+	- Ask for clarification instead of assuming.
+
+> **Goal**: Leave a respectful, memorable impression and set the stage for long-term professional relationships.
 
 ---
 
@@ -75,7 +138,6 @@
 	- Customer collaboration
 	- Responding to change
 	- Functional software over documentation
-
 - ### **2. Agile Manifesto: Core Values**
 
 | Agile Values               | Over                        |
@@ -110,7 +172,6 @@
 | Feedback       | Gather input for the next iteration                 |
 | Repeat         | Use feedback to improve next sprint                 |
 
-
 - ### **5. Agile Roles**
 
 | Role             | Responsibilities                           |
@@ -138,7 +199,6 @@
 | Increment       | Working product at end of a sprint                     |
 | Burn-down Chart | Graph of remaining work vs. time in sprint             |
 
-
 - ### **8. Agile Ceremonies**
 
 | Ceremony             | Purpose                                      |
@@ -148,7 +208,6 @@
 | Sprint Review        | Demonstrate completed work to stakeholders   |
 | Sprint Retrospective | Discuss improvements for future sprints      |
 
-
 - ### **9. Agile Testing Principles**
 
 | Principle            | Explanation                              |
@@ -157,7 +216,6 @@
 | Continuous Testing   | Tests are run alongside development      |
 | Automation           | Used to increase test coverage and speed |
 | Multiple Test Levels | Unit, Integration, System, Acceptance    |
-
 
 - ### **10. Advantages of Agile**
 
@@ -169,7 +227,6 @@
 | Risk Mitigation            | Frequent releases reduce failure risk             |
 | Quality Focus              | Continuous testing and integration                |
 | Empowered Teams            | Self-organizing, cross-functional teams           |
-
 
 - ### **11. Challenges of Agile**
 
