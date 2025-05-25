@@ -13,7 +13,7 @@
 | 13                | Organizational Aspects - Business Structure                   | :warning:          |
 | 14a               | Organizational Aspects - Organization Structure               | :warning:          |
 | 14b               | Organizational Aspects - Group Dynamics                       | :warning:          |
-| 15                | Organizational Aspects - Management vs Leadership             | :warning:          |
+| 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: | 
 | 16                | Organizational Aspects - Group Communication                  | :white_check_mark: |
 | 17                | Interview Skills - Body Language                              | :white_check_mark: |
 | 18                | Agile Software Development                                    | :white_check_mark: |
@@ -83,6 +83,21 @@
 | Recognition         | Gives credit         | Takes credit         |
 | Communication Style | Asks                 | Commands             |
 | Initiative          | Says “Let’s go”      | Says “Go”            |
+#### Does power help leaders perform better?
+
+| **Aspect**           | **Positive Effects of Power**                         | **Negative Effects of Power**                     |
+| -------------------- | ----------------------------------------------------- | ------------------------------------------------- |
+| **Decision-Making**  | Enables faster, more confident decisions              | Can lead to impulsive or unilateral decisions     |
+| **Resource Access**  | Greater control over people, budgets, and information | Risk of misuse or hoarding of resources           |
+| **Influence**        | Motivates and aligns teams                            | Can become coercive or manipulative               |
+| **Confidence**       | Boosts initiative and risk-taking                     | May turn into arrogance or overconfidence         |
+| **Empathy & Ethics** | Can empower ethical leadership                        | May reduce empathy and lead to unethical behavior |
+
+- **When Power Helps Leaders Perform Better**
+	- Used with self-awareness and emotional intelligence
+	- Exercised to benefit others, not just self
+	- Balanced with feedback, accountability, and humility
+
 
 ## **3. Mentoring**
 - ### **Definition**
