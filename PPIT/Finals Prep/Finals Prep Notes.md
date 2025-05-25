@@ -70,6 +70,7 @@
 		- **Leaders**: Challenge status quo, create vision, inspire.
 		- **Managers**: Plan operations, create structure, monitor performance.
 ## **2. Leader vs. Manager – Comparative Table**
+
 | **Aspect**          | **Leader**           | **Manager**          |
 | ------------------- | -------------------- | -------------------- |
 | Approach            | Coaches people       | Drives employees     |
@@ -102,6 +103,7 @@
 		- **Role modeling** → Demonstrates behaviors and standards that the protégé can emulate.
 ## **4. Communication in Organizations**
 - ### **Functions of Communication**
+
 | **Function**             | **Description**                                        |
 | ------------------------ | ------------------------------------------------------ |
 | **Control**              | Regulates behavior within an organization              |
@@ -110,18 +112,28 @@
 | **Information**          | Provides data for decision-making and coordination     |
 
 ## **5. Communication Process**
-- Communication is both **formal** and **informal**, and occurs in multiple directions:
+- Communication in organizations can be both **formal** and **informal**, and occurs in **three primary directions**: **vertical** (downward and upward) and **lateral**.
 - ### **A. Direction of Communication**
-| **Direction** | **Purpose**                                                                 |
-| ------------- | --------------------------------------------------------------------------- |
-| **Downward**  | From managers to employees: task assignments, feedback, policy explanations |
-| **Upward**    | From employees to managers: reporting progress, raising issues              |
-| **Lateral**   | Among peers or same-level roles: coordination and collaboration             |
+| **Direction** | **Definition**                                                              | **Key Functions**                                                                                                                                                                               |
+| ------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Downward**  | Communication that flows from top-level management to lower-level employees | Assigns goals, provides job instructions, explains procedures and policies, highlights problems, gives feedback. Repeating messages through various channels reinforces clarity and commitment. |
+| **Upward**    | Communication that flows from employees to higher management                | Shares feedback, reports progress, escalates issues, and suggests improvements. Managers rely on it for insights into performance and team morale.                                              |
+| **Lateral**   | Communication between individuals or teams at the same organizational level | Enhances coordination and efficiency among peers or departments. Helps bypass the delays of rigid hierarchy. Often informal but sometimes formally sanctioned.                                  |
 
-- #### **Best Practices**
-	- Downward communication should be **repetitive and multi-channeled**.
-	- Upward communication supports **feedback, suggestions, and morale insights**.
-	- Lateral communication **saves time**, improves efficiency, and must be **balanced** with formal structure.
+- ### **B. Best Practices & Insights**
+	- #### **Downward Communication**
+		- Should clearly explain the **"why"** behind decisions to increase employee commitment.
+		- Reinforcement through **multiple channels** (verbal, written, digital) is essential.
+		- Helps align teams with organizational goals and performance expectations.
+	- #### **Upward Communication**
+		- Encourages a **feedback culture** where employee voices influence strategy.
+		- Provides valuable data for **problem-solving** and **innovation**.
+		- Requires managers to actively listen and respond to ensure continued participation.
+	- #### **Lateral Communication**
+		- **Occurs among equals**: team members, peer departments, or managers at the same level.
+		- Improves **speed**, **collaboration**, and **decision-making**.
+		- Even when vertical systems work well, lateral exchange is crucial for efficiency.
+		- Should be encouraged **with management awareness**, especially in formal settings, to prevent misinformation or bypassing accountability.
 
 ---
 
