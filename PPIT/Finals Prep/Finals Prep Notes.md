@@ -14,8 +14,8 @@
 | 14a               | Organizational Aspects - Organization Structure               | :warning:          |
 | 14b               | Organizational Aspects - Group Dynamics                       | :warning:          |
 | 15                | Organizational Aspects - Management vs Leadership             | :warning:          |
-| 16                | Organizational Aspects - Group Communication                  | :warning:          |
-| 17                | Interview Skills - Body Language                              | :white_check_mark: | 
+| 16                | Organizational Aspects - Group Communication                  | :white_check_mark: | 
+| 17                | Interview Skills - Body Language                              | :white_check_mark: |
 | 18                | Agile Software Development                                    | :white_check_mark: |
 | 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: |
 | 20                | Software Business Models                                      | :white_check_mark: |
@@ -61,14 +61,104 @@
 ---
 
 # Lecture 16: Organizational Aspects - Group Communication
+- ### **1. Types of Communication**
+	- #### **A. Interpersonal Communication**
+		- Involves direct interaction between individuals.
+		- Includes **oral**, **written**, and **nonverbal** forms.
+	- #### **B. Oral Communication**
+		- Advantages
+			- Fast Transmission
+			- Immediate Feedback
+		- Disadvantages
+			- Risk of distortion if passed through many people
+			- No permanent record of the message
+	- #### **C. Written Communication**
+		- Advantages
+			- Tangible, verifiable & can  be stored
+			- Well-Structured & thought-out
+		- Disadvantages
+			- Time-Consuming
+			- Lacks built-in feedback mechanism
+- ### **2. Nonverbal Communication**
+	- Accompanies or replaces verbal communication.
+	- Forms include **body language**, **facial expressions**, **tone**, and **physical distance**.
+	- #### **Examples of Nonverbal Signals**
+		- Gestures & Implied Meaning
+			- Raising one eyebrow  -> Disbelief
+			- Rubbing nose  -> Puzzlement
+			- Clasping arms  -> Defensiveness / Isolation
+			- Shrugging shoulders  -> Indifference
+			- Winking  -> Intimacy
+			- Tapping fingers  -> Impatience
+			- Slapping forehead  -> Forgetfulness
+- **Key messages conveyed**:
+	- **Interest & Liking**
+	- **Status perception**
+
+- ### **3. Organizational Communication**
+	- Communication among **small interconnected groups** in a corporate setting.
+	- **Effectiveness** depends on outcomes such as productivity, engagement, and alignment.
+	- #### **The Grapevine (Informal Network)**
+		- Function
+			- Emerges in important, ambiguous, anxious situations
+			- Enables sharing of informal info & emotions
+		- Impact
+			- Reflects employee morale
+			- Builds a sense of closeness
+- **Managers can’t eliminate rumors**, but they **can limit their negative impact**.
+
+- ### **4. Electronic Communication**
+	- #### **A. Email**
+		- Issues
+			- High risk of misinterpretation
+			- Poor for negative messages
+			- Time-consuming and emotionally limited
+			- Privacy concerns
+		- **Productivity Tips**:
+			- Avoid checking in the morning
+			- Batch email sessions
+			- Unsubscribe from irrelevant threads
+			- Stop unnecessary replies
+			- Declare "email bankruptcy" when overloaded
+	- #### **B. Other Electronic Channels**
+		- Medium & their Usage/Concerns
+			- Instant Messaging -> Fast but may be unprofessional for complex issues
+			- Social Networking -> Blurs lines between personal and professional life
+			- Blogging -> Employees wrongly assume full freedom to post work content
+			- Twitter -> Microblogging; used for updates and branding
+			- Video Conferencing -> Real-time virtual meetings across locations
+- ### **5. Channels of Communication**
+	- In order of low to high channel richness
+		- Formal Reports/Bulletins
+		- Memos, letters
+		- Pre-Recorded Speeches
+		- Electronic Mail
+		- Online Discussion groups, groupware
+		- Voice Mail
+		- Live Speeches
+		- Telephone Conversations
+		- Video Conferences
+		- Face-To-Face Conversations
+- ### **6. Barriers to Effective Communication**
+
+| **Barrier**                    | **Explanation**                                                |
+| ------------------------------ | -------------------------------------------------------------- |
+| **Filtering**                  | Manipulating info to appear favorable                          |
+| **Selective Perception**       | Biased interpretation based on personal background             |
+| **Information Overload**       | More info than one can process—leads to ignoring or forgetting |
+| **Emotions**                   | Mood can distort message interpretation                        |
+| **Language**                   | Same words may have different meanings for different people    |
+| **Silence**                    | No feedback = lack of awareness or communication               |
+| **Communication Apprehension** | Anxiety in verbal or written expression                        |
+| **Lying**                      | Difficult to detect and highly disruptive                      |
 
 ---
 
 # Lecture 17: Interview Skills - Body Language
 ## **1. Body Language**
 - **Definition**: Non-verbal communication that conveys thoughts, attitudes, and emotions through physical behavior.
-
 - ### **Key Elements of Body Language**
+
 | Element                 | Description                                                                                             |
 | ----------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Body Position**       | Sitting or standing posture, arm and leg placement signal confidence or discomfort.                     |
@@ -88,6 +178,7 @@
 	- **Prepare Documents**: Resume, certifications, ID, etc.
 	- **Plan Your Route**: Arrive 10–15 minutes early.
 - ### **B. Creating a Strong First Impression**
+
 | Action                   | Why It Matters                                 |
 | ------------------------ | ---------------------------------------------- |
 | Arrive on time           | Punctuality shows reliability.                 |
@@ -97,6 +188,7 @@
 | Minimal accessories      | Avoid flashy items; keep the look neat.        |
 
 - ### **C. During the Interview**
+
 | Do’s                                      | Don’ts                              |
 | ----------------------------------------- | ----------------------------------- |
 | Wait to be offered a seat                 | Don't sit without permission        |
