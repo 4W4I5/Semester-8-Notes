@@ -16,56 +16,170 @@
 | 15                | Organizational Aspects - Management vs Leadership             | :warning:          |
 | 16                | Organizational Aspects - Group Communication                  | :warning:          |
 | 17                | Interview Skills - Body Language                              | :warning:          |
-| 18                | Agile Software Development                                    | :warning:          |
-| 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: | 
+| 18                | Agile Software Development                                    | :white_check_mark: |
+| 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: |
 | 20                | Software Business Models                                      | :white_check_mark: |
 
-# Lecture 10:
+# Lecture 10: Data Protection, Privacy & Freedom of Information 
 
 ---
 
-# Lecture 11a:
+# Lecture 11a: Computers & Crime
 
 ---
 
-# Lecture 11b:
+# Lecture 11b: Prevention of Electronic Crimes Act (PECA)
 
 ---
 
-# Lecture 12a:
+# Lecture 12a: Computer Contracts
 
 ---
 
-# Lecture 12b:
+# Lecture 12b: Types of Software Contracts
 
 ---
 
-# Lecture 12c:
+# Lecture 12c: Employment Contracts
 
 ---
 
-# Lecture 13:
+# Lecture 13: Organizational Aspects - Business Structure
 
 ---
 
-# Lecture 14a:
+# Lecture 14a: Organizational Aspects - Organization Structure
 
 ---
 
-# Lecture 14b:
+# Lecture 14b: Organizational Aspects - Group Dynamics
 
 ---
 
-# Lecture 15:
+# Lecture 15: Organizational Aspects - Management vs Leadership
 
 ---
 
-# Lecture 16:
-# Lecture 17:
+# Lecture 16: Organizational Aspects - Group Communication
 
 ---
 
-# Lecture 18:
+# Lecture 17: Interview Skills - Body Language
+
+---
+
+# Lecture 18: Agile Software Development
+- ### **1. Agile Definition**
+- Agile is an iterative and incremental methodology for software development that values:
+	- Early delivery
+	- Customer collaboration
+	- Responding to change
+	- Functional software over documentation
+
+- ### **2. Agile Manifesto: Core Values**
+
+| Agile Values               | Over                        |
+| -------------------------- | --------------------------- |
+| Individuals & Interactions | Processes & Tools           |
+| Working Software           | Comprehensive Documentation |
+| Customer Collaboration     | Contract Negotiation        |
+| Responding to Change       | Following a Plan            |
+
+- ### **3. Agile Key Characteristics**
+
+| Characteristic        | Description                                  |
+| --------------------- | -------------------------------------------- |
+| Iterative Development | Work delivered in short cycles (1–4 weeks)   |
+| Continuous Feedback   | Integrated stakeholder review each iteration |
+| Adaptive Planning     | Adjust plans based on real-time feedback     |
+| Customer Involvement  | Regular participation throughout the process |
+| Minimal Documentation | Only necessary documentation is created      |
+| Self-organizing Teams | Teams decide how to execute tasks            |
+
+- ### **4. Agile Process Flow**
+
+| Step           | Description                                         |
+| -------------- | --------------------------------------------------- |
+| Concept        | Define business need, prioritize projects           |
+| Inception      | Form team, define scope, budget, architecture       |
+| Iteration Plan | Break down tasks into user stories; estimate effort |
+| Design         | Create minimal design to support sprint goals       |
+| Development    | Build features in code, incrementally               |
+| Testing        | Continuous testing integrated in each sprint        |
+| Release        | Deliver working software increment to client        |
+| Feedback       | Gather input for the next iteration                 |
+| Repeat         | Use feedback to improve next sprint                 |
+
+
+- ### **5. Agile Roles**
+
+| Role             | Responsibilities                           |
+| ---------------- | ------------------------------------------ |
+| Product Owner    | Define and prioritize the product backlog  |
+| Scrum Master     | Facilitate the team, resolve blockers      |
+| Development Team | Cross-functional team building the product |
+|Stakeholders|Provide feedback and business requirements|
+
+- ### **6. Agile Methodologies**
+
+| Methodology | Description                                                               |
+| ----------- | ------------------------------------------------------------------------- |
+| **Scrum**   | Uses time-boxed sprints, roles (PO, Scrum Master), and regular ceremonies |
+| **Kanban**  | Visual board to track tasks; focuses on WIP limits and flow               |
+| **XP**      | Emphasizes engineering practices (TDD, pair programming, CI)              |
+| **Lean**    | Focuses on reducing waste and delivering value                            |
+
+- ### **7. Agile Artifacts**
+
+| Artifact        | Description                                            |
+| --------------- | ------------------------------------------------------ |
+| Product Backlog | Master list of features, prioritized by business value |
+| Sprint Backlog  | Items selected for the current sprint                  |
+| Increment       | Working product at end of a sprint                     |
+| Burn-down Chart | Graph of remaining work vs. time in sprint             |
+
+
+- ### **8. Agile Ceremonies**
+
+| Ceremony             | Purpose                                      |
+| -------------------- | -------------------------------------------- |
+| Sprint Planning      | Define sprint goals and backlog items        |
+| Daily Stand-up       | Quick team check-in on progress and blockers |
+| Sprint Review        | Demonstrate completed work to stakeholders   |
+| Sprint Retrospective | Discuss improvements for future sprints      |
+
+
+- ### **9. Agile Testing Principles**
+
+| Principle            | Explanation                              |
+| -------------------- | ---------------------------------------- |
+| Test Early & Often   | Begin testing from day one of the sprint |
+| Continuous Testing   | Tests are run alongside development      |
+| Automation           | Used to increase test coverage and speed |
+| Multiple Test Levels | Unit, Integration, System, Acceptance    |
+
+
+- ### **10. Advantages of Agile**
+
+| Benefit                    | Explanation                                       |
+| -------------------------- | ------------------------------------------------- |
+| Fast Delivery              | Functional software delivered in early iterations |
+| High Customer Satisfaction | Stakeholder feedback is continuous                |
+| Flexibility                | Accommodates change at any stage                  |
+| Risk Mitigation            | Frequent releases reduce failure risk             |
+| Quality Focus              | Continuous testing and integration                |
+| Empowered Teams            | Self-organizing, cross-functional teams           |
+
+
+- ### **11. Challenges of Agile**
+
+| Challenge                        | Reason                                         |
+| -------------------------------- | ---------------------------------------------- |
+| Requires Active User Involvement | Customers must stay engaged regularly          |
+| Scaling Difficulty               | Needs structure for large teams/projects       |
+| Less Predictable Budgets         | Flexible scope can affect timelines/cost       |
+| Team Dependency                  | Relies heavily on discipline and collaboration |
+| Potential Lack of Documentation  | Only minimal documentation is created          |
 
 ---
 
