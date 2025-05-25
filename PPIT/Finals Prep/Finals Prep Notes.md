@@ -58,6 +58,71 @@
 
 # Lecture 15: Organizational Aspects - Management vs Leadership
 
+## **1. Leadership vs. Management**
+- ### **Definition**
+	- **Leadership**: The ability to **influence people** toward achieving a **vision or goal**.
+	- **Management**: The practice of **planning, organizing, and overseeing** tasks to meet objectives.
+- ### **Key Distinction**
+	- Not all **managers** are **leaders** and not all **leaders** are **managers**.
+	- Leaders can emerge **formally** or **informally** within a group.
+- ### **Organizational Need**
+	- Effective organizations require **both strong leadership and strong management**:
+		- **Leaders**: Challenge status quo, create vision, inspire.
+		- **Managers**: Plan operations, create structure, monitor performance.
+## **2. Leader vs. Manager – Comparative Table**
+| **Aspect**          | **Leader**           | **Manager**          |
+| ------------------- | -------------------- | -------------------- |
+| Approach            | Coaches people       | Drives employees     |
+| Power Source        | Goodwill             | Authority            |
+| Motivation Style    | Generates enthusiasm | Inspires fear        |
+| Language            | Says “We”            | Says “I”             |
+| Problem Handling    | Fixes breakdown      | Places blame         |
+| Knowledge Approach  | Shows how it is done | Knows how it is done |
+| People Management   | Develops people      | Uses people          |
+| Recognition         | Gives credit         | Takes credit         |
+| Communication Style | Asks                 | Commands             |
+| Initiative          | Says “Let’s go”      | Says “Go”            |
+
+## **3. Mentoring**
+- ### **Definition**
+	- A **mentor** is a senior employee who **supports** and **guides** a less-experienced employee (protégé).
+	- Effective mentors act as **teachers**, **listeners**, and **role models**.
+- ### **Mentoring Functions**
+	- #### **A. Career Functions**
+		- **Lobbying for high-visibility work** → Provides exposure to challenging tasks and increases recognition.
+		- **Coaching for skill development** → Helps the protégé build competencies and reach work-related goals.
+		- **Providing influential contacts** → Expands the protégé’s professional network and visibility.
+		- **Risk protection** → Shields the protégé from threats to their professional image or credibility.
+		- **Sponsoring for promotions** → Supports the protégé in career advancement opportunities.
+		- **Acting as a sounding board** → Offers a safe environment to test ideas before presenting them to others.
+	- #### **B. Psychosocial Functions**
+		- **Counseling** → Strengthens the protégé’s self-confidence and emotional resilience.
+		- **Sharing personal experience** → Builds trust and shows empathy through relatable examples.
+		- **Friendship and acceptance** → Fosters emotional support, connection, and a sense of belonging.
+		- **Role modeling** → Demonstrates behaviors and standards that the protégé can emulate.
+## **4. Communication in Organizations**
+- ### **Functions of Communication**
+| **Function**             | **Description**                                        |
+| ------------------------ | ------------------------------------------------------ |
+| **Control**              | Regulates behavior within an organization              |
+| **Motivation**           | Clarifies roles and goals to encourage performance     |
+| **Emotional Expression** | Outlet for feelings, promotes psychological well-being |
+| **Information**          | Provides data for decision-making and coordination     |
+
+## **5. Communication Process**
+- Communication is both **formal** and **informal**, and occurs in multiple directions:
+- ### **A. Direction of Communication**
+| **Direction** | **Purpose**                                                                 |
+| ------------- | --------------------------------------------------------------------------- |
+| **Downward**  | From managers to employees: task assignments, feedback, policy explanations |
+| **Upward**    | From employees to managers: reporting progress, raising issues              |
+| **Lateral**   | Among peers or same-level roles: coordination and collaboration             |
+
+- #### **Best Practices**
+	- Downward communication should be **repetitive and multi-channeled**.
+	- Upward communication supports **feedback, suggestions, and morale insights**.
+	- Lateral communication **saves time**, improves efficiency, and must be **balanced** with formal structure.
+
 ---
 
 # Lecture 16: Organizational Aspects - Group Communication
