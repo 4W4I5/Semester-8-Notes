@@ -14,7 +14,7 @@
 | 14a               | Organizational Aspects - Organization Structure               | :warning:          |
 | 14b               | Organizational Aspects - Group Dynamics                       | :warning:          |
 | 15                | Organizational Aspects - Management vs Leadership             | :warning:          |
-| 16                | Organizational Aspects - Group Communication                  | :white_check_mark: | 
+| 16                | Organizational Aspects - Group Communication                  | :white_check_mark: |
 | 17                | Interview Skills - Body Language                              | :white_check_mark: |
 | 18                | Agile Software Development                                    | :white_check_mark: |
 | 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: |
@@ -91,10 +91,9 @@
 			- Winking  -> Intimacy
 			- Tapping fingers  -> Impatience
 			- Slapping forehead  -> Forgetfulness
-- **Key messages conveyed**:
-	- **Interest & Liking**
-	- **Status perception**
-
+	- **Key messages conveyed**:
+		- **Interest & Liking**
+		- **Status perception**
 - ### **3. Organizational Communication**
 	- Communication among **small interconnected groups** in a corporate setting.
 	- **Effectiveness** depends on outcomes such as productivity, engagement, and alignment.
@@ -105,8 +104,7 @@
 		- Impact
 			- Reflects employee morale
 			- Builds a sense of closeness
-- **Managers can’t eliminate rumors**, but they **can limit their negative impact**.
-
+	- **Managers can’t eliminate rumors**, but they **can limit their negative impact**.
 - ### **4. Electronic Communication**
 	- #### **A. Email**
 		- Issues
