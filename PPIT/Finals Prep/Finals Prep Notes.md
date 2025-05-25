@@ -69,7 +69,10 @@
 
 ---
 
-# Lecture 19:
+# Lecture 19: Focusing knowledge & technical skillset to business verticals
+
+- MMNEOMIC
+- 
 
 ---
 
