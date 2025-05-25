@@ -2,23 +2,23 @@
 > Refer to the Sessional 1 and Sessional 2 notes as well, way too much content to cover in one file
 > This file only contains content studied/taught after sessional 2
 
-| Chapter<br>Number | Chapter<br>Name                                               | Status    |
-| ----------------- | ------------------------------------------------------------- | --------- |
-| 10                | Data Protection, Privacy & Freedom of Information             | :warning: |
-| 11a               | Computers & Crime                                             | :warning: |
-| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :warning: |
-| 12a               | Computer Contracts                                            | :warning: |
-| 12b               | Types of Software Contracts                                   | :warning: |
-| 12c               | Employment Contracts                                          | :warning: |
-| 13                | Organizational Aspects - Business Structure                   | :warning: |
-| 14a               | Organizational Aspects - Organization Structure               | :warning: |
-| 14b               | Organizational Aspects - Group Dynamics                       | :warning: |
-| 15                | Organizational Aspects - Management vs Leadership             | :warning: |
-| 16                | Organizational Aspects - Group Communication                  | :warning: |
-| 17                | Interview Skills - Body Language                              | :warning: |
-| 18                | Agile Software Development                                    | :warning: |
-| 19                | Focusing knowledge & technical skillset to business verticals | :warning: |
-| 20                | Software Business Models                                      | :warning: |
+| Chapter<br>Number | Chapter<br>Name                                               | Status             |
+| ----------------- | ------------------------------------------------------------- | ------------------ |
+| 10                | Data Protection, Privacy & Freedom of Information             | :warning:          |
+| 11a               | Computers & Crime                                             | :warning:          |
+| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :warning:          |
+| 12a               | Computer Contracts                                            | :warning:          |
+| 12b               | Types of Software Contracts                                   | :warning:          |
+| 12c               | Employment Contracts                                          | :warning:          |
+| 13                | Organizational Aspects - Business Structure                   | :warning:          |
+| 14a               | Organizational Aspects - Organization Structure               | :warning:          |
+| 14b               | Organizational Aspects - Group Dynamics                       | :warning:          |
+| 15                | Organizational Aspects - Management vs Leadership             | :warning:          |
+| 16                | Organizational Aspects - Group Communication                  | :warning:          |
+| 17                | Interview Skills - Body Language                              | :warning:          |
+| 18                | Agile Software Development                                    | :warning:          |
+| 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: | 
+| 20                | Software Business Models                                      | :white_check_mark: |
 
 # Lecture 10:
 
@@ -75,6 +75,7 @@
 > Memonic
 > Fi, He, Tr, Co, Me, Mar, Av, Ho, MaIn, Ed, Fo, Co
 ## **1. Finance**
+- **Definition**: Systems to organize and optimize financial operations, reduce enterprise costs, and deliver new platforms to end-users.
 - **Goal**: Organize financial operations, reduce enterprise costs, or build new end-user platforms.
 - **Applications**:
 	- **Banking, Finance, Insurance**: Platforms for transactions, compliance, and risk analysis.
@@ -86,6 +87,7 @@
 	- **Stock Brokerages & Investment Funds**: Automated investment tools, reporting systems.
 
 ## **2. Health Care & Life Sciences**
+- **Definition**: Software to improve healthcare efficiency, reduce costs/errors, and enhance patient outcomes.
 - **Goal**: Improve care delivery, reduce errors, optimize administration.
 - **Applications**:
 	- **Electronic Health Records (EHR)**: Centralized patient data systems.
@@ -98,6 +100,7 @@
 	- **Health Tourism**: Service aggregation and logistics systems.
 
 ## **3. Travel & Hospitality**
+- **Definition**: Tech-driven upgrades for travel agencies, airlines, and hospitality providers to stay competitive.
 - **Goal**: Enhance traveler experience across platforms and optimize backend operations.
 - **Applications**:
 	- **Omni-Channel Interfaces**: Web, mobile, VR/AR-based experiences.
@@ -107,7 +110,9 @@
 	- **Digital Experience**: Direct bookings, loyalty systems.
 	- **AI/ML**: Customer profiling, dynamic pricing, personalization.
 
+
 ## **4. e-Commerce & Retail**
+- **Definition**: Tailored commerce systems with performance, personalization, and security at the core.
 - **Goal**: Build performant, human-centered shopping platforms.
 - **Applications**:
 	- **Custom eStores & Marketplaces**
@@ -118,6 +123,7 @@
 	- **Security**: Safe payment gateways, GDPR compliance.
 
 ## **5. Media & Entertainment**
+- **Definition**: Use of innovative software to deliver content-rich and socially engaging experiences.
 - **Goal**: Increase user engagement and streamline media operations.
 - **Applications**:
 	- **Content Platforms**: Distribution and monetization.
@@ -127,8 +133,9 @@
 	- **System Performance**: Scalable backends.
 	- **Streaming**: Live broadcasting, VOD platforms.
 
-## **6. Marketing**
 
+## **6. Marketing**
+- **Definition**: Enterprise and agency solutions to automate, analyze, and scale marketing.
 - **Goal**: Empower data-driven, personalized marketing.
 - **Applications**:
 	- **UX Design**: Interface optimization for engagement.
@@ -138,7 +145,9 @@
 	- **Integration**: Third-party services, ad networks.
 	- **Partnership Portals**: B2B integration platforms.
 
+
 ## **7. Aviation, Transportation & Logistics**
+- **Definition**: Software to manage transport logistics, fleet, and dispatch systems.
 - **Goal**: Manage large, complex movement systems efficiently.
 - **Applications**:
 	- **TMS**: End-to-end transport orchestration.
@@ -147,37 +156,9 @@
 	- **Audit & Fuel Optimization**: Efficiency analytics.
 	- **Mobile Apps**: Driver/user interfaces for logistics.
 
-## **8. Hospitality & Tourism**
-- **Goal**: Manage and promote tourism assets and services.
-- **Applications**:
-	- **Accommodation Systems**
-	- **Adventure/Attractions Booking**
-	- **Event Management Tools**
-	- **Travel Trade & Tourism Services**
-	- **Food & Beverage Management**
-	- **Integrated Transportation Tools**
 
-
-## **9. Manufacturing & Industry**
-- **Goal**: Optimize production, monitoring, and supply chains.
-- **Applications**:
-	- **Assembly Line Analytics**: IoT and sensors for traceability.
-	- **Warehouse & Dispatch Monitoring**
-	- **Market Analysis Tools**
-	- **Verticals Covered**:
-		- Mining, Oil & Gas, Chemicals, Pharmaceuticals
-		- Paper, Agriculture, Electronics, Food Processing
-
-## **10. Education & Training**
-- **Goal**: Digitize education delivery and administration.
-- **Applications**:
-	- **University & School Management**
-	- **Preschool to Higher Education**
-	- **Vocational & Special Education Systems**
-	- **Online/Cyber Courses & LMS**
-
-
-## **11. Food & Agriculture**
+## **8. Food & Agriculture**
+- **Definition**: Tech across the agri-food chain: production, processing, delivery, and R&D.
 - **Goal**: Improve efficiency from farm to fork.
 - **Applications**:
 	- **Crop & Livestock Management**
@@ -187,8 +168,39 @@
 	- **Foodservice**: Restaurants, catering, kitchen tech.
 	- **Food R&D**: Nutritional analytics, sustainability tech.
 
+## **9. Restaurants**
+- **Definition**: Foodservice-focused systems to modernize operations and customer experience.
+- **Goal**: Streamline service, improve delivery, and enhance customer interaction.
+- **Applications**:
+	- **POS Systems**
+	- **Table Reservations & Mobile Ordering**
+	- **Inventory & Supply Management**
+	- **Feedback & Loyalty Systems**
+	- **Digital Menu and Kiosk Systems**
+
+
+## **10. Education & Training**
+- **Definition**: Platforms for managing and delivering educational content across all levels.
+- **Goal**: Digitize education delivery and administration.
+- **Applications**:
+	- **University & School Management**
+	- **Preschool to Higher Education**
+	- **Vocational & Special Education Systems**
+	- **Online/Cyber Courses & LMS**
+
+
+## **11. Business Automation**
+- **Definition**: Automating workflows across business operations for productivity and scale.
+- **Goal**: Streamline and digitize enterprise processes to reduce manual workload and increase efficiency.
+- **Applications**:
+	- **Process Automation**
+	- **Workflow Optimization**
+	- **ERP/CRM Integration**
+	- **AI-Powered Decision Support**
+	- **Scalable Architectures**
 
 ## **12. Construction**
+- **Definition**: Software for managing projects in civil, industrial, and residential construction.
 - **Goal**: Digitize and enhance project lifecycle and safety.
 - **Applications**:
 	- **Sub-sectors**: Industrial, Institutional, Civil, Residential
@@ -198,6 +210,17 @@
 	- **Fire & Environmental Engineering**
 	- **Operational Support & Safety Training**
 	- **HSE & ESIA**: Environmental assessments, stakeholder mgmt.
+
+## **13. Manufacturing & Industry**
+- **Definition**: Covers production across sectors like mining, petroleum, pharma, electronics, etc.
+- **Goal**: Optimize production, monitoring, and supply chains.
+- **Applications**:
+	- **Assembly Line Analytics**: IoT and sensors for traceability.
+	- **Warehouse & Dispatch Monitoring**
+	- **Market Analysis Tools**
+	- **Verticals Covered**:
+		- Mining, Oil & Gas, Chemicals, Pharmaceuticals
+		- Paper, Agriculture, Electronics, Food Processing
 
 ---
 
@@ -272,7 +295,9 @@ A **software business model** defines how software companies develop, distribute
 	- Modern CRM platforms include Salesforce, HubSpot, and Zoho.
 
 ## **6. Revenue Model**
+
 A **revenue model** is the framework through which a business generates income. It outlines who pays, what they pay for, and how they pay.
+
 - ### Revenue Model Types:
 
 | Model                   | Description                                              | Example                                       |
