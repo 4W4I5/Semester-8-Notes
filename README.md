@@ -16,7 +16,7 @@
 | ----------------------------------------------------------------------- | ------------------ |
 | [Sessional 1](AML/Sessional%201%20Prep/Sessional%201%20Prep%20Notes.md) | :white_check_mark: |
 | [Sessional 2](AML/Sessional%202%20Prep/Sessional%202%20Prep%20Notes.md) | Incomplete :x:     |
-| [Finals](AML/Finals%20Prep/Finals%20Prep%20Notes.md)                    | :warning:          | 
+| [Finals](AML/Finals%20Prep/Finals%20Prep%20Notes.md)                    | Incomplete :x:     | 
 	
 # Professional Practices in IT (PPIT)
 > [!WARNING]
