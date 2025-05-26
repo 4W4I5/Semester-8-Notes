@@ -6,7 +6,7 @@
 | 4                 | Human Rights                       | :white_check_mark: |
 | 5a                | Code of Conduct                    | :white_check_mark: |
 | 5b                | ACM Code of Conduct                | :white_check_mark: |
-| 6                 | Ethical Decisions                  | :white_check_mark: | 
+| 6                 | Ethical Decisions                  | :white_check_mark: |
 
 # **Lecture 1: Computing Profession**
 ## **Professional Issues in Computing**

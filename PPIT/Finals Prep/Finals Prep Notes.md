@@ -4,9 +4,9 @@
 
 | Chapter<br>Number | Chapter<br>Name                                               | Status             |
 | ----------------- | ------------------------------------------------------------- | ------------------ |
-| 10                | Data Protection, Privacy & Freedom of Information             | :warning:          |
-| 11a               | Computers & Crime                                             | :warning:          |
-| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: | 
+| 10                | Data Protection, Privacy & Freedom of Information             | :white_check_mark: |
+| 11a               | Computers & Crime                                             | :white_check_mark: |
+| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: |
 | 12a               | Computer Contracts                                            | :white_check_mark: |
 | 12b               | Types of Software Contracts                                   | :white_check_mark: |
 | 12c               | Employment Contracts                                          | :white_check_mark: |
@@ -25,6 +25,111 @@
 ---
 
 # Lecture 11a: Computers & Crime
+- ### 🧾 1. **What is Crime?**
+	- **Definition**: An act of disobedience of the law, punishable under legal codes.
+	- Famous quote: _Willie Sutton_, a bank robber: “Because that’s where the money is.”
+	- Crimes facilitated or born by computer technology.
+- ### 💻 2. **What is Computer Crime?**
+	- **Definition**: Crimes committed using computer systems.
+	- **Impact on Law**:
+	    - Facilitates traditional crimes (e.g., fraud, theft).
+	    - Enables new crimes (e.g., hacking, phishing).
+	- **Computer Forensics**: Legally sound collection, analysis, and reporting of digital evidence.
+- ### 🚨 3. **Major Computer Criminal Activities**
+| **Activity**                | **Description**                                                                                                |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Computer Fraud**          | Manipulating a system for illegal financial gain. Examples: Fake payroll entries, supplier accounts, invoices. |
+| **Hacking**                 | Unauthorized access or attempts to access systems.                                                             |
+| **Data Damage**             | Altering/destroying programs or files. Examples: Viruses, ransomware, redirecting web pages.                   |
+| **Denial of Service (DoS)** | Overloading systems to block legitimate access.                                                                |
+| **Ransomware**              | Encrypting data and demanding payment for release.                                                             |
+
+- ### 💥 4. **Types of Cyber Attacks**
+| **Type**                  | **Purpose**             | **Examples**                      |
+| ------------------------- | ----------------------- | --------------------------------- |
+| **Military/Intelligence** | State-level espionage   | Stealing classified documents     |
+| **Business Attacks**      | Industrial espionage    | Boeing vs. Airbus                 |
+| **Financial Attacks**     | Stealing money/data     | Credit card theft                 |
+| **Grudge Attacks**        | Retaliation or sabotage | Ex-employee deleting files        |
+| **Fun Attacks**           | Challenge or boredom    | Script kiddies defacing sites     |
+| **Criminal Automation**   | Automating illegal ops  | Drug dealers using encrypted apps |
+
+- ### 🔐 5. **Security Vulnerabilities**
+| **Type**           | **Examples**                      |
+| ------------------ | --------------------------------- |
+| **Hardware**       | Insecure ports, physical access   |
+| **Software**       | Bugs, insecure code               |
+| **Data**           | Unencrypted files                 |
+| **Communications** | Weak protocols, sniffable traffic |
+
+- ### 👨‍💻 6. **Types of Offenders**
+| **Type**      | **Motivation**                         |
+| ------------- | -------------------------------------- |
+| **Crackers**  | Access systems (not always for profit) |
+| **Criminals** | Financial or material gain             |
+| **Vandals**   | Cause damage, no gain                  |
+
+- ### 📜 7. **Legal Framework in Pakistan**
+	- **Electronic Transactions Ordinance, 2002**
+	- **Prevention of Electronic Crimes Ordinance, 2007**
+	- **PECA 2016** _(Referenced but not detailed in this guide)_
+- ### 🌐 8. **Internet-Specific Issues**
+| **Issue**                         | **Description**                      |
+| --------------------------------- | ------------------------------------ |
+| **Pornography/Child Pornography** | Illegal to share/distribute          |
+| **Defamation**                    | Online statements harming reputation |
+| **Spam**                          | Unsolicited messages, bulk emails    |
+| **Jurisdiction Issues**           | International enforcement challenges |
+- **Extradition**: Requires treaties and dual criminality
+- **Extraterritorial Claims**: Used by U.S. against foreign actors
+
+- ### 🧬 9. **Identity Theft**
+	- **Definition**: Using someone else's personal data for deception or gain.
+	- **Common Goals**:
+	    - Open bank accounts, credit cards
+	    - Fake driver’s licenses
+	    - Avoid legal consequences
+	- **Online Risks**:
+	    - Social media oversharing
+	    - Public databases
+- ### 💸 10. **Fraud Techniques**
+| **Type**             | **Method**                                                                                       |
+| -------------------- | ------------------------------------------------------------------------------------------------ |
+| **Auction Frauds**   | Fake bidding (shill bidding), price inflation (bid shielding), lure off-platform (bid siphoning) |
+| **Investment Fraud** | Ponzi schemes, fake real estate/crypto, unlicensed brokers                                       |
+| **Advice Fraud**     | Cold calls from fake advisors with high-return promises                                          |
+
+- ### 🕵️ 11. **Hacking Techniques**
+	- #### ➤ Footprinting
+		- Information gathering on target systems.
+		- Tools: Whois, netcraft.com, Microsoft Baseline Security Analyzer.
+	- #### ➤ Password Cracking
+		- **Brute Force**: Tries all possible combinations.
+		- **Dictionary Attacks**: Common passwords tried from a word list.
+		- **Tools**: OphCrack (bootable CD, hashes Windows passwords).
+	- #### ➤ Website Hacking
+		- **SQL Injection**: Inserting SQL code into login/forms (e.g., `OR 1=1` trick).
+		- **XSS (Cross-Site Scripting)**: Injects JavaScript into site.
+		- **Session Hijacking**: Steals or guesses session ID.
+		    - Techniques: Brute force, calculation, theft.
+	- #### ➤ Man-in-the-Middle (MITM)
+		- Intercepts communication between client and server.
+		- Splits connection: Client ↔️ Attacker ↔️ Server.
+		- Can read/alter traffic.
+
+- ### 🧰 12. **Common Hacking Tools**
+| **Tool**              | **Function**                                          |
+| --------------------- | ----------------------------------------------------- |
+| **Sniffers**          | Capture and analyze network traffic (e.g., Wireshark) |
+| **Password Crackers** | Automate cracking using dictionary/brute force        |
+
+- ### 🧑‍⚖️ 13. **Cyber Crime Bill (Draft Overview)**
+	- Grants PTA power to block religious/political/security content.
+	- Criminalizes:
+	    - Political criticism (blogs, cartoons)
+	    - Security testing (even ethical hacking)
+	    - Immoral messages, spamming
+	    - Sharing personal images without consent
 
 ---
 
