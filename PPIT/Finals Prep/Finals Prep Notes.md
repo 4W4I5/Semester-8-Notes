@@ -11,7 +11,7 @@
 | 12b               | Types of Software Contracts                                   | :warning:          |
 | 12c               | Employment Contracts                                          | :white_check_mark: |
 | 13                | Organizational Aspects - Business Structure                   | :white_check_mark: |
-| 14a               | Organizational Aspects - Organization Structure               | :warning:          |
+| 14a               | Organizational Aspects - Organization Structure               | :white_check_mark: |
 | 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: |
 | 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: |
 | 16                | Organizational Aspects - Group Communication                  | :white_check_mark: |
@@ -265,6 +265,95 @@ Violation = breach of contract
 ---
 
 # Lecture 14a: Organizational Aspects - Organization Structure
+## 🔹 1. Organizational Behavior (OB) & Culture
+-  ### ✅ **Organizational Behavior (OB)**
+	- Study of how individuals, groups, and structures impact organizational behavior.
+	- **Goal**: Use this understanding to improve effectiveness.
+-  ### ✅ **Organizational Culture**
+	- **Definition**: Shared system of values, norms, and meanings.
+	- **Characteristics**:
+		- Innovation and risk-taking
+		- Attention to detail
+		- Outcome & people orientation
+		- Team orientation
+		- Aggressiveness
+		- Stability
+-  ### 🔸 Types of Culture
+	- **Dominant Culture**: Core values shared widely.
+	- **Subcultures**: Exist in departments or regions.
+	- **Strong Culture**: Deep, consistent value alignment across members.
+-  ### 🔸 Functions of Culture
+	- Creates identity and unity.
+	- Encourages commitment to the organization.
+	- Defines behavioral norms.
+	- Provides social system stability.
+
+## 🔹 2. Organizational Structure
+-  ### ✅ **Definition**
+	- A framework outlining how activities such as task allocation, coordination, and supervision are directed.
+-  ### ✅ **Key Elements**
+	- **Work Specialization**: Division of labor.
+	- **Departmentalization**: Job grouping (by function, product, location).
+	- **Chain of Command**: Line of authority.
+	- **Span of Control**: # of employees managed by one leader.
+	- **Centralization vs. Decentralization**: Where decisions are made.
+	- **Formalization**: Degree of rules and standard procedures.
+-  ### ✅ **Why Structure Matters**
+	- Enables efficient communication.
+	- Increases accountability and resource use.
+	- Supports growth and role clarity.
+
+
+## 🔹 3. Types of Structures & Design Influences
+-  ### ✅ **Common Types**
+	- **Simple**: Small, owner-managed; few rules.
+	- **Functional**: Departments by role (HR, IT, Sales).
+	- **Product/Divisional**: Based on product lines or markets.
+	- **Matrix**: Mix of functional and project-based roles.
+	- **Flat vs. Tall**:
+		- _Flat_: Few levels, faster decisions, broad oversight.
+		- _Tall_: Many layers, narrower span, detailed supervision.
+-  ### ✅ **Product Organization Example**
+	- CEO → Product Groups → Departments like R&D, Sales, etc.
+-  ### ✅ **Factors That Shape Structure**
+	- **Strategy**: Cost efficiency vs. innovation.
+	- **Size**: Larger = more complex structures.
+	- **Technology**: Demands integration and flow control.
+	- **Environment**: Fast-changing markets need flexible setups.
+
+## 🔹 4. Management: Functions & Skills
+-  ### ✅ **What Managers Do**
+	- Achieve goals through:
+		- Decision-making
+		- Resource allocation
+		- Guiding teams
+-  ### ✅ **Four Core Functions**
+	1. **Planning**: Set goals, outline strategies.
+	2. **Organizing**: Define roles, structure.
+	3. **Leading**: Motivate, resolve conflict, communicate.
+	4. **Controlling**: Monitor and correct performance.
+-  ### ✅ **Essential Managerial Skills**
+	- **Technical**: Field-specific expertise.
+	- **Human**: Work with and motivate people.
+	- **Conceptual**: Analyze and integrate complex info.
+
+
+## 🔹 5. Effective vs. Successful Managers
+-  ### ✅ **Managerial Activity Categories**
+
+| Activity Type             | Examples                                |
+| ------------------------- | --------------------------------------- |
+| Traditional Management    | Planning, decision-making, controlling  |
+| Communication             | Info exchange, paperwork                |
+| Human Resource Management | Staffing, training, conflict management |
+| Networking                | Socializing, building influence         |
+
+-  ### ✅ **Key Insight**
+	- **Successful Managers**: Excel in **networking**.
+	- **Effective Managers**: Excel in **HR and communication**.
+
+> [!NOTE]
+> Remember how **culture supports structure**, and how **managers enable both** through planning and leadership.
 
 ---
 
