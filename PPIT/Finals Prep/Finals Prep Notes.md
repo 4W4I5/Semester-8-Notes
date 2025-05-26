@@ -22,18 +22,16 @@
 
 # Lecture 10: Data Protection, Privacy & Freedom of Information
 ## 📜 **1. Historical Background & Public Concerns**
-### 🌍 Context:
-- **1970s (Europe, especially UK)**: Widespread adoption of computers led to massive collection and storage of personal data.
-- Public concern grew over:
-    - **Unauthorized access**
-    - **Secondary usage** (used for unintended purposes)
-    - **Inaccurate data** affecting credit ratings, tracking individuals via credit card logs
-    - **Outdated or irrelevant data**
-
-### 📅 Key Laws:
-- **UK Data Protection Act 1984** (First major legislation)
-- **Revised in 1998** to align with European Data Protection Directive
-
+- ### 🌍 Context:
+	- **1970s (Europe, especially UK)**: Widespread adoption of computers led to massive collection and storage of personal data.
+	- Public concern grew over:
+		- **Unauthorized access**
+		- **Secondary usage** (used for unintended purposes)
+		- **Inaccurate data** affecting credit ratings, tracking individuals via credit card logs
+		- **Outdated or irrelevant data**
+- ### 📅 Key Laws:
+	- **UK Data Protection Act 1984** (First major legislation)
+	- **Revised in 1998** to align with European Data Protection Directive
 
 ## 🧭 **2. Goals of Data Protection**
 - Ensure accuracy and completeness of personal data
@@ -43,6 +41,7 @@
 
 
 ## 📌 **3. Core Data Protection Principles**
+
 | Principle                               | Description                                                          |
 | --------------------------------------- | -------------------------------------------------------------------- |
 | **Lawful & Fair Processing**            | Data must be collected with consent and in a lawful, fair manner     |
@@ -55,121 +54,116 @@
 | **International Transfer Restrictions** | Data can only be transferred where protection standards are adequate |
 
 ## 🔏 **4. Individual Privacy: Philosophy & Rights**
-### 💡 Why Privacy Matters:
-- Personal info like **bank balance, medical history, CGPA, photos**, etc., deserves protection.
-- Recognized as a **fundamental human right** and critical to **human dignity**.
-
-### 🧠 Types of Privacy:
-1. **Control of External Influences**:
-    - **Solitude**: Be left alone
-    - **Anonymity**: No public ID
-    - **Intimacy**: No monitoring
-2. **Control of Personal Info**:
-    - **Reserve**: Right to manage how info is shared
+- ### 💡 Why Privacy Matters:
+	- Personal info like **bank balance, medical history, CGPA, photos**, etc., deserves protection.
+	- Recognized as a **fundamental human right** and critical to **human dignity**.
+- ### 🧠 Types of Privacy:
+	1. **Control of External Influences**:
+		- **Solitude**: Be left alone
+		- **Anonymity**: No public ID
+		- **Intimacy**: No monitoring
+	2. **Control of Personal Info**:
+		- **Reserve**: Right to manage how info is shared
 
 ## 🧮 **5. Privacy in the Digital Age**
-### 🧾 Disclosures Without Consent:
-Organizations can legally monitor communications for:
-- Fulfilling policies/procedures
-- Verifying compliance
-- Detecting crime/misuse
-- Quality assurance
-- Ensuring system performance
-
-### ⚠️ Tech Erosion of Privacy:
-- Computers + internet = mass data sharing & profiling
-- Common tools:
-    - **Cookies, RFID, facial recognition, surveillance, flash cookies**
-    - Quotes like “You have zero privacy anyway. Get over it.” (Scott McNealy)
+- ### 🧾 Disclosures Without Consent:
+	- Organizations can legally monitor communications for:
+		- Fulfilling policies/procedures
+		- Verifying compliance
+		- Detecting crime/misuse
+		- Quality assurance
+		- Ensuring system performance
+- ### ⚠️ Tech Erosion of Privacy:
+	- Computers + internet = mass data sharing & profiling
+	- Common tools:
+		- **Cookies, RFID, facial recognition, surveillance, flash cookies**
+		- Quotes like “You have zero privacy anyway. Get over it.” (Scott McNealy)
 
 
 ## ⚖️ **6. Legal Framework in Pakistan**
-### 📜 Before 2010:
-- 1973 Constitution only mentioned freedom of speech and press.
-- No explicit right to information.
-
-### 📘 18th Amendment (2010):
-- **Article 19-A**: Grants every citizen the right to access public info.
-- Encouraged both **federal** and **provincial** laws on transparency.
+- ### 📜 Before 2010:
+	- 1973 Constitution only mentioned freedom of speech and press.
+	- No explicit right to information.
+- ### 📘 18th Amendment (2010):
+	- **Article 19-A**: Grants every citizen the right to access public info.
+	- Encouraged both **federal** and **provincial** laws on transparency.
 
 ## 🏛️ **7. FOI at the Federal Level**
 - **FOI Ordinance 2002**:
-    - Citizens can request access to data from federal bodies only.
-    - Doesn’t apply to provinces or private entities.
+	- Citizens can request access to data from federal bodies only.
+	- Doesn’t apply to provinces or private entities.
 - **FOI Rules 2004**:
-    - Applicant must:
-        - Pay fee
-        - Specify reason for the request
-        - Await response (max 21 days)
-    - Exclusions:
-        - Classified info, personal data, national security content
+	- Applicant must:
+		- Pay fee
+		- Specify reason for the request
+		- Await response (max 21 days)
+	- Exclusions:
+		- Classified info, personal data, national security content
 ## 🏛️ **8. FOI at Provincial Level in Pakistan**
-### 📚 Provincial FOI Laws:
-- Based on **FOI Ordinance 2004**
-- **Balochistan FOI Act 2005**
-- **Sindh FOI Act 2006** → Replaced by **Sindh RTI Act 2016**
-- **KP RTI Act 2013**
-    - Includes govt-funded NGOs & public service orgs.
-- **Punjab RTI Ordinance 2013**
-    - Applies to both citizens and registered legal entities in Pakistan
+- ### 📚 Provincial FOI Laws:
+	- Based on **FOI Ordinance 2004**
+	- **Balochistan FOI Act 2005**
+	- **Sindh FOI Act 2006** → Replaced by **Sindh RTI Act 2016**
+	- **KP RTI Act 2013**
+		- Includes govt-funded NGOs & public service orgs.
+	- **Punjab RTI Ordinance 2013**
+		- Applies to both citizens and registered legal entities in Pakistan
 
 ## 👀 **9. Monitoring & Ethical Boundaries**
-### 🧪 Case Study: Secret Nanny Monitoring
-- Parents installed surveillance via laptop camera without consent
-- Ethical Issue: Breach of trust and consent
-**Better Alternatives**:
-- Transparent interviews and reference checks
-- Observing nanny in presence
-- Openly disclosing use of surveillance
+- ### 🧪 Case Study: Secret Nanny Monitoring
+	- Parents installed surveillance via laptop camera without consent
+	- Ethical Issue: Breach of trust and consent
+	- **Better Alternatives**:
+		- Transparent interviews and reference checks
+		- Observing nanny in presence
+		- Openly disclosing use of surveillance
 
 ## 🕵️‍♂️ **10. Tools of Surveillance & Privacy Threats**
-### 📡 Technologies That Erode Privacy:
-- **Facebook Tags**: Facial recognition, improper tagging risks
-- **Enhanced 911**: Location tracking via phones (risk of misuse)
-- **Loyalty Cards**: Shopping profiles, targeted ads
-- **Body Scanners**: 3D scans for clothing → misuse potential
-- **RFID Tags**: Can track items/people if not disabled
-- **Implanted Chips**: Pet and human tracking, medical usage
-- **OnStar**: Monitors location, can disable vehicles
-- **Black Boxes**: Car data logs (speed, brake usage) for investigations
-
-### 🧬 Digital Footprints:
-- **Medical Records**: Better care, but privacy risk
-- **Cookies**: Track user behavior, placed without consent
-- **Flash Cookies**: Larger, harder to delete; can “respawn” regular cookies
+- ### 📡 Technologies That Erode Privacy:
+	- **Facebook Tags**: Facial recognition, improper tagging risks
+	- **Enhanced 911**: Location tracking via phones (risk of misuse)
+	- **Loyalty Cards**: Shopping profiles, targeted ads
+	- **Body Scanners**: 3D scans for clothing → misuse potential
+	- **RFID Tags**: Can track items/people if not disabled
+	- **Implanted Chips**: Pet and human tracking, medical usage
+	- **OnStar**: Monitors location, can disable vehicles
+	- **Black Boxes**: Car data logs (speed, brake usage) for investigations
+- ### 🧬 Digital Footprints:
+	- **Medical Records**: Better care, but privacy risk
+	- **Cookies**: Track user behavior, placed without consent
+	- **Flash Cookies**: Larger, harder to delete; can “respawn” regular cookies
 
 ## 📊 **11. Data Mining & Profiling**
-### 💼 Business Use:
-- Spot patterns in consumer behavior
-- Predict loyalty, profile individuals
-
-### 🧠 Techniques:
-- **Collaborative Filtering**: Recommender systems using others’ preferences (used by Netflix, Amazon)
-- **Google Search Tracking**: Infers interests for personalized results
-- **Microtargeting**: Used in political campaigns (2004–present)
-
-### ⚖️ Legal & Ethical Impacts:
-- Data collected for one purpose used for another (secondary use)
-- Opt-in (user consents first) vs Opt-out (assumed unless denied)
+- ### 💼 Business Use:
+	- Spot patterns in consumer behavior
+	- Predict loyalty, profile individuals
+- ### 🧠 Techniques:
+	- **Collaborative Filtering**: Recommender systems using others’ preferences (used by Netflix, Amazon)
+	- **Google Search Tracking**: Infers interests for personalized results
+	- **Microtargeting**: Used in political campaigns (2004–present)
+- ### ⚖️ Legal & Ethical Impacts:
+	- Data collected for one purpose used for another (secondary use)
+	- Opt-in (user consents first) vs Opt-out (assumed unless denied)
 
 ## 📁 **12. Ownership & Commodification of Information**
 - **Who owns transaction data**? Buyer, seller, or both?
 - **Credit Reports**:
-    - Held by bureaus; affect loans and jobs
-    - Sold to financial institutions
+	- Held by bureaus; affect loans and jobs
+	- Sold to financial institutions
 
 ## 🧩 **13. Famous Cases & Examples**
 - **Netflix Prize (2006)**:
-    - Released “anonymous” user ratings → deanonymized by researchers
-    - FTC complaint → sequel canceled
+	- Released “anonymous” user ratings → deanonymized by researchers
+	- FTC complaint → sequel canceled
 - **Facebook Beacon**:
-    - Shared purchases publicly
-    - Criticized → changed to opt-in
+	- Shared purchases publicly
+	- Criticized → changed to opt-in
 - **Lotus Marketplace**:
-    - Planned CD with info on 120M Americans
-    - Public backlash → plan dropped
+	- Planned CD with info on 120M Americans
+	- Public backlash → plan dropped
 
 ## ⚖️ **14. FOI vs Data Protection**
+
 | FOI                                             | Data Protection                         |
 | ----------------------------------------------- | --------------------------------------- |
 | Promotes transparency                           | Protects personal privacy               |
@@ -182,6 +176,73 @@ Organizations can legally monitor communications for:
 - **Draft Electronic Data Protection & Safety Act, 2005**
 - **Right to Information Act, 2013**
 
+## **15. Information Disclosures**
+
+## 🧾 **Public Records**
+- ### 📘 Definition:
+	- Data about incidents or actions reported to government agencies for informing the public.
+- ### 📂 Examples:
+	- Birth and death certificates
+	- Marriage licenses
+	- Property deeds
+	- Criminal records
+	- Motor vehicle records
+- ### 💻 Digital Shift:
+	- Public records are now stored in computerized databases.
+	- Internet access has made them vastly easier to search and misuse.
+
+## 🏢 **Records Held by Private Organizations**
+- ### 🛒 **Voluntarily Disclosed Information**:
+	- Credit card purchases
+	- Loyalty/rewards card transactions
+	- Posts on social networks
+	- Online survey participation
+- ### ❗ Issues:
+	- Often collected without full understanding or informed consent.
+	- Can be sold or analyzed to create personal profiles.
+## 🧠 **Data Gathering Methods & Their Privacy Impact**
+
+| Method                             | Description                               | Privacy Concern                          |
+| ---------------------------------- | ----------------------------------------- | ---------------------------------------- |
+| **Facebook Tags**                  | Facial recognition for friend suggestions | Involuntary identification, tagging      |
+| **Enhanced 911**                   | Tracks cell phone location                | Location data misuse                     |
+| **Loyalty Cards**                  | Save money by giving store purchase data  | Targeted marketing, price discrimination |
+| **Body Scanners**                  | Used in malls to suggest clothing         | Invasive profiling                       |
+| **RFID Tags**                      | Wireless tags in products                 | Hidden tracking                          |
+| **Implanted Chips**                | Chips in pets/humans                      | Constant surveillance                    |
+| **OnStar**                         | Car GPS and emergency services            | Silent monitoring risks                  |
+| **Car Black Boxes**                | Records speed/brakes pre-crash            | Used without consent post-accident       |
+| **Medical Records**                | Digitized health info                     | Employer discrimination risk             |
+| **Digital Video Recorders (TiVo)** | Tracks exact viewing behavior             | Sold to advertisers                      |
+| **Cookies**                        | Track web usage                           | Often invisible to users                 |
+| **Flash Cookies**                  | Persist after browser cookies are deleted | Can respawn deleted data                 |
+
+## 📍 **Notable Information Disclosure Cases**
+- ### 🧠 Facebook Beacon (2007):
+	- **What Happened**: Shared user purchases with their friends without consent.
+	- **Reaction**: User backlash → moved from **opt-out** to **opt-in**.
+- ### 🧪 Netflix Prize (2006):
+	- **What Happened**: Released anonymized movie ratings of 500K users.
+	- **Problem**: Researchers re-identified users by combining public data → raised FTC concerns.
+- ### 📀 Lotus Marketplace CD:
+	- **Plan**: Sell household data of 120M Americans for direct marketing.
+	- **Outcome**: Scrapped due to over 30K complaints about privacy violation.
+
+## 📉 **Implications of Disclosure**
+- ### 🔐 Data Commodification:
+	- Personal info has **market value**.
+	- Sold to marketers, banks, insurers, political campaigns.
+- ### ⚖️ Ethical Dilemmas:
+	- Consent often buried in T&Cs.
+	- Disclosure may be **legal but not ethical**.
+
+## 🔍 **Key Concepts**
+| Term              | Meaning                                                               |
+| ----------------- | --------------------------------------------------------------------- |
+| **Secondary Use** | Using collected data for a different purpose than originally intended |
+| **Opt-in**        | Users explicitly agree before data sharing                            |
+| **Opt-out**       | Data shared unless users explicitly deny permission                   |
+
 
 ---
 
@@ -193,10 +254,11 @@ Organizations can legally monitor communications for:
 - ### 💻 2. **What is Computer Crime?**
 	- **Definition**: Crimes committed using computer systems.
 	- **Impact on Law**:
-	    - Facilitates traditional crimes (e.g., fraud, theft).
-	    - Enables new crimes (e.g., hacking, phishing).
+		- Facilitates traditional crimes (e.g., fraud, theft).
+		- Enables new crimes (e.g., hacking, phishing).
 	- **Computer Forensics**: Legally sound collection, analysis, and reporting of digital evidence.
 - ### 🚨 3. **Major Computer Criminal Activities**
+
 | **Activity**                | **Description**                                                                                                |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Computer Fraud**          | Manipulating a system for illegal financial gain. Examples: Fake payroll entries, supplier accounts, invoices. |
@@ -206,6 +268,7 @@ Organizations can legally monitor communications for:
 | **Ransomware**              | Encrypting data and demanding payment for release.                                                             |
 
 - ### 💥 4. **Types of Cyber Attacks**
+
 | **Type**                  | **Purpose**             | **Examples**                      |
 | ------------------------- | ----------------------- | --------------------------------- |
 | **Military/Intelligence** | State-level espionage   | Stealing classified documents     |
@@ -216,6 +279,7 @@ Organizations can legally monitor communications for:
 | **Criminal Automation**   | Automating illegal ops  | Drug dealers using encrypted apps |
 
 - ### 🔐 5. **Security Vulnerabilities**
+
 | **Type**           | **Examples**                      |
 | ------------------ | --------------------------------- |
 | **Hardware**       | Insecure ports, physical access   |
@@ -224,6 +288,7 @@ Organizations can legally monitor communications for:
 | **Communications** | Weak protocols, sniffable traffic |
 
 - ### 👨‍💻 6. **Types of Offenders**
+
 | **Type**      | **Motivation**                         |
 | ------------- | -------------------------------------- |
 | **Crackers**  | Access systems (not always for profit) |
@@ -235,25 +300,27 @@ Organizations can legally monitor communications for:
 	- **Prevention of Electronic Crimes Ordinance, 2007**
 	- **PECA 2016** _(Referenced but not detailed in this guide)_
 - ### 🌐 8. **Internet-Specific Issues**
+
 | **Issue**                         | **Description**                      |
 | --------------------------------- | ------------------------------------ |
 | **Pornography/Child Pornography** | Illegal to share/distribute          |
 | **Defamation**                    | Online statements harming reputation |
 | **Spam**                          | Unsolicited messages, bulk emails    |
 | **Jurisdiction Issues**           | International enforcement challenges |
+
 - **Extradition**: Requires treaties and dual criminality
 - **Extraterritorial Claims**: Used by U.S. against foreign actors
-
 - ### 🧬 9. **Identity Theft**
 	- **Definition**: Using someone else's personal data for deception or gain.
 	- **Common Goals**:
-	    - Open bank accounts, credit cards
-	    - Fake driver’s licenses
-	    - Avoid legal consequences
+		- Open bank accounts, credit cards
+		- Fake driver’s licenses
+		- Avoid legal consequences
 	- **Online Risks**:
-	    - Social media oversharing
-	    - Public databases
+		- Social media oversharing
+		- Public databases
 - ### 💸 10. **Fraud Techniques**
+
 | **Type**             | **Method**                                                                                       |
 | -------------------- | ------------------------------------------------------------------------------------------------ |
 | **Auction Frauds**   | Fake bidding (shill bidding), price inflation (bid shielding), lure off-platform (bid siphoning) |
@@ -272,13 +339,13 @@ Organizations can legally monitor communications for:
 		- **SQL Injection**: Inserting SQL code into login/forms (e.g., `OR 1=1` trick).
 		- **XSS (Cross-Site Scripting)**: Injects JavaScript into site.
 		- **Session Hijacking**: Steals or guesses session ID.
-		    - Techniques: Brute force, calculation, theft.
+			- Techniques: Brute force, calculation, theft.
 	- #### ➤ Man-in-the-Middle (MITM)
 		- Intercepts communication between client and server.
 		- Splits connection: Client ↔️ Attacker ↔️ Server.
 		- Can read/alter traffic.
-
 - ### 🧰 12. **Common Hacking Tools**
+
 | **Tool**              | **Function**                                          |
 | --------------------- | ----------------------------------------------------- |
 | **Sniffers**          | Capture and analyze network traffic (e.g., Wireshark) |
@@ -287,21 +354,22 @@ Organizations can legally monitor communications for:
 - ### 🧑‍⚖️ 13. **Cyber Crime Bill (Draft Overview)**
 	- Grants PTA power to block religious/political/security content.
 	- Criminalizes:
-	    - Political criticism (blogs, cartoons)
-	    - Security testing (even ethical hacking)
-	    - Immoral messages, spamming
-	    - Sharing personal images without consent
+		- Political criticism (blogs, cartoons)
+		- Security testing (even ethical hacking)
+		- Immoral messages, spamming
+		- Sharing personal images without consent
 
 ---
 
 # Lecture 11b: Prevention of Electronic Crimes Act (PECA)
-### 🧾 **Introduction**
+## 🧾 **Introduction**
 - **Enacted:** 2016 by the Government of Pakistan
 - **Purpose:** To prevent electronic crimes, protect data, and ensure cybersecurity.
 - **Applies to:** Any offense committed using information systems or data, even if the system is outside Pakistan but affects people/data within the country.
 
 ## 🔒 **Key Offense Categories & Penalties**
 - ### 1. **Privacy and Harassment Offenses**
+
 | **Offense**                      | **Details**                                                      | **Punishment**                |
 | -------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
 | **Spreading False Information**  | Posting false content that harms someone's reputation or privacy | Up to 3 yrs or Rs. 1M or both |
@@ -331,6 +399,7 @@ Organizations can legally monitor communications for:
 | **Interference with Critical Infra**     | Deleting or altering sensitive national data      | Up to 7 yrs or Rs. 10M |
 
 - ### 4. **Terrorism-Related Cybercrimes**
+
 | **Offense**                           | **Details**                                            | **Punishment**          |
 | ------------------------------------- | ------------------------------------------------------ | ----------------------- |
 | **Cyberterrorism**                    | Using cyber means to cause fear, panic in govt/public  | Up to 14 yrs or Rs. 50M |
@@ -338,6 +407,7 @@ Organizations can legally monitor communications for:
 | **Online Terror Recruitment/Funding** | Encouraging or collecting funds for terrorism          | Up to 7 yrs             |
 
 - ### 5. **Fraud & Forgery**
+
 | **Offense**                   | **Details**                                      | **Punishment**          |
 | ----------------------------- | ------------------------------------------------ | ----------------------- |
 | **Electronic Forgery**        | Tampering with data to cause harm or gain        | Up to 3 yrs or Rs. 250K |
@@ -346,6 +416,7 @@ Organizations can legally monitor communications for:
 | **Identity Theft**            | Using someone’s personal data without permission | Up to 3 yrs or Rs. 5M   |
 
 - ### 6. **Equipment & Communication Abuse**
+
 | **Offense**                       | **Details**                                     | **Punishment**            |
 | --------------------------------- | ----------------------------------------------- | ------------------------- |
 | **Illegal SIM Issuance**          | Selling SIMs without PTA-compliant verification | Up to 3 yrs or Rs. 500K   |
@@ -371,6 +442,7 @@ Organizations can legally monitor communications for:
 ---
 
 # Lecture 12a: Computer Contracts
+
 A strong computer contract addresses legal, technical, and operational risks. Clarity in specifications, deliverables, responsibilities, ownership, and dispute resolution mechanisms is key to ensuring successful software engagements.
 
 ## **1. Agreement vs. Contract**
