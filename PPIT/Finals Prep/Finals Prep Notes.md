@@ -6,8 +6,8 @@
 | ----------------- | ------------------------------------------------------------- | ------------------ |
 | 10                | Data Protection, Privacy & Freedom of Information             | :warning:          |
 | 11a               | Computers & Crime                                             | :warning:          |
-| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :warning:          |
-| 12a               | Computer Contracts                                            | :white_check_mark: | 
+| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: | 
+| 12a               | Computer Contracts                                            | :white_check_mark: |
 | 12b               | Types of Software Contracts                                   | :white_check_mark: |
 | 12c               | Employment Contracts                                          | :white_check_mark: |
 | 13                | Organizational Aspects - Business Structure                   | :white_check_mark: |
@@ -29,6 +29,78 @@
 ---
 
 # Lecture 11b: Prevention of Electronic Crimes Act (PECA)
+### 🧾 **Introduction**
+- **Enacted:** 2016 by the Government of Pakistan
+- **Purpose:** To prevent electronic crimes, protect data, and ensure cybersecurity.
+- **Applies to:** Any offense committed using information systems or data, even if the system is outside Pakistan but affects people/data within the country.
+
+## 🔒 **Key Offense Categories & Penalties**
+- ### 1. **Privacy and Harassment Offenses**
+| **Offense**                      | **Details**                                                      | **Punishment**                |
+| -------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
+| **Spreading False Information**  | Posting false content that harms someone's reputation or privacy | Up to 3 yrs or Rs. 1M or both |
+| **Non-consensual Media Sharing** | Taking pictures/videos without consent & distributing them       | Up to 3 yrs or Rs. 1M or both |
+| **Explicit Content of Adults**   | Making/spreading sexually explicit images/videos                 | Up to 5 yrs or Rs. 5M or both |
+| **Explicit Content of Minors**   | Same as above, but involves minors                               | Up to 7 yrs or Rs. 5M or both |
+| **Cyberstalking (Adult)**        | Repeated contact, emails, messages despite disinterest           | Up to 3 yrs or Rs. 1M         |
+| **Cyberstalking (Minor)**        | Harassment, blackmail, unauthorized photos/videos                | Up to 5 yrs or Rs. 10M        |
+
+- ### 2. **Cyber & Network Offenses**
+
+| **Offense**                       | **Details**                                      | **Punishment**             |
+| --------------------------------- | ------------------------------------------------ | -------------------------- |
+| **Unauthorized Access**           | Gaining access to system/data dishonestly        | Up to 3 months or Rs. 50K  |
+| **Unauthorized Data Copying**     | Copying/transmitting without permission          | Up to 6 months or Rs. 100K |
+| **Interference with Data/System** | Modifying, deleting, or altering data            | Up to 2 yrs or Rs. 500K    |
+| **Malicious Code**                | Creating/distributing viruses, spyware, malware  | Up to 2 yrs or Rs. 1M      |
+| **Spoofing**                      | Sending fake messages/websites posing as trusted | Up to 3 yrs or Rs. 500K    |
+| **Spamming**                      | Unsolicited messages (email/SMS)                 | 3 months or Rs. 50K–5M     |
+
+- ### 3. **Critical Infrastructure Offenses**
+
+| **Offense**                              | **Details**                                       | **Punishment**         |
+| ---------------------------------------- | ------------------------------------------------- | ---------------------- |
+| **Unauthorized Access (Critical Infra)** | Hacking national databases, stock exchanges, etc. | Up to 3 yrs or Rs. 1M  |
+| **Copying Critical Infra Data**          | Transmitting or leaking government/military data  | Up to 5 yrs or Rs. 5M  |
+| **Interference with Critical Infra**     | Deleting or altering sensitive national data      | Up to 7 yrs or Rs. 10M |
+
+- ### 4. **Terrorism-Related Cybercrimes**
+| **Offense**                           | **Details**                                            | **Punishment**          |
+| ------------------------------------- | ------------------------------------------------------ | ----------------------- |
+| **Cyberterrorism**                    | Using cyber means to cause fear, panic in govt/public  | Up to 14 yrs or Rs. 50M |
+| **Glorification of Terrorism**        | Praising terrorist orgs or activities via online media | Up to 7 yrs or Rs. 10M  |
+| **Online Terror Recruitment/Funding** | Encouraging or collecting funds for terrorism          | Up to 7 yrs             |
+
+- ### 5. **Fraud & Forgery**
+| **Offense**                   | **Details**                                      | **Punishment**          |
+| ----------------------------- | ------------------------------------------------ | ----------------------- |
+| **Electronic Forgery**        | Tampering with data to cause harm or gain        | Up to 3 yrs or Rs. 250K |
+| **Forgery of Critical Infra** | Forgery related to national security systems     | Up to 7 yrs or Rs. 5M   |
+| **Electronic Fraud**          | Online deception for personal gain               | Up to 2 yrs or Rs. 10M  |
+| **Identity Theft**            | Using someone’s personal data without permission | Up to 3 yrs or Rs. 5M   |
+
+- ### 6. **Equipment & Communication Abuse**
+| **Offense**                       | **Details**                                     | **Punishment**            |
+| --------------------------------- | ----------------------------------------------- | ------------------------- |
+| **Illegal SIM Issuance**          | Selling SIMs without PTA-compliant verification | Up to 3 yrs or Rs. 500K   |
+| **Tampering Devices**             | Reprogramming phones/handsets for illegal use   | Up to 3 yrs or Rs. 1M     |
+| **Interception of Communication** | Tapping or sniffing private communication       | Up to 2 yrs or Rs. 500K   |
+| **Making Hacking Tools**          | Developing or sharing tools used in cybercrime  | Up to 6 months or Rs. 50K |
+
+## 🧨 **Definitions to Remember**
+- **Information System:** Any device (computer, mobile, network) handling data.
+- **Critical Infrastructure:** Any system designated by the govt essential for national security, healthcare, economy, etc.
+- **Minor:** Under 18 years of age.
+- **Dishonest Intent:** Subjective term, often context-based (key point of criticism).
+
+## 🧐 **Criticism of PECA 2016**
+- **Ambiguous Language:** Leaves too much to interpretation; open to abuse.
+- **Lack of Judicial Oversight:** Allows executive to block/delete content without court order.
+- **Suppression of Freedom:** Can be misused against journalists, activists.
+- **Overlap with Other Laws:** Multiple sections exist in PPC & Anti-Terrorism laws.
+- **Poor Implementation Mechanisms:** Weak capacity of FIA and LEAs to enforce properly.
+- **Sweeping Powers to Authorities:** No independent oversight body defined.
+- **Overregulation:** Criminalizes a wide range of common online behavior.
 
 ---
 
