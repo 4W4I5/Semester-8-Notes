@@ -37,8 +37,86 @@
 ---
 
 # Lecture 12b: Types of Software Contracts
+## 📘 **1. Fixed Price Contracts for Bespoke Systems**
+- **Structure:**
+	- Short Agreement + T&Cs
+	- Annexes/Schedules
+	- Specifics: Deliverables, Timelines, Payment Terms
+- **Deliverables Include:**
+	- Source Code
+	- Command Files
+	- Documentation & Manuals
+	- User + Maintenance Training
+	- IP Rights & Confidentiality Clauses
+- **Payment Plan:**
+	- 15% on contract signing
+	- 65% in development stages
+	- 25% on software acceptance
+	- Final 10% after warranty ends
+- **Key Issues:**
+	- Penalty clauses for supplier delays
+	- Client obligations (staff access, data, resources)
+	- Standards, QA, project management
+	- Acceptance Testing Procedures
+	- Warranty & Maintenance (Time & Material)
+	- Termination Conditions (e.g. policy changes, M&A)
+	- Arbitration over Litigation
+	- Jurisdictional considerations
 
----
+## 📘 **2. Consultancy and Contract Hire**
+- **Definition:**
+	- **Contract Hire:** Staff hired on daily/hourly rates
+	- **Consultancy:** Expert advice on assessment; often fixed-price
+- **Consultancy Contract Aspects:**
+	- Confidentiality
+	- Terms of Reference (Scope, Deliverables, Payments)
+	- Liability Limitations (E&O Insurance)
+	- Authority over final deliverables
+
+## 📘 **3. Cost Plus Contracts**
+(A.K.A. **Time & Materials Contracts**)
+- **Structure:**
+	- Supplier develops system
+	- Final payment = actual cost + labor
+	- No fixed scope upfront → scope is part of project
+	- Avoids excessive contingency allowance
+## 📘 **4. Outsourcing Contracts**
+(A.K.A. **Facilities Management**)
+- **Definition:**
+	- Customer hands over management of IT functions to supplier
+- **Key Areas:**
+	- Performance Monitoring
+	- Contingency & Disaster Recovery
+	- Asset/Staff Transfer
+	- Audit Rights
+	- IP Rights
+	- Contract Duration & Termination
+## 📘 **5. Web Hosting Contracts**
+- **Concerns:**
+	- **Hosting vs. Collocation**
+		- Search Engine Registration & Promotion
+	- **Service Levels:**
+		- Server Uptime
+		- Response Time
+		- Redundancy
+		- User Support
+		- Security
+## ⚖️ **Legal & Insurance Considerations**
+- **License Types:**
+	- **Desktop License:** One copy per device
+	- **Server License:** Multiple users per server
+	- **Site License:** Unlimited copies within a location
+- **Software Vendor Concerns:**
+	- Retaining rights
+	- Limiting usage
+	- Ensuring support income
+	- Avoiding liability
+- **Insurances:**
+	- **Product Liability:** Covers injury/property claims
+	- **Professional Liability (E&O):** Covers negligence/advice-related claims
+- **Laws:**
+	- **Unfair Contract Terms Act 1977** – Limits liability waivers
+	- **Health and Safety at Work Act 1974** – Protects workplace safety for all
 
 # Lecture 12c: Employment Contracts
 ## **Employment Contracts and Agreements**
@@ -266,10 +344,10 @@ Violation = breach of contract
 
 # Lecture 14a: Organizational Aspects - Organization Structure
 ## 🔹 1. Organizational Behavior (OB) & Culture
--  ### ✅ **Organizational Behavior (OB)**
+- ### ✅ **Organizational Behavior (OB)**
 	- Study of how individuals, groups, and structures impact organizational behavior.
 	- **Goal**: Use this understanding to improve effectiveness.
--  ### ✅ **Organizational Culture**
+- ### ✅ **Organizational Culture**
 	- **Definition**: Shared system of values, norms, and meanings.
 	- **Characteristics**:
 		- Innovation and risk-taking
@@ -278,34 +356,34 @@ Violation = breach of contract
 		- Team orientation
 		- Aggressiveness
 		- Stability
--  ### 🔸 Types of Culture
+- ### 🔸 Types of Culture
 	- **Dominant Culture**: Core values shared widely.
 	- **Subcultures**: Exist in departments or regions.
 	- **Strong Culture**: Deep, consistent value alignment across members.
--  ### 🔸 Functions of Culture
+- ### 🔸 Functions of Culture
 	- Creates identity and unity.
 	- Encourages commitment to the organization.
 	- Defines behavioral norms.
 	- Provides social system stability.
 
 ## 🔹 2. Organizational Structure
--  ### ✅ **Definition**
+- ### ✅ **Definition**
 	- A framework outlining how activities such as task allocation, coordination, and supervision are directed.
--  ### ✅ **Key Elements**
+- ### ✅ **Key Elements**
 	- **Work Specialization**: Division of labor.
 	- **Departmentalization**: Job grouping (by function, product, location).
 	- **Chain of Command**: Line of authority.
 	- **Span of Control**: # of employees managed by one leader.
 	- **Centralization vs. Decentralization**: Where decisions are made.
 	- **Formalization**: Degree of rules and standard procedures.
--  ### ✅ **Why Structure Matters**
+- ### ✅ **Why Structure Matters**
 	- Enables efficient communication.
 	- Increases accountability and resource use.
 	- Supports growth and role clarity.
 
 
 ## 🔹 3. Types of Structures & Design Influences
--  ### ✅ **Common Types**
+- ### ✅ **Common Types**
 	- **Simple**: Small, owner-managed; few rules.
 	- **Functional**: Departments by role (HR, IT, Sales).
 	- **Product/Divisional**: Based on product lines or markets.
@@ -313,33 +391,33 @@ Violation = breach of contract
 	- **Flat vs. Tall**:
 		- _Flat_: Few levels, faster decisions, broad oversight.
 		- _Tall_: Many layers, narrower span, detailed supervision.
--  ### ✅ **Product Organization Example**
+- ### ✅ **Product Organization Example**
 	- CEO → Product Groups → Departments like R&D, Sales, etc.
--  ### ✅ **Factors That Shape Structure**
+- ### ✅ **Factors That Shape Structure**
 	- **Strategy**: Cost efficiency vs. innovation.
 	- **Size**: Larger = more complex structures.
 	- **Technology**: Demands integration and flow control.
 	- **Environment**: Fast-changing markets need flexible setups.
 
 ## 🔹 4. Management: Functions & Skills
--  ### ✅ **What Managers Do**
+- ### ✅ **What Managers Do**
 	- Achieve goals through:
 		- Decision-making
 		- Resource allocation
 		- Guiding teams
--  ### ✅ **Four Core Functions**
+- ### ✅ **Four Core Functions**
 	1. **Planning**: Set goals, outline strategies.
 	2. **Organizing**: Define roles, structure.
 	3. **Leading**: Motivate, resolve conflict, communicate.
 	4. **Controlling**: Monitor and correct performance.
--  ### ✅ **Essential Managerial Skills**
+- ### ✅ **Essential Managerial Skills**
 	- **Technical**: Field-specific expertise.
 	- **Human**: Work with and motivate people.
 	- **Conceptual**: Analyze and integrate complex info.
 
 
 ## 🔹 5. Effective vs. Successful Managers
--  ### ✅ **Managerial Activity Categories**
+- ### ✅ **Managerial Activity Categories**
 
 | Activity Type             | Examples                                |
 | ------------------------- | --------------------------------------- |
@@ -348,7 +426,7 @@ Violation = breach of contract
 | Human Resource Management | Staffing, training, conflict management |
 | Networking                | Socializing, building influence         |
 
--  ### ✅ **Key Insight**
+- ### ✅ **Key Insight**
 	- **Successful Managers**: Excel in **networking**.
 	- **Effective Managers**: Excel in **HR and communication**.
 
