@@ -7,7 +7,7 @@
 | 10                | Data Protection, Privacy & Freedom of Information             | :warning:          |
 | 11a               | Computers & Crime                                             | :warning:          |
 | 11b               | Prevention of Electronic Crimes Act (PECA)                    | :warning:          |
-| 12a               | Computer Contracts                                            | :warning:          |
+| 12a               | Computer Contracts                                            | :white_check_mark: | 
 | 12b               | Types of Software Contracts                                   | :white_check_mark: |
 | 12c               | Employment Contracts                                          | :white_check_mark: |
 | 13                | Organizational Aspects - Business Structure                   | :white_check_mark: |
