@@ -8,7 +8,7 @@
 | 11a               | Computers & Crime                                             | :warning:          |
 | 11b               | Prevention of Electronic Crimes Act (PECA)                    | :warning:          |
 | 12a               | Computer Contracts                                            | :warning:          |
-| 12b               | Types of Software Contracts                                   | :white_check_mark: | 
+| 12b               | Types of Software Contracts                                   | :white_check_mark: |
 | 12c               | Employment Contracts                                          | :white_check_mark: |
 | 13                | Organizational Aspects - Business Structure                   | :white_check_mark: |
 | 14a               | Organizational Aspects - Organization Structure               | :white_check_mark: |
@@ -33,6 +33,163 @@
 ---
 
 # Lecture 12a: Computer Contracts
+A strong computer contract addresses legal, technical, and operational risks. Clarity in specifications, deliverables, responsibilities, ownership, and dispute resolution mechanisms is key to ensuring successful software engagements.
+
+## **1. Agreement vs. Contract**
+
+**Agreement**:
+
+- Every promise/set of promises forming consideration for each other.
+- Not legally enforceable.
+
+**Contract**:
+
+- A legally enforceable agreement between two or more persons.
+- Parties can be natural or legal persons.
+- Must include:
+	- Intention to create legal obligations
+	- Legal competence of parties
+	- Consideration (something exchanged)
+
+## **2. Key Questions in Contracts**
+
+- Is there a contract?
+- What are its terms?
+- Is it enforceable in court?
+- Has it been breached?
+- What are the damages/remedies?
+
+
+## **3. Elements of a Contract**
+
+- **Offer**: Intention to enter into binding agreement.
+- **Acceptance**: Must mirror the offer; must be reasonable.
+- **Consideration**: Something of value exchanged on both sides.
+
+## **4. Terms of the Contract**
+
+- Must be detailed enough for enforcement.
+- Include agreed terms, implied terms, and warranties.
+- **Types of Warranties**:
+	- Express Warranties: Direct promises/commitments.
+	- Disclaimers: Limit or exclude liabilities.
+
+## **5. Special Considerations in Computer Contracts**
+
+- Intangible/Intellectual Property
+- System performance and compatibility issues
+- Risk of third-party IP infringement
+
+**Risks:**
+
+- System failure
+- Organizational mismatch
+- Legal claims
+
+**Mitigation:**
+
+- Maintenance, training, legal safeguards
+
+
+## **6. Case Study: Ministry of Information vs. Faujisoft (2001)**
+
+- Rs 1.1 million MIS project with 4 modules.
+- No formal specs from client.
+- Contractor drafted and executed contract.
+- Bugs and requirement mismatches.
+- No liability due to poorly drafted contract.
+
+## **7. Contract Assessment Questions**
+
+- What if software fails or crashes during critical operations?
+- What if client distributes software illegally?
+- What if performance is poor or system becomes obsolete?
+
+## **8. General Terms and Conditions**
+
+- Scope and Specifications
+- Contract Management
+- Pricing and Payment
+- Delivery & Acceptance
+- Intellectual Property Rights
+- Client Responsibilities (facilities, data, access)
+- Staff Conditions
+- Change Control
+- Warranty and Liability
+- Confidentiality
+- Indemnity
+- Termination clauses
+- Force Majeure
+- Legal Notices
+- Arbitration and Applicable Law
+
+
+## **9. Structure of a Software Contract**
+
+### **A. Introductory Section**
+
+- Parties' names and addresses
+- Definitions (e.g., "Company", "Client")
+
+
+### **B. Clause Section**
+
+1. **Deliverables**:
+
+	- Source code
+	- Installation/build scripts
+	- Documentation (design, reference, training)
+	- Tools, training, test data, etc.
+
+2. **Ownership Rights**:
+
+	- Clarify transfer or retention of IP rights
+
+3. **Confidentiality**:
+
+	- Protect both client’s and developer’s sensitive info
+
+4. **Client Obligations**:
+
+	- Provide environment, staff access, documents, facilities
+
+5. **Standards & Working Methods**:
+
+	- Specify which QA/process standards to follow
+
+6. **Project Managers**:
+
+	- Identify responsible persons and authority limits
+
+7. **Acceptance Procedures**:
+
+	- Define success criteria and acceptance tests
+
+8. **Indemnity**:
+
+	- Each party protects the other from legal/IP violations
+
+9. **Termination**:
+
+	- Outline early exit terms and causes (e.g., policy change)
+
+10. **Arbitration**:
+
+	- Use of independent arbitrator for unresolved disputes
+
+11. **Inflation Clause**:
+
+	- Adjust pricing based on inflation in long-term projects
+
+12. **Applicable Law**:
+
+	- State which legal jurisdiction applies
+
+
+### **C. Authority Section**
+
+- Authorized signatories from each party
+- Agreement start and end dates
 
 ---
 
