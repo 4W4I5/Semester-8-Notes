@@ -1759,6 +1759,19 @@ A **software business model** defines how software companies develop, distribute
 | **Delivery Method**       | Method of software distribution: Cloud (SaaS), Desktop (on-premise), Mobile apps, or Hybrid systems.                   |
 | **Monetization Strategy** | The revenue mechanism used: License sales, subscriptions, advertising, freemium upselling, pay-per-use, etc.           |
 
+- **B2B (Business to Business)**:
+	- **Audience**: Other businesses or organizations.
+	- **Usage**: Often more complex, focusing on improving business operations, efficiency, or productivity (e.g., CRM software, enterprise resource planning).
+	- **Sales Cycle**: Longer, more negotiation-heavy.
+- **B2C (Business to Consumer)**:
+	- **Audience**: Individual consumers.
+	- **Usage**: Easier-to-use products, often focused on entertainment, personal convenience, or lifestyle (e.g., apps, e-commerce sites).
+	- **Sales Cycle**: Shorter, impulse buying often.
+- **B2G (Business to Government)**:
+	- **Audience**: Government agencies and departments.
+	- **Usage**: Typically highly regulated software with security, compliance, or public service focus (e.g., software for public infrastructure management).
+	- **Sales Cycle**: Long and requires following strict government procurement processes.
+
 ## **4. Business Model Design**
 - Designing a business model involves systematically describing and optimizing the structural components of the business to enhance value delivery.
 - ### Detailed Elements:
