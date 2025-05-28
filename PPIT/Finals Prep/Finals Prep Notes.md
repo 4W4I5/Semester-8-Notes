@@ -1720,6 +1720,10 @@ A **business model** is the blueprint for how a business creates, delivers, and 
 
 - ### Key Components:
 
+> [!NOTE]
+> **Pr.Seg.C.Rl.Str.A.Rs.Pt.Stc**
+> Proposition, Segments, Channels, Relationships, Streams, Activities, Resources, Partnerships, Structure
+
 | Component                  | Description                                                                                                               |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **Value Proposition**      | The benefit the company promises to deliver to its customers.                                                             |
