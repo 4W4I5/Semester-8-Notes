@@ -93,7 +93,7 @@
 	- **Article 19-A**: Grants every citizen the right to access public info.
 	- Encouraged both **federal** and **provincial** laws on transparency.
 
-## 🏛️ **7. FOI at the Federal Level**
+## 🏛️ **7. Freedom Of Information (FOI) at the Federal Level**
 - **FOI Ordinance 2002**:
 	- Citizens can request access to data from federal bodies only.
 	- Doesn’t apply to provinces or private entities.
@@ -104,7 +104,7 @@
 		- Await response (max 21 days)
 	- Exclusions:
 		- Classified info, personal data, national security content
-## 🏛️ **8. FOI at Provincial Level in Pakistan**
+## 🏛️ **8. Freedom Of Information (FOI) at Provincial Level in Pakistan**
 - ### 📚 Provincial FOI Laws:
 	- Based on **FOI Ordinance 2004**
 	- **Balochistan FOI Act 2005**
@@ -242,12 +242,12 @@
 	- Disclosure may be **legal but not ethical**.
 
 ## 🔍 **Key Concepts**
+
 | Term              | Meaning                                                               |
 | ----------------- | --------------------------------------------------------------------- |
 | **Secondary Use** | Using collected data for a different purpose than originally intended |
 | **Opt-in**        | Users explicitly agree before data sharing                            |
 | **Opt-out**       | Data shared unless users explicitly deny permission                   |
-
 
 ---
 
@@ -540,71 +540,40 @@ A strong computer contract addresses legal, technical, and operational risks. Cl
 
 
 ## **9. Structure of a Software Contract**
-
-### **A. Introductory Section**
-
-- Parties' names and addresses
-- Definitions (e.g., "Company", "Client")
-
-
-### **B. Clause Section**
-
-1. **Deliverables**:
-
-	- Source code
-	- Installation/build scripts
-	- Documentation (design, reference, training)
-	- Tools, training, test data, etc.
-
-2. **Ownership Rights**:
-
-	- Clarify transfer or retention of IP rights
-
-3. **Confidentiality**:
-
-	- Protect both client’s and developer’s sensitive info
-
-4. **Client Obligations**:
-
-	- Provide environment, staff access, documents, facilities
-
-5. **Standards & Working Methods**:
-
-	- Specify which QA/process standards to follow
-
-6. **Project Managers**:
-
-	- Identify responsible persons and authority limits
-
-7. **Acceptance Procedures**:
-
-	- Define success criteria and acceptance tests
-
-8. **Indemnity**:
-
-	- Each party protects the other from legal/IP violations
-
-9. **Termination**:
-
-	- Outline early exit terms and causes (e.g., policy change)
-
-10. **Arbitration**:
-
-	- Use of independent arbitrator for unresolved disputes
-
-11. **Inflation Clause**:
-
-	- Adjust pricing based on inflation in long-term projects
-
-12. **Applicable Law**:
-
-	- State which legal jurisdiction applies
-
-
-### **C. Authority Section**
-
-- Authorized signatories from each party
-- Agreement start and end dates
+- ### **A. Introductory Section**
+	- Parties' names and addresses
+	- Definitions (e.g., "Company", "Client")
+- ### **B. Clause Section**
+	1. **Deliverables**:
+		- Source code
+		- Installation/build scripts
+		- Documentation (design, reference, training)
+		- Tools, training, test data, etc.
+	2. **Ownership Rights**:
+		- Clarify transfer or retention of IP rights
+	3. **Confidentiality**:
+		- Protect both client’s and developer’s sensitive info
+	4. **Client Obligations**:
+		- Provide environment, staff access, documents, facilities
+	5. **Standards & Working Methods**:
+		- Specify which QA/process standards to follow
+	6. **Project Managers**:
+		- Identify responsible persons and authority limits
+	7. **Acceptance Procedures**:
+		- Define success criteria and acceptance tests
+	8. **Indemnity**:
+		- Each party protects the other from legal/IP violations
+	9. **Termination**:
+		- Outline early exit terms and causes (e.g., policy change)
+	10. **Arbitration**:
+		- Use of independent arbitrator for unresolved disputes
+	11. **Inflation Clause**:
+		- Adjust pricing based on inflation in long-term projects
+	12. **Applicable Law**:
+		- State which legal jurisdiction applies
+- ### **C. Authority Section**
+	- Authorized signatories from each party
+	- Agreement start and end dates
 
 ---
 
