@@ -34,10 +34,15 @@
 	- **Revised in 1998** to align with European Data Protection Directive
 
 ## 🧭 **2. Goals of Data Protection**
-- Ensure accuracy and completeness of personal data
-- Limit usage to original purpose
-- Restrict access to authorized personnel
-- Prevent misuse or exploitation of personal data
+> [!NOTE]
+> **I.P.A.E**
+> Integrity, Purpose, Access, Exploit
+
+
+- Ensure accuracy and completeness of personal data (Integrity)
+- Limit usage to original purpose (Purpose)
+- Restrict access to authorized personnel (Access)
+- Prevent misuse or exploitation of personal data (Exploit)
 
 
 ## 📌 **3. Core Data Protection Principles**
