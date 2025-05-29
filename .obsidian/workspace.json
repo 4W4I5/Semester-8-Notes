@@ -65,7 +65,7 @@
               "type": "markdown",
               "state": {
                 "file": "PPIT/Finals Prep/Finals Prep Notes.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -246,7 +246,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7170eb41d85920eb",
+  "active": "d7e2f07c3c191d34",
   "lastOpenFiles": [
     "PPIT/Sessional 2 Prep/Sessional 2 Prep Notes.md",
     "PPIT/Finals Prep/Finals Prep Notes.md",
