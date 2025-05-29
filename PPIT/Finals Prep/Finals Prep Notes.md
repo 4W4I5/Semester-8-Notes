@@ -18,7 +18,7 @@
 | 17                | Interview Skills - Body Language                              | :white_check_mark: | :x:         |
 | 18                | Agile Software Development                                    | :white_check_mark: | :x:         |
 | 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: | :x:         |
-| 20                | Software Business Models                                      | :white_check_mark: | :x:         | 
+| 20                | Software Business Models                                      | :white_check_mark: | :x:         |
 
 # Lecture 10: Data Protection, Privacy & Freedom of Information
 ## 📜 **1. Historical Background & Public Concerns**
@@ -1721,7 +1721,7 @@ A **business model** is the blueprint for how a business creates, delivers, and 
 - ### Key Components:
 
 > [!NOTE]
-> **Pr.Seg.C.Rl.Str.A.Rs.Pt.Stc**
+> **Pr, Seg, C, RL, Str, A.R.P, Stc**
 > Proposition, Segments, Channels, Relationships, Streams, Activities, Resources, Partnerships, Structure
 
 | Component                  | Description                                                                                                               |
