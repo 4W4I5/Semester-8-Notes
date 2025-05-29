@@ -2,23 +2,23 @@
 > Refer to the Sessional 1 and Sessional 2 notes as well, way too much content to cover in one file
 > This file only contains content studied/taught after sessional 2
 
-| Chapter<br>Number | Chapter<br>Name                                               | Status             |
-| ----------------- | ------------------------------------------------------------- | ------------------ |
-| 10                | Data Protection, Privacy & Freedom of Information             | :white_check_mark: |
-| 11a               | Computers & Crime                                             | :white_check_mark: |
-| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: |
-| 12a               | Computer Contracts                                            | :white_check_mark: |
-| 12b               | Types of Software Contracts                                   | :white_check_mark: |
-| 12c               | Employment Contracts                                          | :white_check_mark: |
-| 13                | Organizational Aspects - Business Structure                   | :white_check_mark: |
-| 14a               | Organizational Aspects - Organization Structure               | :white_check_mark: |
-| 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: |
-| 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: |
-| 16                | Organizational Aspects - Group Communication                  | :white_check_mark: |
-| 17                | Interview Skills - Body Language                              | :white_check_mark: |
-| 18                | Agile Software Development                                    | :white_check_mark: |
-| 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: |
-| 20                | Software Business Models                                      | :white_check_mark: |
+| Chapter<br>Number | Chapter<br>Name                                               | Status             | Prep Status |
+| ----------------- | ------------------------------------------------------------- | ------------------ | ----------- |
+| 10                | Data Protection, Privacy & Freedom of Information             | :white_check_mark: | :x:         |
+| 11a               | Computers & Crime                                             | :white_check_mark: | :x:         |
+| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: | :x:         |
+| 12a               | Computer Contracts                                            | :white_check_mark: | :x:         |
+| 12b               | Types of Software Contracts                                   | :white_check_mark: | :x:         |
+| 12c               | Employment Contracts                                          | :white_check_mark: | :x:         |
+| 13                | Organizational Aspects - Business Structure                   | :white_check_mark: | :x:         |
+| 14a               | Organizational Aspects - Organization Structure               | :white_check_mark: | :x:         |
+| 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: | :x:         |
+| 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: | :x:         |
+| 16                | Organizational Aspects - Group Communication                  | :white_check_mark: | :x:         |
+| 17                | Interview Skills - Body Language                              | :white_check_mark: | :x:         |
+| 18                | Agile Software Development                                    | :white_check_mark: | :x:         |
+| 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: | :x:         |
+| 20                | Software Business Models                                      | :white_check_mark: | :x:         | 
 
 # Lecture 10: Data Protection, Privacy & Freedom of Information
 ## 📜 **1. Historical Background & Public Concerns**

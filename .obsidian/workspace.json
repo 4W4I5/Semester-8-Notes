@@ -6,6 +6,7 @@
       {
         "id": "9770d5d0657198ce",
         "type": "tabs",
+        "dimension": 64.0724946695096,
         "children": [
           {
             "id": "7170eb41d85920eb",
@@ -47,6 +48,27 @@
               },
               "icon": "lucide-file",
               "title": "Sessional 1 Prep Notes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "18aa176059e3c3f1",
+        "type": "tabs",
+        "dimension": 35.927505330490405,
+        "children": [
+          {
+            "id": "d7e2f07c3c191d34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PPIT/Finals Prep/Finals Prep Notes.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Finals Prep Notes"
             }
           }
         ]
@@ -106,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "bbf2447a7eb59639",
@@ -222,7 +245,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7170eb41d85920eb",
+  "active": "d7e2f07c3c191d34",
   "lastOpenFiles": [
     "PPIT/Sessional 2 Prep/Sessional 2 Prep Notes.md",
     "PPIT/Sessional 1 Prep/Sessional 1 Prep Notes.md",
