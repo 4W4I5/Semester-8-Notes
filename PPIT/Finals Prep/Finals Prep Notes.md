@@ -9,13 +9,13 @@
 | 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: | :x:                |
 | 12a               | Computer Contracts                                            | :white_check_mark: | :x:                |
 | 12b               | Types of Software Contracts                                   | :white_check_mark: | :x:                |
-| 12c               | Employment Contracts                                          | :white_check_mark: | :x:                |
+| 12c               | Employment Contracts                                          | :white_check_mark: | :white_check_mark: |
 | 13                | Organizational Aspects - Business Structure                   | :white_check_mark: | :x:                |
 | 14a               | Organizational Aspects - Organization Structure               | :white_check_mark: | :x:                |
 | 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: | :x:                |
 | 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: | :x:                |
-| 16                | Organizational Aspects - Group Communication                  | :white_check_mark: | :x:                |
-| 17                | Interview Skills - Body Language                              | :white_check_mark: | :white_check_mark: | 
+| 16                | Organizational Aspects - Group Communication                  | :white_check_mark: | :white_check_mark: |
+| 17                | Interview Skills - Body Language                              | :white_check_mark: | :white_check_mark: |
 | 18                | Agile Software Development                                    | :white_check_mark: | :white_check_mark: |
 | 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: | :white_check_mark: |
 | 20                | Software Business Models                                      | :white_check_mark: | :white_check_mark: |
@@ -582,184 +582,130 @@ A strong computer contract addresses legal, technical, and operational risks. Cl
 
 These contracts involve the development of custom (bespoke) software for a client, where price and deliverables are agreed upon upfront.
 
-### 🔸 **Typical Structure:**
-
-- **Short Agreement** – Legal terms and key conditions.
-- **Standard Terms & Conditions** – IP ownership, limitations of liability, etc.
-- **Schedules/Annexes** – Detailed specs, timelines, and payment plans.
-- **Particular Requirements** – Functional and non-functional requirements.
-
-
-### 🔸 **Deliverables:**
-
-- Source code, command files
-- Technical design documentation
-- Reference manuals, training materials
-- User training and client-side maintenance training
-- Maintenance and support tools
-
-
-### 🔸 **Payment Terms:**
-
-- 15% on signing
-- 65% in development phases
-- 25% on acceptance
-- Final 10% post-warranty
-
-
-### 🔸 **Legal/Commercial Issues:**
-
-- **Penalty Clauses:** For late delivery—suppliers often resist these.
-- **Client Obligations:** Provide access, data, infrastructure, and support.
-- **Standards & QA:** Supplier must follow industry or client-defined standards.
-- **Progress Monitoring:** Regular meetings and project manager (PM) authority.
-- **Acceptance Tests:** Defined upfront; changes cannot be added ad hoc.
-- **Warranty Period:** Impacts cost—longer = higher cost.
-- **Maintenance:** Post-warranty work billed time-and-materials.
-- **Termination:** Includes merger/acquisition clauses, arbitration procedures.
-- **Jurisdiction:** Must define applicable law if international parties involved.
+- ### 🔸 **Typical Structure:**
+	- **Short Agreement** – Legal terms and key conditions.
+	- **Standard Terms & Conditions** – IP ownership, limitations of liability, etc.
+	- **Schedules/Annexes** – Detailed specs, timelines, and payment plans.
+	- **Particular Requirements** – Functional and non-functional requirements.
+- ### 🔸 **Deliverables:**
+	- Source code, command files
+	- Technical design documentation
+	- Reference manuals, training materials
+	- User training and client-side maintenance training
+	- Maintenance and support tools
+- ### 🔸 **Payment Terms:**
+	- 15% on signing
+	- 65% in development phases
+	- 25% on acceptance
+	- Final 10% post-warranty
+- ### 🔸 **Legal/Commercial Issues:**
+	- **Penalty Clauses:** For late delivery—suppliers often resist these.
+	- **Client Obligations:** Provide access, data, infrastructure, and support.
+	- **Standards & QA:** Supplier must follow industry or client-defined standards.
+	- **Progress Monitoring:** Regular meetings and project manager (PM) authority.
+	- **Acceptance Tests:** Defined upfront; changes cannot be added ad hoc.
+	- **Warranty Period:** Impacts cost—longer = higher cost.
+	- **Maintenance:** Post-warranty work billed time-and-materials.
+	- **Termination:** Includes merger/acquisition clauses, arbitration procedures.
+	- **Jurisdiction:** Must define applicable law if international parties involved.
 
 ## 🔹 **2. Consultancy and Contract Hire**
 
-### 🔸 **A. Contract Hire**
-
-- Staff hired from supplier at agreed daily/hourly rate.
-- Typically used to fill skill gaps in ongoing projects.
-- Simple contracts; client has direct control of staff.
-
-
-### 🔸 **B. Consultancy Services**
-
-- Higher-level strategic work, such as audits, feasibility studies, system evaluations, or compliance reports.
-- Typically project-based and fixed-price.
-
-
-### 🔸 **Key Terms in Consultancy Contracts:**
-
-- **Terms of Reference:** Scope, deliverables, approach.
-- **Confidentiality:** Protects client information and trade secrets.
-- **Liability:** Consultants limit exposure via E&O insurance.
-- **Final Deliverables:** Conflicts may arise over editing/ownership.
-- **Payment:** Often milestone-based; may include performance bonuses.
-
-
-### 🔸 **Common Disputes:**
-
-- Scope creep due to vague deliverables
-- Responsibility for project outcomes (consultants aim to avoid liability)
+- ### 🔸 **A. Contract Hire**
+	- Staff hired from supplier at agreed daily/hourly rate.
+	- Typically used to fill skill gaps in ongoing projects.
+	- Simple contracts; client has direct control of staff.
+- ### 🔸 **B. Consultancy Services**
+	- Higher-level strategic work, such as audits, feasibility studies, system evaluations, or compliance reports.
+	- Typically project-based and fixed-price.
+- ### 🔸 **Key Terms in Consultancy Contracts:**
+	- **Terms of Reference:** Scope, deliverables, approach.
+	- **Confidentiality:** Protects client information and trade secrets.
+	- **Liability:** Consultants limit exposure via E&O insurance.
+	- **Final Deliverables:** Conflicts may arise over editing/ownership.
+	- **Payment:** Often milestone-based; may include performance bonuses.
+- ### 🔸 **Common Disputes:**
+	- Scope creep due to vague deliverables
+	- Responsibility for project outcomes (consultants aim to avoid liability)
 
 
 ## 🔹 **3. Cost Plus Contracts (Time & Materials)**
 
 A flexible contract structure used when the full scope is uncertain.
 
-### 🔸 **How it Works:**
-
-- Supplier starts development with minimal spec.
-- Payment = actual labor + materials + agreed profit margin.
-
-
-### 🔸 **When Used:**
-
-- Agile or exploratory projects
-- Proof of concept or MVPs
-- Where client evolves ideas during development
-
-
-### 🔸 **Advantages:**
-
-- Reduces high contingency margins in fixed-price contracts
-- Allows for iterative development
-- Good for R&D or where the supplier must define the requirement
-
-
-### 🔸 **Risks:**
-
-- Cost overruns if client does not tightly manage progress
-- Misaligned incentives—supplier profits from longer delivery time
-- Requires strong project management and regular cost tracking
-
-
-### 🔸 **Clauses Often Included:**
-
-- Daily/weekly status reporting
-- Time tracking mechanisms
-- Upper spending limits or soft budget caps
-- Termination with notice period
+- ### 🔸 **How it Works:**
+	- Supplier starts development with minimal spec.
+	- Payment = actual labor + materials + agreed profit margin.
+- ### 🔸 **When Used:**
+	- Agile or exploratory projects
+	- Proof of concept or MVPs
+	- Where client evolves ideas during development
+- ### 🔸 **Advantages:**
+	- Reduces high contingency margins in fixed-price contracts
+	- Allows for iterative development
+	- Good for R&D or where the supplier must define the requirement
+- ### 🔸 **Risks:**
+	- Cost overruns if client does not tightly manage progress
+	- Misaligned incentives—supplier profits from longer delivery time
+	- Requires strong project management and regular cost tracking
+- ### 🔸 **Clauses Often Included:**
+	- Daily/weekly status reporting
+	- Time tracking mechanisms
+	- Upper spending limits or soft budget caps
+	- Termination with notice period
 
 ## 🔹 **4. Outsourcing Contracts**
 
 A comprehensive, often long-term, arrangement where an organization delegates IT operations (or other processes) to a third-party provider.
 
-### 🔸 **What’s Typically Outsourced:**
-
-- Data centers and server management
-- Helpdesk / technical support
-- Application maintenance
-- Cybersecurity services
-- Cloud hosting & DevOps
-
-
-### 🔸 **Why Organizations Outsource:**
-
-- Focus on core competencies
-- Access to better skills and infrastructure
-- Cost predictability and economies of scale
-
-
-### 🔸 **Major Considerations:**
-
-- **Performance Monitoring:** Use of KPIs, SLAs (e.g., 99.9% uptime, 1-hour response).
-- **Transfer of Resources:** Staff, assets, and tools may be handed over to the supplier.
-- **Intellectual Property:** Any new developments during the contract—who owns them?
-- **Security & Compliance:** Adherence to standards like ISO 27001, GDPR, HIPAA.
-- **Audit Rights:** Client must be able to inspect compliance and performance.
-- **Disaster Recovery:** Business continuity plans, redundancy clauses.
-- **Exit Strategy:** How services, data, and assets are returned on termination.
-
-
-### 🔸 **Duration & Termination:**
-
-- Multi-year agreements
-- Early termination clauses, penalties, or cooling-off periods
+- ### 🔸 **What’s Typically Outsourced:**
+	- Data centers and server management
+	- Helpdesk / technical support
+	- Application maintenance
+	- Cybersecurity services
+	- Cloud hosting & DevOps
+- ### 🔸 **Why Organizations Outsource:**
+	- Focus on core competencies
+	- Access to better skills and infrastructure
+	- Cost predictability and economies of scale
+- ### 🔸 **Major Considerations:**
+	- **Performance Monitoring:** Use of KPIs, SLAs (e.g., 99.9% uptime, 1-hour response).
+	- **Transfer of Resources:** Staff, assets, and tools may be handed over to the supplier.
+	- **Intellectual Property:** Any new developments during the contract—who owns them?
+	- **Security & Compliance:** Adherence to standards like ISO 27001, GDPR, HIPAA.
+	- **Audit Rights:** Client must be able to inspect compliance and performance.
+	- **Disaster Recovery:** Business continuity plans, redundancy clauses.
+	- **Exit Strategy:** How services, data, and assets are returned on termination.
+- ### 🔸 **Duration & Termination:**
+	- Multi-year agreements
+	- Early termination clauses, penalties, or cooling-off periods
 
 
 ## 🔹 **5. Web Hosting Contracts**
 
 Agreements where a service provider hosts websites or applications on their infrastructure.
 
-### 🔸 **Types of Hosting:**
-
-- **Shared Hosting:** Multiple clients on one server.
-- **Virtual Private Server (VPS):** Partitioned server with more control.
-- **Dedicated Hosting:** One client per server.
-- **Collocation:** Client owns hardware placed in provider’s data center.
-- **Cloud Hosting:** Elastic and on-demand scalability.
-
-
-### 🔸 **Service Level Agreements (SLAs):**
-
-- **Uptime Guarantee:** e.g., 99.99% uptime.
-- **Support Response Time:** 24/7 support, ticket resolution time.
-- **Bandwidth & Throughput:** Defines max capacity, burst handling.
-- **Backup & Redundancy:** Daily backups, multi-zone replication.
-- **Security:** Encryption, firewall, intrusion detection, DDoS protection.
-
-
-### 🔸 **Marketing Support:**
-
-- Search engine indexing
-- Basic SEO and analytics tools
-- Optional promotional services
-
-
-### 🔸 **Client Concerns:**
-
-- Lock-in and migration options
-- Data sovereignty (where data is stored)
-- Compliance with data protection laws
-- IP rights over hosted content
-
+- ### 🔸 **Types of Hosting:**
+	- **Shared Hosting:** Multiple clients on one server.
+	- **Virtual Private Server (VPS):** Partitioned server with more control.
+	- **Dedicated Hosting:** One client per server.
+	- **Collocation:** Client owns hardware placed in provider’s data center.
+	- **Cloud Hosting:** Elastic and on-demand scalability.
+- ### 🔸 **Service Level Agreements (SLAs):**
+	- **Uptime Guarantee:** e.g., 99.99% uptime.
+	- **Support Response Time:** 24/7 support, ticket resolution time.
+	- **Bandwidth & Throughput:** Defines max capacity, burst handling.
+	- **Backup & Redundancy:** Daily backups, multi-zone replication.
+	- **Security:** Encryption, firewall, intrusion detection, DDoS protection.
+- ### 🔸 **Marketing Support:**
+	- Search engine indexing
+	- Basic SEO and analytics tools
+	- Optional promotional services
+- ### 🔸 **Client Concerns:**
+	- Lock-in and migration options
+	- Data sovereignty (where data is stored)
+	- Compliance with data protection laws
+	- IP rights over hosted content
 
 ## ⚖️ **Legal & Insurance Considerations**
 - **License Types:**
