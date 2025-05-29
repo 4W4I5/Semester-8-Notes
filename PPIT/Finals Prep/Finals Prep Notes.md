@@ -1806,6 +1806,10 @@ A **revenue model** is the framework through which a business generates income. 
 
 - ### Revenue Model Types:
 
+> [!NOTE]
+> Production, Manufacturing, Construction, Rental/Leasing, Advertising, Sponsored, Commission, E-Commerce, Fee-For-Service, Licensing
+> **P, M, Const, R/L, A, S, Comm, Ec, FFS, L**
+
 | Model                   | Description                                              | Example                                       |
 | ----------------------- | -------------------------------------------------------- | --------------------------------------------- |
 | **Production Model**    | Revenue from selling products made in-house.             | Paper manufacturer sells directly to clients. |
