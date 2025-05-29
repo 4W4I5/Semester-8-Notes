@@ -1742,6 +1742,10 @@ A **software business model** defines how software companies develop, distribute
 
 - ### Common Types of Software Business Models:
 
+> [!NOTE]
+> **Perpetual, Saas, Freemium, OpenSource, Ad-supported, Usage based**
+> P, S, F, OS, Ad, Ub
+
 | Model                   | Description                                                                                   | Characteristics                                                              | Example                             |
 | ----------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------- |
 | **Perpetual License**   | One-time software purchase.                                                                   | Customer owns the software permanently, no future payments unless upgrading. | Microsoft Office 2016               |
