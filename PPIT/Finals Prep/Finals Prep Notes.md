@@ -15,8 +15,8 @@
 | 14b               | Organizational Aspects - Group Dynamics                       | :white_check_mark: | :x:                |
 | 15                | Organizational Aspects - Management vs Leadership             | :white_check_mark: | :x:                |
 | 16                | Organizational Aspects - Group Communication                  | :white_check_mark: | :x:                |
-| 17                | Interview Skills - Body Language                              | :white_check_mark: | :x:                |
-| 18                | Agile Software Development                                    | :white_check_mark: | :white_check_mark: | 
+| 17                | Interview Skills - Body Language                              | :white_check_mark: | :white_check_mark: | 
+| 18                | Agile Software Development                                    | :white_check_mark: | :white_check_mark: |
 | 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: | :white_check_mark: |
 | 20                | Software Business Models                                      | :white_check_mark: | :white_check_mark: |
 
