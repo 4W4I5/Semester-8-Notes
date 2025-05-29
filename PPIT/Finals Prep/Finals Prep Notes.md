@@ -18,7 +18,7 @@
 | 17                | Interview Skills - Body Language                              | :white_check_mark: | :x:                |
 | 18                | Agile Software Development                                    | :white_check_mark: | :x:                |
 | 19                | Focusing knowledge & technical skillset to business verticals | :white_check_mark: | :x:                |
-| 20                | Software Business Models                                      | :white_check_mark: | :white_check_mark: | 
+| 20                | Software Business Models                                      | :white_check_mark: | :white_check_mark: |
 
 # Lecture 10: Data Protection, Privacy & Freedom of Information
 ## 📜 **1. Historical Background & Public Concerns**
@@ -1562,7 +1562,9 @@ Violation = breach of contract
 
 > [!NOTE]
 > Memonic
-> Fi, He, Tr, Co, Me, Mar, Av, Ho, MaIn, Ed, Fo, Co
+> Fi, HeLi, TrHo, eCRe, MeEn, Mar, ATL, FoAg, Res, EdTr, BuAu, Co, MaInd
+
+
 ## **1. Finance**
 - **Definition**: Systems to organize and optimize financial operations, reduce enterprise costs, and deliver new platforms to end-users.
 - **Goal**: Organize financial operations, reduce enterprise costs, or build new end-user platforms.
