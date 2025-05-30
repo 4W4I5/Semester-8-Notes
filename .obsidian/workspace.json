@@ -6,7 +6,6 @@
       {
         "id": "9770d5d0657198ce",
         "type": "tabs",
-        "dimension": 36.30063965884862,
         "children": [
           {
             "id": "3c026f8658b23924",
@@ -52,27 +51,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "18aa176059e3c3f1",
-        "type": "tabs",
-        "dimension": 63.69936034115139,
-        "children": [
-          {
-            "id": "d7e2f07c3c191d34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PPIT/Finals Prep/Finals Prep Notes.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Finals Prep Notes"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -245,6 +223,45 @@
       "obsidian-trim-whitespace:Trim whitespace": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
+  },
+  "floating": {
+    "id": "688e8c72871076c2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0e76d4cbc0ef0a4b",
+        "type": "window",
+        "children": [
+          {
+            "id": "7816c8b80f1e615d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d7e2f07c3c191d34",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "PPIT/Finals Prep/Finals Prep Notes.md",
+                    "mode": "source",
+                    "source": true
+                  },
+                  "icon": "lucide-file",
+                  "title": "Finals Prep Notes"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1930,
+        "y": 2,
+        "width": 1280,
+        "height": 992,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
   },
   "active": "7170eb41d85920eb",
   "lastOpenFiles": [
