@@ -707,6 +707,19 @@ Agreements where a service provider hosts websites or applications on their infr
 	- Compliance with data protection laws
 	- IP rights over hosted content
 
+
+
+
+| **Contract Type**                    | **Structure & Key Elements**                                | **Deliverables / Services**                               | **Payment Terms**                                                     | **Legal / Risk Issues**                                                  | **Common Use Cases**                                   |
+| ------------------------------------ | ----------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------ |
+| **1. Fixed Price (Bespoke Systems)** | - Short agreement<br>- T&Cs<br>- Schedules<br>- Functional requirements | - Source code<br>- Documentation<br>- Training<br>- Maintenance tools | - 15% on signing<br>- 65% in phases<br>- 25% on acceptance<br>- 10% post-warranty | - Penalty clauses<br>- Warranty periods<br>- Acceptance tests<br>- Jurisdiction & IP | Custom development projects with clearly defined specs |
+| **2A. Contract Hire**                | - Simple hire contract                                      | - Staff provided on-site or remotely                      | - Daily/hourly rate                                                   | - Client manages staff<br>- Low supplier liability                           | Filling skill gaps in internal teams                   |
+| **2B. Consultancy Services**         | - Terms of reference<br>- Confidentiality & liability clauses   | - Reports, audits, evaluations                            | - Milestone or performance-based                                      | - Scope creep<br>- Deliverable ownership<br>- Liability via E&O                  | Feasibility studies, strategy, compliance reviews      |
+| **3. Cost Plus (Time & Materials)**  | - Minimal initial spec<br>- Cost = time + materials + margin    | - Iterative delivery<br>- Evolutionary development            | - Regular invoicing<br>- Possible budget caps                             | - Cost overruns<br>- Needs strong project mgmt                               | Agile, R&D, or PoC/MVP projects                        |
+| **4. Outsourcing Contracts**         | - Long-term agreement<br>- KPIs/SLAs<br>- Transfer clauses          | - IT ops<br>- Support<br>- Security<br>- Hosting                      | - Regular service fees<br>- Penalties for non-performance                 | - IP rights<br>- Security & compliance<br>- Exit strategy                        | Full or partial IT service outsourcing                 |
+| **5. Web Hosting Contracts**         | - Hosting tier agreement<br>- SLA-defined terms                 | - Hosting<br>- Backups<br>- Support<br>- SEO tools                    | - Monthly/annual fees                                                 | - Data lock-in<br>- Uptime guarantees<br>- Data laws                             | Hosting of websites/web apps of all scales             |
+
+
 ## ⚖️ **Legal & Insurance Considerations**
 - **License Types:**
 	- **Desktop License:** One copy per device
