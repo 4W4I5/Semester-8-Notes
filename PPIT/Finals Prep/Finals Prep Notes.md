@@ -179,11 +179,11 @@
 | Public can access government info               | Limits who can access personal data     |
 | Conflict: Some public docs contain private info | Must redact personal info in such cases |
 
-### 📘 Pakistani Laws Involved:
-- **PTA Act, 1996**
-- **FOI Ordinance, 2002**
-- **Draft Electronic Data Protection & Safety Act, 2005**
-- **Right to Information Act, 2013**
+- ### 📘 Pakistani Laws Involved:
+	- **PTA Act, 1996**
+	- **FOI Ordinance, 2002**
+	- **Draft Electronic Data Protection & Safety Act, 2005**
+	- **Right to Information Act, 2013**
 
 ## **15. Information Disclosures**
 
