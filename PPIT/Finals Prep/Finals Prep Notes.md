@@ -4,7 +4,7 @@
 
 | Chapter<br>Number | Chapter<br>Name                                               | Status             | Prep Status        |
 | ----------------- | ------------------------------------------------------------- | ------------------ | ------------------ |
-| 10                | Data Protection, Privacy & Freedom of Information             | :white_check_mark: | :white_check_mark: | 
+| 10                | Data Protection, Privacy & Freedom of Information             | :white_check_mark: | :white_check_mark: |
 | 11a               | Computers & Crime                                             | :white_check_mark: | :white_check_mark: |
 | 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: | :x:                |
 | 12a               | Computer Contracts                                            | :white_check_mark: | :x:                |
@@ -383,10 +383,10 @@
 | -------------------------------- | ---------------------------------------------------------------- | ----------------------------- |
 | **Spreading False Information**  | Posting false content that harms someone's reputation or privacy | Up to 3 yrs or Rs. 1M or both |
 | **Non-consensual Media Sharing** | Taking pictures/videos without consent & distributing them       | Up to 3 yrs or Rs. 1M or both |
-| **Explicit Content of Adults**   | Making/spreading sexually explicit images/videos                 | Up to 5 yrs or Rs. 5M or both |
-| **Explicit Content of Minors**   | Same as above, but involves minors                               | Up to 7 yrs or Rs. 5M or both |
 | **Cyberstalking (Adult)**        | Repeated contact, emails, messages despite disinterest           | Up to 3 yrs or Rs. 1M         |
 | **Cyberstalking (Minor)**        | Harassment, blackmail, unauthorized photos/videos                | Up to 5 yrs or Rs. 10M        |
+| **Explicit Content of Adults**   | Making/spreading sexually explicit images/videos                 | Up to 5 yrs or Rs. 5M or both |
+| **Explicit Content of Minors**   | Same as above, but involves minors                               | Up to 7 yrs or Rs. 5M or both |
 
 - ### 2. **Cyber & Network Offenses**
 
