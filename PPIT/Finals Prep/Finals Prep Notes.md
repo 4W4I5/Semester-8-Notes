@@ -6,7 +6,7 @@
 | ----------------- | ------------------------------------------------------------- | ------------------ | ------------------ |
 | 10                | Data Protection, Privacy & Freedom of Information             | :white_check_mark: | :white_check_mark: |
 | 11a               | Computers & Crime                                             | :white_check_mark: | :white_check_mark: |
-| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: | :x:                |
+| 11b               | Prevention of Electronic Crimes Act (PECA)                    | :white_check_mark: | :white_check_mark: |
 | 12a               | Computer Contracts                                            | :white_check_mark: | :x:                |
 | 12b               | Types of Software Contracts                                   | :white_check_mark: | :white_check_mark: |
 | 12c               | Employment Contracts                                          | :white_check_mark: | :white_check_mark: |
@@ -455,20 +455,16 @@
 A strong computer contract addresses legal, technical, and operational risks. Clarity in specifications, deliverables, responsibilities, ownership, and dispute resolution mechanisms is key to ensuring successful software engagements.
 
 ## **1. Agreement vs. Contract**
-
-**Agreement**:
-
-- Every promise/set of promises forming consideration for each other.
-- Not legally enforceable.
-
-**Contract**:
-
-- A legally enforceable agreement between two or more persons.
-- Parties can be natural or legal persons.
-- Must include:
-	- Intention to create legal obligations
-	- Legal competence of parties
-	- Consideration (something exchanged)
+- **Agreement**:
+	- Every promise/set of promises forming consideration for each other.
+	- Not legally enforceable.
+- **Contract**:
+	- A legally enforceable agreement between two or more persons.
+	- Parties can be natural or legal persons.
+	- Must include:
+		- Intention to create legal obligations
+		- Legal competence of parties
+		- Consideration (something exchanged)
 
 ## **2. Key Questions in Contracts**
 
